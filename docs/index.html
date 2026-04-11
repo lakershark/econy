@@ -10,10 +10,13 @@
 
 <div id="app">
   <header>
+    <button id="menu-btn" aria-label="打开菜单">☰</button>
     <span class="logo">Econy</span>
     <span class="tagline">杂志精读</span>
     <input type="text" id="search" placeholder="搜索文章..." autocomplete="off">
   </header>
+
+  <div id="overlay"></div>
 
   <div id="layout">
     <nav id="sidebar">
@@ -33,7 +36,7 @@
 
     <main id="content">
       <div id="placeholder">
-        <p>← 请从左侧选择一期杂志</p>
+        <p id="placeholder-text">← 请从左侧选择一期杂志</p>
       </div>
       <div id="issue-view" hidden>
         <div id="issue-header">
