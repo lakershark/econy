@@ -96,7 +96,14 @@ function buildSidebar() {
       li.textContent = issue.label;
       li.dataset.file = issue.file;
       li.dataset.mag = mag;
-      li.addEventListener('click', () => loadIssue(issue.file, li));
+      // Use touchend for iOS Safari (click often doesn't fire on <li>)
+      let tapped = false;
+      li.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        tapped = true;
+        loadIssue(issue.file, li);
+      });
+      li.addEventListener('click', () => { if (!tapped) loadIssue(issue.file, li); tapped = false; });
       list.appendChild(li);
     });
 

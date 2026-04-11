@@ -139,6 +139,8 @@ header {
   color: var(--text-secondary);
   border-left: 2px solid transparent;
   transition: all 0.1s;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0,0,0,0.1);
 }
 
 .issue-list li:hover {
