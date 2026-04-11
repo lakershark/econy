@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Econy — 杂志精读</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+  <header>
+    <span class="logo">Econy</span>
+    <span class="tagline">杂志精读</span>
+    <input type="text" id="search" placeholder="搜索文章..." autocomplete="off">
+  </header>
+
+  <div id="layout">
+    <nav id="sidebar">
+      <div class="mag-group">
+        <div class="mag-title" data-mag="economist">
+          <span class="arrow">▶</span> The Economist
+        </div>
+        <ul class="issue-list" id="list-economist"></ul>
+      </div>
+      <div class="mag-group">
+        <div class="mag-title" data-mag="new_yorker">
+          <span class="arrow">▶</span> The New Yorker
+        </div>
+        <ul class="issue-list" id="list-new_yorker"></ul>
+      </div>
+    </nav>
+
+    <main id="content">
+      <div id="placeholder">
+        <p>← 请从左侧选择一期杂志</p>
+      </div>
+      <div id="issue-view" hidden>
+        <div id="issue-header">
+          <h1 id="issue-title"></h1>
+          <div id="issue-meta"></div>
+          <div id="issue-controls">
+            <button id="btn-expand-all">展开全部</button>
+            <button id="btn-collapse-all">收起全部</button>
+          </div>
+        </div>
+        <div id="toc"></div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
