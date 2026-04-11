@@ -120,10 +120,21 @@ async function loadIssue(file, li) {
   li.classList.add('active');
   closeSidebar();
 
-  const resp = await fetch(file);
-  const issue = await resp.json();
-  currentIssue = issue;
-  renderIssue(issue);
+  // Show loading state
+  document.getElementById('placeholder').hidden = false;
+  document.getElementById('placeholder-text').textContent = '加载中...';
+  document.getElementById('issue-view').hidden = true;
+
+  try {
+    const resp = await fetch(file + '?v=' + encodeURIComponent(file));
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const issue = await resp.json();
+    currentIssue = issue;
+    renderIssue(issue);
+  } catch (e) {
+    document.getElementById('placeholder').hidden = false;
+    document.getElementById('placeholder-text').textContent = '加载失败: ' + e.message;
+  }
 }
 
 function renderIssue(issue) {
