@@ -92,7 +92,6 @@ header {
 /* ── Sidebar ── */
 #sidebar {
   width: var(--sidebar-w);
-  min-width: var(--sidebar-w);
   background: var(--surface);
   border-right: 1px solid var(--border);
   overflow-y: auto;
@@ -304,63 +303,45 @@ mark {
 ::-webkit-scrollbar-thumb:hover { background: #ccc; }
 
 /* ════════════════════════════════════════════════════════
-   MOBILE  (≤ 640px)
+   MOBILE  (≤ 768px)
 ════════════════════════════════════════════════════════ */
-@media (max-width: 640px) {
+@media (max-width: 768px) {
 
-  :root { --header-h: 52px; }
-
-  /* Header: show hamburger, shrink search */
+  /* Show hamburger button, hide tagline */
   #menu-btn { display: block; }
-
   .tagline { display: none; }
 
-  #search {
-    width: 0;
-    flex: 1;
-    min-width: 0;
-  }
+  /* Search stretches to fill header */
+  #search { width: auto; flex: 1; min-width: 0; }
 
-  /* Sidebar becomes a fixed off-canvas drawer */
+  /* Sidebar: hidden by default, shown as floating overlay when .open */
   #sidebar {
+    display: none;
     position: fixed;
     top: var(--header-h);
     left: 0;
     bottom: 0;
     width: 80vw;
     max-width: 300px;
-    transform: translateX(-100%);
-    transition: transform 0.25s ease;
-    border-right: 1px solid var(--border);
-    box-shadow: 2px 0 12px rgba(0,0,0,0.15);
+    min-width: unset;
+    z-index: 150;
+    overflow-y: auto;
+    box-shadow: 4px 0 16px rgba(0,0,0,0.2);
   }
 
-  #sidebar.open {
-    transform: translateX(0);
-  }
+  #sidebar.open { display: block; }
 
-  /* Main takes full width */
-  main {
-    padding: 20px 16px;
-    width: 100%;
-  }
+  /* Main takes full width (sidebar is no longer in the flex flow) */
+  main { padding: 20px 16px; }
 
-  /* Issue title smaller */
-  #issue-title { font-size: 19px; }
-
-  /* Section names */
+  /* Typography adjustments */
+  #issue-title  { font-size: 19px; }
   .section-name { font-size: 15px; }
-
-  /* Articles: slightly smaller, bigger tap targets */
-  .article-title { font-size: 15px; }
+  .article-title    { font-size: 15px; }
   .article-subtitle { font-size: 13px; }
-  .article-body { font-size: 15px; padding: 8px 12px 14px; }
+  .article-body     { font-size: 15px; padding: 8px 12px 14px; }
+  .article-header   { padding: 14px 0; }
 
-  .article-header { padding: 14px 0; }
-
-  /* Controls wrap nicely */
   #issue-controls { flex-wrap: wrap; }
-
-  /* Placeholder */
-  #placeholder { padding-top: 60px; font-size: 15px; }
+  #placeholder    { padding-top: 60px; font-size: 15px; }
 }
