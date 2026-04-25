@@ -37,6 +37,7 @@ function sectionLabel(name) {
 // Add new issues here as they are processed
 const ISSUES = {
   economist: [
+    { date: '2026-04-25', label: '2026-04-25', file: 'data/economist/2026-04-25.json' },
     { date: '2026-04-18', label: '2026-04-18', file: 'data/economist/2026-04-18.json' },
     { date: '2026-04-11', label: '2026-04-11', file: 'data/economist/2026-04-11.json' },
     { date: '2026-04-04', label: '2026-04-04', file: 'data/economist/2026-04-04.json' },
@@ -50,6 +51,7 @@ const ISSUES = {
     { date: '2026-03-30', label: '2026-03-30', file: 'data/new_yorker/2026-03-30.json' },
     { date: '2026-03-23', label: '2026-03-23', file: 'data/new_yorker/2026-03-23.json' },
     { date: '2026-03-16', label: '2026-03-16', file: 'data/new_yorker/2026-03-16.json' },
+    { date: '2026-03-09', label: '2026-03-09', file: 'data/new_yorker/2026-03-09.json' },
   ],
 };
 
