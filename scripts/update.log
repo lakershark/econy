@@ -1,0 +1,19 @@
+[2026-04-25 17:04:00] === Econy weekly update started ===
+[2026-04-25 17:04:00] economist: 4 existing issues
+[2026-04-25 17:04:41] === Econy weekly update started ===
+[2026-04-25 17:04:41] economist: 4 existing issues
+[2026-04-25 17:04:41] economist: new issue found — 2026-04-25
+[2026-04-25 17:04:41] Processing The Economist 2026-04-25
+[2026-04-25 17:04:41]   ERROR: No PDF found in te_2026.04.25
+[2026-04-25 17:04:41] new_yorker: 5 existing issues
+[2026-04-25 17:04:41] new_yorker: new issue found — 2026-03-23
+[2026-04-25 17:04:41] Processing The New Yorker 2026-03-23
+[2026-04-25 17:04:42]   Downloading new_yorker.2026.03.23.pdf...
+[2026-04-25 17:04:42]   Downloaded: 8231KB
+[2026-04-25 17:07:17]   Translating titles...
+[2026-04-25 17:07:17]    Translated 0/0 titles
+[2026-04-25 17:07:17] Updating docs/ and pushing to GitHub...
+[2026-04-25 17:07:17]   app.js updated: 4 Economist, 6 New Yorker issues
+[2026-04-25 17:07:18]   Pushed to GitHub.
+[2026-04-25 17:07:18] === Done ===
+

@@ -3,7 +3,6 @@
   --surface: #ffffff;
   --border: #e4e1d9;
   --accent: #c4302b;
-  --accent-ny: #333;
   --text: #1a1a1a;
   --text-secondary: #6b6460;
   --sidebar-w: 240px;
@@ -30,9 +29,20 @@ header {
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 16px;
   gap: 10px;
-  z-index: 100;
+  z-index: 200;
+}
+
+#menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--text-secondary);
+  padding: 4px 6px;
+  line-height: 1;
 }
 
 .logo {
@@ -61,6 +71,17 @@ header {
 
 #search:focus { border-color: #aaa; }
 
+/* ── Overlay (mobile sidebar backdrop) ── */
+#overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 149;
+}
+
+#overlay.visible { display: block; }
+
 /* ── Layout ── */
 #layout {
   display: flex;
@@ -71,17 +92,17 @@ header {
 /* ── Sidebar ── */
 #sidebar {
   width: var(--sidebar-w);
-  min-width: var(--sidebar-w);
   background: var(--surface);
   border-right: 1px solid var(--border);
   overflow-y: auto;
   padding: 12px 0;
+  z-index: 150;
 }
 
 .mag-group { margin-bottom: 4px; }
 
 .mag-title {
-  padding: 8px 16px;
+  padding: 10px 16px;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
@@ -112,12 +133,14 @@ header {
 .issue-list.open { display: block; }
 
 .issue-list li {
-  padding: 7px 16px 7px 30px;
+  padding: 9px 16px 9px 30px;
   font-size: 15px;
   cursor: pointer;
   color: var(--text-secondary);
   border-left: 2px solid transparent;
   transition: all 0.1s;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0,0,0,0.1);
 }
 
 .issue-list li:hover {
@@ -137,6 +160,7 @@ main {
   flex: 1;
   overflow-y: auto;
   padding: 28px 36px;
+  min-width: 0;
 }
 
 #placeholder {
@@ -171,7 +195,7 @@ main {
 }
 
 #issue-controls button {
-  padding: 4px 12px;
+  padding: 6px 14px;
   border: 1px solid var(--border);
   border-radius: 4px;
   background: var(--surface);
@@ -192,7 +216,7 @@ main {
 }
 
 .section-name {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.8px;
@@ -211,7 +235,7 @@ main {
   display: flex;
   align-items: baseline;
   gap: 10px;
-  padding: 10px 0;
+  padding: 12px 0;
   cursor: pointer;
   user-select: none;
 }
@@ -224,6 +248,7 @@ main {
   min-width: 12px;
   transition: transform 0.15s;
   display: inline-block;
+  flex-shrink: 0;
 }
 
 .article.open .article-toggle { transform: rotate(90deg); color: var(--accent); }
@@ -245,9 +270,9 @@ main {
 
 .article-body {
   display: none;
-  padding: 0 22px 14px;
+  padding: 8px 22px 16px;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.8;
   color: #333;
   background: #fafaf8;
   border-left: 2px solid var(--border);
@@ -278,3 +303,47 @@ mark {
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #ccc; }
+
+/* ════════════════════════════════════════════════════════
+   MOBILE  (≤ 768px)
+════════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+
+  /* Show hamburger button, hide tagline */
+  #menu-btn { display: block; }
+  .tagline { display: none; }
+
+  /* Search stretches to fill header */
+  #search { width: auto; flex: 1; min-width: 0; }
+
+  /* Sidebar: hidden by default, shown as floating overlay when .open */
+  #sidebar {
+    display: none;
+    position: fixed;
+    top: var(--header-h);
+    left: 0;
+    bottom: 0;
+    width: 80vw;
+    max-width: 300px;
+    min-width: unset;
+    z-index: 150;
+    overflow-y: auto;
+    box-shadow: 4px 0 16px rgba(0,0,0,0.2);
+  }
+
+  #sidebar.open { display: block; }
+
+  /* Main takes full width (sidebar is no longer in the flex flow) */
+  main { padding: 20px 16px; }
+
+  /* Typography adjustments */
+  #issue-title  { font-size: 19px; }
+  .section-name { font-size: 15px; }
+  .article-title    { font-size: 15px; }
+  .article-subtitle { font-size: 13px; }
+  .article-body     { font-size: 15px; padding: 8px 12px 14px; }
+  .article-header   { padding: 14px 0; }
+
+  #issue-controls { flex-wrap: wrap; }
+  #placeholder    { padding-top: 60px; font-size: 15px; }
+}

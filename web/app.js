@@ -37,14 +37,14 @@ function sectionLabel(name) {
 // Add new issues here as they are processed
 const ISSUES = {
   economist: [
-    { date: '2026-04-11', label: '2026-04-11', file: '/data/economist/2026-04-11.json' },
-    { date: '2026-04-04', label: '2026-04-04', file: '/data/economist/2026-04-04.json' },
-    { date: '2026-03-28', label: '2026-03-28', file: '/data/economist/2026-03-28.json' },
+    { date: '2026-04-11', label: '2026-04-11', file: 'data/economist/2026-04-11.json' },
+    { date: '2026-04-04', label: '2026-04-04', file: 'data/economist/2026-04-04.json' },
+    { date: '2026-03-28', label: '2026-03-28', file: 'data/economist/2026-03-28.json' },
   ],
   new_yorker: [
-    { date: '2026-04-13', label: '2026-04-13', file: '/data/new_yorker/2026-04-13.json' },
-    { date: '2026-04-06', label: '2026-04-06', file: '/data/new_yorker/2026-04-06.json' },
-    { date: '2026-03-30', label: '2026-03-30', file: '/data/new_yorker/2026-03-30.json' },
+    { date: '2026-04-13', label: '2026-04-13', file: 'data/new_yorker/2026-04-13.json' },
+    { date: '2026-04-06', label: '2026-04-06', file: 'data/new_yorker/2026-04-06.json' },
+    { date: '2026-03-30', label: '2026-03-30', file: 'data/new_yorker/2026-03-30.json' },
   ],
 };
 
@@ -52,6 +52,34 @@ const ISSUES = {
 let currentIssue = null;
 let focusedIdx = -1;
 let allArticles = []; // flat list of article elements for keyboard nav
+
+// ── Mobile sidebar toggle ─────────────────────────────────────────────────────
+const menuBtn  = document.getElementById('menu-btn');
+const sidebar  = document.getElementById('sidebar');
+const overlay  = document.getElementById('overlay');
+
+function openSidebar() {
+  sidebar.classList.add('open');
+  overlay.classList.add('visible');
+}
+
+function closeSidebar() {
+  sidebar.classList.remove('open');
+  overlay.classList.remove('visible');
+}
+
+menuBtn.addEventListener('click', () => {
+  sidebar.classList.contains('open') ? closeSidebar() : openSidebar();
+});
+
+overlay.addEventListener('click', closeSidebar);
+
+function updatePlaceholder() {
+  const el = document.getElementById('placeholder-text');
+  if (el) el.textContent = window.innerWidth <= 640 ? '☰ 请点击左上角选择一期杂志' : '← 请从左侧选择一期杂志';
+}
+window.addEventListener('resize', updatePlaceholder);
+updatePlaceholder();
 
 // ── Sidebar setup ────────────────────────────────────────────────────────────
 function buildSidebar() {
@@ -68,7 +96,14 @@ function buildSidebar() {
       li.textContent = issue.label;
       li.dataset.file = issue.file;
       li.dataset.mag = mag;
-      li.addEventListener('click', () => loadIssue(issue.file, li));
+      // Use touchend for iOS Safari (click often doesn't fire on <li>)
+      let tapped = false;
+      li.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        tapped = true;
+        loadIssue(issue.file, li);
+      });
+      li.addEventListener('click', () => { if (!tapped) loadIssue(issue.file, li); tapped = false; });
       list.appendChild(li);
     });
 
@@ -90,11 +125,23 @@ async function loadIssue(file, li) {
   // Update active state
   document.querySelectorAll('.issue-list li').forEach(el => el.classList.remove('active'));
   li.classList.add('active');
+  closeSidebar();
 
-  const resp = await fetch(file);
-  const issue = await resp.json();
-  currentIssue = issue;
-  renderIssue(issue);
+  // Show loading state
+  document.getElementById('placeholder').hidden = false;
+  document.getElementById('placeholder-text').textContent = '加载中...';
+  document.getElementById('issue-view').hidden = true;
+
+  try {
+    const resp = await fetch(file + '?v=' + encodeURIComponent(file));
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const issue = await resp.json();
+    currentIssue = issue;
+    renderIssue(issue);
+  } catch (e) {
+    document.getElementById('placeholder').hidden = false;
+    document.getElementById('placeholder-text').textContent = '加载失败: ' + e.message;
+  }
 }
 
 function renderIssue(issue) {

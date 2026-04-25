@@ -1,0 +1,135 @@
+{
+  "magazine": "The New Yorker",
+  "issue_date": "2026-04-27",
+  "notebook_id": "02591bcf-f842-470e-b888-175081d06191",
+  "toc": [
+    {
+      "section": "Goings On [1, 2]",
+      "articles": [
+        {
+          "title": "David Armstrong’s Probing Gaze [1, 2, 5]",
+          "subtitle": "By Vince Aletti, Dan Stahl, Zoë Hopkins, Hilton Als, Sheldon Pearce, Marina Harss, Richard Brody, Taran Dugal [6]"
+        },
+        {
+          "title": "A Reading List from the Director of the Noguchi Museum [2, 7]",
+          "subtitle": "By Amy Hau [7, 8]"
+        }
+      ]
+    },
+    {
+      "section": "The Talk of the Town [1, 3, 9]",
+      "articles": [
+        {
+          "title": "J. D. Vance’s Bumpy Ride [3, 9]",
+          "subtitle": "Comment by Amy Davidson Sorkin [9]"
+        },
+        {
+          "title": "The Popes That Trump Might’ve Liked [3, 10]",
+          "subtitle": "Peace on Earth Dept. by Jane Bua [10]"
+        },
+        {
+          "title": "When Soul Food Met Daniel Boulud [3, 11]",
+          "subtitle": "Collab Dept. by Zach Helfand [11]"
+        },
+        {
+          "title": "Daphne Rubin-Vega Comes Home [3, 12]",
+          "subtitle": "The Boards by Sarah Larson [12]"
+        },
+        {
+          "title": "The Anatomy of a Failure [3, 13]",
+          "subtitle": "Paris Postcard by Lauren Collins [13, 14]"
+        }
+      ]
+    },
+    {
+      "section": "Reporting & Essays [1, 3, 15]",
+      "articles": [
+        {
+          "title": "When Your Digital Life Vanishes [3, 15]",
+          "subtitle": "Annals of Technology by Julian Lucas [15, 16]"
+        },
+        {
+          "title": "Tabula Rasa [3, 17]",
+          "subtitle": "Personal History by John McPhee [17]"
+        },
+        {
+          "title": "How Professional Wrestling Prepared Linda McMahon for Trump’s Cabinet [3, 18]",
+          "subtitle": "Profiles by Zach Helfand [18, 19]"
+        },
+        {
+          "title": "The Action-Film Director Who’s Taking On Michael Jackson [3, 20]",
+          "subtitle": "Onward and Upward with the Arts by Kelefa Sanneh [20]"
+        }
+      ]
+    },
+    {
+      "section": "Shouts & Murmurs [1, 3, 21]",
+      "articles": [
+        {
+          "title": "Escape Rooms for Middle-Aged People [3, 21]",
+          "subtitle": "By Charles Yu [21]"
+        }
+      ]
+    },
+    {
+      "section": "Fiction [1, 3, 22]",
+      "articles": [
+        {
+          "title": "Ordinary Wear and Tear [3, 22]",
+          "subtitle": "By Thomas McGuane [22]"
+        }
+      ]
+    },
+    {
+      "section": "The Critics [1, 3, 23]",
+      "articles": [
+        {
+          "title": "Was Raphael the Runt of the Renaissance? [3, 23]",
+          "subtitle": "The Art World by Zachary Fine [23]"
+        },
+        {
+          "title": "Briefly Noted [3, 24]",
+          "subtitle": "Books: The Power of Life, How It Feels to Be Alive, Go Gentle, and Exemplary Humans [25]"
+        },
+        {
+          "title": "In Defense of the Moderate [4, 26]",
+          "subtitle": "Books by Nikhil Krishnan [26]"
+        },
+        {
+          "title": "The Novelist Reimagining the Japanese American Internment [4, 27]",
+          "subtitle": "Books by Hua Hsu [27]"
+        },
+        {
+          "title": "Sharp Claws at “Becky Shaw” and “Cats: The Jellicle Ball” [4, 28]",
+          "subtitle": "The Theatre by Emily Nussbaum [28, 29]"
+        },
+        {
+          "title": "The Calculated Uplift of “I Swear” [4, 30]",
+          "subtitle": "The Current Cinema by Justin Chang [30]"
+        }
+      ]
+    },
+    {
+      "section": "Poems [1, 4, 31]",
+      "articles": [
+        {
+          "title": "Spring Comes and I Finally Throw Out the Last Flowers I Bought You [4, 31]",
+          "subtitle": "By Ariel Francisco [31]"
+        },
+        {
+          "title": "Favor [4, 32]",
+          "subtitle": "By Franz Wright [2, 32]"
+        }
+      ]
+    },
+    {
+      "section": "Puzzles & Games [1, 2, 4]",
+      "articles": [
+        {
+          "title": "The Crossword: Wednesday, April 15, 2026 [2, 4]",
+          "subtitle": "By Robyn Weintraub [2]"
+        }
+      ]
+    }
+  ]
+}
