@@ -106,13 +106,17 @@ def get_available_issues(mag_key):
     return sorted(issues, key=lambda x: x['date'], reverse=True)
 
 def find_pdf_in_folder(mag_key, folder_name):
+    """Find PDF, EPUB, or MOBI file in folder (tries PDF first as fallback)."""
     cfg = MAGAZINES[mag_key]
     api_url = cfg['api'] + '/' + folder_name
+    extensions = ['.pdf', '.epub', '.mobi']
+
     try:
         files = api_get(api_url)
-        for f in files:
-            if f['name'].endswith('.pdf'):
-                return f['name'], f['download_url']
+        for ext in extensions:
+            for f in files:
+                if f['name'].endswith(ext):
+                    return f['name'], f['download_url']
     except:
         pass
     return None, None
@@ -157,22 +161,22 @@ def process_new_issue(mag_key, folder_name, date):
     cfg = MAGAZINES[mag_key]
     log(f'Processing {cfg["label"]} {date}')
 
-    # Download PDF
+    # Download file (PDF, EPUB, or MOBI)
     pdf_filename, dl_url = find_pdf_in_folder(mag_key, folder_name)
     if not pdf_filename:
-        log(f'  ERROR: No PDF found in {folder_name}')
+        log(f'  ERROR: No file found (PDF/EPUB/MOBI) in {folder_name}')
         return False
 
-    pdf_path = PDFS / pdf_filename
-    if not pdf_path.exists():
+    file_path = PDFS / pdf_filename
+    if not file_path.exists():
         log(f'  Downloading {pdf_filename}...')
-        urllib.request.urlretrieve(dl_url, pdf_path)
-        log(f'  Downloaded: {pdf_path.stat().st_size // 1024}KB')
+        urllib.request.urlretrieve(dl_url, file_path)
+        log(f'  Downloaded: {file_path.stat().st_size // 1024}KB')
 
     # Import pipeline
     sys.path.insert(0, str(ROOT / 'scripts'))
     from pipeline import process_issue
-    issue = process_issue(str(pdf_path), mag_key, date)
+    issue = process_issue(str(file_path), mag_key, date)
 
     # Translate titles using the notebook created by pipeline
     log(f'  Translating titles...')
