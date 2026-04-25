@@ -12,6 +12,9 @@ Usage: python3 scripts/pipeline.py <pdf_path> <magazine> <date>
 """
 
 import sys, os, json, re, subprocess, time
+from pathlib import Path
+
+ROOT = Path(__file__).parent.parent
 
 def run(cmd):
     r = subprocess.run(cmd, shell=True, capture_output=True, text=True)
@@ -50,8 +53,8 @@ def get_answer(raw_output):
     return ''
 
 def process_issue(pdf_path, magazine, date):
-    mag_dir = 'data/economist' if magazine == 'economist' else 'data/new_yorker'
-    out_path = f'{mag_dir}/{date}.json'
+    mag_dir = ROOT / 'data' / ('economist' if magazine == 'economist' else 'new_yorker')
+    out_path = mag_dir / f'{date}.json'
     os.makedirs(mag_dir, exist_ok=True)
 
     mag_label = 'The Economist' if magazine == 'economist' else 'The New Yorker'
@@ -114,8 +117,8 @@ def process_issue(pdf_path, magazine, date):
         task_id = task['task_id']
         print(f'   Task ID: {task_id} — waiting...')
         notebooklm(f'artifact wait {task_id} --notebook {nb_id} --timeout 900', timeout=910)
-        briefing_path = f'{mag_dir}/{date}_briefing.md'
-        notebooklm(f'download report {briefing_path} --notebook {nb_id} --artifact {task_id}', timeout=60)
+        briefing_path = mag_dir / f'{date}_briefing.md'
+        notebooklm(f'download report {str(briefing_path)} --notebook {nb_id} --artifact {task_id}', timeout=60)
         print(f'   Briefing saved: {briefing_path}')
     except Exception as e:
         print(f'   Briefing doc failed (non-critical): {e}')
