@@ -44,14 +44,10 @@ const ISSUES = {
     { date: '2026-03-28', label: '2026-03-28', file: 'data/economist/2026-03-28.json' },
   ],
   new_yorker: [
-    { date: '2026-04-27', label: '2026-04-27', file: 'data/new_yorker/2026-04-27.json' },
     { date: '2026-04-20', label: '2026-04-20', file: 'data/new_yorker/2026-04-20.json' },
     { date: '2026-04-13', label: '2026-04-13', file: 'data/new_yorker/2026-04-13.json' },
     { date: '2026-04-06', label: '2026-04-06', file: 'data/new_yorker/2026-04-06.json' },
     { date: '2026-03-30', label: '2026-03-30', file: 'data/new_yorker/2026-03-30.json' },
-    { date: '2026-03-23', label: '2026-03-23', file: 'data/new_yorker/2026-03-23.json' },
-    { date: '2026-03-16', label: '2026-03-16', file: 'data/new_yorker/2026-03-16.json' },
-    { date: '2026-03-09', label: '2026-03-09', file: 'data/new_yorker/2026-03-09.json' },
   ],
 };
 
