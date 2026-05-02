@@ -1,0 +1,589 @@
+{
+  "magazine": "The Economist",
+  "issue_date": "2026-05-02",
+  "notebook_id": "4b0f0460-befd-4a51-a817-a71998ed965e",
+  "toc": [
+    {
+      "section": "The world this week",
+      "articles": [
+        {
+          "title": "Politics",
+          "subtitle": null,
+          "summary": "本周政治新闻要点：阿联酋在加入近60年后宣布退出OPEC，凸显了与沙特之间日益加深的裂痕以及由伊朗战争引发的海湾紧张局势[1, 2]。美伊外交努力停滞，特朗普取消了特使前往伊斯兰堡的访问；伊朗提出结束冲突并重新开放霍尔木兹海峡的方案，但因推迟核谈判遭美国拒绝[3]。马里国防部长在疑似自杀式袭击中丧生，激进组织对马里全境发动了协同攻击[4]。坦桑尼亚总统委员会承认去年选举期间有518人死亡，并将其归咎于受外部势力支持的“训练有素的煽动者”[4-6]。英国安乐死合法化法案因上议院阻挠而流产。伦敦发生针对犹太人的恐怖袭击案件。墨西哥总统呼吁美国尊重其主权，此前两名疑似CIA人员在墨车祸身亡。巴西总统卢拉的最高法院法官提名遭参议院否决[7-9]。特朗普在华盛顿遭遇第三次暗杀企图，嫌疑人已被起诉[10]。",
+          "title_zh": "Politics",
+          "subtitle_zh": null
+        },
+        {
+          "title": "Business",
+          "subtitle": null,
+          "summary": "本周商业新闻要点：美联储维持利率不变，警告能源成本飙升可能推高通胀；鲍威尔主持了最后一次会议，凯文·沃什被批准接任主席[11, 12]。美国一季度经济年化增长2%，好于去年四季度。英特尔股价受数据中心业务增长推动，今年已飙升140%[13, 14]。Alphabet云业务收入增长63%，而Meta因AI支出超预期及裁员10%的计划令市场不安[15, 16]。中国政府要求Meta撤销对AI代理开发商Manus的收购[16]。芬兰Kone同意以344亿美元收购德国TK电梯，若通过反垄断审查将成为全球最大电梯制造商[17]。布伦特原油触及125美元高点。埃隆·马斯克就OpenAI违背非营利初衷的诉讼开庭。五角大楼采用谷歌Gemini AI处理机密工作，引发员工抗议[18, 19]。日航宣布将在东京羽田机场启用类人机器人处理行李，以应对劳动力老龄化[19, 20]。",
+          "title_zh": "Business",
+          "subtitle_zh": null
+        },
+        {
+          "title": "The weekly cartoon",
+          "subtitle": null,
+          "summary": "本周漫画通过查尔斯三世与特朗普的对话，讽刺了英美“特殊关系”在特朗普时代的不可预测性。尽管英国国王在暗杀未遂事件后依然如期访美，且特朗普公开称英国人为“最好的朋友”，但漫画揭示这种基于个人情绪的盟友关系极度脆弱。背景分析指出，查尔斯此次访问正值特朗普对英国不支持伊朗战争感到不满之际，礼仪和盛大的仪式可能无法真正挽救或稳固英美同盟[20-22]。",
+          "title_zh": "The weekly cartoon",
+          "subtitle_zh": null
+        }
+      ]
+    },
+    {
+      "section": "Leaders",
+      "articles": [
+        {
+          "title": "Oil markets are still in La La land",
+          "subtitle": "Prices have risen sharply. Unfortunately, they still have further to go",
+          "summary": "核心论点：石油市场目前正处于危险的乐观幻觉中，低估了伊朗战争和霍尔木兹海峡封锁带来的史诗级供应冲击。尽管布伦特原油已涨至125美元，但市场预期仍认为这只是短期波动，预测年底将跌至88美元，这种看法缺乏依据[23-25]。关键数据：霍尔木兹海峡关闭导致每日1400万桶供应中断。专家认为，要消除这种规模的需求，原油价格应涨至150美元以上，甚至更高[23, 24]。背景分析：虽然特朗普可能干预油价，且伊朗经济急需现金，但双方都可能低估了对方的底线。伊朗有应对长期制裁的经验，而特朗普可能为了避免国内压力而限制精炼产品出口，导致全球平衡进一步破坏[26-28]。此外，即便达成协议，排雷和恢复生产也需数月时间[29, 30]。结论：世界正面临十年内第二次重大通胀冲击，各国政府必须从支持消费需求转向应对需求破坏，保护食品供应等核心服务。看涨的投资者和普通消费者都应对即将到来的痛苦局面做好准备，这将是一个极其惨烈的剧本[31, 32]。",
+          "title_zh": "Oil markets are still in La La land",
+          "subtitle_zh": "Prices have risen sharply. Unfortunately, they still have further to go"
+        },
+        {
+          "title": "How to capitalise on London’s thriving financial industry",
+          "subtitle": "The City has bounced back despite fears over Brexit",
+          "summary": "核心论点：尽管经历了脱欧阴影，伦敦依然巩固了其作为除美国外全球金融之都的地位，英国政府应借此契机，通过简化税收和监管来进一步扩大伦敦的优势[33, 34]。背景分析：脱欧曾引发失去23.2万个岗位的恐慌，但现实中伦敦金融从业人数保持在110万左右，高薪岗位向核心区集中。金融服务业目前贡献了英国8%的GDP（2240亿英镑），净出口额达93亿英镑，全球领先[35, 36]。关键数据：伦敦在12个国际金融领域中有7个排名第一，包括场外利率衍生品（占全球50%）和专业保险。摩根大通正设计新的欧洲总部，美系交易公司如Jane Street也积极扩充办公空间[34, 37, 38]。结论：劳工党政府应推行“增长签证”吸引全球富裕金融家，并放宽保险和养老金的证券化规则，以引导私人资本进入国防、基建和AI领域[39, 40]。与其考虑通过增税来惩罚成功，政治家更应庆祝并扩展伦敦这一独特的国家实力，使其在面对美、欧、亚竞争时更具韧性[41, 42]。",
+          "title_zh": "How to capitalise on London’s thriving financial industry",
+          "subtitle_zh": "The City has bounced back despite fears over Brexit"
+        },
+        {
+          "title": "How Kevin Warsh could save the Federal Reserve",
+          "subtitle": "There is much to like about the next Fed chairman—if his backbone holds",
+          "summary": "核心论点：凯文·沃什虽然为了获得提名从“通胀鹰派”转为“降息鸽派”，但如果他上任后能顶住特朗普的压力，捍卫美联储独立性并推行温和的制度改革，他仍可能成为伟大的美联储主席[43-45]。背景分析：特朗普频繁要求低利率，导致美联储面临50年来最大的信誉危机。沃什曾发表《独立颂》，其执政后的第一项考验将是应对油价飙升和劳动力市场韧性带来的通胀压力[45, 46]。关键数据：沃什在FOMC只有12分之一的投票权，但他计划缩减7万亿美元的资产负债表，并减少对“前瞻性指引”的依赖[46-48]。这些被称为“政权更迭”的计划其实并不激进，符合央行当前的审慎需求[47, 49]。结论：尽管沃什此前曾拒绝反驳选举舞弊的谎言，但在当前通胀周期中，他本能的鹰派属性和对大额资产负债表的怀疑正是美联储所需要的。如果他能团结技术官僚同事，并保持其独立性宣言中的“脊梁”，他有望将美联储带向更安全的水域[50, 51]。",
+          "title_zh": "How Kevin Warsh could save the Federal Reserve",
+          "subtitle_zh": "There is much to like about the next Fed chairman—if his backbone holds"
+        },
+        {
+          "title": "Is Samia Suluhu Hassan Africa’s most disappointing president?",
+          "subtitle": "A sham election, a massacre whitewashed",
+          "summary": "核心论点：坦桑尼亚总统哈桑从最初的改革希望堕落为压制性的独裁者，其政府对大选后大屠杀的洗白和虚假选举结果威胁着该国多年来的稳定与繁荣[51-53]。背景分析：2021年哈桑接替病逝的马古富力时，曾解除媒体禁令并展现亲商姿态[53, 54]。然而五年过去，权力集中在家族圈子内，去年10月她在排除主要对手后，以98%的荒谬得票率连任，随后安全部队开枪打死数百名抗议者[55]。关键数据：官方调查报告声称冲突造成518人死亡，但将其归咎于“训练有素的煽动者”并赞扬警察，这一结论即便在执政党内部也被视为笑柄[6, 56]。旅游业和矿业占GDP的17%，目前面临不稳定的威胁[57]。结论：外部势力（如中国）不关心民主，而特朗普治下的美国更倾向于利用其政治弱点获取矿产协议，欧盟的援助冻结影响有限。哈桑应释放反对派领导人图恩杜·利苏，并允许独立调查。坦桑尼亚正跑在一条通往毁灭的道路上，转弯的时间已所剩无几[56-58]。",
+          "title_zh": "Is Samia Suluhu Hassan Africa’s most disappointing president?",
+          "subtitle_zh": "A sham election, a massacre whitewashed"
+        },
+        {
+          "title": "The AI supply crunch is here",
+          "subtitle": "Choke points are changing AI’s economics",
+          "summary": "核心论点：人工智能正遭遇严重的供应瓶颈，从处理能力到算力代币的短缺正在改变AI的经济学，并将重塑行业利润分配格局[59, 60]。关键数据：根据OpenRouter数据，每周代币消耗量在两个月内翻了两番[61]。五大云巨头今年资本支出将超过7500亿美元，而硬件供应商的投资增速远不及此。英伟达和台积电的毛利率分别高达75%和60%左右[62, 63]。背景分析：算力短缺导致各大厂开始配给资源，Anthropic限制高峰使用，OpenAI甚至取消了视频生成模型[60, 61]。由于变压器和燃气轮机交付需2-5年，算力增加极其缓慢。虽然厂商提供低价订阅吸引用户，但OpenAI和Anthropic未来几年仍将亏损数十亿美元[64-66]。结论：高价算力将迫使软件厂商效仿谷歌自研芯片，但追赶台积电的技术门槛极高[65, 67]。未来，AI普及速度将因成本上升而放缓。企业不仅要问是否使用AI，更要像管理劳动力一样评估AI的使用效率。算力稀缺的世界将使拥有庞大资产负债表的巨头获得更大的议价权[66, 68]。",
+          "title_zh": "The AI supply crunch is here",
+          "subtitle_zh": "Choke points are changing AI’s economics"
+        },
+        {
+          "title": "The UAE doubles down on Israel and America",
+          "subtitle": "The consequences of the Emirates’ departure from OPEC",
+          "summary": "核心论点：阿联酋在战争期间退出OPEC不仅是为了提高产量的经济决策，更是向美国和以色列发出的明确政治信号，表明其在地区安全格局中已坚定地站在西方阵营，即便这意味着与沙特的裂痕公开化[69-71]。背景分析：阿联酋长期不满OPEC的产量配额，计划将日产量从360万桶提升至500万桶。通过退出，它在特朗普眼中成为了对抗卡特尔的功臣[70, 72, 73]。同时，它在遭受伊朗袭击后绕过邻国，寻求美以的安全保障和技术合作[73, 74]。关键数据：阿联酋虽然常违规超产20-30万桶，但其退出短期内不会崩解OPEC，沙特仍领导着占据全球40%产量的集团[72, 75]。两国在也门和苏丹的代理人冲突已接近直接军事对抗[74, 76]。结论：阿联酋的“单飞”是一场豪赌。虽然可能获得美国的AI芯片和投资支持，但也疏远了海湾合作委员会成员。如果伊朗在战后变得更强大并持续掌控霍尔木兹海峡，孤立的阿联酋将面临更大的地缘风险。目前看，为了加深与美国的联系，它认为这个代价是值得的[77, 78]。",
+          "title_zh": "The UAE doubles down on Israel and America",
+          "subtitle_zh": "The consequences of the Emirates’ departure from OPEC"
+        },
+        {
+          "title": "Time to edit some biological metaphors",
+          "subtitle": "Not everything is in your DNA",
+          "summary": "核心论点：基因决定论的隐喻（如“某事在我们的DNA中”）具有误导性甚至有害，新兴的表观基因组学研究揭示了环境和努力对基因表达的改变作用，有望纠正这一陈词滥调[79-81]。背景分析：人们习惯于用DNA来逃避对深层原因的探究，将成就简单归结为天赋或种族劣势[80, 82]。近期表观基因组编辑技术的发展，使得不改变DNA序列而调节基因活性成为可能，有望治疗动脉粥样硬化、乙肝等慢性病以及衰老带来的虚弱[83]。关键数据：肯尼亚运动员萨维跑进2小时大关常被归因于“东非基因”，但其表观基因的变化实际上源于长期艰苦的训练[80, 82, 84]。基因完全相同的两只老鼠可能因表观标记不同而在体型、颜色和发病率上迥异[85]。结论：表观基因组学作为21世纪医学的重要组成部分，让人们意识到表达和效果是随环境变化的。虽然由于人类本能倾向于简化复杂性，这种科学进步未必能彻底消除“宿命论”隐喻，但它至少提供了一种科学武器，证明卓越不仅是先天的刻痕，更是后天的塑造。有趣的是，人类这种本质化思考的倾向，可能恰恰就在他们的……[83, 84, 86]。",
+          "title_zh": "Time to edit some biological metaphors",
+          "subtitle_zh": "Not everything is in your DNA"
+        }
+      ]
+    },
+    {
+      "section": "Letters",
+      "articles": [
+        {
+          "title": "AI and the associated risks are challenging policymakers to develop regulations quickly",
+          "subtitle": "Also this week, Thomas Malthus, academic status, measuring buffet portions",
+          "summary": "核心论点：AI技术的极速进步让现有监管手段显得苍白无力，专家警告称AI有5-10%的概率导致人类灭绝，而Anthropic等公司甚至已将研发主导权交给AI系统以追求“递归自我改进”[87, 88]。分析指出，目前对AI治理的讨论忽视了资本的力量。投资者决定了哪些应用被优先考虑，而科技巨头与军工的深度融合正使科技投资变得与战争密不可分。信中呼吁建立“人权尽职调查”透明机制，并为高风险国防AI划定红线[89-91]。",
+          "title_zh": "AI and the associated risks are challenging policymakers to develop regulations quickly",
+          "subtitle_zh": "Also this week, Thomas Malthus, academic status, measuring buffet portions"
+        }
+      ]
+    },
+    {
+      "section": "By Invitation",
+      "articles": [
+        {
+          "title": "Stop big tech from making users behave in ways they don’t want to",
+          "subtitle": "That means targeting mechanisms engineered to rewire the brain’s reward system, writes Marie Potel-Saville",
+          "summary": "核心论点：科技巨头利用“捕食性设计”和“暗黑模式”诱导用户成瘾，这已经不是正常的市场竞争，而是对人类认知系统的系统性劫持，法律必须介入以保护消费者[92-94]。背景分析：法庭文件揭露Meta和YouTube明知青少年无法摆脱平台却仍将“青少年停留时间”作为核心目标，其逻辑是锁定越年轻的用户，用户粘性越高[92, 93, 95]。关键数据：亚马逊曾通过“误导”设计让3500万用户在不知情下订阅了Prime，而取消订阅则需要经过其内部称为“伊利亚特流”的15个复杂步骤，最终被迫赔偿25亿美元[94, 96, 97]。结论：无限滚动和算法推荐精准打击多巴胺奖励系统，制造了结构性的市场失灵。信中建议，监管机构应像对待药物和飞机一样，要求大平台在发布新功能前进行独立的安全评估，并由平台承担“非捕食性设计”的举证责任[98-101]。",
+          "title_zh": "Stop big tech from making users behave in ways they don’t want to",
+          "subtitle_zh": "That means targeting mechanisms engineered to rewire the brain’s reward system, writes Marie Potel-Saville"
+        }
+      ]
+    },
+    {
+      "section": "Briefing",
+      "articles": [
+        {
+          "title": "The crisis in oil markets will get bigger before it goes away",
+          "subtitle": "As stocks dwindle, further price rises are inevitable",
+          "summary": "核心论点：世界正面临石油市场史上最大的供应冲击，霍尔木兹海峡的长期封锁已导致每日1230万桶的供应缺口（占全球消费量10%以上）。尽管目前富裕国家生活暂未受大波及，但严重的清算即将在数周内到来[102-104]。关键数据：海峡内原本1830万桶/日的流量已趋近于零。目前全球主要靠海上储备支撑，每日消耗库存量高达800万桶[105, 106]。IEA的4亿桶战略储备虽然规模庞大，但政府因担心海峡永久关闭已开始惜售。亚洲石化工厂开工率已降至60-75%，缅甸、巴基斯坦等国油价已飙升40-100%[107-109]。背景分析：美国页岩油增产至少需要3-6个月，且出口设施已饱和。中国等亚洲大国拥有充足库存，但印尼、菲律宾等国距离燃油耗尽仅剩5-6周。欧洲炼油厂配置偏向汽油而非柴油，使其更依赖美国和西非的进口，但这种转移不可持续[105, 110-112]。结论：无论通过何种外交努力，石油市场恢复正常都需要数月时间进行排雷、重建保险信心和恢复供应链。目前全球政府已开始推行居家办公、缩短工时和限制每日购油量等极端配给措施。能源危机的震中正从发展中国家向全球扩散，更大的动荡已不可避免[113-116]。",
+          "title_zh": "The crisis in oil markets will get bigger before it goes away",
+          "subtitle_zh": "As stocks dwindle, further price rises are inevitable"
+        }
+      ]
+    },
+    {
+      "section": "United States",
+      "articles": [
+        {
+          "title": "Donald Trump is crushing America’s farmers—yet they back him",
+          "subtitle": "They bore the brunt of his trade war. Now the war in Iran is pushing some to the brink",
+          "summary": "核心论点：特朗普的贸易战和对伊战争正在将美国农民推向破产边缘，成本飙升与出口萎缩的双重打击使得农业成为受创最深的行业，但讽刺的是，这一群体依然是他最坚定的支持者[117-119]。背景分析：关税导致拖拉机等设备价格飙升，仅约翰迪尔一家公司去年就吸收了6亿美元关税成本。中国对美国大豆的进口量从590万吨降至零。目前，受红海冲突影响，柴油和肥料价格也分别飙升了40%[120-122]。关键数据：2025年农场破产率上升了46%，27%的农村受访者表示无法支付1000美元的意外开支。尽管如此，特朗普在农村地区的受欢迎程度依然是所有群体中最高的[123-125]。结论：农民们深陷一种类似“吸毒”的成瘾性乐观中，他们不认为特朗普应为当前的困境负责，而是希望通过更大规模的政府补贴（2027年有望达到410亿美元）来维持生计。这种依赖政策红利而非市场的现状，正在深刻改变美国心脏地带的经济景观[126-128]。",
+          "title_zh": "Donald Trump is crushing America’s farmers—yet they back him",
+          "subtitle_zh": "They bore the brunt of his trade war. Now the war in Iran is pushing some to the brink"
+        },
+        {
+          "title": "A radical idea for governing California",
+          "subtitle": "Democrats could try picking a young candidate who has a solid record of running a big city",
+          "summary": "核心论点：43岁的圣何塞市长马特·马汉（Matt Mahan）作为民主党黑马参选加州州长，他主张通过证明民主党在深蓝地区也能进行务实、有效的治理来对抗特朗普主义，这一“创业心态”正赢得硅谷精英的支持[128-130]。背景分析：加州面临严峻的住房和无家可归者危机。马汉在圣何塞不追求建昂贵的永久性住房，而是通过建立快速收容所，将圣何塞有屋顶的流浪者比例从15%提升至40%[131-133]。关键数据：马汉曾在哈佛求学，与扎克伯格等人共事，并创办过政治讨论平台。他的主要挑战是在初选前迅速提升在全加州2300万选民中的知名度[131, 134, 135]。结论：尽管有人担心他会被科技亿万富翁左右，但其强调结果而非意识形态的治理方式在疲于应对城市危机的加州人中具有吸引力。马汉能否打破“圣何塞是政治生涯终点”的魔咒，取决于他能否在短期内说服选民：务实解决问题比空谈愿景更重要[135-137]。",
+          "title_zh": "A radical idea for governing California",
+          "subtitle_zh": "Democrats could try picking a young candidate who has a solid record of running a big city"
+        },
+        {
+          "title": "Voters say they want young candidates. In practice, they do not",
+          "subtitle": "The Massachusetts Senate primary offers a case study",
+          "summary": "核心论点：美国选民虽然口头上呼吁代际更替，但在实际选举中依然压倒性地偏好经验丰富的资深政客，这在马萨诸塞州参议院初选中表现得淋漓尽致[138-140]。背景分析：80岁的现任参议员马基面临47岁老兵莫尔顿的挑战。尽管选民在民调中认为高龄是问题，但马基在资金和体制支持（如沃伦的背书）上占据绝对优势[140, 141]。关键数据：民调显示，面对两个喜欢的候选人，只有10%的选民会选择经验较少的一个；2024年各级政府现任官员的连任率高达95%[142]。即使在18-29岁的年轻选民中，倾向于年轻候选人的比例也仅为29%[142, 143]。结论：年龄只有在现任者表现出明显的认知能力下降时才会成为致命伤，否则，选民对“熟悉感”和“稳定性”的追求将继续维持华盛顿的“老人政治”现状[143, 144]。",
+          "title_zh": "Voters say they want young candidates. In practice, they do not",
+          "subtitle_zh": "The Massachusetts Senate primary offers a case study"
+        },
+        {
+          "title": "A mogul alleges he has been swindled by a Trump-affiliated crypto project",
+          "subtitle": "Tom Wolfe could not have invented a more outlandish satire of America in the 2020s",
+          "summary": "核心论点：加密货币大佬孙宇晨（Justin Sun）起诉特朗普家族关联的加密项目World Liberty Financial（WLFI），指控其欺诈并冻结其价值2.76亿美元的代币，这揭示了特朗普家族生意与加密行业之间充满争议的深度绑定[145-147]。背景分析：孙曾因SEC指控欺诈而深陷危机，在特朗普赢得大选后随即投入7500万美元购买代币，其SEC案件随后以1000万美元罚款迅速和解。孙声称在他拒绝购买额外2亿美元稳定币后遭到报复[146, 148, 149]。关键数据：特朗普家族据称可获得WLFI代币销售收益的75%。项目CEO扎克·维特科夫近期也深陷毒品丑闻丑闻[148, 150]。结论：这一荒诞剧集不仅反映了加密行业的狂野，也反映了权力与金钱在当代美国的复杂交织。尽管涉案双方声誉均存疑，但由于多数美国选民对加密货币和特朗普都缺乏信心，此案可能并不会进一步损害他们的社会评价[151]。",
+          "title_zh": "A mogul alleges he has been swindled by a Trump-affiliated crypto project",
+          "subtitle_zh": "Tom Wolfe could not have invented a more outlandish satire of America in the 2020s"
+        },
+        {
+          "title": "The government’s lawsuit against the Southern Poverty Law Center is bonkers",
+          "subtitle": "But the non-profit had badly lost its way",
+          "summary": "核心论点：美国司法部起诉进步组织南方贫困法律中心（SPLC）涉嫌洗钱和电汇诈骗。尽管该组织近年来的政治化倾向备受争议，但政府的指控逻辑极其薄弱，且在法庭文件中公开线人身份的行为充满恶意[152-155]。背景分析：SPLC曾因将温和保守组织列为“极端分子”而遭批评。检方指控其欺骗捐赠者，未披露将300万美元资金转给极右组织内部的线人[154, 156, 157]。关键数据：政府在起诉书中详细描述了8名线人的特征，使其身份在网络上极易被识别，可能导致这些人面临暴力报复[155, 158]。结论：这种利用法律手段进行政治报复的行为，将使未来非政府组织与政府的合作变得极度危险。政府这种不负责任的行为正在钝化美国收集国内威胁情报的最有效工具之一，其代价可能是高昂的[159, 160]。",
+          "title_zh": "The government’s lawsuit against the Southern Poverty Law Center is bonkers",
+          "subtitle_zh": "But the non-profit had badly lost its way"
+        }
+      ]
+    },
+    {
+      "section": "The Americas",
+      "articles": [
+        {
+          "title": "A tour of Brazil’s wildly polarised politics",
+          "subtitle": "Lula’s voters and Bolsonaro’s voters don’t agree on much. But they all hate the corruption that plagues Brazil",
+          "summary": "核心论点：巴西政治正因卢拉和博索纳罗家族的对抗而极度极化，虽然双方在意识形态上针锋相对，但在憎恨腐败、宗教信仰以及对高生活成本的抱怨上却存在惊人的共识[161-164]。背景分析：巴西是世界上最不平等的国家之一，南方白人后裔与东北部混血人群在福利政策上分歧巨大。卢拉的“家庭津贴”项目每年耗资320亿美元，确实大幅减少了极贫人口，但也导致了普遍的福利依赖和欺诈[165-167]。关键数据：巴西基准利率高达14.75%，信用卡平均年化利率达452%，四分之一的巴西人面临债务违约。四分之三的巴西人认为最高法院权力过大[168, 169]。结论：尽管文化战争激烈，但巴西选民最核心的需求是务实的法律改革和物价稳定。如果中间道路候选人未能出现，并非因为市场没有需求，而是由于两大政治阵营对权力的死守[169, 170]。",
+          "title_zh": "A tour of Brazil’s wildly polarised politics",
+          "subtitle_zh": "Lula’s voters and Bolsonaro’s voters don’t agree on much. But they all hate the corruption that plagues Brazil"
+        },
+        {
+          "title": "The Caribbean island that calls Colombia a coloniser",
+          "subtitle": "Locals on San Andrés blame the mainland for crime and corruption",
+          "summary": "核心论点：由于长期的管理疏忽、腐败和对原生身份的抹杀，哥伦比亚旅游胜地圣安德烈斯岛（San Andrés）的土著Raizals人正爆发强烈的反殖民情绪，甚至出现寻求独立的呼声[170-172]。背景分析：岛上失业率达13%，居民面临垃圾堆积和污水排放等环境危机。Raizals人认为哥伦比亚海军掠夺了渔业资源，且历史上曾受到哥政府的长期监控[172-174]。结论：尽管总统佩特罗试图通过任命Raizals大使来抚慰情绪，但无法平息要求政治自治的诉求。鉴于Raizals人在岛上已成少数群体且地缘依赖复杂，正式脱离并不可行，但这种对立已成为佩特罗政府“去殖民化”承诺的一大讽刺[174, 175]。",
+          "title_zh": "The Caribbean island that calls Colombia a coloniser",
+          "subtitle_zh": "Locals on San Andrés blame the mainland for crime and corruption"
+        }
+      ]
+    },
+    {
+      "section": "Asia",
+      "articles": [
+        {
+          "title": "Ageing workers in East Asia are essential. More are needed",
+          "subtitle": "Yet they often face high barriers to employment and unpalatable options",
+          "summary": "核心论点：在日韩等快速老龄化社会，高龄劳动者已成为维持经济运转的必要力量，但现有的资历工资制和职场歧视严重阻碍了人力资本的有效利用[175-178]。关键数据：韩国65岁以上人口劳动参与率接近40%，日本超过25%，均为OECD最高。韩国平均养老金仅能替代战前收入的三分之一，40%的高龄者处于相对贫困状态[177, 179, 180]。背景分析：很多老人工作并非只为了钱，更是为了社交和防衰老。然而许多公司通过“退休后再返聘”以极低薪资和简单任务消耗这些人才[178, 181, 182]。结论：政府应重新审视法定退休年龄（如日本正推动至70岁），并建立支持“第二职业”的培训体系。对于高龄劳动者而言，摒弃旧有职业身份、以“职场新人”的心态从零开始已成为必然趋势[183, 184]。",
+          "title_zh": "东亚高龄劳动者不可或缺，社会还需更多 [1, 2]",
+          "subtitle_zh": "Yet they often face high barriers to employment and unpalatable options"
+        },
+        {
+          "title": "Indonesia suggests charging a toll to transit the Malacca Strait",
+          "subtitle": "It’s not the first time that it has toyed with the unwelcome idea",
+          "summary": "核心论点：受伊朗封锁霍尔木兹海峡的启发，印度尼西亚总统普拉博沃再次抛出对马六甲海峡通行船只收费的构想，引发了周边国家对航行自由和国际法准则的深切担忧[185-187]。关键数据：根据《经济学人》模型，若封锁马六甲海峡将影响全球21%的海运贸易。若封锁印尼所有海峡，受影响贸易占比将达26%，船舶平均需绕行7800公里[186, 188]。背景分析：新加坡曾多次否决此类提议，强调《联合国海洋法公约》（UNCLOS）保障的过境通行权。虽然印尼外长随后澄清将遵守国际法，但在当前国际秩序日益失效的背景下，这种口头承诺难以让邻国放心[189-191]。",
+          "title_zh": "印度尼西亚提议对经过马六甲海峡收取通行费 [3, 4]",
+          "subtitle_zh": "It’s not the first time that it has toyed with the unwelcome idea"
+        },
+        {
+          "title": "Is Vietnam’s latest railway ambition worthwhile?",
+          "subtitle": "Some say the whopping project should be scaled down",
+          "summary": "核心论点：越南重启连接南北的1540公里高铁项目，尽管具有促进经济增长和均衡发展的战略意义，但700亿美元的高昂成本和资金来源的缺失使其面临巨大的破产风险[192-194]。背景分析：越南因担忧领土主权和债务陷阱，对采用中国技术和资金持谨慎态度，转而希望通过私人投资和自力更生。然而，Vingroup等本土巨头已相继撤标，目前尚无合资格竞标者[195-197]。结论：与其追求耗时35小时缩短至6小时的全线高铁神话，借鉴日本新干线模式先建设胡志明市至芽庄等高利润路段或许更为务实。如果执着于“面子工程”，越南可能会背上沉重的财政枷锁[197, 198]。",
+          "title_zh": "越南最新的铁路雄心值得吗？ [5, 6]",
+          "subtitle_zh": "Some say the whopping project should be scaled down"
+        },
+        {
+          "title": "Climate change is forcing Vanuatu to confront an unthinkable future",
+          "subtitle": "Legal battles abroad offer little comfort",
+          "summary": "核心论点：作为一个微小的太平洋群岛国家，瓦努阿图正遭受气候变化导致的快速海平面上升，这种“近在咫尺”的生存威胁让其不得不寻求国际法院的法律保护，即便这可能为时已晚[199-201]。关键数据：自1993年以来海平面上升了11-15厘米，部分村庄海岸线倒退了20米，学校操场已没入水下[201-203]。背景分析：由于复杂的部落土地制度，搬迁变得极其困难。瓦努阿图虽然宣布了气候紧急状态并寻求UN决议以确定大国责任，但遭到了美国的阻挠[201, 204, 205]。结论：对于这个连医学院都没有的国家来说，自然灾害是日常磨难。这提醒世界：气候变化不是抽象的争论，而是正在吞噬真实家园和历史的浪潮[204, 206]。",
+          "title_zh": "气候变化迫使瓦努阿图直面难以想象的未来 [7, 8]",
+          "subtitle_zh": "Legal battles abroad offer little comfort"
+        },
+        {
+          "title": "Making India’s numbers count again",
+          "subtitle": "India is restoring the credibility of its statistics. Will it last?",
+          "summary": "核心论点：印度政府在经历多年的统计信誉危机后，任命技术官僚萨拉布·加格（Saurabh Garg）为统计部最高官员，试图恢复数据的公信力。虽然改革初见成效，但官僚体系的薄弱和对个人能力的过度依赖仍是长期隐患[207-209]。背景分析：2018-19年间印度曾因GDP和失业率数据造假争议频发，严重打击了国内外投资者信心[208, 210]。加格上任后加速了调查积压的清理，并推动统计系统向AI化转型[211, 212]。关键数据：印度的“钢架”治理体系（高级文官）仅5577人，且近15年增长缓慢，难以匹配14.5亿人口和翻倍的经济规模[213, 214]。结论：印度统计体系能否在加格退休后保持透明度，将是观察莫迪政府治理能力现代化的关键指标[214, 215]。",
+          "title_zh": "重塑印度统计数据的可信度 [9, 10]",
+          "subtitle_zh": "India is restoring the credibility of its statistics. Will it last?"
+        }
+      ]
+    },
+    {
+      "section": "China",
+      "articles": [
+        {
+          "title": "Cai Qi may be China’s second-most powerful man",
+          "subtitle": "Xi Jinping’s chief of staff handles his security, schedule and more",
+          "summary": "核心论点：蔡奇凭借对习近平绝对忠诚及其身兼多项要职（中央办公厅主任、书记处第一书记、警卫局局长）的特殊地位，已成为中国实际上的二号人物，其权力广度和深度在近四十年历史上极为罕见[215-218]。背景分析：他是四十年来首位兼任中办主任的政治局常委，掌握着习的日程、安全和决策执行。分析人士认为，他在权力结构中被习用作平衡总理李强的筹码[217, 219]。结论：蔡奇不具备个人权力基础，其权威完全来自与习的私交，这使他暂时不被视为威胁。随着中共高层走向“老人政治”，他的角色将愈发关键，但也时刻处于“伴君如伴虎”的政治风险中[220-222]。",
+          "title_zh": "蔡奇可能是中国的二号人物 [11, 12]",
+          "subtitle_zh": "Xi Jinping’s chief of staff handles his security, schedule and more"
+        },
+        {
+          "title": "Hong Kong is a conduit for looted Chinese antiquities",
+          "subtitle": "The financial hub abounds with precious wares",
+          "summary": "核心论点：尽管中国加强了文物出境管制，但由于香港法律缺失（不承认国际非法文物公约）及独特的“公开市场”原则，香港已成为中国非法流失文物的避风港和中转站[223-225]。分析指出，即使是像三星堆面具这样的顶级国宝，一旦在香港店铺通过“诚意购买”售出，中国政府也很难通过法律途径追回。这种掠夺性贸易导致大量遗址信息被毁，对考古学造成了不可逆的损失。信中呼吁北京介入以改变香港这一“小偷宪章”现状[226-230]。",
+          "title_zh": "香港是中国流失文物的集散地 [13, 14]",
+          "subtitle_zh": "The financial hub abounds with precious wares"
+        },
+        {
+          "title": "China is seeking self-sufficiency in police dogs",
+          "subtitle": "State media are singing the praises of home-grown canines",
+          "summary": "核心论点：中国正大力推广自主培育的“昆明犬”以取代传统的北欧品种，这不仅是出于国家安全的考量，更是一种展示民族自豪感和品牌输出的政治手段[231-233]。关键数据：目前昆明每年诞生约1000只幼犬，其DNA已被建立基因库并成功实现克隆。公安部自去年12月起要求全国警队逐步实现“昆明化”[232, 233]。背景分析：官方宣传强调该犬种具有“东方气质”（深沉且威慑力强）且适应高海拔环境。这一举动反映了中国在从大豆到喷气发动机等各领域追求自主受控的宏大愿景[233-235]。",
+          "title_zh": "中国寻求警犬品种自给自足 [15, 16]",
+          "subtitle_zh": "State media are singing the praises of home-grown canines"
+        },
+        {
+          "title": "Xi Jinping wants China to read more—as long as it’s the right books",
+          "subtitle": "A new campaign to put down phones and pick up classics",
+          "summary": "核心论点：中国政府启动了史无前例的全民阅读运动，旨在通过阅读经典培养创新精神并强化民族文化根基。然而，严厉的政治审查和对通俗、非正统题材的打压，使得阅读运动呈现出“多读但不多样”的矛盾状态[236-240]。背景分析：习近平引用毛泽东语录强调阅读的必要性，并将其与“文化强国”目标挂钩。然而现实中，如滨海图书馆这样美轮美奂的建筑往往空有其表。关键数据：中国成年人年均阅读纸质书仅4.8本，远低于美国的13本（尽管该数据存疑）[241, 242]。结论：只要出版自由和思想冒险仍然缺席，单纯增加阅读量可能难以转化为真正的软实力提升[240]。",
+          "title_zh": "习近平希望中国人多读书——只要是“对”的书 [17, 18]",
+          "subtitle_zh": "A new campaign to put down phones and pick up classics"
+        }
+      ]
+    },
+    {
+      "section": "Middle East & Africa",
+      "articles": [
+        {
+          "title": "The UAE’s departure from OPEC may not break the cartel",
+          "subtitle": "But it will deepen the country’s feud with Saudi Arabia",
+          "summary": "核心论点：阿联酋退出OPEC标志着与沙特能源政策裂痕的彻底公开化。在伊朗战争背景下，此举是阿联酋为了战后经济复苏和寻求美以安全保障而进行的战略切割[243-246]。背景分析：沙特需要高油价来支撑其庞大的多元化项目，而阿联酋更追求销量。退出后，几乎所有闲置产能都集中在沙特，这将迫使沙特在未来独自承担减产压力[247-249]。结论：虽然短期内难以显著增产，但此举可能在未来引发一场围绕市场份额的价格战，OPEC虽然未必会立即瓦解，但其内部纪律已荡然无存[75, 78]。",
+          "title_zh": "阿联酋退出OPEC未必会导致组织瓦解 [19, 20]",
+          "subtitle_zh": "But it will deepen the country’s feud with Saudi Arabia"
+        },
+        {
+          "title": "A political merger kicks off Israel’s election season",
+          "subtitle": "Binyamin Netanyahu still has one big advantage over his opponents",
+          "summary": "核心论点：以色列前总理贝内特与拉皮德宣布合并政党，组建“在一起”联盟以对抗内塔尼亚胡。尽管面临内塔尼亚胡营地更为团结的挑战，该联盟能否成功取决于能否吸引如艾森科特等热门领袖加入[250-253]。背景分析：以色列社会极度两极分化，且由于选举将避开巴以冲突等核心议题，焦点将集中在政府失职和极端正统派服兵役豁免等内政漏洞上[254-256]。结论：这场选举是关于内塔尼亚胡政治生命的终极裁决，贝内特被寄予厚望成为以色列的“马扎尔”[254, 257]。",
+          "title_zh": "政治合并拉开以色列大选序幕 [21, 22]",
+          "subtitle_zh": "Binyamin Netanyahu still has one big advantage over his opponents"
+        },
+        {
+          "title": "The lack of progress in Gaza suits those in power",
+          "subtitle": "But it leaves Gazans in misery",
+          "summary": "核心论点：尽管停火承诺美好，但目前的加沙陷入了一种各方得利的危险僵局：以色列持续加强控制，哈马斯在残存领地内变现，而巴勒斯坦权力机构则对此无能为力，唯有加沙民众在废墟中自生自灭[258-261]。关键数据：自宣布停火以来仍有750余人丧生；哈马斯仍保有约2万名武装人员；以色列仅批准了2.5万名警察计划中的1000人[259, 262, 263]。结论：只要领土控制者拒绝放弃权力，任何和平路线图都只是纸上谈兵，辛瓦尔的幽灵依然统治着废墟[264, 265]。",
+          "title_zh": "加沙僵局符合掌权者利益 [23, 24]",
+          "subtitle_zh": "But it leaves Gazans in misery"
+        },
+        {
+          "title": "Hizbullah’s air of invincibility is gone",
+          "subtitle": "But it still has the power to threaten Lebanon’s leaders",
+          "summary": "核心论点：虽然真主党在黎巴嫩依然存在并试图在谈判中扮演不可或缺的角色，但其在以色列持续打击下已失去了“无敌”神话。黎巴嫩领导层正逐渐表现出摆脱真主党束缚并与以色列直接对话的勇气[266-268]。背景分析：伊朗作为其主要资助者，可能在与美国的博弈中牺牲真主党的再武装能力。真主党目前的强硬态势更多是一种由于虚弱引发的威吓[268, 269]。结论：只要黎巴嫩政府能顶住被暗杀的威胁并持续推进独立国防战略，真主党的政治霸权正面临崩塌[269, 270]。",
+          "title_zh": "真主党“无敌”神话破灭 [25, 26]",
+          "subtitle_zh": "But it still has the power to threaten Lebanon’s leaders"
+        },
+        {
+          "title": "Could China help make Africa a factory for the world?",
+          "subtitle": "A spurt of Chinese investment suggests the chances are improving",
+          "summary": "核心论点：中国由于国内利润下滑和产能过剩，私人资本正大规模涌向非洲制造业，这种基于商业逻辑而非政府援助的投资浪潮正给非洲带来前所未有的工业化机遇[270-272]。关键数据：2025年中国在非制造业直接投资增至123亿美元，涵盖64个新项目。2026年全球20个增长最快的经济体中预计有12个在非洲[272, 273]。结论：虽然这些工厂目前主要服务当地市场且可能对本土产业造成冲击，但它们在创造就业和技术培训方面的作用不可忽视。非洲政府应善用这股力量，将其转化为长期的出口竞争力[274-276]。",
+          "title_zh": "中国能助非洲成为世界工厂吗？ [27, 28]",
+          "subtitle_zh": "A spurt of Chinese investment suggests the chances are improving"
+        },
+        {
+          "title": "African finance goes global",
+          "subtitle": "The continent’s fintechs want to ease cross-border payments",
+          "summary": "核心论点：非洲金融科技公司正通过多国许可和稳定币技术，重塑被传统银行垄断的 clunky（笨拙）跨境支付系统。 remittance（侨汇）占GDP比重持续增长，成为推动这些独角兽企业盈利的核心动力[277-279]。背景分析：传统跨境汇款成本高达8%且手续繁琐。关键数据：麦肯锡预计2028年非洲金科收入将达470亿美元。Flutterwave等巨头已服务半个大陆[278, 279]。结论：互联网渗透率和监管反复仍是障碍，但非洲金融正迎来其“移动电话”式的跨越发展[280]。",
+          "title_zh": "非洲金融走向世界 [29, 30]",
+          "subtitle_zh": "The continent’s fintechs want to ease cross-border payments"
+        }
+      ]
+    },
+    {
+      "section": "Europe",
+      "articles": [
+        {
+          "title": "How to protect France from an Orban-style takeover",
+          "subtitle": "What if the National Rally wins, in one of Europe’s most centralised states?",
+          "summary": "核心论点：马克龙政府正通过提前任命关键职位人选和利用宪法程序，试图为明年总统大选可能出现的极右翼胜利构建一套“防御机制”，以防止法国陷入匈牙利式的体制沦陷[281-283]。背景分析：法国宪法赋予总统极大的权力，包括宣布紧急状态和任命公共机构首脑。自由派担心勒庞或巴尔德拉一旦上任会滥用Article 16。结论：美国和匈牙利的教训显示，当法律被恶意解读，仅靠传统规范无法保护民主。法国机构虽强韧，但面对极权倾向的挑战时仍显脆弱[284-286]。",
+          "title_zh": "如何防止法国陷入欧尔班式的夺权 [31, 32]",
+          "subtitle_zh": "What if the National Rally wins, in one of Europe’s most centralised states?"
+        },
+        {
+          "title": "The oligarch who picked Moldova clean goes to prison",
+          "subtitle": "Vlad Plahotniuc ran his country as a private money-laundering operation",
+          "summary": "核心论点：曾经统治摩尔多瓦的寡头普拉霍特纽克（Vlad Plahotniuc）被判处19年徒刑。这标志着摩尔多瓦司法系统终于摆脱了畏惧，也向其加入欧盟的目标迈出了关键一步[287-289]。关键数据：他及其团伙被认定曾窃取该国银行10亿美元资金，相当于当时该国GDP的八分之一。此外还卷入200亿美元的俄罗斯洗钱案[288, 290]。结论：正义虽然迟到，但普拉霍特纽克的倒台证明了制度改革的曙光，这位昔日的“詹姆斯·邦德式反派”将不再有续集[291]。",
+          "title_zh": "掏空摩尔多瓦的寡头被判入狱 [33, 34]",
+          "subtitle_zh": "Vlad Plahotniuc ran his country as a private money-laundering operation"
+        },
+        {
+          "title": "The fashion influencer speaking truth to Putin",
+          "subtitle": "A viral Instagram video brings Russians’ wider grumbling into the open",
+          "title_zh": "向普京直言不讳的时尚博主 [35, 36]",
+          "subtitle_zh": "A viral Instagram video brings Russians’ wider grumbling into the open"
+        },
+        {
+          "title": "Europe’s unpopular leaders are paralysing the EU",
+          "subtitle": "Weak governments cannot conjure the support to make crucial deals",
+          "title_zh": "欧洲领导人民意低迷导致欧盟陷入瘫痪 [37, 38]",
+          "subtitle_zh": "Weak governments cannot conjure the support to make crucial deals"
+        }
+      ]
+    },
+    {
+      "section": "Britain",
+      "articles": [
+        {
+          "title": "Has the City of London finally got its mojo back?",
+          "subtitle": "After a dismal few years, things are looking up for Britain’s financial-services sector",
+          "title_zh": "伦敦金融城终于重振旗鼓了吗？ [39, 40]",
+          "subtitle_zh": "After a dismal few years, things are looking up for Britain’s financial-services sector"
+        },
+        {
+          "title": "Why business at London’s specialty-insurance hub has surged",
+          "subtitle": "Its high profits will not last forever, but it will remain a global leader for specialist cover",
+          "title_zh": "伦敦特种保险中心业务激增之谜",
+          "subtitle_zh": "Its high profits will not last forever, but it will remain a global leader for specialist cover"
+        },
+        {
+          "title": "The City of London is becoming a seven-day-a-week destination",
+          "subtitle": "Weekend footfall in the Square Mile has risen sharply",
+          "title_zh": "伦敦金融城正成为“全周无休”的旅游胜地",
+          "subtitle_zh": "Weekend footfall in the Square Mile has risen sharply"
+        },
+        {
+          "title": "The question of Scottish independence is alive but not kicking",
+          "subtitle": "Voters in the elections for Scotland’s parliament have more immediate matters on their mind",
+          "title_zh": "苏格兰独立议题尚存但未成气候",
+          "subtitle_zh": "Voters in the elections for Scotland’s parliament have more immediate matters on their mind"
+        },
+        {
+          "title": "The battle between Scotland’s two national languages",
+          "subtitle": "The one that the British once banned is winning",
+          "title_zh": "苏格兰两大民族语言之争",
+          "subtitle_zh": "The one that the British once banned is winning"
+        },
+        {
+          "title": "If Labour loses Wales on May 7th, it will snap a world record",
+          "subtitle": "But 104 years ain’t bad",
+          "title_zh": "若工党在5月7日丢掉威尔士，将打破一项世界纪录",
+          "subtitle_zh": "But 104 years ain’t bad"
+        },
+        {
+          "title": "Zack Polanski is Britain’s first digital-native party leader",
+          "subtitle": "Our analysis of his “likes” on Bluesky shows how the eco-populist bristles at criticism",
+          "title_zh": "扎克·波兰斯基：英国首位“数字原住民”党魁",
+          "subtitle_zh": "Our analysis of his “likes” on Bluesky shows how the eco-populist bristles at criticism"
+        },
+        {
+          "title": "The rise of the Temu Range Rover",
+          "subtitle": "Class, China and the cozzie livs in a car",
+          "title_zh": "“Temu版”路虎的崛起",
+          "subtitle_zh": "Class, China and the cozzie livs in a car"
+        }
+      ]
+    },
+    {
+      "section": "International",
+      "articles": [
+        {
+          "title": "The global scramble for ports",
+          "subtitle": "The investment frenzy is driven by anxiety about China’s tightening grip on supply chains",
+          "title_zh": "全球港口争夺战",
+          "subtitle_zh": "The investment frenzy is driven by anxiety about China’s tightening grip on supply chains"
+        },
+        {
+          "title": "To fight Russia, Europe needs Ukraine",
+          "subtitle": "It is risky to let Ukraine into the EU. It’s more dangerous to keep it out",
+          "title_zh": "对抗俄罗斯，欧洲需要乌克兰",
+          "subtitle_zh": "It is risky to let Ukraine into the EU. It’s more dangerous to keep it out"
+        }
+      ]
+    },
+    {
+      "section": "Business",
+      "articles": [
+        {
+          "title": "The AI rush is hitting a bottleneck",
+          "subtitle": "Hardware-makers are failing to invest enough to keep up with demand",
+          "title_zh": "AI热潮正遭遇瓶颈",
+          "subtitle_zh": "Hardware-makers are failing to invest enough to keep up with demand"
+        },
+        {
+          "title": "Why DeepSeek’s sequel failed to impress",
+          "subtitle": "The AI lab faces stiffening competition and a meddling state",
+          "title_zh": "DeepSeek的续作何以未能惊艳市场？",
+          "subtitle_zh": "The AI lab faces stiffening competition and a meddling state"
+        },
+        {
+          "title": "Elon Musk and Sam Altman bring their rivalry to court",
+          "subtitle": "Of the two unloved billionaires, which will the jury trust?",
+          "title_zh": "埃隆·马斯克与萨姆·奥尔特曼对簿公堂",
+          "subtitle_zh": "Of the two unloved billionaires, which will the jury trust?"
+        },
+        {
+          "title": "Coca-Cola is trouncing Pepsi. Can the underdog turn things around?",
+          "subtitle": "The maker of the world’s second-favourite fizzy drink is becoming more like its rival",
+          "title_zh": "可口可乐正击败百事：处于下风者能否反身突围？",
+          "subtitle_zh": "The maker of the world’s second-favourite fizzy drink is becoming more like its rival"
+        },
+        {
+          "title": "How a mega-deal will transform the lift industry",
+          "subtitle": "Together Kone and TKE will tower over their rivals",
+          "title_zh": "超级合并将如何重塑电梯行业",
+          "subtitle_zh": "Together Kone and TKE will tower over their rivals"
+        },
+        {
+          "title": "Swashbuckling oil-services firms are preparing for a boom",
+          "subtitle": "Post-war reconstruction and efforts to diversify production will present big opportunities",
+          "title_zh": "雄心勃勃的油服公司正迎接行业繁荣",
+          "subtitle_zh": "Post-war reconstruction and efforts to diversify production will present big opportunities"
+        },
+        {
+          "title": "AI and the danger of cognitive surrender",
+          "subtitle": "How much should managers let bots do the thinking?",
+          "title_zh": "AI与“认知投降”的风险",
+          "subtitle_zh": "How much should managers let bots do the thinking?"
+        },
+        {
+          "title": "SpaceX, OpenAI and Anthropic are already public companies",
+          "subtitle": "Investors have countless ways to bet on their success",
+          "title_zh": "SpaceX、OpenAI及Anthropic已是“公众公司”",
+          "subtitle_zh": "Investors have countless ways to bet on their success"
+        }
+      ]
+    },
+    {
+      "section": "Finance & economics",
+      "articles": [
+        {
+          "title": "Will Kevin Warsh Trumpify the Federal Reserve?",
+          "subtitle": "The incoming Fed chair says he wants regime change. But a revolution is unlikely",
+          "title_zh": "凯文·沃什会让美联储“特朗普化”吗？",
+          "subtitle_zh": "The incoming Fed chair says he wants regime change. But a revolution is unlikely"
+        },
+        {
+          "title": "How Kalshi can help the Federal Reserve",
+          "subtitle": "Prediction markets may be a win for central banking",
+          "title_zh": "预测市场Kalshi如何助力美联储",
+          "subtitle_zh": "Prediction markets may be a win for central banking"
+        },
+        {
+          "title": "San Francisco, AI capital of the world, is an economic laggard",
+          "subtitle": "Artificial intelligence is booming. Its heartland is not",
+          "title_zh": "旧金山：全球AI之都为何经济表现落后？",
+          "subtitle_zh": "Artificial intelligence is booming. Its heartland is not"
+        },
+        {
+          "title": "A global fight over banking rules is just getting started",
+          "subtitle": "Co-operation on the financial system will be the casualty",
+          "title_zh": "全球银行规则之争方兴未艾",
+          "subtitle_zh": "Co-operation on the financial system will be the casualty"
+        },
+        {
+          "title": "India’s weak currency reflects deeper problems than the Iran war",
+          "subtitle": "It highlights a persistent inability to draw in foreign investors",
+          "title_zh": "印度汇率疲软揭示深层隐忧",
+          "subtitle_zh": "It highlights a persistent inability to draw in foreign investors"
+        },
+        {
+          "title": "Can countries grow richer by exporting people, not goods?",
+          "subtitle": "That depends where those people end up",
+          "title_zh": "国家能靠“出口人口”而非商品致富吗？",
+          "subtitle_zh": "That depends where those people end up"
+        }
+      ]
+    },
+    {
+      "section": "Science & technology",
+      "articles": [
+        {
+          "title": "Genome editing can be risky. Meet the epigenome editors",
+          "subtitle": "The technology could tackle diseases such as atherosclerosis and hepatitis B",
+          "title_zh": "基因编辑存风险：认识一下“表观基因组编辑”",
+          "subtitle_zh": "The technology could tackle diseases such as atherosclerosis and hepatitis B"
+        },
+        {
+          "title": "A treatment for pre-eclampsia may be on the horizon",
+          "subtitle": "Blood filtering has performed well in early trials",
+          "title_zh": "先兆子痫疗法现曙光",
+          "subtitle_zh": "Blood filtering has performed well in early trials"
+        },
+        {
+          "title": "A glimpse into cyber-security’s AI-driven future",
+          "subtitle": "A hacking conference reveals how machines will defend us",
+          "title_zh": "洞察AI驱动的网络安全未来",
+          "subtitle_zh": "A hacking conference reveals how machines will defend us"
+        },
+        {
+          "title": "Is exercise as effective as treatments for depression and anxiety?",
+          "subtitle": "Some big studies say yes. Many experts have reservations",
+          "title_zh": "运动对抑郁焦虑的疗效真的堪比药物吗？",
+          "subtitle_zh": "Some big studies say yes. Many experts have reservations"
+        }
+      ]
+    },
+    {
+      "section": "Culture",
+      "articles": [
+        {
+          "title": "Is a fortune gathering dust in your attic?",
+          "subtitle": "Demand for trading cards, sports memorabilia and other collectibles is huge",
+          "title_zh": "你家阁楼里是否有蒙尘的财富？",
+          "subtitle_zh": "Demand for trading cards, sports memorabilia and other collectibles is huge"
+        },
+        {
+          "title": "The staggering strangeness of the Labubu bubble",
+          "subtitle": "Want a scary elf doll? That’ll be $150,000",
+          "title_zh": "Labubu泡沫的离奇怪象",
+          "subtitle_zh": "Want a scary elf doll? That’ll be $150,000"
+        },
+        {
+          "title": "LA’s levitating amoeba: a radically new kind of museum",
+          "subtitle": "Does ditching chronology and geography inspire or confuse visitors?",
+          "title_zh": "洛杉矶的“悬浮变形虫”：颠覆传统的博物馆",
+          "subtitle_zh": "Does ditching chronology and geography inspire or confuse visitors?"
+        },
+        {
+          "title": "Celebrating one of literature’s greatest pessimists",
+          "subtitle": "Why Texans throw a birthday party for Eeyore—and everyone else should, too",
+          "title_zh": "向文学史上最伟大的悲观主义者致敬",
+          "subtitle_zh": "Why Texans throw a birthday party for Eeyore—and everyone else should, too"
+        },
+        {
+          "title": "What really happened during the Black Death",
+          "subtitle": "A new book offers a different account of the pestilence",
+          "title_zh": "揭秘黑死病真相",
+          "subtitle_zh": "A new book offers a different account of the pestilence"
+        },
+        {
+          "title": "In “The Devil Wears Prada 2”, fashion magazines are off-trend",
+          "subtitle": "The sequel to the hit film is about the changing world of journalism",
+          "title_zh": "《穿普拉达的女王2》：时尚杂志已不再引领潮流",
+          "subtitle_zh": "The sequel to the hit film is about the changing world of journalism"
+        }
+      ]
+    },
+    {
+      "section": "Economic & financial indicators",
+      "articles": [
+        {
+          "title": "Economic data, commodities and markets",
+          "subtitle": null,
+          "title_zh": "经济数据、大宗商品及市场",
+          "subtitle_zh": null
+        }
+      ]
+    },
+    {
+      "section": "Obituary",
+      "articles": [
+        {
+          "title": "Margareta Magnusson believed in leaving the world tidy",
+          "subtitle": "The guru of decluttering died on March 12th, aged “between 80 and 100”",
+          "title_zh": "玛格丽塔·马格努松：深信应留给世界一份整洁",
+          "subtitle_zh": "The guru of decluttering died on March 12th, aged “between 80 and 100”"
+        }
+      ]
+    }
+  ]
+}
