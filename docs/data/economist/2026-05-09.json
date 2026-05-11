@@ -1,0 +1,410 @@
+{
+  "magazine": "The Economist",
+  "issue_date": "2026-05-09",
+  "notebook_id": "95d1c42d-2f40-40d5-9575-1798f2fe9242",
+  "toc": [
+    {
+      "section": "The world this week",
+      "articles": [
+        {
+          "title": "Politics",
+          "subtitle": ""
+        },
+        {
+          "title": "Business",
+          "subtitle": ""
+        },
+        {
+          "title": "The weekly cartoon",
+          "subtitle": ""
+        }
+      ]
+    },
+    {
+      "section": "Leaders",
+      "articles": [
+        {
+          "title": "The Trump-Xi summit will expose a dysfunctional duo",
+          "subtitle": "Mutual vulnerability is no substitute for global leadership"
+        },
+        {
+          "title": "Narendra Modi’s party is on a roll in India",
+          "subtitle": "The BJP has beaten a bad ruler in West Bengal. But India must not become a de facto one-party state"
+        },
+        {
+          "title": "The world must stop AI from empowering bioterrorists",
+          "subtitle": "The threat from new pathogens is an even graver danger than AI-backed hackers"
+        },
+        {
+          "title": "To fight antisemitism, first grasp where it comes from",
+          "subtitle": "What looks like a 21st-century problem has deep, dark roots"
+        },
+        {
+          "title": "Europe is unshackling business. But not enough",
+          "subtitle": "Why market liberals must win the battle for Brussels—and national capitals, too"
+        }
+      ]
+    },
+    {
+      "section": "Letters",
+      "articles": [
+        {
+          "title": "Why does Britain consistently fail to capture economic returns from innovation?",
+          "subtitle": "Also this week, the Marquis de Morès, human rights, voter choice, maths and AI, the Victorians, bald men, eggs"
+        }
+      ]
+    },
+    {
+      "section": "By Invitation",
+      "articles": [
+        {
+          "title": "Vladimir Putin is losing his grip on Russia",
+          "subtitle": "His every move to preserve power accelerates decay, writes a former senior official in the Russian government"
+        },
+        {
+          "title": "The pact that could help America and China repair relations",
+          "subtitle": "A bilateral investment treaty is a way to find middle ground on sensitive sectors, write Max Baucus and Stephen Roach"
+        }
+      ]
+    },
+    {
+      "section": "Briefing",
+      "articles": [
+        {
+          "title": "Trump and Xi will struggle to strike a major economic deal",
+          "subtitle": "Just avoiding a renewed clash will count as success"
+        },
+        {
+          "title": "China is pushing Donald Trump for concessions on Taiwan",
+          "subtitle": "Some in Taipei and Washington fear he may give ground"
+        }
+      ]
+    },
+    {
+      "section": "United States",
+      "articles": [
+        {
+          "title": "City parenting has become a financial flex",
+          "subtitle": "The wealthiest neighbourhoods are defying suburbanisation"
+        },
+        {
+          "title": "The Democratic approach to AI is not all about bans",
+          "subtitle": "Rahm Emanuel charts a centrist path for AI"
+        },
+        {
+          "title": "The Supreme Court has unleashed the gerrymanderers",
+          "subtitle": "Louisiana v Callais is baleful for democracy"
+        },
+        {
+          "title": "“Midwest Nice” is no match for presidential petty",
+          "subtitle": "In Indiana, Donald Trump takes his revenge"
+        },
+        {
+          "title": "Foreign firms: have you considered America?",
+          "subtitle": "A report from the basement of the SelectUSA Investment Summit"
+        },
+        {
+          "title": "Young men are souring on Donald Trump",
+          "subtitle": "But can Democrats win them over?"
+        },
+        {
+          "title": "The Supreme Court has become a great place to build your brand",
+          "subtitle": "On the left and the right, justices are becoming more preoccupied with their own ideas than the court’s institutional legitimacy"
+        }
+      ]
+    },
+    {
+      "section": "The Americas",
+      "articles": [
+        {
+          "title": "Javier Milei is in serious trouble",
+          "subtitle": "Argentina’s president claims he is the true victim of a struggling economy"
+        },
+        {
+          "title": "Venezuela’s 100-year territorial dispute is back in court",
+          "subtitle": "The regime claims the Essequibo region of Guyana, and its oil"
+        },
+        {
+          "title": "Claudia Sheinbaum is in a bind, with her party accused of corruption",
+          "subtitle": "How she deals with America’s indictment of Morena officials could define her presidency"
+        }
+      ]
+    },
+    {
+      "section": "Asia",
+      "articles": [
+        {
+          "title": "Narendra Modi has extended his grip on India",
+          "subtitle": "India’s ruling party scores a historic victory in West Bengal—but should beware voters’ unhappiness with incumbents"
+        },
+        {
+          "title": "Asia’s stranded seafarers suffer as the Iran war drags on",
+          "subtitle": "In a more dangerous world, unsung mariners are under increasing threat"
+        },
+        {
+          "title": "The energy shock triggers an Asian dash for biofuels",
+          "subtitle": "But tackling one crisis could exacerbate another"
+        },
+        {
+          "title": "The gutting of USAID has left a void China will not fill",
+          "subtitle": "China lends $35 for every dollar it donates. That is not a substitute for American aid"
+        },
+        {
+          "title": "America is massing troops near Taiwan to deter troublemaking by China",
+          "subtitle": "The timing of annual exercises is set by weather patterns favourable to any possible invasion"
+        },
+        {
+          "title": "The case against trees",
+          "subtitle": "India’s bureaucrats are bad at trade-offs between nature and roads"
+        }
+      ]
+    },
+    {
+      "section": "China",
+      "articles": [
+        {
+          "title": "Artificial intelligence revives a cold-war-style dilemma",
+          "subtitle": "America and China are weighing co-operation and competition"
+        },
+        {
+          "title": "A Chinese high-seas misadventure in luxury yachts",
+          "subtitle": "A state-owned enterprise may have to walk the plank"
+        },
+        {
+          "title": "China thinks America is declining but still uniquely dangerous",
+          "subtitle": "It sees Donald Trump as both symptom and accelerant of the decline"
+        }
+      ]
+    },
+    {
+      "section": "Middle East & Africa",
+      "articles": [
+        {
+          "title": "Despite Donald Trump’s talk, a lasting peace is some way off",
+          "subtitle": "Iran is now targeting the UAE"
+        },
+        {
+          "title": "Diplomacy or more war? Iran’s leaders are split",
+          "subtitle": "Some are convinced that talking is futile"
+        },
+        {
+          "title": "Arab rulers have little sympathy for Iran",
+          "subtitle": "Their people are not always so hostile"
+        },
+        {
+          "title": "Mali shows the growing strength of jihadism in the Sahel",
+          "subtitle": "There is little to stop militants from expanding their influence"
+        }
+      ]
+    },
+    {
+      "section": "Europe",
+      "articles": [
+        {
+          "title": "Friedrich Merz can’t go on like this",
+          "subtitle": "His one-year-old government looks exhausted, and voters are tiring rapidly"
+        },
+        {
+          "title": "Why Swedish schools are going unplugged",
+          "subtitle": "Nordic pupils are returning to books and pens"
+        },
+        {
+          "title": "A Ukrainian strike on a Russian oil hub causes catastrophe",
+          "subtitle": "Toxic smoke billowed and molten fuel flowed like lava"
+        },
+        {
+          "title": "Trump’s threat to withdraw troops is serious for Europe",
+          "subtitle": "The unit affected offers a vital capability"
+        },
+        {
+          "title": "Germany claims it has the world’s best bread",
+          "subtitle": "May 5th is national Bread Day, and Germans are ready to roll"
+        },
+        {
+          "title": "Inside the Brussels deep state",
+          "subtitle": "The eurocratic guild at the heart of the EU is seeing its influence ebb"
+        }
+      ]
+    },
+    {
+      "section": "Britain",
+      "articles": [
+        {
+          "title": "What to do about Britain’s rising antisemitism?",
+          "subtitle": "A stabbing attack in a Jewish neighbourhood of London lends fresh urgency to the question"
+        },
+        {
+          "title": "Britain’s teenagers deserve better help getting equipped to vote",
+          "subtitle": "Time to invest in citizenship education"
+        },
+        {
+          "title": "Watch out for the unintended consequences of Britain’s rent act",
+          "subtitle": "The government’s new law threatens to make renting worse, not better"
+        },
+        {
+          "title": "Britain’s deer are thriving. It’s a nightmare for the countryside",
+          "subtitle": "Oh deer!"
+        },
+        {
+          "title": "The surprising supply-chain choke point for cricket bats",
+          "subtitle": "A shortage of English willow changes the batting order"
+        },
+        {
+          "title": "Belfast’s murals are an open-air gallery of history and art",
+          "subtitle": "And the walls are suddenly changing"
+        },
+        {
+          "title": "One decade, two Britains",
+          "subtitle": "From Soho to Purfleet, Britain is a prisoner of the 1990s"
+        }
+      ]
+    },
+    {
+      "section": "International",
+      "articles": [
+        {
+          "title": "American subs rule beneath the waves, but China’s are catching up",
+          "subtitle": "And underwater drones may supplant them all"
+        },
+        {
+          "title": "America must hope Donald Trump is not a new Caligula",
+          "subtitle": "In the annals of rulers committing acts of folly, Roman decadence stands out"
+        }
+      ]
+    },
+    {
+      "section": "Business",
+      "articles": [
+        {
+          "title": "Global carmakers desperately want to be more Chinese",
+          "subtitle": "But partnering with local companies carries big risks"
+        },
+        {
+          "title": "Airlines are grappling with dwindling supplies of jet fuel",
+          "subtitle": "Yet it is unclear where shortages will hit first and hardest"
+        },
+        {
+          "title": "Not all oil giants are prospering from the Iran war",
+          "subtitle": "Exxon and Chevron have benefited less than their European rivals"
+        },
+        {
+          "title": "The remarkable revival of eBay",
+          "subtitle": "The internet’s flea market is back—and GameStop wants to buy it"
+        },
+        {
+          "title": "Can a beauty mega-deal save Estée Lauder?",
+          "subtitle": "America’s cosmetics champion wants to buy its way back to better days"
+        },
+        {
+          "title": "The pros and cons of commuting",
+          "subtitle": "Everyone moans about the length of their commute. Should managers care?"
+        },
+        {
+          "title": "Only one of Berkshire Hathaway and SoftBank can survive",
+          "subtitle": "The two represent competing visions of the future"
+        }
+      ]
+    },
+    {
+      "section": "Finance & economics",
+      "articles": [
+        {
+          "title": "The EU wants to unshackle its economy. For real this time",
+          "subtitle": "Eurocrats are belatedly developing a healthy distaste for red tape"
+        },
+        {
+          "title": "UniCredit’s lowball bid for Commerzbank causes consternation",
+          "subtitle": "A bad-tempered battle for a big German bank"
+        },
+        {
+          "title": "DeepSeek and Alibaba rescue China’s office landlords",
+          "subtitle": "Technology firms are reviving (a few) Chinese commercial-property markets"
+        },
+        {
+          "title": "Bad government statistics can cost the economy billions",
+          "subtitle": "A new study tries to put a number on the value of reliable numbers"
+        },
+        {
+          "title": "Donald Trump’s foreign policy gets a muscular finance arm",
+          "subtitle": "The Development Finance Corporation’s loan book may soon rival the World Bank’s"
+        },
+        {
+          "title": "Can Bill Ackman save the closed-end fund?",
+          "subtitle": "An outspoken financier wants to build a modern-day Berkshire Hathaway"
+        },
+        {
+          "title": "The myth of the petrodollar",
+          "subtitle": "The dominance of America’s currency runs deeper than oil"
+        }
+      ]
+    },
+    {
+      "section": "Science & technology",
+      "articles": [
+        {
+          "title": "How AI tools could enable bioterrorism",
+          "subtitle": "Leading models are getting better at designing pathogens"
+        },
+        {
+          "title": "How worried should you be about hantavirus?",
+          "subtitle": "An outbreak on a cruise ship has authorities concerned"
+        },
+        {
+          "title": "The human genome encodes for a new category of molecule",
+          "subtitle": "They may be useful targets for future drugs"
+        },
+        {
+          "title": "Does acupuncture work?",
+          "subtitle": "It seems useful for pain. The jury’s out on everything else"
+        }
+      ]
+    },
+    {
+      "section": "Culture",
+      "articles": [
+        {
+          "title": "Many celebrities now have book clubs. Most are irritating",
+          "subtitle": "They involve a lot of gush—but not a lot of literary criticism"
+        },
+        {
+          "title": "What is Elon Musk’s formula?",
+          "subtitle": "A historian and a technology writer uncover the essence of “Muskism”"
+        },
+        {
+          "title": "Turn on, tune in, trust no one: the paranoid style captures TV",
+          "subtitle": "Conspiracy thrillers are the favourite genre of a distrustful age"
+        },
+        {
+          "title": "Oscar Wilde’s grandson separates fact from fiction",
+          "subtitle": "Merlin Holland sets the record straight on the Irish writer’s life"
+        },
+        {
+          "title": "In an age of status symbols, tiaras take the crown",
+          "subtitle": "Women worldwide are channelling royal glamour"
+        },
+        {
+          "title": "The history of Moscow helps explain Russia’s pathologies",
+          "subtitle": "Invasion marked the city’s rise from medieval backwater to imperial metropolis"
+        }
+      ]
+    },
+    {
+      "section": "Economic & financial indicators",
+      "articles": [
+        {
+          "title": "Economic data, commodities and markets",
+          "subtitle": ""
+        }
+      ]
+    },
+    {
+      "section": "Obituary",
+      "articles": [
+        {
+          "title": "Craig Venter raced to decode the human genome",
+          "subtitle": "The dark horse of the Human Genome Project died on April 29th, aged 79"
+        }
+      ]
+    }
+  ]
+}
