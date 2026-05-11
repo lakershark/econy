@@ -209,15 +209,18 @@ def update_docs():
         if src.exists():
             shutil.copy2(src, DOCS / fname)
 
+KEEP_ISSUES = 5  # Keep only this many most recent issues per magazine in the UI
+
 def update_app_js(all_issues):
-    """Rebuild the ISSUES constant in docs/app.js with all available issues."""
+    """Rebuild the ISSUES constant in docs/app.js with the latest KEEP_ISSUES issues."""
     app_js = DOCS / 'app.js'
     with open(app_js, encoding='utf-8') as f:
         content = f.read()
 
     def build_list(issues):
         lines = []
-        for date in sorted(issues, reverse=True):
+        dates = sorted(issues, reverse=True)[:KEEP_ISSUES]
+        for date in dates:
             lines.append(f"    {{ date: '{date}', label: '{date}', file: 'data/{issues[date]}/{date}.json' }},")
         return '\n'.join(lines)
 
