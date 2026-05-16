@@ -1,0 +1,552 @@
+{
+  "magazine": "The Economist",
+  "issue_date": "2026-05-16",
+  "notebook_id": "4c80ea77-cca5-4e9c-8eb0-d859c28e7334",
+  "toc": [
+    {
+      "section": "The world this week",
+      "articles": [
+        {
+          "title": "Politics",
+          "subtitle": "",
+          "title_zh": "政治",
+          "subtitle_zh": ""
+        },
+        {
+          "title": "Business",
+          "subtitle": "",
+          "title_zh": "商业",
+          "subtitle_zh": ""
+        },
+        {
+          "title": "The weekly cartoon",
+          "subtitle": "",
+          "title_zh": "本周漫画",
+          "subtitle_zh": ""
+        }
+      ]
+    },
+    {
+      "section": "Leaders",
+      "articles": [
+        {
+          "title": "Prepare for an AI jobs apocalypse",
+          "subtitle": "It is not here yet. But governments should lay a safety-net",
+          "title_zh": "为人工智能引发的就业浩劫未雨绸缪",
+          "subtitle_zh": "It is not here yet. But governments should lay a safety-net"
+        },
+        {
+          "title": "Sir Keir Starmer has failed abjectly. He should go",
+          "subtitle": "Britain is not ungovernable—it just needs better governance",
+          "title_zh": "斯塔默遭遇惨败，理应引咎辞职",
+          "subtitle_zh": "Britain is not ungovernable—it just needs better governance"
+        },
+        {
+          "title": "Oil prices could soon rise convulsively",
+          "subtitle": "The present tranquility will not last",
+          "title_zh": "油价可能很快剧烈飙升",
+          "subtitle_zh": "The present tranquility will not last"
+        },
+        {
+          "title": "Indonesia, the biggest Muslim-majority country, is on a risky path",
+          "subtitle": "Prabowo Subianto is eroding its finances—and its democracy",
+          "title_zh": "作为最大的穆斯林国家，印度尼西亚正步入险途",
+          "subtitle_zh": "Prabowo Subianto is eroding its finances—and its democracy"
+        },
+        {
+          "title": "Mothers who cannot breastfeed have been given terrible advice",
+          "subtitle": "Medicine has neglected mammary glands for too long",
+          "title_zh": "医生给无法母乳喂养的母亲提供了糟糕的建议",
+          "subtitle_zh": "Medicine has neglected mammary glands for too long"
+        },
+        {
+          "title": "Not all Donald Trump’s peacemaking boasts are empty",
+          "subtitle": "But to end Congo’s terrible war, America must remain neutral",
+          "title_zh": "特朗普的和平承诺并不全是空谈",
+          "subtitle_zh": "But to end Congo’s terrible war, America must remain neutral"
+        }
+      ]
+    },
+    {
+      "section": "Letters",
+      "articles": [
+        {
+          "title": "Can Gwadar port compete with the port at Jebel Ali?",
+          "subtitle": "Also this week, antisemitism, epigenetic medicine, Jan Morris and Wales, family firms, heroic rodents, defence",
+          "title_zh": "瓜达尔港能与杰贝阿里港竞争吗？",
+          "subtitle_zh": "Also this week, antisemitism, epigenetic medicine, Jan Morris and Wales, family firms, heroic rodents, defence"
+        }
+      ]
+    },
+    {
+      "section": "By Invitation",
+      "articles": [
+        {
+          "title": "How Israeli terror begets Palestinian terror",
+          "subtitle": "Settler violence in the West Bank undermines Israel’s security, its moral fabric and its global standing, argues Nimrod Novik",
+          "title_zh": "以色列的恐怖主义如何催生巴勒斯坦的恐怖主义",
+          "subtitle_zh": "Settler violence in the West Bank undermines Israel’s security, its moral fabric and its global standing, argues Nimrod Novik"
+        }
+      ]
+    },
+    {
+      "section": "Briefing",
+      "articles": [
+        {
+          "title": "Indonesia’s president is jeopardising the economy and democracy",
+          "subtitle": "Prabowo Subianto is too spendthrift and too authoritarian",
+          "title_zh": "印尼总统正危及该国经济与民主",
+          "subtitle_zh": "Prabowo Subianto is too spendthrift and too authoritarian"
+        }
+      ]
+    },
+    {
+      "section": "United States",
+      "articles": [
+        {
+          "title": "Donald Trump’s midterm strategy: purge the Republican Party",
+          "subtitle": "A case study in two bitter primaries for safe Republican seats",
+          "title_zh": "特朗普的中期选举策略：清洗共和党",
+          "subtitle_zh": "A case study in two bitter primaries for safe Republican seats"
+        },
+        {
+          "title": "Lessons for Democrats from a candidate who sings and shoots",
+          "subtitle": "It’s good to be charming and unconventional. It’s really good to be famous",
+          "title_zh": "一位能歌善射的候选人带给民主党的启示",
+          "subtitle_zh": "It’s good to be charming and unconventional. It’s really good to be famous"
+        },
+        {
+          "title": "New York looks set to lower a big barrier to building",
+          "subtitle": "Sex and the environmental-review process",
+          "title_zh": "纽约有望降低住房建筑壁垒",
+          "subtitle_zh": "Sex and the environmental-review process"
+        },
+        {
+          "title": "America’s new counter-terrorism strategy is a partisan polemic",
+          "subtitle": "It does not seem designed to make the country safer",
+          "title_zh": "美国新反恐战略沦为党派政治文告",
+          "subtitle_zh": "It does not seem designed to make the country safer"
+        },
+        {
+          "title": "Asylum in America is all but over. It may never come back",
+          "subtitle": "How Donald Trump fulfilled a campaign pledge",
+          "title_zh": "美国的避难制度几近终结，且可能永不恢复",
+          "subtitle_zh": "How Donald Trump fulfilled a campaign pledge"
+        },
+        {
+          "title": "What Donald Trump could learn from the UFC",
+          "subtitle": "Maybe the fighters he has invited to the White House will supply some moral uplift",
+          "title_zh": "特朗普能从UFC中学到什么",
+          "subtitle_zh": "Maybe the fighters he has invited to the White House will supply some moral uplift"
+        }
+      ]
+    },
+    {
+      "section": "Essay",
+      "articles": [
+        {
+          "title": "The cold war, Vietnam and a fractured America",
+          "subtitle": "",
+          "title_zh": "冷战、越战与撕裂的美国",
+          "subtitle_zh": ""
+        },
+        {
+          "title": "The architects of the Vietnam War knew it was doomed",
+          "subtitle": "Kennedy, Johnson and McNamara were private realists but chose the path of least resistance, writes Fredrik Logevall",
+          "title_zh": "越战的策划者们心知这场战争注定失败",
+          "subtitle_zh": "Kennedy, Johnson and McNamara were private realists but chose the path of least resistance, writes Fredrik Logevall"
+        }
+      ]
+    },
+    {
+      "section": "The Americas",
+      "articles": [
+        {
+          "title": "A bombshell leak threatens Flávio Bolsonaro’s election bid",
+          "subtitle": "Text and voice messages show a close connection between Flávio and Daniel Vorcaro, a crudely exposed banker",
+          "title_zh": "爆炸性泄密威胁弗拉维奥·博索纳罗的竞选 [1]",
+          "subtitle_zh": "Text and voice messages show a close connection between Flávio and Daniel Vorcaro, a crudely exposed banker"
+        },
+        {
+          "title": "Why measles is returning to the Americas",
+          "subtitle": "Falling vaccination coverage is letting a deadly virus back in",
+          "title_zh": "为什么麻疹正重返美洲 [2]",
+          "subtitle_zh": "Falling vaccination coverage is letting a deadly virus back in"
+        },
+        {
+          "title": "Guatemala, once Latin America’s rule-of-law beacon, has new hope",
+          "subtitle": "But a new attorney-general may not be enough to revive the fight against corruption",
+          "title_zh": "曾作为拉美法治灯塔的危地马拉迎来新希望 [3]",
+          "subtitle_zh": "But a new attorney-general may not be enough to revive the fight against corruption"
+        }
+      ]
+    },
+    {
+      "section": "Asia",
+      "articles": [
+        {
+          "title": "The Gulf war will change Asia for good",
+          "subtitle": "Energy-shocked countries are determined never to be hostage again",
+          "title_zh": "海湾战争将永久改变亚洲 [4]",
+          "subtitle_zh": "Energy-shocked countries are determined never to be hostage again"
+        },
+        {
+          "title": "Meet Anno Takahiro, founder of Japan’s hottest political party",
+          "subtitle": "The software engineer and sci-fi writer wants to use AI to reshape politics",
+          "title_zh": "结识安野贵博：日本最红政党的创始人 [5, 6]",
+          "subtitle_zh": "The software engineer and sci-fi writer wants to use AI to reshape politics"
+        },
+        {
+          "title": "India’s legendary hill towns are sinking",
+          "subtitle": "Overdevelopment threatens many Himalayan states",
+          "title_zh": "印度传奇山区城镇正在下沉 [7]",
+          "subtitle_zh": "Overdevelopment threatens many Himalayan states"
+        },
+        {
+          "title": "India’s pricey private universities want to take on the Ivy League",
+          "subtitle": "Billionaire founders are bankrolling their efforts",
+          "title_zh": "印度高价私立大学欲向常春藤盟校发起挑战 [8]",
+          "subtitle_zh": "Billionaire founders are bankrolling their efforts"
+        },
+        {
+          "title": "Drama in the Philippines after the vice-president is impeached",
+          "subtitle": "Sara Duterte’s political career hangs in the balance",
+          "title_zh": "菲律宾副总统遭弹劾，政坛动荡加剧 [9, 10]",
+          "subtitle_zh": "Sara Duterte’s political career hangs in the balance"
+        }
+      ]
+    },
+    {
+      "section": "China",
+      "articles": [
+        {
+          "title": "Trade or Taiwan? Trump and Xi struggle to set the terms",
+          "subtitle": "At a summit in Beijing, business deals may mask divisions on Iran, Ukraine and AI",
+          "title_zh": "贸易还是台湾？特朗普与习近平博弈定调 [11]",
+          "subtitle_zh": "At a summit in Beijing, business deals may mask divisions on Iran, Ukraine and AI"
+        },
+        {
+          "title": "China’s tea brands want to conquer America, Starbucks-style",
+          "subtitle": "A major competition is brewing",
+          "title_zh": "中国茶饮品牌欲效仿星巴克征服美国 [12]",
+          "subtitle_zh": "A major competition is brewing"
+        },
+        {
+          "title": "Can a Chinese EV-maker reinvent itself as a robot firm?",
+          "subtitle": "An interview with the boss of Xpeng",
+          "title_zh": "中国电动汽车制造商能否转型为机器人公司？ [13, 14]",
+          "subtitle_zh": "An interview with the boss of Xpeng"
+        },
+        {
+          "title": "China knows that governing new tech can be harder than inventing it",
+          "subtitle": "You need enough freedom for innovation, but enough control to prevent disaster",
+          "title_zh": "中国深知：监管新技术比发明它更难 [15, 16]",
+          "subtitle_zh": "You need enough freedom for innovation, but enough control to prevent disaster"
+        }
+      ]
+    },
+    {
+      "section": "Middle East & Africa",
+      "articles": [
+        {
+          "title": "A Congolese militia wants to sell critical minerals to Donald Trump",
+          "subtitle": "The pitch by M23, exclusively revealed to The Economist, belies the rebels’ weaknesses",
+          "title_zh": "刚果民兵欲向特朗普出售关键矿产 [17, 18]",
+          "subtitle_zh": "The pitch by M23, exclusively revealed to The Economist, belies the rebels’ weaknesses"
+        },
+        {
+          "title": "Macron turns to English-speaking Africa",
+          "subtitle": "Why France is betting on business to shake off its colonial baggage",
+          "title_zh": "马克龙转向英语非洲 [19]",
+          "subtitle_zh": "Why France is betting on business to shake off its colonial baggage"
+        },
+        {
+          "title": "Gulf states fear irreversible fallout from the Iran crisis",
+          "subtitle": "If there is no deal by the end of the summer, long-term economic harm is likely",
+          "title_zh": "海湾国家担忧伊朗危机带来不可逆转的后果 [20]",
+          "subtitle_zh": "If there is no deal by the end of the summer, long-term economic harm is likely"
+        },
+        {
+          "title": "Bashar al-Assad’s henchmen start to go on trial in Syria",
+          "subtitle": "Some observers worry that the process is too rushed to be credible",
+          "title_zh": "阿萨德爪牙开始在叙利亚受审 [21, 22]",
+          "subtitle_zh": "Some observers worry that the process is too rushed to be credible"
+        }
+      ]
+    },
+    {
+      "section": "Europe",
+      "articles": [
+        {
+          "title": "Russia is stumbling on the battlefield",
+          "subtitle": "As casualties soar in Ukraine, Vladimir Putin looks ever more beleaguered at home",
+          "title_zh": "俄罗斯在战场上步履蹒跚 [23]",
+          "subtitle_zh": "As casualties soar in Ukraine, Vladimir Putin looks ever more beleaguered at home"
+        },
+        {
+          "title": "Peter Magyar takes office pledging to clean up Hungary’s mess",
+          "subtitle": "EU funds blocked because of corruption under Viktor Orban are his priority",
+          "title_zh": "马扎尔就职，誓言清理匈牙利乱局 [24, 25]",
+          "subtitle_zh": "EU funds blocked because of corruption under Viktor Orban are his priority"
+        },
+        {
+          "title": "Armenia’s election will test its leader’s pivot to the West",
+          "subtitle": "Let down by Russia, Nikol Pashinyan wants to make up with Azerbaijan and join the EU",
+          "title_zh": "亚美尼亚大选将考验其向西转的政策 [26, 27]",
+          "subtitle_zh": "Let down by Russia, Nikol Pashinyan wants to make up with Azerbaijan and join the EU"
+        },
+        {
+          "title": "The world’s best-sounding nightclub is in an unexpected place",
+          "subtitle": "Why DJs are flocking to an obscure town in west Germany",
+          "title_zh": "全球音质最好的夜总会竟落户于一个意想不到的地方 [28, 29]",
+          "subtitle_zh": "Why DJs are flocking to an obscure town in west Germany"
+        },
+        {
+          "title": "To understand European voters’ anger, look at their rent bills",
+          "subtitle": "Rent-control policies are making Europe’s housing shortage worse",
+          "title_zh": "要理解欧洲选民的愤怒，请看房租账单",
+          "subtitle_zh": "Rent-control policies are making Europe’s housing shortage worse"
+        },
+        {
+          "title": "Socialism is being left behind in Europe",
+          "subtitle": "The workers’ parties aren’t working",
+          "title_zh": "社会主义在欧洲渐行渐远",
+          "subtitle_zh": "The workers’ parties aren’t working"
+        },
+        {
+          "title": "The EU and China are stumbling into a trade war",
+          "subtitle": "Swamped by Chinese exports, Europe nears a point of no return",
+          "title_zh": "欧盟与中国正步入贸易战",
+          "subtitle_zh": "Swamped by Chinese exports, Europe nears a point of no return"
+        }
+      ]
+    },
+    {
+      "section": "Britain",
+      "articles": [
+        {
+          "title": "Who can save the Labour Party?",
+          "subtitle": "Britain’s social democrats are down but not out",
+          "title_zh": "谁能拯救工党？",
+          "subtitle_zh": "Britain’s social democrats are down but not out"
+        },
+        {
+          "title": "How Tommy Robinson, far-right influencer, shaped views on Britain",
+          "subtitle": "His world is closer than you might think",
+          "title_zh": "极右翼网红汤米·罗宾逊如何塑造了外界对英国的看法",
+          "subtitle_zh": "His world is closer than you might think"
+        },
+        {
+          "title": "Anatomy of a coup against Keir",
+          "subtitle": "Labour’s lefty members could soon be the most important voters in the country",
+          "title_zh": "剖析针对斯塔默的“政变”",
+          "subtitle_zh": "Labour’s lefty members could soon be the most important voters in the country"
+        },
+        {
+          "title": "Bond-market lessons for Labour’s leadership hopefuls",
+          "subtitle": "The gilt market cannot be tamed, only respected",
+          "title_zh": "给工党党魁角逐者的债市启示",
+          "subtitle_zh": "The gilt market cannot be tamed, only respected"
+        },
+        {
+          "title": "Labour has turned into the Conservative Party",
+          "subtitle": "Sir Keir has become what he once deplored",
+          "title_zh": "工党已变成了保守党",
+          "subtitle_zh": "Sir Keir has become what he once deplored"
+        }
+      ]
+    },
+    {
+      "section": "Business",
+      "articles": [
+        {
+          "title": "Can Mukesh Ambani pull off his biggest gamble yet?",
+          "subtitle": "The boss of Reliance wants to transform his conglomerate into a tech giant",
+          "title_zh": "穆克什·安巴尼能否赢下他目前最大的豪赌？",
+          "subtitle_zh": "The boss of Reliance wants to transform his conglomerate into a tech giant"
+        },
+        {
+          "title": "America faces another grocery-price shock",
+          "subtitle": "Higher energy costs will be felt unevenly across the food-supply chain",
+          "title_zh": "美国面临又一次食品价格冲击",
+          "subtitle_zh": "Higher energy costs will be felt unevenly across the food-supply chain"
+        },
+        {
+          "title": "The war between businesses and hackers enters a perilous new phase",
+          "subtitle": "AI agents present novel dangers",
+          "title_zh": "企业与黑客之战进入危险新阶段",
+          "subtitle_zh": "AI agents present novel dangers"
+        },
+        {
+          "title": "Samsung has staged a stunning comeback",
+          "subtitle": "But political trouble is brewing",
+          "title_zh": "三星上演惊人逆袭",
+          "subtitle_zh": "But political trouble is brewing"
+        },
+        {
+          "title": "The strange Japanese companies minting money from AI",
+          "subtitle": "What the creator of MSG and the world’s biggest toilet-maker have in common",
+          "title_zh": "那些靠人工智能大发横财的“奇怪”日本公司",
+          "subtitle_zh": "What the creator of MSG and the world’s biggest toilet-maker have in common"
+        },
+        {
+          "title": "Companies are making big bucks from immigration crackdowns",
+          "subtitle": "And startups are piling in with whizzy new technologies",
+          "title_zh": "企业从移民镇压中攫取暴利",
+          "subtitle_zh": "And startups are piling in with whizzy new technologies"
+        },
+        {
+          "title": "Introducing “Velocity pivot”",
+          "subtitle": "The corporate world’s Lorem ipsum",
+          "title_zh": "推出“速度转向”",
+          "subtitle_zh": "The corporate world’s Lorem ipsum"
+        },
+        {
+          "title": "Big tech is sacrificing its cashflows to prop up the AI boom",
+          "subtitle": "The result is increasingly unsettling",
+          "title_zh": "科技巨头牺牲现金流以支撑人工智能热潮",
+          "subtitle_zh": "The result is increasingly unsettling"
+        }
+      ]
+    },
+    {
+      "section": "Finance & economics",
+      "articles": [
+        {
+          "title": "The jobs apocalypse: a (very) short history",
+          "subtitle": "Mass unemployment induced by AI would be unprecedented",
+          "title_zh": "就业浩劫：（极）简史",
+          "subtitle_zh": "Mass unemployment induced by AI would be unprecedented"
+        },
+        {
+          "title": "Is AI putting graduates out of work already?",
+          "subtitle": "If you are studying coding, we might have some bad news",
+          "title_zh": "人工智能已经让大学毕业生失业了吗？",
+          "subtitle_zh": "If you are studying coding, we might have some bad news"
+        },
+        {
+          "title": "China wants more robots but not fewer workers",
+          "subtitle": "A human-first approach to automation",
+          "title_zh": "中国想要更多机器人，而非更少工人",
+          "subtitle_zh": "A human-first approach to automation"
+        },
+        {
+          "title": "America is experiencing a productivity miracle",
+          "subtitle": "AI hasn’t—yet—got much to do with it",
+          "title_zh": "美国正在经历生产力奇迹",
+          "subtitle_zh": "AI hasn’t—yet—got much to do with it"
+        },
+        {
+          "title": "How the world has avoided an oil catastrophe so far",
+          "subtitle": "The great commodity-market mystery is deepening",
+          "title_zh": "How the world has avoided an oil catastrophe so far",
+          "subtitle_zh": "The great commodity-market mystery is deepening"
+        },
+        {
+          "title": "Index rebalancing is now the biggest event in markets",
+          "subtitle": "But profiting from it is another matter",
+          "title_zh": "Index rebalancing is now the biggest event in markets",
+          "subtitle_zh": "But profiting from it is another matter"
+        },
+        {
+          "title": "How to share the AI windfall",
+          "subtitle": "Are taxes enough?",
+          "title_zh": "How to share the AI windfall",
+          "subtitle_zh": "Are taxes enough?"
+        }
+      ]
+    },
+    {
+      "section": "Science & technology",
+      "articles": [
+        {
+          "title": "Why many women cannot make enough breast milk",
+          "subtitle": "The causes are often beyond their control",
+          "title_zh": "Why many women cannot make enough breast milk",
+          "subtitle_zh": "The causes are often beyond their control"
+        },
+        {
+          "title": "Neanderthals went to the dentist (really)",
+          "subtitle": "They did so tens of thousands of years before humans",
+          "title_zh": "Neanderthals went to the dentist (really)",
+          "subtitle_zh": "They did so tens of thousands of years before humans"
+        },
+        {
+          "title": "AI models are being used to predict conflict",
+          "subtitle": "Good data are hard to come by",
+          "title_zh": "AI models are being used to predict conflict",
+          "subtitle_zh": "Good data are hard to come by"
+        },
+        {
+          "title": "Do houseplants improve air quality?",
+          "subtitle": "Air purifiers are more effective and easier to maintain",
+          "title_zh": "Do houseplants improve air quality?",
+          "subtitle_zh": "Air purifiers are more effective and easier to maintain"
+        }
+      ]
+    },
+    {
+      "section": "Culture",
+      "articles": [
+        {
+          "title": "Welcome to a spectacularly fraught edition of the Venice Biennale",
+          "subtitle": "Come for the art, stay for the drama",
+          "title_zh": "Welcome to a spectacularly fraught edition of the Venice Biennale",
+          "subtitle_zh": "Come for the art, stay for the drama"
+        },
+        {
+          "title": "The weird, wild story of humanity’s obsession with gold",
+          "subtitle": "A new book charts the gilded history of an ancient asset",
+          "title_zh": "The weird, wild story of humanity’s obsession with gold",
+          "subtitle_zh": "A new book charts the gilded history of an ancient asset"
+        },
+        {
+          "title": "Jan Morris was a man, then a trans woman—but always a narcissist",
+          "subtitle": "A new biography digs into the life of an intrepid journalist",
+          "title_zh": "Jan Morris was a man, then a trans woman—but always a narcissist",
+          "subtitle_zh": "A new biography digs into the life of an intrepid journalist"
+        },
+        {
+          "title": "“Companion podcasts” are the latest hit format",
+          "subtitle": "Ready for more after bingeing on TV?",
+          "title_zh": "“Companion podcasts” are the latest hit format",
+          "subtitle_zh": "Ready for more after bingeing on TV?"
+        },
+        {
+          "title": "Who wants to relax on holiday?",
+          "subtitle": "Daredevil vacations are becoming thrillingly popular",
+          "title_zh": "Who wants to relax on holiday?",
+          "subtitle_zh": "Daredevil vacations are becoming thrillingly popular"
+        },
+        {
+          "title": "The AI that transformed American warfare",
+          "subtitle": "Maven not only identifies targets—it tells commanders how to attack them, too",
+          "title_zh": "The AI that transformed American warfare",
+          "subtitle_zh": "Maven not only identifies targets—it tells commanders how to attack them, too"
+        }
+      ]
+    },
+    {
+      "section": "Economic & financial indicators",
+      "articles": [
+        {
+          "title": "Economic data, commodities and markets",
+          "subtitle": "",
+          "title_zh": "Economic data, commodities and markets",
+          "subtitle_zh": ""
+        }
+      ]
+    },
+    {
+      "section": "Obituary",
+      "articles": [
+        {
+          "title": "Raghu Rai’s whole canvas was India",
+          "subtitle": "The country’s most famous photojournalist died on April 26th, aged 83",
+          "title_zh": "Raghu Rai’s whole canvas was India",
+          "subtitle_zh": "The country’s most famous photojournalist died on April 26th, aged 83"
+        }
+      ]
+    }
+  ]
+}
