@@ -69,16 +69,33 @@ def process_issue(pdf_path, magazine, date):
     nb_id = nb['notebook']['id']
     print(f'   Notebook ID: {nb_id}')
 
-    # 2. Add source
+    # 2. Add source (convert EPUB/MOBI to PDF first — NotebookLM no longer supports them)
+    upload_path = Path(pdf_path)
+    if upload_path.suffix.lower() in ('.epub', '.mobi'):
+        pdf_converted = upload_path.with_suffix('.pdf')
+        if not pdf_converted.exists():
+            print(f'2. Converting {upload_path.suffix} to PDF...')
+            r = subprocess.run(
+                ['ebook-convert', str(upload_path), str(pdf_converted)],
+                capture_output=True, text=True
+            )
+            if r.returncode != 0:
+                raise RuntimeError(f'ebook-convert failed: {r.stderr}')
+        else:
+            print(f'2. Using cached PDF conversion...')
+        upload_path = pdf_converted
+
     print('2. Uploading PDF...')
-    out = notebooklm(f'source add {pdf_path} --notebook {nb_id} --json')
+    out = notebooklm(f'source add {upload_path} --notebook {nb_id} --json')
     src = json.loads(out)
     src_id = src['source']['id']
     print(f'   Source ID: {src_id}')
 
     # 3. Wait for source
     print('3. Waiting for PDF processing...')
-    notebooklm(f'source wait {src_id} --notebook {nb_id} --timeout 300', timeout=320)
+    _, err, code = run(f'notebooklm source wait {src_id} --notebook {nb_id} --timeout 300')
+    if code != 0:
+        raise RuntimeError(f'Source processing failed: {err}')
     print('   Ready.')
 
     # 4. Get TOC
