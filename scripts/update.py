@@ -1,6 +1,6 @@
 """
 Weekly update script for Econy.
-- Checks hehonghui/awesome-english-ebooks for new Economist and New Yorker issues
+- Checks hehonghui/awesome-english-ebooks for new issues (see ACTIVE_MAGAZINES)
 - Downloads new PDFs, runs full pipeline, translates titles
 - Copies to docs/, commits and pushes to GitHub
 
@@ -39,6 +39,12 @@ MAGAZINES = {
     },
 }
 
+# Magazines actively checked for new issues each run.
+# New Yorker disabled 2026-06-15 (per Tao): only The Economist is updated going
+# forward. Existing New Yorker data stays on the site — it's just no longer
+# fetched, processed, or sent to NotebookLM. To re-enable, add 'new_yorker' back.
+ACTIVE_MAGAZINES = ['economist']
+
 # ── Helpers ──────────────────────────────────────────────────────────────────
 
 def log(msg):
@@ -46,6 +52,16 @@ def log(msg):
     print(line)
     with open(LOG, 'a') as f:
         f.write(line + '\n')
+
+def notify(title, message, sound='default'):
+    """Post a macOS Notification Center banner (works from the LaunchAgent's GUI session)."""
+    try:
+        script = (f'display notification {json.dumps(message)} '
+                  f'with title {json.dumps(title)} sound name {json.dumps(sound)}')
+        subprocess.run(['/usr/bin/osascript', '-e', script],
+                       capture_output=True, timeout=15)
+    except Exception as e:
+        log(f'  notify failed (non-critical): {e}')
 
 def api_get(url):
     req = urllib.request.Request(url, headers={'User-Agent': 'econy-updater'})
@@ -263,13 +279,18 @@ def main():
     log('=== Econy weekly update started ===')
     PDFS.mkdir(exist_ok=True)
     new_dates = []
+    failures = []
 
-    for mag_key in MAGAZINES:
+    for mag_key in ACTIVE_MAGAZINES:
         existing = get_existing_dates(mag_key)
         log(f'{mag_key}: {len(existing)} existing issues')
 
         available = get_available_issues(mag_key)
-        new = [i for i in available if i['date'] not in existing]
+        # Forward-only: process issues newer than the newest we already have.
+        # Never backfill old gaps — the UI shows only the 5 most recent anyway,
+        # and backfilling would burn a NotebookLM notebook on issues nobody sees.
+        latest = max(existing) if existing else '0000-00-00'
+        new = [i for i in available if i['date'] > latest]
 
         if not new:
             log(f'{mag_key}: no new issues found')
@@ -278,9 +299,15 @@ def main():
         # Process only the latest new issue per run to limit API usage
         issue = new[0]
         log(f'{mag_key}: new issue found — {issue["date"]}')
-        success = process_new_issue(mag_key, issue['name'], issue['date'])
+        try:
+            success = process_new_issue(mag_key, issue['name'], issue['date'])
+        except Exception as e:
+            success = False
+            log(f'  ERROR processing {mag_key} {issue["date"]}: {e}')
         if success:
             new_dates.append(issue['date'])
+        else:
+            failures.append(f'{mag_key} {issue["date"]}')
 
     if new_dates:
         log('Updating docs/ and pushing to GitHub...')
@@ -290,7 +317,26 @@ def main():
     else:
         log('No new issues. Nothing to push.')
 
+    # Notify the outcome so Tao doesn't have to check manually each week
+    if failures and new_dates:
+        notify('Econy 部分更新 ⚠️',
+               f'成功：{", ".join(new_dates)}；失败：{", ".join(failures)}（见 update.log）',
+               sound='Basso')
+    elif failures:
+        notify('Econy 更新失败 ❌',
+               f'失败：{", ".join(failures)}（见 update.log）', sound='Basso')
+    elif new_dates:
+        notify('Econy 更新成功 ✅', f'已添加 {", ".join(new_dates)}')
+    else:
+        notify('Econy 已检查 ✓', '本周没有新刊，无需更新')
+
     log('=== Done ===\n')
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception as e:
+        import traceback
+        log('FATAL:\n' + traceback.format_exc())
+        notify('Econy 更新崩溃 ❌', str(e)[:200] or '未知错误', sound='Basso')
+        raise
