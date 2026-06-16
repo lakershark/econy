@@ -139,32 +139,50 @@ def find_pdf_in_folder(mag_key, folder_name):
 
 # ── Translation via NotebookLM ────────────────────────────────────────────────
 
-def translate_titles(nb_id, issue):
-    """Translate all article titles in batches of 20."""
+def translate_titles(nb_id, issue, max_attempts=3):
+    """Translate all article titles in batches of 20.
+
+    NotebookLM often returns only a partial batch, so we retry the still-missing
+    titles up to `max_attempts` times before falling back to the English title.
+    """
     all_articles = [(s['section'], a) for s in issue['toc'] for a in s['articles']]
     batch_size = 20
-    translations = {}
 
-    for i in range(0, len(all_articles), batch_size):
-        batch = all_articles[i:i+batch_size]
-        lines = '\n'.join(f'[{sec}] {a["title"]}' for sec, a in batch)
-        prompt = f'请将以下文章标题翻译成中文，保持简洁准确。输出JSON格式：{{"titles": {{"英文标题": "中文标题"}}}}\\n\\n{lines}'
-        escaped = prompt.replace('"', '\\"')
-        out = notebooklm(f'ask "{escaped}" --notebook {nb_id} --json', timeout=120)
-        answer = get_answer(out)
-        data = extract_json_block(answer)
-        if data and 'titles' in data:
-            translations.update({normalize(k): v for k, v in data['titles'].items()})
-        time.sleep(3)
+    def pending():
+        # A title counts as untranslated if missing or still equal to the English.
+        return [(sec, a) for sec, a in all_articles
+                if not a.get('title_zh') or a['title_zh'] == a['title']]
 
+    for attempt in range(1, max_attempts + 1):
+        todo = pending()
+        if not todo:
+            break
+        log(f'   title translation attempt {attempt}: {len(todo)} remaining')
+        translations = {}
+        for i in range(0, len(todo), batch_size):
+            batch = todo[i:i+batch_size]
+            lines = '\n'.join(f'[{sec}] {a["title"]}' for sec, a in batch)
+            prompt = f'请将以下文章标题翻译成中文，保持简洁准确。输出JSON格式：{{"titles": {{"英文标题": "中文标题"}}}}\\n\\n{lines}'
+            escaped = prompt.replace('"', '\\"')
+            out = notebooklm(f'ask "{escaped}" --notebook {nb_id} --json', timeout=120)
+            answer = get_answer(out)
+            data = extract_json_block(answer)
+            if data and 'titles' in data:
+                translations.update({normalize(k): v for k, v in data['titles'].items()})
+            time.sleep(3)
+        for sec, a in todo:
+            key = normalize(a['title'])
+            zh = translations.get(key)
+            if zh and zh != a['title']:
+                a['title_zh'] = zh
+
+    # Fall back to English for anything still untranslated; fill subtitles.
     matched = 0
     for section in issue['toc']:
         for article in section['articles']:
-            key = normalize(article['title'])
-            if key in translations:
-                article['title_zh'] = translations[key]
+            if article.get('title_zh') and article['title_zh'] != article['title']:
                 matched += 1
-            elif not article.get('title_zh'):
+            else:
                 article['title_zh'] = article['title']
             if not article.get('subtitle_zh'):
                 article['subtitle_zh'] = article.get('subtitle', '')
@@ -273,6 +291,41 @@ def git_push(new_dates):
     else:
         log(f'  Push failed: {err}')
 
+# ── NotebookLM housekeeping ───────────────────────────────────────────────────
+
+# Matches ONLY econy-generated notebooks, e.g. "The Economist 2026-06-13".
+# Anything else (Bible studies, ARK reports, etc.) is never touched.
+ECONY_NB_RE = re.compile(r'^The (Economist|New Yorker) (\d{4}-\d{2}-\d{2})$')
+
+def cleanup_notebooks(keep=KEEP_ISSUES):
+    """Delete old econy NotebookLM notebooks, keeping the `keep` most recent per
+    magazine. Notebooks are just scratchpads — summaries/titles already live in
+    data/*.json — so old ones only waste NotebookLM space."""
+    out = notebooklm('list --json', timeout=60)
+    try:
+        data = json.loads(out)
+    except Exception as e:
+        log(f'  notebook cleanup skipped (list failed): {e}')
+        return
+    nbs = data if isinstance(data, list) else data.get('notebooks', [])
+
+    by_mag = {}
+    for n in nbs:
+        title = n.get('title') or n.get('name', '')
+        m = ECONY_NB_RE.match(title)
+        if m:
+            by_mag.setdefault(m.group(1), []).append((m.group(2), n.get('id'), title))
+
+    deleted = 0
+    for items in by_mag.values():
+        items.sort(reverse=True)                 # newest date first
+        for _date, nb_id, title in items[keep:]:  # everything past the kept window
+            notebooklm(f'delete -n {nb_id} -y', timeout=60)
+            deleted += 1
+            log(f'  cleaned up old notebook: {title}')
+    if deleted:
+        log(f'  notebook cleanup: deleted {deleted}, kept up to {keep} per magazine')
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -314,6 +367,7 @@ def main():
         update_docs()
         update_app_js(None)
         git_push(new_dates)
+        cleanup_notebooks()
     else:
         log('No new issues. Nothing to push.')
 
