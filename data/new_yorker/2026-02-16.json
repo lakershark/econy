@@ -1,0 +1,228 @@
+{
+  "magazine": "The New Yorker",
+  "issue_date": "2026-02-16",
+  "notebook_id": "3327e239-74f1-4c7d-85e0-b62eb0b4e5cb",
+  "toc": [
+    {
+      "section": "Goings On",
+      "articles": [
+        {
+          "title": "The Dance Reflections Festival Is a Gift",
+          "subtitle": "Brian Seibert",
+          "title_zh": "舞蹈映像艺术节：一份厚礼",
+          "subtitle_zh": "Brian Seibert"
+        },
+        {
+          "title": "The Eighty-Six Wants You to Want In",
+          "subtitle": "Helen Rosner",
+          "title_zh": "“86号”餐厅诱你入伙",
+          "subtitle_zh": "Helen Rosner"
+        },
+        {
+          "title": "Whodunnit: The Upstate Murder-Mystery Weekend",
+          "subtitle": "Rachel Syme",
+          "title_zh": "谁是凶手：州北谋杀之谜周末",
+          "subtitle_zh": "Rachel Syme"
+        },
+        {
+          "title": "What to Listen to: Love-Song Edition",
+          "subtitle": "New Yorker staffers",
+          "title_zh": "听什么：情歌篇",
+          "subtitle_zh": "New Yorker staffers"
+        }
+      ]
+    },
+    {
+      "section": "The Talk of the Town",
+      "articles": [
+        {
+          "title": "Is There a Remedy for Presidential Profiteering?",
+          "subtitle": "David D. Kirkpatrick",
+          "title_zh": "总统牟利行为有药可解吗？",
+          "subtitle_zh": "David D. Kirkpatrick"
+        },
+        {
+          "title": "Fab 5 Freddy, Still Fly",
+          "subtitle": "David Kamp",
+          "title_zh": "Fab 5 Freddy，依然有型",
+          "subtitle_zh": "David Kamp"
+        },
+        {
+          "title": "The Amazing Art Ventures of “Kavalier & Clay”",
+          "subtitle": "Emma Allen",
+          "title_zh": "《卡瓦利与克莱》的奇妙艺术创投",
+          "subtitle_zh": "Emma Allen"
+        },
+        {
+          "title": "How the Influential Make Influential Friends",
+          "subtitle": "Jane Bua",
+          "title_zh": "权势人物如何交友",
+          "subtitle_zh": "Jane Bua"
+        },
+        {
+          "title": "Téofimo López’s Swing Dancing",
+          "subtitle": "Brian Seibert",
+          "title_zh": "特奥菲莫·洛佩斯的摇摆舞",
+          "subtitle_zh": "Brian Seibert"
+        }
+      ]
+    },
+    {
+      "section": "Reporting & Essays",
+      "articles": [
+        {
+          "title": "Can Ozempic Cure Addiction?",
+          "subtitle": "Dhruv Khullar",
+          "title_zh": "Ozempic能治疗成瘾吗？",
+          "subtitle_zh": "Dhruv Khullar"
+        },
+        {
+          "title": "A Landscape Artist in Winter",
+          "subtitle": "Rebecca Mead",
+          "title_zh": "冬日里的景观艺术家",
+          "subtitle_zh": "Rebecca Mead"
+        },
+        {
+          "title": "The Babies Kept in a Mysterious Los Angeles Mansion",
+          "subtitle": "Ava Kofman",
+          "title_zh": "神秘洛杉矶豪宅里的婴儿",
+          "subtitle_zh": "Ava Kofman"
+        },
+        {
+          "title": "What Is Claude? Anthropic Doesn’t Know, Either",
+          "subtitle": "Gideon Lewis-Kraus",
+          "title_zh": "Claude是什么？Anthropic也不知道",
+          "subtitle_zh": "Gideon Lewis-Kraus"
+        }
+      ]
+    },
+    {
+      "section": "Shouts & Murmurs",
+      "articles": [
+        {
+          "title": "I Will Be Your Next President",
+          "subtitle": "Bob Odenkirk",
+          "summary": "这篇文章由著名演员和喜剧人鲍勃·奥登科克（Bob Odenkirk）撰写，是一篇带有浓厚讽刺色彩的“总统竞选宣言”。文章采用了第一人称的叙事风格，语气平易近人、充满生活气息，却以此消解了总统这一职位的严肃性[1]。奥登科克的核心观点是，总统的日常工作其实可以通过一种“低能耗”的表演方式来完成。他详细描述了自己的日常计划：吃同样的蛋沙拉三明治、进行虚假的打高尔夫拍片、在洗手间刷一个小时的YouTube视频，甚至在直升机螺旋桨的轰鸣声中大喊一些含糊其辞、不着边际的回答[2-6]。这种叙事风格巧妙地将好莱坞的“小名人”经验应用于政坛，指出只要具备二十多年的演艺经验，就能轻松驾驭那些象征性的政治仪式和公众互动[4, 7]。文章的结论充满荒诞感：他不会进行任何竞选活动，甚至威胁说只有在他获胜的情况下他才不会挑战选举结果，以此讽刺当代政治中的演艺化倾向和对实质性工作的逃避[8, 9]。",
+          "title_zh": "我将是你们的下一任总统",
+          "subtitle_zh": "Bob Odenkirk"
+        }
+      ]
+    },
+    {
+      "section": "Fiction",
+      "articles": [
+        {
+          "title": "Predictions and Presentiments",
+          "subtitle": "Valeria Luiselli",
+          "summary": "瓦莱丽亚·路易塞利（Valeria Luiselli）的这篇小说探讨了单亲母亲与十二岁女儿在生活崩塌后（离婚及家庭成员离去）试图重建日常生活的复杂过程。故事发生在西西里岛，叙事风格抒情且富有洞察力，充满了对自然（Levante风、火山）和象征物（普罗透斯马赛克、剑鱼头）的细腻描写[9-13]。作者通过“买剑鱼头”这一核心情节，展现了母女之间微妙的权力博弈和情感纽带——女儿不断追问母亲关于“偷来的”马赛克和离婚的真相，而母亲则试图通过讲故事来重新定义两人的关系[14-30]。小说的一个核心观点在于对“发明（invent）”一词的重新解读：重新创造生活并不意味着无中生有，而是去发现或揭示那些“一直就在那里”的东西[31, 32]。最终，小说在暴雨和母女的笑声中结束，结论是家或许就存在于洗菜、吃土豆和共同面对突如其来的天气变化这些微小的日常仪式中[31, 33-37]。",
+          "title_zh": "预言与预感",
+          "subtitle_zh": "Valeria Luiselli"
+        }
+      ]
+    },
+    {
+      "section": "The Critics",
+      "articles": [
+        {
+          "title": "Listening to Joe Rogan",
+          "subtitle": "David Remnick",
+          "summary": "主编大卫·雷姆尼克（David Remnick）在这篇长文中深入分析了全球最热门播客主持人乔·罗根（Joe Rogan）的影响力及其背后的美国谈话广播传统。文章将罗根的风格追溯到内贝尔（Long John Nebel）和贝尔（Art Bell）等深夜广播先行者，他们都擅长让那些古怪、甚至持有荒谬观点的人不间断地倾诉[38-48]。叙事上，雷姆尼克结合了自己的童年回忆，将罗根的“野蛮呐喊”置于现代媒体权威崩塌的大背景下。罗根的核心观点是他只是在“闲聊”，不应为听众的判断负责，但雷姆尼克批判性地指出，当罗根将这种“是，而且（yes, and）”的即兴表演逻辑应用于反疫苗者、反犹主义者或极端政治人物时，他在事实上已经成为了将边缘思想引入主流的“推手”[49-58]。结论认为，罗根已成为不可忽视的政治力量，其魅力在于一种看似正气的“平民式好奇心”，但这种好奇心往往缺乏新闻责任感，倾向于将煽动性言论视为单纯的娱乐消遣[59-62]。",
+          "title_zh": "倾听乔·罗根",
+          "subtitle_zh": "David Remnick"
+        },
+        {
+          "title": "The Race to Give Every Child a Toy",
+          "subtitle": "Alexandra Schwartz",
+          "summary": "亚历山德拉·施瓦茨（Alexandra Schwartz）在这篇书评文章中回顾了美国玩具行业的起源，特别是其深厚的犹太创业背景。文章以迈克尔·金梅尔的著作《玩物制造者》为基础，讲述了莫里斯·米克托姆如何因罗斯福总统的狩猎轶事而发明了泰迪熊，并以此为契机开启了商业化玩具时代[63-69]。叙事风格兼具历史厚度与社会学洞察，探讨了犹太移民如何利用 Progressive 时代的改革东风，将“玩耍的必要性”转化为一个价值数百亿美元的产业[70-74]。核心观点是，玩具产业的繁荣不仅仅是商业上的成功，更是犹太文化中对童年神圣性重视的体现，同时玩具也被赋予了强化性别规范、解决种族歧视和缓解家长教育焦虑的社会功能[75-84]。结论指出，尽管如今玩具公司推销各种针对大脑发育的产品，但真正激发想象力的往往还是那些简单的“宝藏”，而孩子本身就是最伟大的发明家[85]。",
+          "title_zh": "让每个孩子都有玩具的竞赛",
+          "subtitle_zh": "Alexandra Schwartz"
+        },
+        {
+          "title": "In an Age of Science, Tennyson Grappled with an Unsettling New World",
+          "subtitle": "Kathryn Schulz",
+          "summary": "凯瑟琳·舒尔茨（Kathryn Schulz）评述了理查德·霍姆斯关于诗人丁尼生（Alfred Tennyson）的新传记《无边的深处》。文章探讨了19世纪地质学和天文学的突破如何从根本上动摇了当时的宗教信仰，并深刻影响了丁尼生的诗歌节奏和主题[86-90]。叙事风格严谨且具有文学美感，详尽描述了丁尼生“黑血家族”的痛苦遗传及其与好友阿瑟·哈勒姆（Arthur Hallam）之间改变命运的友谊[91-99]。核心观点是丁尼生的名作《悼念集》不仅是个人哀思的寄托，更是人类在面对“血腥的自然（red in tooth and claw）”和深邃宇宙时的存在主义危机记录[100-107]。结论认为，丁尼生是极少数能真正理解并内化科学真理的现代诗人，他能透过事物的表面，赋予其下潜藏的浩瀚与未知以生命，无论那是绝望的深渊还是宁静的归宿[108-113]。",
+          "title_zh": "在科学时代，丁尼生与不安的新世界角力",
+          "subtitle_zh": "Kathryn Schulz"
+        },
+        {
+          "title": "Briefly Noted",
+          "subtitle": "“Leaving Guantanamo,” “The Wall Dancers,” “Eating Ashes,” and “The Infamous Gilberts.”",
+          "summary": "本栏目简要介绍了四部近期出版的力作，涵盖了非虚构与小说领域。首先是《离开关塔那摩》，该书以法律和外交的视角细致记述了科威特如何通过艰辛谈判将其公民从“永久监狱”中营救出来，揭示了关塔那摩体系在法律之外的脆弱与武断[114, 115]。其次是《墙间舞者》，作者刘易玲通过对中国互联网边缘群体的敏感勾勒，展现了人们如何在被审查制度修剪的“围墙花园”中寻找连接与自由，挑战了外界对该群体的刻板印象[115-117]。小说《食灰》则以一种无情且客观的笔触，叙述了墨西哥贫困家庭在移民西班牙后依然难以摆脱的边缘化境遇和丧亲之痛[117, 118]。最后，《臭名昭著的吉尔伯特》以一座英国大宅的衰落为背景，通过导游的叙述揭开了家族的分崩离析与历史阴影[118, 119]。这四部作品共同展示了在制度失灵、数字控制和家族衰败中，个人如何挣扎着寻找意义。结论是，这些叙事无一不在引导读者“吸收一点痛苦”，以换取对现实更深层的理解[119]。",
+          "title_zh": "简评",
+          "subtitle_zh": "“Leaving Guantanamo,” “The Wall Dancers,” “Eating Ashes,” and “The Infamous Gilberts.”"
+        },
+        {
+          "title": "Why We Can’t Stop Reading—and Writing—Food Diaries",
+          "subtitle": "Hannah Goldfield",
+          "summary": "汉娜·戈德菲尔德（Hannah Goldfield）探讨了“食物日记”这一流派长盛不衰的原因。文章从塔尼娅·布什（Tanya Bush）在社交媒体上通过烘焙对抗抑郁的个人经历出发，延伸到了尼格尔·斯莱特、朱莉·鲍威尔等经典作者的创作[120-129]。叙事风格亲切且富有同理心，将食物日记视为一种揭示个人与时间、金钱、享乐和地域关系的窗口。核心观点是，记录“一天吃了什么”不仅仅是社交媒体时代的自恋行为，它实际上是一种对抗孤独、建立现实感并对他人生活产生良性好奇的媒介[130, 131]。通过塔玛·阿德勒（Tamar Adler）等人的著作，文章指出厨房中的触觉体验能让人在纷乱的世界中找到“自然的永恒运动”[132, 133]。结论认为，食物日记的真正吸引力在于它捕捉了生活的纹理，即便是最平凡的燕麦粥或一片吐司，也能映射出生命最后被记录时的独特状态[134, 135]。",
+          "title_zh": "为什么我们停不下读和写食物日记",
+          "subtitle_zh": "Hannah Goldfield"
+        },
+        {
+          "title": "Pierre Huyghe’s A.I. Art Monster Takes Over a Night Club in Berlin",
+          "subtitle": "Zachary Fine",
+          "summary": "扎卡里·法恩（Zachary Fine）评论了皮埃尔·于热（Pierre Huyghe）在柏林Berghain夜总会地下室展出的恐怖艺术装置《阈限》。文章描述了一个 ক্যাথédrale般的黑暗空间中，循环播放着一段关于“无脸”人形生物在荒原挣扎的AI生成影片[136-143]。叙事风格带有压抑的氛围感，强调了由于感官剥夺引发的恐惧。核心观点是，于热正在从早期“让人变得更像人”的探索转变为“消除人类主体性”的实验，这种借助AI生成的非人动作精准地描绘了现代自我的异化与空洞化[144-148]。文章认为，这个怪物不仅是在注视虚空，它本身就是虚空[144]。结论指出，尽管作品涉及深奥的物理和哲学理论，但其真正的力量在于那种令人窒息的视觉美感和对现代人类在技术包围下沦为“各物合体”的悲观预示[149, 150]。",
+          "title_zh": "皮埃尔·于热的AI艺术怪物占领柏林夜总会",
+          "subtitle_zh": "Zachary Fine"
+        },
+        {
+          "title": "“Industry” Is a Study in Wasted Youths",
+          "subtitle": "Inkoo Kang",
+          "summary": "英库·康（Inkoo Kang）对HBO热门剧集《投行风云》第四季进行了深度评析。文章指出本季将背景从交易大厅转移到了更高端的权力走廊，如金融科技初创公司、政府和媒体巨头[151-153]。叙事风格犀利，精准捕捉了角色在成长过程中的异化。核心观点是，这部剧通过哈珀和亚丝明这两个女性角色，剖析了一种特殊的成年熟人关系：那些来自青春期、你不再尊重甚至不再喜欢，却因为共同经历过形成期而相互深刻理解的人[154, 155]。这种联系被视为一种家族式的强制责任。结论认为，尽管本季在某些情节上更趋向于传统的公司斗争，但它依然是一部关于“被毁掉的性格”和“未解决的父亲问题”的杰作，展示了在金融权力的腐蚀下，人们是如何追逐自我中最自私的部分以求生存的[156, 157]。",
+          "title_zh": "《投行风云》：荒废青春的研究",
+          "subtitle_zh": "Inkoo Kang"
+        },
+        {
+          "title": "“My Father’s Shadow” Is Intensely—Yet Obliquely—Autobiographical",
+          "subtitle": "Richard Brody",
+          "summary": "理查德·布罗迪（Richard Brody）评述了英国尼日利亚裔导演阿金诺拉·戴维斯（Akinola Davies, Jr.）的长片首作。影片以尼日利亚1993年那场具有里程碑意义但最终被废除的大选为背景，通过两个小兄弟和他们父亲在拉各斯的一日游展开叙事[157-160]。文章指出，这种叙事风格巧妙地结合了儿童视角与政治宏大叙事，通过一系列闪回式的关联镜头，展现了记忆的碎片化和主观性[161, 162]。核心观点是，这部电影是导演和他的编剧哥哥为在现实中早逝的父亲补写的一份“反现实生活”，将私人记忆转化为一种具有民族史诗色彩的个人神话[163-166]。结论认为，影片的非凡力量来自于将极度主观的家族往事与尼日利亚的政治动荡无缝融合，使一段本可能消失的过去获得了如同经文般的权威与宿命感[167]。",
+          "title_zh": "《父亲的影子》：强烈而隐晦的自传",
+          "subtitle_zh": "Richard Brody"
+        }
+      ]
+    },
+    {
+      "section": "Poems",
+      "articles": [
+        {
+          "title": "Ode 1",
+          "subtitle": "Ricardo Reis",
+          "summary": "这是一首由葡萄牙诗人里卡多·雷斯（Ricardo Reis，费尔南多·佩索阿的异名之一）创作的哲理诗。诗歌采用了沉静、克制的古典韵味，探讨了生命在时间长河中的存在方式[167]。核心观点是倡导一种“不介入”的生活哲学，将虚度的每一小时都看作是插在瓶中的花朵，无论是忧愁还是喜悦，都应以平静的态度对待[167]。叙事中以儿童为导师，强调要像感知四季轮转一样去感知自我的衰老与离去[168]。诗歌的结论是，面对那个“吞噬自己孩子”的时间巨神，最好的反抗就是不反抗，在平静的河流中学习平静，像向日葵注视太阳一样注视着生命走向终结，在离开时甚至不带任何“曾活过”的遗憾[168]。",
+          "title_zh": "颂歌 1",
+          "subtitle_zh": "Ricardo Reis"
+        },
+        {
+          "title": "A Very Small Snowflake",
+          "subtitle": "Han Kang",
+          "summary": "诺贝尔文学奖得主韩江（Han Kang）的这首简短抒情诗，通过对一片微小雪花的精微观察，传达了关于相遇与消逝的永恒主题[169]。诗中雪花被赋予了生命力，它不像其他雪花那样笔直落下，而是仿佛“跳着舞”一般轻盈地贴向诗人的面庞[169]。这种叙事风格极简却极具画面感，捕捉了一个几乎不留痕迹的瞬间。核心观点是生命中某些极致的美丽与连接是短暂且不可复现的。诗的结尾以一个充满失落感的设问收场：在那之后，它去哪儿了？诗人再也没有见过它[169]。这不仅是对雪花的告别，更是对所有转瞬即逝的珍贵契机的沉思。",
+          "title_zh": "一片极小的雪花",
+          "subtitle_zh": "Han Kang"
+        }
+      ]
+    },
+    {
+      "section": "Puzzles & Games",
+      "articles": [
+        {
+          "title": "The Anniversary Crossword: Tuesday, February 3, 2026",
+          "subtitle": "Andy Kravis",
+          "summary": "这篇内容介绍的是《纽约客》杂志创刊101周年的纪念拼字游戏，由安迪·克拉维斯（Andy Kravis）设计。拼字游戏的主题是“听起来很优雅（Sounds dandy）”，这不仅是游戏中的字谜线索，也象征性地致敬了《纽约客》标志性人物尤斯塔斯·提利（Eustace Tilley）那种拿着单片眼镜、优雅打量世界的绅士形象[170, 171]。作为杂志的一种互动式传统，周年拼字游戏旨在通过智力挑战和文化趣味，连接杂志的悠久历史与其现代读者群[170]。虽然形式是娱乐性的，但它体现了杂志作为城市文化风向标的持久生命力。",
+          "title_zh": "周年纪念填字游戏：2026年2月3日，星期二",
+          "subtitle_zh": "Andy Kravis"
+        }
+      ]
+    },
+    {
+      "section": "The Mail",
+      "articles": [
+        {
+          "title": "Letters from Our Readers",
+          "subtitle": "Various",
+          "summary": "本期的读者来信栏目汇集了针对《纽约客》此前报道的多样化反馈，展示了杂志与智性社区的深度互动。信件涵盖了对插画家艾丽丝·哈维（Alice Harvey）晚年艺术生活的补充叙述、对“读写障碍（dyslexia）”标签化倾向的教育学专业批评、以及对“婚后协议”优于“婚前协议”的法律视角分析[170, 172-179]。特别值得注意的是，有读者针对在线词典的软件更新和AI生成内容表达了对语言稳定性和版本控制的深刻忧虑[180, 181]。这些信件共同构成了一个流动的思想沙龙，核心观点是：无论是艺术遗产的传承、教育定义的精确性，还是法律契约的实操、数字时代的语言演变，读者的参与和专业见解都在不断完善并丰富着杂志所探讨的公共议题[171]。",
+          "title_zh": "读者来信",
+          "subtitle_zh": "Various"
+        }
+      ]
+    }
+  ]
+}

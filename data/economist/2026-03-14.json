@@ -1,0 +1,634 @@
+{
+  "magazine": "The Economist",
+  "issue_date": "2026-03-14",
+  "notebook_id": "3cc5c13b-21fd-4bdc-9bc8-dcba0aec3550",
+  "toc": [
+    {
+      "section": "The world this week",
+      "articles": [
+        {
+          "title": "Politics",
+          "subtitle": null,
+          "summary": "本周政治要闻综述：伊朗任命了新的最高领袖——穆杰塔巴·哈梅内伊，他是被暗杀的阿里·哈梅内伊之子，立场强硬。霍尔木兹海峡局势持续紧张，多艘船只遇袭，美国击沉了16艘伊朗布雷艇。以色列与美国继续对伊朗实施大规模空袭，德黑兰石油设施遇袭，近1300名平民死于冲突。尽管特朗普试图安抚市场，但其政府内部对战争持续时间的表态并不一致。在其他地区，法国总统马克龙宣布向地中海和红海部署海军，帮助防御。美国方面，特朗普解雇了国土安全部部长克里斯蒂·诺姆，转而提名参议员马克威恩·马林。此外，海地安全部队的无人机打击导致大量伤亡；委内瑞拉与美国恢复了外交关系；尼泊尔前饶舌歌手巴伦德拉·沙阿领导的政党有望在选举中获得压倒性胜利。 [1-5]",
+          "title_zh": "政治",
+          "subtitle_zh": null
+        },
+        {
+          "title": "Business",
+          "subtitle": null,
+          "summary": "本周商业要闻综述：国际能源署（IEA）协调释放了4亿桶紧急石油储备，以缓解霍尔木兹海峡关闭引发的供应担忧，但布伦特原油价格仍比战前高出30%。欧洲天然气价格自2月28日战争爆发以来已飙升超过60%。亚洲国家深受能源价格波动影响，越南鼓励居家办公，泰国和孟加拉国也采取了节能措施。印度信实工业宣布增加液化石油气产量，并获准在德克萨斯州建设新炼油厂。尽管美国加征关税，中国1-2月的出口额仍同比增长21.8%。美国就业市场显示疲软，2月意外减少9.2万个岗位。在科技领域，Anthropic公司起诉五角大楼将其列为“供应链风险”；甲骨文因AI需求强劲，营收表现亮眼；大众汽车因利润下滑宣布在德国裁员5万人。《哈佛商业评论》的研究提出了“AI脑烧坏”现象，指出过度使用AI工具会导致员工产生心理疲劳。 [6-11]",
+          "title_zh": "商业",
+          "subtitle_zh": null
+        },
+        {
+          "title": "The weekly cartoon",
+          "subtitle": null,
+          "summary": "本周漫画摘要：漫画讽刺了在不稳定的地区发动一场没有清晰目标的战争所带来的后果。画面中，飞行员驾驶着名为“史诗愤怒”（Epic Fury）的战机，背景是导弹发出的质问：“你在发动战争时没有任何明确目标……在一个动荡的地区……在全世界制造经济混乱……你当时在想什么？！”而机载的智能炸弹则回应道：“当你的智能炸弹都觉得你很蠢时，这可不是什么好兆头。”这幅画直接针对当前美国对伊朗采取的军事行动及其引发的全球经济动荡。 [12, 13]",
+          "title_zh": "本周漫画",
+          "subtitle_zh": null
+        }
+      ]
+    },
+    {
+      "section": "Leaders",
+      "articles": [
+        {
+          "title": "An attack on the world economy",
+          "subtitle": "Whatever happens in the Strait of Hormuz, energy markets have been changed for ever",
+          "summary": "核心论点：无论霍尔木兹海峡局势如何演变，全球能源市场已发生永久性改变，世界进入了能源不安全的新纪元。特朗普总统在意识到关税成本后，正迅速领教战争的代价。伊朗通过非对称作战手段（如低成本无人机）对海峡实施事实上的封锁，切断了全球约15%的石油供应，即便战争结束，这种对能源脆弱性的认知也将持久存在。\n\n背景分析：当前的能源冲击比20世纪70年代更为极端。虽然全球对石油的依赖度相较1973年有所下降，但现有的石油需求更为“顽固”（主要用于运输和石化），且霍尔木兹海峡同时也是液化天然气（LNG）的核心通道。卡塔爾出口设施的停摆使得全球20%的LNG供应下架，引发了亚洲和欧洲的能源抢购潮。\n\n关键数据与影响：若海峡持续关闭，油价可能突破150美元/桶。投资者面临更大的波动，多国国债收益率上升，企业面临更高的风险溢价。决策者不仅要应对通胀威胁，还要面对选民对能源补贴的呼声。特朗普未能在战前低价位补充石油储备是一大失策。\n\n结论：这场战争让全球经济变得更不繁荣、更不稳定且更难治理。能源保护主义的兴起（如中印限制出口）将对贫穷国家造成严重打击。即便达成外交妥协，能源作为地缘政治武器的现实已无法逆转。 [14-26]",
+          "title_zh": "全球经济遭受打击",
+          "subtitle_zh": "Whatever happens in the Strait of Hormuz, energy markets have been changed for ever"
+        },
+        {
+          "title": "China’s hereditary elite is taking shape",
+          "subtitle": "The Communist Party is afraid to tax inherited wealth",
+          "summary": "核心论点：中国正经历现代史上首次大规模财富代际转移，这将加剧社会不平等，固化特权阶层。尽管习近平主席提出“共同富裕”，但中共在推行资本和遗产税方面显得极度犹豫，这种不作为可能导致社会怨恨积累和经济活力下降。\n\n背景分析：自改革开放以来，中国家庭资产经历了百倍增长，但财富分布极不平均，最富有的10%拥有近70%的私人财富。这一代超级富豪大多在90年代房地产和商业繁荣中发迹，且多为受一胎政策影响的家庭，意味着庞大家产将由独生子女继承。与此同时，经济增长放缓使得“努力致富”的信念让位于对“投胎”的无奈接受。\n\n关键问题：政府面临多重困境。一方面担心征税导致资本外逃或打击增长，另一方面最关键的是政治阻力——对财富进行审计将暴露官场内部的贪腐和多套房产问题。这种迟钝与此前在废除一胎政策和退出“清零”政策上的迟疑如出一辙。\n\n结论：如果不通过遗产税、房产税或资本利得税来调节分配，中国将孕育出一个永久性的世袭精英阶层，底层的幻灭感将威胁社会稳定。中国实际上正变成一个“部分税收天堂”，这与马克思主义理想背道而驰。 [26-38]",
+          "title_zh": "中国世袭精英阶层正在成形",
+          "subtitle_zh": "The Communist Party is afraid to tax inherited wealth"
+        },
+        {
+          "title": "There are no good options for Iran’s nuclear programme",
+          "subtitle": "If America cannot eliminate the threat, what should it do?",
+          "summary": "核心论点：美国和以色列对伊朗发动的战争若要算作成功，必须能永久遏制其核野心，但单纯的空中打击很难实现这一目标。目前伊朗境内拥有约400公斤高浓缩铀，足以制造10枚核弹，这成为了战后秩序最大的变数。\n\n背景分析：新任领袖穆杰塔巴·哈梅内伊可能比其父更渴望拥有核武器，尤其是在家族成员遇难后寻求复仇。伊朗已经意识到，处于“门槛”地位只会成为靶子，只有彻底拥核才能提供保护。美国面临三个艰难的选择：\n1. 特种部队突袭：技术上可行但风险极大，且伊朗已失去奇袭机会，铀可能分散在多处。\n2. 持续轰炸：每当发现威胁就打击。这会导致能源价格持续动荡，且美国选民很难接受这种“重设闹钟”式的永恒战争，战略重心会被拖入中东而非中国。\n3. 外交协议：虽然过去曾有失败先例，但在伊朗被炸得精疲力竭、急需解除制裁的现状下，这是“最不坏”的选择。\n\n结论：目前的僵局是对特朗普此前单方面撕毁伊核协议的惩罚。美国必须决定是冒着长期战争的风险，还是接受一个极其勉强的妥协，即以解除制裁换取伊朗停止浓缩并移除现有的浓缩铀。 [38-45]",
+          "title_zh": "伊朗核计划已无良策",
+          "subtitle_zh": "If America cannot eliminate the threat, what should it do?"
+        },
+        {
+          "title": "How to teach Donald Trump a Latin lesson",
+          "subtitle": "By alienating Hispanics, he has given Democrats an open goal",
+          "summary": "核心论点：特朗普因其激进的移民遣返政策和战争引发的高通胀，正迅速疏远曾支持他的拉美裔选民。这一人口结构的转变可能导致共和党在11月的中期选举中失去对国会的控制。\n\n背景分析：2024年特朗普赢得了48%的拉美裔选票，创下共和党历史记录，主要是因为选民将通胀归咎于拜登。然而，现在的拉美裔感到“买家懊悔”。特朗普不仅没能控制价格，反而因关税和战争推高了生活成本。同时，执法部门在德州等地不仅驱逐罪犯，还带走了园丁和普通劳工，导致建筑行业因劳动力短缺而陷入停滞。拉美裔的民众支持率已暴跌至22%。\n\n关键数据：最新民调显示，拉美裔支持民主党和共和党的比例为43%对27%。在过去半年里，预测市场认为民主党夺回众议院的概率从69%上升到85%。拉美裔的倒戈可能影响数十个关键席位。\n\n结论：尽管政府试图通过解雇诺姆并软化措辞（如强调遣返罪犯）来止损，但底层政策并未改变。民主党如果能定位为“经济可预测性”和“法治”的捍卫者，将迎来制胜良机。 [46-53]",
+          "title_zh": "如何给特朗普上一堂拉美课",
+          "subtitle_zh": "By alienating Hispanics, he has given Democrats an open goal"
+        },
+        {
+          "title": "Haiti needs order first, then elections",
+          "subtitle": "Voters must be able to turn out without risking death",
+          "summary": "核心论点：海地正处于从黑帮统治中复苏的转折点，但若要恢复国家职能，改善安全局势比急于举行选举更为紧迫。选民必须能在不面临死亡威胁的情况下投票，否则选举将缺乏合法性。\n\n背景分析：太子港大部分地区被黑帮控制，导致严重的饥饿和难民危机。2025年起，海地警察在私人安全承包商（利用自杀式无人机）和 revamped 的联合国任务团支持下开始反击。代理总理菲斯-艾梅获得了美国的认可，展现了一定的领导力。\n\n挑战与建议：海地自2016年以来从未举行过选举。目前的选举 council 计划在8月投票，但环境尚不成熟。国际伙伴应优先保护主要道路，确保食品和物资流通，以缓解衰退。警察部队应逐步收复社区，而不是简单地炸毁黑帮。\n\n结论：海地真正需要的是一位能建立基本秩序（非掠夺性国家）的领导人。在没有安全保障的前提下强推选举，只会让黑帮支持的代理人或旧有的腐败精英重新掌权。应给候选人更多时间在改善的安全局势中脱颖而出。 [54-61]",
+          "title_zh": "海地需要先建立秩序，再举行选举",
+          "subtitle_zh": "Voters must be able to turn out without risking death"
+        }
+      ]
+    },
+    {
+      "section": "Letters",
+      "articles": [
+        {
+          "title": "Is it optimistic to think that Hungary’s election in April will be free but not fair?",
+          "subtitle": "Also this week, methodology, congressional districts, the Articles of Confederation, meeting rooms, food, Donald Trump",
+          "summary": "本文收集了读者关于匈牙利大选的来信。核心论点是，认为欧尔班的选举仅仅是“不公平”可能过于乐观。读者指出，欧尔班面临彼得·马扎尔（Peter Magyar）及其Tisza党的真实威胁，这是其执政以来未曾遇过的。因此，政权可能不仅通过媒体控制和杰利蝾螈（选区划分）来干预，甚至可能升级为直接的选举舞弊，如操控邮寄选票和购买选票。有信件提到格鲁吉亚2024年的案例作为先例，认为当威权政权面临存续威胁时，会毫不犹豫地越过底线。此外，读者也对欧尔班政府针对反对派的“美人计”抹黑行动表示担忧，认为这显示了政权的绝望感。 [62-67]",
+          "title_zh": "匈牙利大选：认为“自由但不公平”是否太乐观？",
+          "subtitle_zh": "Also this week, methodology, congressional districts, the Articles of Confederation, meeting rooms, food, Donald Trump"
+        }
+      ]
+    },
+    {
+      "section": "By Invitation",
+      "articles": [
+        {
+          "title": "Pedro Sánchez: No to war",
+          "subtitle": "It is naive to think that escalating conflict in Iran will lead to anything good, writes Spain’s prime minister",
+          "summary": "西班牙首相佩德罗·桑切斯撰文强烈反对对伊朗开战。他回顾了2003年伊拉克战争的教训，指出当年西班牙政府在违背95%民意的情况下参与战争，结果带来了长达八年的混乱、恐怖主义飙升和经济受损。桑切斯认为，当前的伊朗战争同样是非法的，不仅威胁国际秩序，且由于霍尔木兹海峡的战略地位，将使欧元区面临增长下滑和通胀上升的风险。他强调，炸弹无法解决世界问题，也不会让以色列更安全或缓解加沙危机。因此，西班牙拒绝美军使用其境内的军事基地。结论是，真正的盟友不应盲目追随鲁莽的行为，国际社会必须在“力量法则”和“法则力量”之间做出选择。 [68-77]",
+          "title_zh": "佩德罗·桑切斯：反对战争",
+          "subtitle_zh": "It is naive to think that escalating conflict in Iran will lead to anything good, writes Spain’s prime minister"
+        }
+      ]
+    },
+    {
+      "section": "Briefing",
+      "articles": [
+        {
+          "title": "China is wrestling with a novel phenomenon: inherited wealth",
+          "subtitle": "Even as the economy slows and opportunity narrows, a lucky few receive big windfalls",
+          "summary": "核心论点：中国正在经历建国以来首次大规模私人财富转移，这在文化、法律和社会层面都带来了前所未有的挑战。当财富的重要性开始超过个人奋斗，社会阶层流动性将进一步锁死。\n\n背景分析：私人财富在中国仅存在了约40年。如今第一代富豪开始凋零，他们中仅有极少数留有遗嘱（如娃哈哈宗庆后的遗产纠纷引发全民关注）。法律规定资产在父母、配偶、子女间平分，但这无法满足复杂的现代家庭结构。随着经济增速放缓，2023年仅有28%的受访者相信努力会有回报，而“投胎学”成了年轻人间的苦涩笑话。富二代阶层开始通过联姻巩固地位，形成了类似“蜘蛛网”的精英网络。\n\n社会现象：出现了“萝卜坑”（定制招聘）、“全职儿女”和“啃老族”等现象。年轻人中盛行“爱自己”和“躺平”，认为既然阶层天花板已降临，不如放弃无谓的竞争（内卷）。\n\n结论：中共虽然担心不平等引发动荡，但在征收遗产税上犹豫不决，担心影响增长或引发资本外逃。这种 hypocrisy（伪善）正改变年轻一代的志向，从奋斗转向守财或消费。 [78-108]",
+          "title_zh": "中国应对新现象：世袭财富",
+          "subtitle_zh": "Even as the economy slows and opportunity narrows, a lucky few receive big windfalls"
+        },
+        {
+          "title": "The damage to the world economy from the Iran war will be severe, but uneven",
+          "subtitle": "It has already caused the biggest energy supply shock in history",
+          "summary": "核心论点：这场战争引发了史上最大的能源供应冲击，尽管各国经济的能源强度有所下降，但封锁霍尔木兹海峡造成的15%石油供应中断仍足以引发全球性滞胀。这种打击在地理上分布极不均衡。\n\n背景分析：由于页岩油的发展，美国已成为能源净出口国，受到的冲击相对较小。然而，欧洲和亚洲则面临严峻考验。欧洲因摆脱俄罗斯管道气而极度依赖液化天然气（LNG），其价格已涨逾75%。亚洲受影响最深，中、日、韩、印80%以上海运石油来自波斯湾。韩国面临汇率和股市双崩盘，政府被迫注资救市。\n\n关键影响：\n1. 通胀与利率：市场已不再预期降息，反而重新调高对欧央行和美联储加息的定价。\n2. 产业链受损：化肥价格飙升引发粮食短缺担忧，硫、氦等提炼副产品的匮乏威胁芯片制造。\n3. 贫穷国家：孟加拉国和巴基斯坦因无力支付高昂气价面临断电。海湾国家虽然有外汇储备，但其“安全枢纽”的商业模型受损。\n\n结论：特朗普认为可以通过叫停战争来控制损失，但伤害已经造成。伊朗革命卫队声称他们才是掌握战争终点的人。 [108-133]",
+          "title_zh": "伊朗战争对全球经济打击严重但不均",
+          "subtitle_zh": "It has already caused the biggest energy supply shock in history"
+        },
+        {
+          "title": "America’s war on Iran may bring Bahrain to its knees",
+          "subtitle": "The tiny, indebted kingdom is seeing its main sources of revenue dry up",
+          "summary": "核心论点：巴林这个微小且债台高筑的王国正面临灭顶之灾，由于其经济结构极度依赖能源出口且身处前线，其韧性甚至不如被制裁的伊朗。巴林的主权债务已达GDP的146%，约三分之一财政收入用于支付利息。\n\n背景分析：战争爆发后，巴林作为美国第五舰队总部所在地遭到了伊朗的针对性报复。炼油厂、工厂和高层建筑遇袭。更致命的是霍尔木兹海峡的关闭，使得巴林的两大支柱——石油和铝业（其产值为非中第一）无法出口。由于无法通过空运维持，唯一的陆路连接（沙特大桥）若遇袭将是“末日场景”。\n\n风险点：巴林长期依赖沙特和阿联酋的救助，但这些国家自身也因战争而自顾不暇。此外，巴林逊尼派统治者与占人口多数的什叶派之间长期存在矛盾，部分民众甚至在视频中为伊朗的袭击欢呼。结论是，巴林作为曾经的银行业中心，如今已成为海湾地区的“病夫”。 [133-139]",
+          "title_zh": "美国对伊战争或令巴林崩溃",
+          "subtitle_zh": "The tiny, indebted kingdom is seeing its main sources of revenue dry up"
+        }
+      ]
+    },
+    {
+      "section": "United States",
+      "articles": [
+        {
+          "title": "Why MAGA backs Donald Trump’s war—for now",
+          "subtitle": "If the conflict in Iran drags on, will his America First base stick with him?",
+          "summary": "核心论点：尽管MAGA运动标榜“反介入”和孤立主义，但其核心是围绕特朗普个人的崇拜。特朗普对伊朗采取的“史诗级愤怒”行动（杀害哈梅内伊）符合其支持者对“奇观式力量展示”的偏好。然而，如果战争演变为长期泥潭或推高油价，这种支持可能动摇。\n\n背景分析：调查显示93%的MAGA共和党人支持这场战争，而普通共和党人这一比例为64%。支持者接受了“不搞国家建设、不推行民主、速战速决”的逻辑。特朗普将战争描绘成一种“America First”的获利手段（如抢夺资源），并对国际法表示蔑视。\n\n潜在危机：油价是MAGA的软肋，居住在郊区和农村的支持者对油价极度敏感。此外，塔克·卡尔森等右翼大V已开始批评这是“以色列的战争”，认为背叛了终止“无尽战争”的承诺。如果伊朗陷入内战或美军被迫地面介入，特朗普将面临其政治基础的严重反噬。 [140-155]",
+          "title_zh": "MAGA派为何目前支持特朗普的战争",
+          "subtitle_zh": "If the conflict in Iran drags on, will his America First base stick with him?"
+        },
+        {
+          "title": "The view from Tehrangeles",
+          "subtitle": "The Iranian diaspora cheered Khamenei’s death. They are divided over what should come next",
+          "summary": "摘要：洛杉矶（Tehrangeles）的伊朗侨民对哈梅内伊的死感到欣慰，但在美军介入程度上存在严重分歧。老一代移民更支持“政权更迭”，甚至不惜呼吁美国打到底；而出生在美国的二代则对伊拉克和阿富汗战争记忆犹新，担心冲突会带来无尽的灾难而非解放。街道上既有“让伊朗再次伟大”的标语，也有“停止战争”的红漆。 [156-162]",
+          "title_zh": "“德黑兰格利斯”的视角",
+          "subtitle_zh": "The Iranian diaspora cheered Khamenei’s death. They are divided over what should come next"
+        },
+        {
+          "title": "Kristi Noem’s ignoble legacy as homeland-security secretary",
+          "subtitle": "She will not be remembered fondly by Americans or her workforce",
+          "summary": "摘要：特朗普内阁中任职最短的国土安全部长之一，诺姆的离职与其在明尼阿波利斯示威中致人死亡的强硬手段、部门内部的恐惧氛围以及耗资2.2亿美元的广告争议有关。尽管她被提名为“美洲盾牌”特使，但这只是个虚职。其继任者马克威恩·马林同样是强硬派，且斯蒂芬·米勒仍是驱逐计划的幕后操盘手，这意味着移民政策不会有根本性转向。 [163-170]",
+          "title_zh": "诺姆作为国土安全部部长的污点遗产",
+          "subtitle_zh": "She will not be remembered fondly by Americans or her workforce"
+        },
+        {
+          "title": "Lost Latino love could cost Republicans the midterms",
+          "subtitle": "Trump’s much-vaunted success with Hispanics is turning to ashes",
+          "summary": "核心论点：特朗普在拉美裔中曾引以为傲的支持率正在崩塌。2024年他获得了创纪录的48%拉美裔选票，但目前支持率已跌至22%。这种转向主要是由于无差别的激进执法和战争带来的通胀痛苦。\n\n背景分析：选民玛丽奥曾因特朗普的商业形象而支持他，但现在发现ICE连园丁和祖母都抓，导致德州建筑业因人工短缺每天损失巨大。民调显示68%的拉美裔反对其移民政策。同时，由于战争推高物价，选民开始怀念拜登时期的经济稳定性。\n\n结论：共和党在选区划分中曾假设拉美裔支持率会维持高位，现在这种傲慢可能反噬其众议院席位。民主党如果能证明自己是规则和经济预测性的维护者，将大获全胜。 [171-184]",
+          "title_zh": "拉美裔支持流失或令共和党输掉中期选举",
+          "subtitle_zh": "Trump’s much-vaunted success with Hispanics is turning to ashes"
+        },
+        {
+          "title": "Two very different states take aim at soaring hospital prices",
+          "subtitle": "But are price controls the answer?",
+          "summary": "摘要：佛蒙特州（民主党主政）和印第安纳州（共和党主政）罕见地达成了政策共识：对医院收费实施价格管制。这是由于2000年来医院服务价格上涨了250%，远超通胀。印第安纳州要求非营利医院将价格降至全州平均水平以下，否则取消免税待遇；佛蒙特州则将收费挂钩联邦医保（Medicare）费率。这显示出医疗通胀已成为跨党派的民粹议题。 [185-194]",
+          "title_zh": "两个截然不同的州联手打击医院高价",
+          "subtitle_zh": "But are price controls the answer?"
+        },
+        {
+          "title": "America’s blame-Israel lobby",
+          "subtitle": "If the Iran war goes wrong, MAGA will want a culprit who is not named Donald Trump",
+          "summary": "摘要：Lexington专栏分析了若伊朗战争进展不利，以色列可能成为MAGA运动的替罪羊。内塔尼亚胡长期游说美对伊动武，且此次美以联合作战前所未有的紧密。尽管特朗普声称是他逼以色列出手，但塔克·卡尔森等人已将其贴上“以色列的战争”标签。一旦油价持续高企或军事失利，特朗普的拥趸将把责任推向内塔尼亚胡，以保护特朗普“不犯错”的形象。 [194-205]",
+          "title_zh": "美国的“归咎以色列”游说派",
+          "subtitle_zh": "If the Iran war goes wrong, MAGA will want a culprit who is not named Donald Trump"
+        }
+      ]
+    },
+    {
+      "section": "The Americas",
+      "articles": [
+        {
+          "title": "At last, Haiti has some hope",
+          "subtitle": "Aggressive policing is weakening gangsters’ control",
+          "summary": "摘要：海地警察在自杀式无人机和私人安全顾问（包括Erik Prince旗下的Vectus）的帮助下开始收复失地。虽然太子港只有一小部分区域（如Pétion-Ville）安全，但新任警察局长弗拉基米尔·帕拉伊森的硬汉作风提振了士气。美国支持的总理菲斯-艾梅正筹备8月大选。然而，无人机打击导致平民误伤的问题引发了人权组织指责，海地要在法治与黑帮统治间求生仍需国际社会长期投入。 [206-223]",
+          "title_zh": "海地终于看到希望",
+          "subtitle_zh": "Aggressive policing is weakening gangsters’ control"
+        },
+        {
+          "title": "Brazilian cinema is having its moment",
+          "subtitle": "Thank growing competition and a more internationally minded Academy awards",
+          "summary": "摘要：巴西电影正迎来黄金时代，由于政府设立了Ancine监管机构并强制要求付费电视播放独立制片内容，打破了环球电视台（Globo）的垄断。随着流媒体法案有望通过，巴西电影业正从内销转向全球竞争。奥斯卡对国际作品的开放态度（受《寄生虫》启发）也助力巴西电影在全球舞台崭露头角。 [224-234]",
+          "title_zh": "巴西电影迎来高光时刻",
+          "subtitle_zh": "Thank growing competition and a more internationally minded Academy awards"
+        }
+      ]
+    },
+    {
+      "section": "Asia",
+      "articles": [
+        {
+          "title": "Taiwan’s bid to export drones free of Chinese parts is taking off",
+          "subtitle": "The island’s unmanned aerial vehicles are already in use on Ukraine’s front line",
+          "summary": "摘要：台湾正努力构建“非红”无人机供应链，剔除所有中国零部件，以应对安全风险。其无人机产量自2024年来增长了12倍，主要出口至捷克和波兰，进而运往乌克兰战场。虽然成本是大陆产品的两倍，但凭借半导体优势和高安全性，台湾正成为西方替代供应链的核心。然而，台湾在飞控芯片和特定软件上仍存短板。 [235-248]",
+          "title_zh": "台湾力推“非中”零部件无人机出口",
+          "subtitle_zh": "The island’s unmanned aerial vehicles are already in use on Ukraine’s front line"
+        },
+        {
+          "title": "Nepal’s new prime minister is a 35-year-old former rapper",
+          "subtitle": "Voters have given Balendra Shah an unprecedented mandate and enormous power",
+          "summary": "摘要：35岁的前饶舌歌手、加德满都前市长巴伦（Balen Shah）领导的RSP党在选举中大胜，打破了老牌政党二十年的轮流坐庄。这场“Z世代革命”源于对高失业率和腐败的愤怒。巴伦承诺通过打击腐败和改善治理在五年内让GDP翻倍，但也面临治理风格过于强硬、缺乏对媒体透明度等质疑。 [248-256]",
+          "title_zh": "尼泊尔新总理是35岁的前说唱歌手",
+          "subtitle_zh": "Voters have given Balendra Shah an unprecedented mandate and enormous power"
+        },
+        {
+          "title": "Islamists woo Bangladesh with everything but Islam",
+          "subtitle": "They are a hit on campus, too",
+          "summary": "摘要：在2024年革命后，孟加拉国伊斯兰大会党（Jamaat）通过弱化宗教标签、主张反腐和改善校园福利实现强势回归。该党通过在校园内修理电扇、组织互助等务实举措赢得年轻人好感，“头巾”甚至成为一种酷的非主流文化象征。尽管其真实政治哲学仍模糊，但已成功转型为一股不可忽视的政治力量。 [256-262]",
+          "title_zh": "伊斯兰主义者赢回孟加拉国：靠的不是宗教",
+          "subtitle_zh": "They are a hit on campus, too"
+        },
+        {
+          "title": "Seoul’s housing market is a huge political and economic headache",
+          "subtitle": "Lee Jae Myung is staking his presidency on fixing it",
+          "summary": "摘要：韩国总统李在明将首尔房地产市场视为国家问题的“源头”，通过抛售私人房产以示决心，并推行严厉的抵押限制和资本利得税。首尔高昂的房价与收入比（8.7）和传统租房制度（Jeonse）的崩溃让年轻人倍感压力。虽然民调显示支持率上升，但由于供给端建设缓慢，仅靠限制投机未必能解决根本的供需错配。 [263-269]",
+          "title_zh": "首尔楼市成政经双重难题",
+          "subtitle_zh": "Lee Jae Myung is staking his presidency on fixing it"
+        },
+        {
+          "title": "Is India the fourth- or fifth-biggest economy? It does not matter",
+          "subtitle": "Politicians boasting about India’s economic prowess are laying a trap for themselves",
+          "summary": "摘要：Banyan专栏批评印度政府过度沉迷于GDP排名的宣传。最近的数据修正显示印度经济规模仍略低于日本，排名第五。专栏指出，宏观数字掩盖了生活质量的低下：印度的购买力平价人均GDP仅相当于约旦。当政治家夸耀自己是“第四大经济体”时，反而提醒了印度人不得不忍受的糟糕基础设施和公共服务。 [269-278]",
+          "title_zh": "印度经济排名第四还是第五？这并不重要",
+          "subtitle_zh": "Politicians boasting about India’s economic prowess are laying a trap for themselves"
+        }
+      ]
+    },
+    {
+      "section": "China",
+      "articles": [
+        {
+          "title": "Hong Kong’s property market has turned",
+          "subtitle": "That’s not good news for everyone",
+          "summary": "摘要：香港楼价在连续下跌四年后开始反弹，租金亦创新高。这主要得益于美联储降息和内地优才计划（逾30万内地人才入港）。然而，新的劏房条例虽然改善了居住条件（规定最低8平米），却可能导致租金大幅上涨，让底层民众无力承担。政府正通过建设过渡性房屋缓解，但地理位置偏远成为清洁工等蓝领阶层的障碍。 [279-294]",
+          "title_zh": "香港楼市迎来转机",
+          "subtitle_zh": "That’s not good news for everyone"
+        },
+        {
+          "title": "Some of China’s officials are becoming social-media stars",
+          "subtitle": "It may help them get promotions",
+          "summary": "摘要：中国基层官员正通过在抖音上成为“网红”来展示政绩，以规避形式主义指责并寻求晋升。有人通过展示肌肉卖特产，有人展示为老人送面条，被粉丝称为“最帅村官”。研究显示，拥有社交媒体知名度的官员更容易获得赞誉和财政拨款，但“流量形式主义”也引发了官方关于其是否分散精力的警惕。 [294-302]",
+          "title_zh": "中国部分官员转型网红",
+          "subtitle_zh": "It may help them get promotions"
+        },
+        {
+          "title": "China’s nationalist spy thriller has few girls and lots of government",
+          "subtitle": "“Main melody” films are in a rut",
+          "summary": "摘要：中国主旋律电影（Main melody）正陷入低迷。曾创下纪录的同类电影在票房前20中的占比从50%降至12%。新片《Scare Out》因情节套路化、缺乏创新被观众吐槽。在经济下行和消费低迷的背景下，观众对刻板的爱国主义叙事产生了审美疲劳，甚至将其视为对政府支持度的间接测试。 [302-310]",
+          "title_zh": "中国民族主义间谍片：美女变少，政教变多",
+          "subtitle_zh": "“Main melody” films are in a rut"
+        },
+        {
+          "title": "There are 56 ethnicities in China—and 55 are getting squashed",
+          "subtitle": "China wants its minorities decorative, but not distinct",
+          "summary": "摘要：Chaguan专栏指出，中国两会上的少数民族盛装只是“装饰性”的，实际政策正通过《促进民族团结进步法》加速同化。法律规定普通话在学校和公务中具有绝对优先权，并强制混居。这标志着从50年代的“民族自治”彻底转向“中华民族共同体”的强行融合，任何强调民族差异的行为都可能面临法律追究。 [310-322]",
+          "title_zh": "中国56个民族：55个正在被同化",
+          "subtitle_zh": "China wants its minorities decorative, but not distinct"
+        }
+      ]
+    },
+    {
+      "section": "Middle East & Africa",
+      "articles": [
+        {
+          "title": "Iran’s praetorian guard may emerge from the war diminished but undefeated",
+          "subtitle": "The regime’s enforcers will struggle to rebuild their capabilities and their deterrence",
+          "summary": "摘要：伊朗革命卫队（IRGC）虽然在美以打击下损失了大量导弹发射器和5000多个目标，但其作为政权核心的权力结构依然稳固。由于以色列的高效定点清除显示了卫队内部充满线人，其威慑神话已被打破。卫队正试图通过破坏海湾国家基础设施来实现“同归于尽”的经济压力，这显示了其从强力执法者向绝望赌徒的转变。 [323-335]",
+          "title_zh": "伊朗革命卫队：战后或战力受损但地位稳固",
+          "subtitle_zh": "The regime’s enforcers will struggle to rebuild their capabilities and their deterrence"
+        },
+        {
+          "title": "Who is Iran’s new leader?",
+          "subtitle": "No one knows if he will last",
+          "summary": "摘要：新任领袖穆杰塔巴·哈梅内伊虽然掌握着庞大的商业帝国且了解父亲的所有秘密，但他缺乏大阿亚图拉的宗教资历。部分权贵视其为“伊朗版的萨勒曼王储”，希望他能推进世俗化商业改革；但神职人员和革命派则认为世袭继位背叛了革命初衷。由于他一直处于隐藏状态，其权威正面临军方和保守派元老的挑战。 [336-341]",
+          "title_zh": "谁是伊朗新领袖？",
+          "subtitle_zh": "No one knows if he will last"
+        },
+        {
+          "title": "Could special forces truly obliterate Iran’s nuclear programme?",
+          "subtitle": "Swiping the country’s uranium would require one of the largest raids in military history",
+          "summary": "摘要：美国和以色列正考虑派遣特种部队夺取伊朗境内的400公斤高浓缩铀。这需要占领深埋地底的伊斯法罕等设施数日，动用数千人规模的地面部队和持续的空中掩护。处理极其不稳定的六氟化铀（UF6）容器存在巨大的爆炸和污染风险。这可能成为军事史上最大的突袭，但也极易演变成类似“鹰爪行动”的政治灾难。 [341-352]",
+          "title_zh": "特种部队真能彻底清除伊朗核计划？",
+          "subtitle_zh": "Swiping the country’s uranium would require one of the largest raids in military history"
+        },
+        {
+          "title": "America’s war aims may be diverging from Israel’s",
+          "subtitle": "For Binyamin Netanyahu they are, as ever, a question of politics",
+          "summary": "摘要：内塔尼亚胡的目标是彻底的“政权更迭”，而特朗普似乎更倾向于达成“委内瑞拉式”的协议，即换一个听话的代理人，并重点控制石油流向以要挟中国。以色列担心过早停战会让伊朗核威胁在数月后死灰复燃，而内塔尼亚胡由于面临国内大选压力，急需一场决定性的“彻底胜利”来保住权力。 [353-364]",
+          "title_zh": "美以战争目标或现分歧",
+          "subtitle_zh": "For Binyamin Netanyahu they are, as ever, a question of politics"
+        },
+        {
+          "title": "Should the Gulf states join attacks on Iran?",
+          "subtitle": "A lack of trust in America and Israel, internal divisions and the risk of domestic strife all hamper a unified response",
+          "summary": "摘要：海合会成员国虽然遭到伊朗导弹袭击，但在是否参战上陷入瘫痪。他们不信任特朗普（担心美国会中途撤出），也不信任以色列（怀疑其在泄露假消息制造既定事实）。巴林尤其担心国内什叶派人口借机起义。目前各国商业精英对战争波及旅游业和金融中心极度不满，普遍倾向于克制。 [364-376]",
+          "title_zh": "海湾国家应否加入对伊军事打击？",
+          "subtitle_zh": "A lack of trust in America and Israel, internal divisions and the risk of domestic strife all hamper a unified response"
+        },
+        {
+          "title": "Can America clear the Strait of Hormuz of Iran’s drones and mines?",
+          "subtitle": "Escorting convoys of oil tanker with warships may give Iran juicy American targets",
+          "summary": "摘要：美军尝试重现80年代的“挚诚意志”护航行动，但现代威胁（低成本无人机群和先进水雷）让驱逐舰疲于奔命。专家认为，由于海峡狭窄，防御方伊朗占据地形优势。目前美军并没有足够的扫雷艇和护航舰来确保每天50艘油轮的流量，特朗普要求船东“有种就冲过去”的表态被视为对现实的无视。 [377-389]",
+          "title_zh": "美国能否清除海峡中的伊朗无人机与水雷？",
+          "subtitle_zh": "Escorting convoys of oil tanker with warships may give Iran juicy American targets"
+        },
+        {
+          "title": "What data reveal about the war’s progress",
+          "subtitle": "We analyse 1,615 distinct attacks, and more besides",
+          "summary": "摘要：通过对1615次袭击和2875次导弹发射的数据分析显示，伊朗的打击效率正在下降，更多依赖无人机而非导弹。美以则将目标从军事设施转向了革命卫队的“压迫基础设施”和港口。尽管一些机场恢复通航，但霍尔木兹海峡的油轮流量已从日均50艘降至几乎为零。 [389-394]",
+          "title_zh": "数据揭示的战争进展",
+          "subtitle_zh": "We analyse 1,615 distinct attacks, and more besides"
+        },
+        {
+          "title": "Kenya’s ailing sugar sector is a test case for reform",
+          "subtitle": "Low productivity and political corruption bedevil the whole economy",
+          "summary": "摘要：肯尼亚制糖业长期被“糖业男爵”垄断，通过许可证和价格保护获取暴利。鲁托总统尝试通过私有化和租赁四家国有糖厂进行改革，这被视为该国摆脱腐败和低效率的试金石。如果改革成功，将为电力、运输等其他行业的市场化铺平道路，但政治精英的阻力依然强大。 [394-405]",
+          "title_zh": "肯尼亚制糖业：改革的试金石",
+          "subtitle_zh": "Low productivity and political corruption bedevil the whole economy"
+        }
+      ]
+    },
+    {
+      "section": "Europe",
+      "articles": [
+        {
+          "title": "As war rages, Turkey‘s strongman puts the opposition on trial",
+          "subtitle": "Chaos in the Middle East makes President Erdogan indispensable to the West",
+          "summary": "埃尔多安正利用中东乱局（伊朗战争）巩固权力。核心论点是，地区动荡使土耳其成为西方不可或缺的盟友，尤其是作为难民缓冲带。这为埃尔多安在国内镇压反对派提供了掩护。文章重点分析了对伊斯坦布尔市长伊马姆奥卢的政治审判，他面临腐败指控，刑期最高可达2532年。关键数据包括：欧盟自2016年起向土耳其支付100多亿美元以滞留难民；土耳其目前通胀率高达31.5%。背景分析显示，尽管土方受能源价格上涨波及，但埃尔多安通过在地缘政治（黑海、叙利亚、俄乌调停）中的重要地位，换取了西方对其破坏民主行为的默许。结论认为，只要土耳其在安全上不可替代，反对派的处境就将持续恶化。 [1-5]",
+          "title_zh": "战火纷飞之际，土耳其强人审判反对派",
+          "subtitle_zh": "Chaos in the Middle East makes President Erdogan indispensable to the West"
+        },
+        {
+          "title": "In Paris’s mayoral race, it’s drivers against cyclists",
+          "subtitle": "A decade of greening leaves the capital less congested but more divided",
+          "summary": "2026年巴黎市长选举的焦点在于“四轮与两轮”之争。核心论点是，现任市长伊达尔戈推行的“去汽车化”政策虽然改善了空气质量，但也造成了严重的社会分歧。关键数据显示：巴黎目前拥有超过1500公里的自行车道；仅三分之一的巴黎人拥有汽车，但在富人区这一比例达一半。背景分析显示，左翼候选人格雷瓜尔主张完成“100%可骑行”城市计划，而右翼候选人达蒂则抨击此举制造混乱，主张回归治安和清洁等基本民生。萨拉·克纳福等民粹候选人的崛起也反映了受影响驾驶者的愤怒。结论指出，巴黎的城市转型已成为阶级与意识形态的战场，选举结果将决定后汽车时代城市的走向。 [6-10]",
+          "title_zh": "巴黎市长之争：司机 vs 骑行者",
+          "subtitle_zh": "A decade of greening leaves the capital less congested but more divided"
+        },
+        {
+          "title": "A popular German Green wins a surprise victory",
+          "subtitle": "Cem Özdemir becomes the first Turkish-German to run a state",
+          "summary": "土耳其裔绿党政客切姆·厄兹代米尔在巴登-符腾堡州选举中获胜，成为德国首位移民背景的州长。核心论点是，尽管德国排外主义上升，但温和务实的绿党路线仍能赢得核心选区的信任。关键数据：绿党以27000票的优势击败基民盟。背景分析显示，该州是梅赛德斯-奔驰和保时捷的故乡，厄兹代米尔采取了亲商业、支持汽车工业的策略，淡化了政党色彩。他被形容为“安纳托利亚施瓦本人”，成功将环保与经济增长结合。结论认为，这次胜利提振了绿党低迷的士气，证明了在两极分化的时代，务实中间路线仍具生命力，同时也象征着德国移民融入社会的重大成就。 [11-15]",
+          "title_zh": "德国人气绿党政客爆冷胜选",
+          "subtitle_zh": "Cem Özdemir becomes the first Turkish-German to run a state"
+        },
+        {
+          "title": "Ukraine’s housing market is increasingly peculiar",
+          "subtitle": "With blood in the streets, many are buying property",
+          "summary": "即便面临空袭风险，乌克兰房地产市场依然表现出惊人的韧性。核心论点是，内部迁徙和军事需求扭曲了市场逻辑：西部相对安全的利沃夫房价飙升64%至每平米1720美元；而在靠近前线的克拉马托尔斯克，由于供应稀缺和军人高工资，租金反而高得离谱。背景分析指出，一些“半合法”公司正低价收购高风险房产，博取战后补偿。关键数据：即使是遭俄军11次打击的公寓，挂牌价仅微降至15万美元。结论认为，这种“顽固”的经济活动不仅反映了对未来的赌注，也展示了乌克兰人坚持家园的决心，房产市场已成为抵抗运动的一种经济延伸。 [16-21]",
+          "title_zh": "乌克兰日益奇特的房地产市场",
+          "subtitle_zh": "With blood in the streets, many are buying property"
+        },
+        {
+          "title": "Viktor Orban’s illiberal intellectual patronage system",
+          "subtitle": "The Budapest Megaphone blares populism to the world",
+          "summary": "查理曼专栏揭示了匈牙利总理欧尔班如何输出“非自由主义”意识形态。核心论点是，欧尔班通过建立庞大的智库和媒体网络（如MCC Brussels、Brussels Signal），试图影响整个欧盟的话语体系。背景分析显示，这些机构表面独立，实则由匈牙利国家实体资助。关键数据：MCC Brussels自2020年起获得了超过10亿美元的资产注入。欧尔班将自己塑造成反对“全球主义”和“觉醒文化”的斗士，并与美国MAGA运动深度结盟。结论指出，这套“布达佩斯大喇叭”系统的目的不是为了学术多样性，而是为了通过资助亲匈智囊来消解欧盟的民主监管，并在欧洲内部制造持久的意识形态分裂。 [22-28]",
+          "title_zh": "欧尔班的非自由主义学术赞助体系",
+          "subtitle_zh": "The Budapest Megaphone blares populism to the world"
+        }
+      ]
+    },
+    {
+      "section": "Britain",
+      "articles": [
+        {
+          "title": "Ten years after the EU referendum, Britain has become more European",
+          "subtitle": "A nation of caffeinated populists",
+          "summary": "脱欧十年后，英国在社会、人口和习惯上反而比以往任何时候都更像欧洲。核心论点是，由于不确定性加剧，英国已不再是曾经的例外，而是加入了欧洲“咖啡因民粹主义者”的行列。关键数据：英国生育率从2016年的1.8降至2024年的1.4，与欧盟平均水平持平；49%的24岁青年与父母同住。背景分析指出，英国正在引入欧陆式的劳工保护和租户权利，其经济增长（1.3%）也与欧元区步调一致。脱欧重塑了英国政治，使其趋向于欧陆式的多党分化和文化投票（改革党民调领先）。结论认为，尽管短期内不会回归欧盟，但英国已逐渐融入了欧洲的焦虑与治理模式中。 [29-35]",
+          "title_zh": "脱欧公投十年后，英国反而变得更像欧洲",
+          "subtitle_zh": "A nation of caffeinated populists"
+        },
+        {
+          "title": "The Green Party’s economic plans are Corbynism on steroids",
+          "subtitle": "They would be even more harmful",
+          "summary": "英国绿党最新的经济纲领被形容为“类固醇版”的科尔宾主义。核心论点是，其激进的支出和征税计划将对英国经济造成剧毒影响。关键数据：绿党拟每年增加1700亿英镑税收，并实施每年2500亿英镑（占GDP 7%）的开支计划。该方案包括建立财富税、征收900亿英镑的碳税以及将能源巨头国有化。背景分析显示，这种“反增长”心态主张缩短工时以削弱资本主义，同时可能引发国债市场崩盘和资本外逃（类似2022年特拉斯危机）。结论警告称，虽然绿党民调升至15%，但其政策将导致严重的滞胀和公共财政毁灭，使英国变成一个“贫困且令人不悦”的国家。 [36-41]",
+          "title_zh": "绿党的经济计划：加强版科尔宾主义",
+          "subtitle_zh": "They would be even more harmful"
+        },
+        {
+          "title": "Shared interests are binding Britain and Norway together",
+          "subtitle": "Defence and energy are the main pillars of a strengthening partnership",
+          "summary": "在俄罗斯威胁和能源危机的共同压力下，英诺联盟正显著增强。核心论点是，挪威正成为英国最重要的安全与能源保障者。关键数据：挪威提供了英国2025年近70%的天然气进口；挪威耗资100亿英镑向英采购5艘Type 26护卫舰。背景分析显示，随着特朗普政府对北极安全表态强硬，英国正通过“维京营地”翻倍驻军至2000人，强化在“高北地区”的存在。两国虽都身处欧盟外，但在深海潜艇追踪和海上风电（英国装机量全球第二）方面深度互补。结论指出，挪威依赖英国的军事领导力，而英国依赖挪威的资源，这种共同的“非欧盟”身份促成了战后以来最紧密的战略伙伴关系。 [42-47]",
+          "title_zh": "共同利益让英诺结成紧密同盟",
+          "subtitle_zh": "Defence and energy are the main pillars of a strengthening partnership"
+        },
+        {
+          "title": "Lions or hedgehogs? The vital choice for England’s banknotes",
+          "subtitle": "The Bank of England plans to feature wildlife on its banknotes. But which animals to choose?",
+          "summary": "英格兰银行计划在下一批钞票上印制野生动物，以避开人物肖像带来的争议。核心论点是，在历史人物因奴隶制或种族偏见频遭诟病的时代，动物是“最安全”的团结符号。背景分析讽刺地指出，对于悲观者，树懒更合适；对于Despairing YIMBYs，大冠蝾螈是阻碍建设的象征。关键数据：70%的英国人自称爱护动物，宠物支出占国防预算的10%。最终结论认为，刺猬是最优选：它“外表有刺但内心柔软”，代表了英国人冷峻但可信任的性格，同时也因种族数量锐减而激发了英国人对“弱者”的天然同情。将刺猬印上钞票或许还能带动保护资金。 [48-52]",
+          "title_zh": "狮子还是刺猬？英格兰纸币图案的抉择",
+          "subtitle_zh": "The Bank of England plans to feature wildlife on its banknotes. But which animals to choose?"
+        },
+        {
+          "title": "What Germany’s Springer plans for one of Britain’s oldest dailies",
+          "subtitle": "Its purchase of the Telegraph is part of an ambition to be the leading digital media company of the free world",
+          "summary": "德国传媒巨头阿克塞尔·施普林格以5.75亿英镑现金竞标收购英国《电讯报》。核心论点是，收购方意图利用AI技术和跨国资源，将这份英国保守派喉舌转型为全球领先的数字传媒公司。背景分析揭示了收购动机：施普林格老板多普夫纳一直渴望拥有这份被称为“北极星”的报纸，以配合其在美国（Politico、Business Insider）的扩张。关键数据：收购将使施普林格付费订阅用户翻倍。尽管施普林格声称保障编辑独立，但其德国报纸必须签署包含支持以色列和美欧同盟等价值观的信条。结论指出，脱欧派担心该报会被“欧洲化”，而施普林格则希望通过数字化转型实现五年内公司价值翻倍。 [53-58]",
+          "title_zh": "德国施普林格对英国百年老报的打算",
+          "subtitle_zh": "Its purchase of the Telegraph is part of an ambition to be the leading digital media company of the free world"
+        },
+        {
+          "title": "Britain’s chimney sweeps are as lucky as lucky can be",
+          "subtitle": "Thanks to a fashion for wood fires, not “Mary Poppins”",
+          "summary": "得益于疫情后的居家风潮和能源成本上涨，英国传统的扫烟囱行业迎来了复兴。核心论点是，烧木柴炉灶的流行虽利好就业，却严重恶化了空气质量。关键数据：过去6年英国人购买了约100万台柴灶，每14户家庭就拥有一台；柴灶贡献了英国20%的PM2.5排放。背景分析显示，行业协会成员15年间增加了两倍至760人。然而，政府正迫于压力出台更严厉的排放限制。扫烟囱人正未雨绸缪，学习清洗空调。结论认为，尽管这种取暖方式因环保压力面临退潮，但庞大的存量市场仍将让烟囱清扫业在未来几年保持繁荣。 [59-63]",
+          "title_zh": "英国扫烟囱人正走大运",
+          "subtitle_zh": "Thanks to a fashion for wood fires, not “Mary Poppins”"
+        },
+        {
+          "title": "They’re not Swiss, but British watch brands are gaining ground",
+          "subtitle": "After decades of winding down, things are ticking up",
+          "summary": "英国制表业正经历小型复兴，从量产转向高价值机械表领域。核心论点是，通过独特设计和“演员企业家”式的营销，英国品牌正在全球0.5%的市场份额中开辟利基。关键数据：英国钟表联盟已有100多个成员品牌，2025年销售额达2亿英镑，较2021年增长60%；83%的腕表使用机械机芯。背景分析指出，多数品牌采取“英国设计、海外生产”模式（如最大的品牌Christopher Ward），但也有Studio Underd0g等专注于本土组装的新锐。结论认为，虽然无法挑战瑞士的地位，但凭借创意设计（如“西瓜盘”设计），英国钟表业已成功摆脱了70年代以来的凋零状态。 [64-67]",
+          "title_zh": "虽非瑞士制造，英国制表品牌正在崛起",
+          "subtitle_zh": "After decades of winding down, things are ticking up"
+        },
+        {
+          "title": "How Britain became a Compo Nation",
+          "subtitle": "Welcome to a country where no one can ever lose out",
+          "summary": "Bagehot专栏辛辣地批判了英国正沦为一个“索赔国家”。核心论点是，从普通民众到政界都形成了一种“无论发生什么，国家都必须确保我不受损失”的治理哲学。背景分析指出，鲍里斯·约翰逊时期的大额疫情补贴培养了民众对利维坦的依赖，而特拉斯时期普惠的能源补贴则加剧了这种预期。关键数据：英国债务占GDP比例已达93%。文章列举了从石油涨价、学生贷款到退休金调整（WASPI女性）的索赔要求，认为这种“利润归个人，损失归国家”的心理让政府失去了做难而正确决定的能力。结论指出，在一个无人愿意承担风险的社会，好政府已变得不可能，最终只能通过更高的债务和税收让下一代买单。 [68-74]",
+          "title_zh": "英国是如何变成“索赔大国”的",
+          "subtitle_zh": "Welcome to a country where no one can ever lose out"
+        }
+      ]
+    },
+    {
+      "section": "International",
+      "articles": [
+        {
+          "title": "How America and Israel built vast military targeting machines",
+          "subtitle": "Software is supercharging the process of finding things to bomb",
+          "summary": "美以在对伊战争中展示了前所未有的“工业级”打击效率。核心论点是，Maven智能系统等人工智能工具正在彻底改变锁定和摧毁目标的节奏。背景分析显示，这套算法融合了社交媒体监听与卫星信号，将以往需要数十人、数小时完成的任务缩短至两分钟。关键数据：美以在开战第一天实施的攻击次数超过了1991年和2003年伊拉克战争；打击目标库正从每天10个扩展至3000个。然而，报告指出，五角大楼削减了90%的平民伤害评估人员，导致了如米纳布女校遇袭等惨剧。结论警告称，这种追求极致“致命性”而非“合法性”的做法，使得人类正逐渐丧失对这种高速暴力机器的控制。 [75-82]",
+          "title_zh": "美以如何打造庞大的军事打击目标库",
+          "subtitle_zh": "Software is supercharging the process of finding things to bomb"
+        },
+        {
+          "title": "India has much to lose from a world in chaos",
+          "subtitle": "Not long ago, India was cocky about handling an unpredictable America. No longer",
+          "summary": "尽管印度外交官表面上乐见全球秩序从“西方的西方”向多极化转型，但核心利益实际上正深受其害。核心论点是，中东混乱和美国的不确定性暴露了印度的多重依赖漏洞。关键影响因素：伊朗战争切断了霍尔木兹海峡，导致印度面临严重的能源危机（卡塔爾液化天然气停供）；此外，950万在海湾工作的印度人面临侨汇减少和安全威胁。背景分析指出，特朗普政府虽给予印度购买俄油的豁免，但这被视为“施舍”，且美国正防范印度成为下一个商业对手。结论指出，一个动荡的世界会阻碍印度成为先进经济体的计划，由于对俄、美、中在资源和技术上都有求于人，印度所谓的“战略自主”正被现实拆穿。 [83-90]",
+          "title_zh": "混乱的世界秩序让印度损失惨重",
+          "subtitle_zh": "Not long ago, India was cocky about handling an unpredictable America. No longer"
+        }
+      ]
+    },
+    {
+      "section": "Business",
+      "articles": [
+        {
+          "title": "Altman, Amodei and Musk fight dirty for the biggest prize in business",
+          "subtitle": "Never before has so much money been sought from investors in a single year",
+          "summary": "AI巨头奥特曼、阿莫代和马斯克正陷入一场“肮脏”的IPO竞赛，争夺史上最大的融资规模。核心论点是，极高的基础设施成本迫使这些公司在未盈利前就必须“流血”上市。关键数据：SpaceX/xAI估值1.5万亿美元，OpenAI寻求1万亿美元，Anthropic目标5000亿美元。如果各发行15%股份，总融资额将相当于美国过去十年的IPO总和。背景分析将竞争者划分为：雇佣兵（擅长权术的奥特曼）、传教士（坚持安全的阿莫代）和弥赛亚（梦想将意识延展至星际的马斯克）。结论认为，尽管这三者互诉公堂并争夺五角大楼订单，但高昂的算力支出（OpenAI拟投入6600亿美元）意味着它们距离产生正向现金流仍有数年，投资者可能最终偏向现金流充沛的谷歌。 [91-97]",
+          "title_zh": "奥特曼、阿莫代与马斯克为抢夺AI桂冠展开恶斗",
+          "subtitle_zh": "Never before has so much money been sought from investors in a single year"
+        },
+        {
+          "title": "China’s AI giants are handing out cash to lure in users",
+          "subtitle": "How long can their ferocious rivalry last?",
+          "summary": "中国AI领域爆发了激烈的“红包大战”。核心论点是，互联网巨头正通过巨额补贴将聊天机器人转型为能处理交易的“代理人”，以构建下一代超级App。关键数据：农历新年期间，各大厂共派发了80亿元人民币（约12亿美元）的红包；阿里巴巴旗下的Qwen促成了超过1亿笔订单。背景分析显示，阿里、字节跳动和腾讯正利用其庞大的用户基数锁定市场，而像Baidu和DeepSeek等较小或垂直的玩家则面临被边缘化的风险。结论指出，监管机构对这种“流量形式主义”表示反感，且股东正对阿里的股价暴跌（30%）失去耐心，红包式的野蛮生长可能无法持久。 [98-103]",
+          "title_zh": "中国AI大厂“撒币”诱导用户",
+          "subtitle_zh": "How long can their ferocious rivalry last?"
+        },
+        {
+          "title": "A new wave of disrupters takes on American health care",
+          "subtitle": "Patients are unhappy. Can AI help?",
+          "summary": "硅谷正利用生成式AI发起对5万亿美元美国医疗体系的新一轮冲击。核心论点是，患者对传统系统信任度的崩塌（降至数十年低点）以及AI带来的信息民主化，为新入局者提供了窗口。关键数据：2025年数字健康创业公司的VC融资额达140亿美元。背景分析显示，初创公司如Hims & Hers正绕过保险和医院，直接向消费者销售处方药；而General Catalyst等风投机构甚至直接收购医院（Summa Health）以进行全数字化实验。ChatGPT和Claude的医疗版已能解释复杂检查报告。结论指出，尽管医生担忧误诊风险，但监管机构正倾向于允许这种“硅谷速度”以解决医疗通胀问题。 [104-111]",
+          "title_zh": "新一代颠覆者挑战美国医疗体系",
+          "subtitle_zh": "Patients are unhappy. Can AI help?"
+        },
+        {
+          "title": "How Gap is trying to get its cool back",
+          "subtitle": "Its boss is using the Barbie formula to turn around the ailing fashion label",
+          "summary": "Gap公司新任CEO理查德·迪克森正试图通过“芭比公式”复兴这一衰落的时尚偶像。核心论点是将零售业回归“讲故事”和高效供应链的本质。关键成果：Gap股价自他上任以来上涨了125%，且实现连续八个季度同店销售增长。背景分析指出，Gap曾因陷入打折循环和过时店面而失去一代人。迪克森的策略包括：利用AI管理库存（80%商品已实现自动化分拣）、撤除首页折扣横幅以及与潮牌跨界合作。关键数据：在线销售占比已升至40%。结论警告称，虽然品牌知名度在回升，但在运动休闲领域（Athleta）仍落后于Lululemon和Alo等对手，进军“时尚娱乐”领域亦存在分散精力的风险。 [112-117]",
+          "title_zh": "Gap如何重塑酷形象",
+          "subtitle_zh": "Its boss is using the Barbie formula to turn around the ailing fashion label"
+        },
+        {
+          "title": "In Trump’s world, companies seek insurance against political risk",
+          "subtitle": "It could soon get more expensive",
+          "summary": "全球地缘政治不稳定促使“政治风险保险”（PRI）从边缘市场走向商业核心。核心论点是，特朗普式的变幻莫测和俄乌/伊朗战争已使西方企业意识到，即便在发达市场也需要避险。关键数据：特朗普已动用DFC为红海石油运输提供200亿美元再保险；私人保险公司在PRI市场份额从10%升至18%，最大承保额增至40亿美元。背景分析显示，超过一半的大型西方企业在过去五年内遭受过政治损失。这类保险现已扩展至数据中心和可再生能源。结论认为，随着“集中风险”（如波斯湾）的爆发，此类保险虽然需求迫切，但其费率和条款将变得更加昂贵且严苛。 [118-123]",
+          "title_zh": "特朗普治下，企业寻求规避政治风险",
+          "subtitle_zh": "It could soon get more expensive"
+        },
+        {
+          "title": "In praise of grunt work",
+          "subtitle": "AI promises to eliminate drudgery. Careful what you wish for",
+          "summary": "Bartleby专栏在AI时代为“杂活”正名。核心论点是，完全消除枯燥、重复的任务可能对职业生涯和创造力产生副作用。背景分析指出，AI（如自动报销、文档脱敏）虽能解放生产力，但杂活是初级员工理解业务和融入职场的必经之路。关键理论：低负荷任务能让大脑进入“白日梦”状态，从而促进创意孵化；此外，完成简单的杂活能给高压力员工（如急诊医生）带来即时的成就感。调查显示，过度使用AI反而会导致“AI脑烧坏”。结论警告，尽管杂活乏味，但“忙碌”是认知调节的必要档位，企业不应过快剥夺员工这些看似无用的“缓冲时间”。 [124-129]",
+          "title_zh": "为职场杂活正名",
+          "subtitle_zh": "AI promises to eliminate drudgery. Careful what you wish for"
+        },
+        {
+          "title": "Why corporate lawyers always win",
+          "subtitle": "The world is a pedant’s paradise",
+          "summary": "Schumpeter专栏指出，律师已成为华尔街新的“贵族阶层”。核心论点是，这个世界正日益变成一个“学究的乐园”，法律服务在PE并购、破产重组甚至AI冲突中稳赚不赔。关键数据：美国前100强律所的合伙人利润自2019年以来增长了54%，小时费率增长速度是通胀的两倍。背景分析显示，尽管特朗普对推行DEI政策的律所表示不满，但大型律所通过灵活的道德表态和政治献金迅速消弭了风险。即使AI被预言会取代初级律师，目前却反而制造了更多诉讼（如马斯克诉OpenAI）。结论指出，只要社会趋向通过法律解决一切争端，律师就会在资产重组的废墟上收获最丰厚的报酬。 [130-136]",
+          "title_zh": "为什么公司律师总是赢家",
+          "subtitle_zh": "The world is a pedant’s paradise"
+        }
+      ]
+    },
+    {
+      "section": "Finance & economics",
+      "articles": [
+        {
+          "title": "Donald Trump’s options to cool oil prices are sorely limited",
+          "subtitle": "He says he has a plan. It would need to be very cunning",
+          "summary": "尽管特朗普承诺会平抑油价，但他手中的工具显得苍白无力。核心论点是，霍尔木兹海峡的关闭造成了1500万桶/日的缺口，任何传统手段都难以补足。关键数据：IEA释放400m桶储备，但这仅能支撑3个月，且受制于每日300万桶的提炼极限。背景分析显示，页岩油厂商更倾向于分红而非盲目扩产。特朗普虽给予印度购买俄油的豁免，但这无法解决全球性的短缺。关键数据：布伦特原油已破100美元，若战事持续，可能飙升至150甚至200美元。结论指出，随着全球经济能源强度的下降，剩余的石油需求（航空、交通）更具刚性，特朗普最终可能不得不诉诸极具破坏性的“保护主义”来保住国内供应。 [137-143]",
+          "title_zh": "特朗普平抑油价的手段十分有限",
+          "subtitle_zh": "He says he has a plan. It would need to be very cunning"
+        },
+        {
+          "title": "Liquefied natural gas: the overlooked economic chokepoint",
+          "subtitle": "Alternatives to Gulf supplies are scarce",
+          "summary": "液化天然气（LNG）正成为比原油更致命的经济软肋。核心论点是，由于没有像石油那样的战略储备，卡塔爾供应的中断将导致全球性能源断供。关键数据：卡塔爾占全球LNG供应的五分之一，目前已因遭袭宣布不可抗力。背景分析显示，LNG生产与运输不同于原油，一旦关闭，重启需要4-6周。关键风险：印度天然气储备仅够5-6天，已开始限制用气；欧洲若无法填满冬季库存，明年将面临供暖危机。由于美国和澳洲的出口设施已满负荷运转，且Golden Pass等新项目延期，目前没有现实的替代方案。结论认为，在战火熄灭前，全球只能通过牺牲工业需求来应对。 [144-150]",
+          "title_zh": "液化天然气：被忽视的经济咽喉",
+          "subtitle_zh": "Alternatives to Gulf supplies are scarce"
+        },
+        {
+          "title": "Why investors won’t know what to make of AI for a while",
+          "subtitle": "Markets always struggle to price technological revolutions",
+          "summary": "市场在评估AI影响时正陷入“技术近视”。核心论点是，历史证明股市极度不擅长预测重大技术革命的盈利归属。数据分析显示，高盛的“受AI威胁指数”下跌20%，而Alphabet股价却上涨85%，反映了投资者的极度迷茫。背景分析指出，正如爱迪生发明的电灯初期并未击垮煤气公司（煤气公司转向了烹饪市场），现在的许多“输家”可能通过转型存活。关键结论：学术研究显示，技术革命往往伴随着股市泡沫或下跌（因担心利润流向未上市的新公司如OpenAI）。由于AI在写作、编程等不同领域进展不一且经济模型模糊，目前的波动仅反映了集体共识的缺乏。 [151-157]",
+          "title_zh": "为何投资者短期内仍难看透人工智能",
+          "subtitle_zh": "Markets always struggle to price technological revolutions"
+        },
+        {
+          "title": "Time to buy the most rubbish stocks you can find",
+          "subtitle": "The dash for trash",
+          "summary": "Buttonwood专栏提出了一个反直觉建议：在局势高度不确定时，应该买入所谓的“垃圾股”。核心论点是，在油价冲击和战争期间，高增长的“高质量”股票因估值集中在遥远的未来现金流，反而更易受创。关键数据：低质量股票在油价大涨（35%以上）后的六个月内平均上涨8%，而高质量股票仅上涨4%。背景分析指出，美股目前的“质量”股大多是估值极高的科技巨头，这些公司虽然盈利稳定，但在避险情绪高涨时，其未来溢价会被剧烈压缩。相比之下，处于低谷的能源、医疗等行业的“垃圾股”主要靠近期盈利支撑，反而更具防御性。结论建议投资者警惕“买高质量”这一老生常谈，转而关注被抛弃的周期性废料。 [158-162]",
+          "title_zh": "是时候买入你能找到的最烂的股票了",
+          "subtitle_zh": "The dash for trash"
+        },
+        {
+          "title": "Would America be in recession without the super-rich?",
+          "subtitle": "American anxieties are K-shaped. The economy is more like a backslash",
+          "summary": "Free Exchange专栏挑战了美国经济是“K型增长”的观点。核心论点是，通过对消费调查数据的修正，发现美国经济增长具有广泛的基础，而非仅靠富人支撑。关键数据：根据巴克莱银行的分析，收入最高的20%人群仅占总消费的约三分之一，且这一份额在过去几十年内极其稳定。背景分析驳斥了穆迪等机构关于“前10%人口支撑了一半消费”的统计误区，指出其混淆了资产存量与储蓄流量。关键事实：低收入者的工资增长在后疫情时代实际上快于富人；消费者信心指数显示贫富差距感并未扩大。结论指出，虽然美国不平等问题依然严峻，但将当前的繁荣归因于小众精英的挥霍是宏观上的错误。 [163-168]",
+          "title_zh": "如果没有超级富豪，美国会陷入衰退吗？",
+          "subtitle_zh": "American anxieties are K-shaped. The economy is more like a backslash"
+        }
+      ]
+    },
+    {
+      "section": "Science & technology",
+      "articles": [
+        {
+          "title": "Want to hack your body with peptides? If only the science agreed",
+          "subtitle": "Boosters say they will do everything from aiding strength, recovery and longevity",
+          "summary": "多肽（Peptides）正通过“民间药理学”成为生物黑客和大众健身圈的新宠。核心论点是，人们正冒着巨大的、未知的健康风险，利用动物研究数据来自行试验尚未获批的药物。关键趋势：GLP-1药物的成功正使非法多肽贸易合法化，28%的用户承认曾从非正规渠道购买减肥药。背景分析指出，BPC-157（宣称促进修复）等药物虽被大V推崇，但在人体上的严谨研究极少。关键数据：灰产多肽样本纯度差异巨大，有的甚至含有砒霜、铅或除草剂。美国官方（RFK Jr）正考虑允许受监管的 domestic 多肽制备。结论警告，这种为了短期美感或性能提升的博弈，可能导致像健美明星博斯廷·劳埃德那样死于肾衰竭或血管爆裂。 [169-177]",
+          "title_zh": "想用多肽“黑”进你的身体？科学界还没点头呢",
+          "subtitle_zh": "Boosters say they will do everything from aiding strength, recovery and longevity"
+        },
+        {
+          "title": "AI is helping expand the frontier of theoretical physics",
+          "subtitle": "It is blurring the line between tool and collaborator",
+          "summary": "AI正从辅助工具转变为理论物理学家的“合作者”。核心论点是，大语言模型已具备在极端复杂的数学领域进行推测、一般化并给出证明的能力。背景分析记录了物理学家与OpenAI的GPT-5.2 Pro的合作：该模型不仅找出了胶子散射振幅公式中的简化路径，还成功推广到了引力子领域。关键细节：AI仅用12小时就交付了一份人类需要数月才能完成的数学证明。物理学家安德鲁·斯特罗明格感叹，AI的语气就像是某些“令人讨厌的聪明同事”。结论认为，物理学的瓶颈已从数学计算转移到了对结果的验证和论文撰写上，AI正彻底模糊工具与大脑的界限。 [178-182]",
+          "title_zh": "人工智能助力拓展理论物理前沿",
+          "subtitle_zh": "It is blurring the line between tool and collaborator"
+        },
+        {
+          "title": "What is your maximum heart rate?",
+          "subtitle": "We tell you how to find out",
+          "summary": "传统的最大心率公式“220减年龄”正在被科学界修正。核心论点是，该公式缺乏严谨的统计基础，无法反映巨大的个体差异。背景分析指出，该公式源自1971年的一篇非系统性综述，通过“目测”拟合而成。新的田中公式（208 - 0.7 x 年龄）虽略有改善，但个体误差仍可能高达正负20次/分。关键知识：最大心率由心脏天然起搏器（窦房结）决定，无法通过训练改变，且其误差可能导致“适度运动”误变“剧烈运动”。结论建议，业余爱好者与其追求不准确的年龄公式，不如在专业指导下进行测量，或选定一种方法（即使不准）保持长期的训练一致性，以监测体能改善。 [183-187]",
+          "title_zh": "你的最高心率是多少？",
+          "subtitle_zh": "We tell you how to find out"
+        }
+      ]
+    },
+    {
+      "section": "Culture",
+      "articles": [
+        {
+          "title": "What nobody clutching their Oscar this weekend will tell you",
+          "subtitle": "AI, streaming and media fragmentation are changing the economics of acting",
+          "summary": "奥斯卡颁奖礼的灿烂掩盖了演员行业正处于“史上最难”时期的现实。核心论点是，AI技术、流媒体重组和市场碎片化正在摧毁中底层演员的生机。关键数据：演员失业率长期在90%左右；洛杉矶影视从业人员两年内减少三分之一；电影平均角色数从25人降至18人。背景分析指出，制片厂正利用AI合成群众演员（Tilly tax提案的起源），而流媒体的二次酬金（Residuals）远低于传统电视。新趋势：短剧（Verticals）虽提供了如每日300-2000美元的岗位，但劳动强度极大且缺乏长期保障。结论指出，演艺界也呈现出极端的K型分化：克鲁尼们日赚数百万，而普通演员正被迫转型为“全能审计博主”以求生存。 [188-195]",
+          "title_zh": "本周末手握奥斯卡奖座的人不会告诉你的真相",
+          "subtitle_zh": "AI, streaming and media fragmentation are changing the economics of acting"
+        },
+        {
+          "title": "Solving the mystery of consciousness",
+          "subtitle": "A new book by Michael Pollan explores the puzzles of the mind",
+          "summary": "迈克尔·波兰的新书《世界显现》对意识这一“硬问题”进行了前沿探索。核心论点是，主观体验可能不局限于人类，甚至植物也可能展现出意识的某些特征。背景分析列举了惊人的实验：如豆类植物利用“回声定位”寻找支撑杆，以及被麻醉的捕蝇草无法捕捉昆虫。波兰在书中挑战了“大脑即计算机”的流行假设，并通过亲身试验（如佩戴随机提醒器记录即时体验）展示了捕获意识流动之难。关键难题：意识研究者如同宇宙学家，无法站在系统之外进行客观观察。结论指出，意识可能是生物体在冲突优先级中进行选择的一种机制，虽然该书未能给出终极结论，但它极大地拓展了对“生命体验”边界的认知。 [196-201]",
+          "title_zh": "解开意识之谜",
+          "subtitle_zh": "A new book by Michael Pollan explores the puzzles of the mind"
+        },
+        {
+          "title": "Adults are on board with life-size board games",
+          "subtitle": "You can now immerse yourself in the fun, infuriating world of Monopoly",
+          "summary": "真人沉浸式游戏正在取代传统社交。核心论点是，当代成年人正将闲暇时间从“买醉”转向“追求高分”和“怀旧体验”。以伦敦的“真人版大富翁”为例，玩家支付两倍于棋盘游戏的价格，在80分钟内进行跑酷、激光解密等挑战。关键数据：2025年拼图和游戏市场增长30%，远超玩具行业平均水平；美国的密室逃脱数量从30家激增至2000家。背景分析显示，这种趋势提供了一种通往“过去自我”的桥梁，强调体验、任务和友谊。结论指出，经营此类沉浸式地标已成为暴利行业，全球扩张速度（中东、美洲）反映了成年人对“游戏化生活”的渴望。 [202-206]",
+          "title_zh": "成年人迷上真人版桌面游戏",
+          "subtitle_zh": "You can now immerse yourself in the fun, infuriating world of Monopoly"
+        },
+        {
+          "title": "Tell-all or tell-nothing? A polite account of high finance",
+          "subtitle": "Lloyd Blankfein, Goldman’s former boss, offers an uncharacteristically tactful book about life on the Street",
+          "summary": "高盛前CEO劳埃德·布兰克费恩在回忆录《Streetwise》中提供了一份优雅但极其克制的华尔街观察。核心论点是，高盛之所以能在2008年危机中存活，靠的是“长期贪婪”而非“吃掉自己杀死的猎物”。背景分析展示了他的平民出身（东纽约保障房区）以及他如何将高盛带回摩根时代的“商人银行”模式。作者对唐纳德·特朗普的评价点到为止，仅回忆了一次道歉电话；对如今全球的极两分化和反全球化浪潮表示担忧。结论是，他认为下一次金融危机将由AI故障或黑客攻击引发，而非坏账。即便他在文中 impish 地为高盛辩护，但该行市值已达危机前的2.5倍，证明了华尔街的顽强。 [207-212]",
+          "title_zh": "是和盘托出还是守口如瓶？一份客气的金融界自述",
+          "subtitle_zh": "Lloyd Blankfein, Goldman’s former boss, offers an uncharacteristically tactful book about life on the Street"
+        },
+        {
+          "title": "The best new novels to read this spring",
+          "subtitle": "Tales of lust, betrayal, greed and violence",
+          "summary": "本期推荐了八部题材迥异、引人深思的新作。核心作品包括：Dublin地下黑帮爱情故事；关于阿富汗移民家庭在美遭遇偏见与名誉危机的悲剧；讲述种族隔离时期美国南方姐妹命运的细腻之作；关于一名年轻编剧与被其写入剧本的寡妇之间暗黑复仇的喜剧；探讨病态美国家庭与救赎的《弗林一家》；通过失智症老人记忆重组展开的禁忌恋情；横跨数十年的巴基斯坦阶级史诗；以及通过监狱对话探讨教师与“恐怖分子”学生之间精神纽带的烧脑叙事。这些小说普遍关注忠诚、背叛、阶级以及在剧烈动荡时代下普通人的尊严与选择。 [213-218]",
+          "title_zh": "今春值得一读的最佳新小说",
+          "subtitle_zh": "Tales of lust, betrayal, greed and violence"
+        },
+        {
+          "title": "An Oscar-nominated documentary goes behind enemy lines",
+          "subtitle": "“Mr Nobody Against Putin” takes on patriotism, propaganda and the limits of sympathy",
+          "summary": "奥斯卡提名纪录片《没人反对普京》通过关注一座被诅咒的工业小镇，探讨了“如何同情反派国家的平民”。核心论点是，洗脑教育和 fatalism（宿命论）是如何在底层社会扎根的。背景分析描述了位于乌拉尔山的铜厂重镇卡拉巴什：这里污水横流、死气沉沉，主角帕维尔却以一种近乎温柔的方式爱着它。当战争爆发，他在学校里记录下瓦格纳雇佣兵教孩子识别地雷、老师艰难念出“去纳粹化”等荒诞场景。结论指出，随着警察的追踪，帕维尔不得不流亡，该片的高明之处在于“只展示、不评价”，通过刻画那些在德行崩溃中依然拥有日常温情的学生，向观众抛出了最难的同情心试题。 [219-224]",
+          "title_zh": "奥斯卡提名纪录片：深入敌后",
+          "subtitle_zh": "“Mr Nobody Against Putin” takes on patriotism, propaganda and the limits of sympathy"
+        }
+      ]
+    },
+    {
+      "section": "Economic & financial indicators",
+      "articles": [
+        {
+          "title": "Economic data, commodities and markets",
+          "subtitle": null,
+          "summary": "最新经济数据显示，全球主要经济体正面临截然不同的挑战。关键数据：美国Q4 GDP增长2.2%，通胀率3.2%（预计），失业率稳定在4.4%；中国增长4.5%，CPI仅为1.3%，显示通缩压力依然存在。土耳其通胀率飙升至31.5%，位居全球前列。在商品市场，由于伊朗战争爆发，布伦特原油周涨幅达32.4%，报价91.2美元；黄金价格亦受避险需求推动涨至每盎司5223.9美元。市场表现方面，受半导体波动影响，韩国综合指数单周暴涨10.1%，而瑞士SMI指数则因避险资金流出下跌4.1%。整体显示，能源冲击正在重新定义全球通胀预期。 [225, 226]",
+          "title_zh": "经济数据、大宗商品与市场情况",
+          "subtitle_zh": null
+        }
+      ]
+    },
+    {
+      "section": "Obituary",
+      "articles": [
+        {
+          "title": "Nick White was a hero of mankind’s oldest war",
+          "subtitle": "The physician and pharmacologist died on February 1st, aged 74",
+          "summary": "讣告专栏纪念了与疟疾战斗50年的英雄——尼克·怀特。核心成就是，他在医学界普遍质疑的情况下，孤身前往中国发掘青蒿素，并证明了其对恶性疟疾的奇效。背景分析显示，怀特在泰缅边境难民营的木屋里，通过数学化的剂量计算，发明了“青蒿素联合疗法”（ACT），将治愈率提升至98%。他一生都在与政府官僚主义（administritis）作斗争，直到WHO在他发现四年后才正式推广其注射液疗法，期间无数生命逝去。他曾是泰国板球队副队长，以幽默和对卡伦人的深情闻名。结论认为，尽管疟疾产生耐药性是必然的，但他证明了人类的仁慈与智慧能在这场人类最古老的战争中取得决定性胜利。 [227-232]",
+          "title_zh": "尼克·怀特：人类最古老战争中的英雄",
+          "subtitle_zh": "The physician and pharmacologist died on February 1st, aged 74"
+        }
+      ]
+    }
+  ]
+}

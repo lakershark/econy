@@ -66,3 +66,189 @@
 [2026-05-11 10:20:34]   Pushed to GitHub.
 [2026-05-11 10:20:34] === Done ===
 
+[2026-05-16 19:07:26] === Econy weekly update started ===
+[2026-05-16 19:07:26] economist: 8 existing issues
+[2026-05-16 19:07:56] === Econy weekly update started ===
+[2026-05-16 19:07:56] economist: 8 existing issues
+[2026-05-16 19:07:56] economist: new issue found — 2026-05-16
+[2026-05-16 19:07:56] Processing The Economist 2026-05-16
+[2026-05-16 19:07:56]   Downloading TheEconomist.2026.05.16.pdf...
+[2026-05-16 19:07:57]   Downloaded: 8952KB
+[2026-05-16 19:11:19]   Translating titles...
+[2026-05-16 19:13:50]    Translated 60/75 titles
+[2026-05-16 19:13:50] new_yorker: 9 existing issues
+[2026-05-16 19:13:50] new_yorker: new issue found — 2026-05-18
+[2026-05-16 19:13:50] Processing The New Yorker 2026-05-18
+[2026-05-16 19:13:51]   Downloading new_yorker.2026.05.18.pdf...
+[2026-05-16 19:13:52]   Downloaded: 13670KB
+[2026-05-16 19:18:15]   Translating titles...
+[2026-05-16 19:19:22]    Translated 7/27 titles
+[2026-05-16 19:19:22] Updating docs/ and pushing to GitHub...
+[2026-05-16 19:19:22]   app.js updated: 9 Economist, 10 New Yorker issues
+[2026-05-16 19:19:24]   Pushed to GitHub.
+[2026-05-16 19:19:24] === Done ===
+
+[2026-05-16 19:56:47]   app.js updated: 9 Economist, 10 New Yorker issues
+[2026-05-31 10:13:59] === Econy weekly update started ===
+[2026-05-31 10:13:59] economist: 9 existing issues
+[2026-05-31 10:13:59] economist: new issue found — 2026-05-30
+[2026-05-31 10:13:59] Processing The Economist 2026-05-30
+[2026-05-31 10:14:00]   Downloading TheEconomist.2026.05.30.epub...
+[2026-05-31 10:14:00]   Downloaded: 5539KB
+[2026-05-31 10:14:13]   Translating titles...
+[2026-05-31 10:14:13]    Translated 0/0 titles
+[2026-05-31 10:14:13] new_yorker: 10 existing issues
+[2026-05-31 10:14:13] new_yorker: new issue found — 2026-06-01
+[2026-05-31 10:14:13] Processing The New Yorker 2026-06-01
+[2026-05-31 10:14:13]   Downloading new_yorker.2026.06.01.pdf...
+[2026-05-31 10:14:14]   Downloaded: 6069KB
+[2026-05-31 10:17:20]   Translating titles...
+[2026-05-31 10:17:38]    Translated 20/20 titles
+[2026-05-31 10:17:38] Updating docs/ and pushing to GitHub...
+[2026-05-31 10:17:38]   app.js updated: 10 Economist, 11 New Yorker issues
+[2026-05-31 10:17:40]   Pushed to GitHub.
+[2026-05-31 10:17:40] === Done ===
+
+[2026-05-31 10:23:46] === Econy weekly update started ===
+[2026-05-31 10:23:46] economist: 10 existing issues
+[2026-05-31 10:23:46] economist: new issue found — 2026-05-23
+[2026-05-31 10:23:46] Processing The Economist 2026-05-23
+[2026-05-31 10:23:47]   Downloading TheEconomist.2026.05.23.pdf...
+[2026-05-31 10:23:49]   Downloaded: 8424KB
+[2026-05-31 10:30:39]   Translating titles...
+[2026-05-31 10:31:59]    Translated 76/76 titles
+[2026-05-31 10:31:59] new_yorker: 11 existing issues
+[2026-05-31 10:31:59] new_yorker: new issue found — 2026-05-25
+[2026-05-31 10:31:59] Processing The New Yorker 2026-05-25
+[2026-05-31 10:31:59]   Downloading new_yorker.2026.05.25.pdf...
+[2026-05-31 10:32:00]   Downloaded: 6149KB
+[2026-05-31 10:34:46]   Translating titles...
+[2026-05-31 10:35:24]    Translated 21/21 titles
+[2026-05-31 10:35:24] Updating docs/ and pushing to GitHub...
+[2026-05-31 10:35:24]   app.js updated: 11 Economist, 12 New Yorker issues
+[2026-05-31 10:35:26]   Pushed to GitHub.
+[2026-05-31 10:35:26] === Done ===
+
+[2026-05-31 10:37:59] === Econy weekly update started ===
+[2026-05-31 10:37:59] economist: 11 existing issues
+[2026-05-31 10:38:00] economist: new issue found — 2026-03-14
+[2026-05-31 10:38:00] Processing The Economist 2026-03-14
+[2026-05-31 10:38:00]   Downloading TheEconomist.2026.03.14.pdf...
+[2026-05-31 10:38:01]   Downloaded: 9102KB
+[2026-05-31 10:42:44]   Translating titles...
+[2026-05-31 10:44:06]    Translated 76/76 titles
+[2026-05-31 10:44:06] new_yorker: 12 existing issues
+[2026-05-31 10:44:06] new_yorker: new issue found — 2026-04-27
+[2026-05-31 10:44:06] Processing The New Yorker 2026-04-27
+[2026-05-31 10:47:07]   Translating titles...
+[2026-05-31 10:47:41]    Translated 22/22 titles
+[2026-05-31 10:47:41] Updating docs/ and pushing to GitHub...
+[2026-05-31 10:47:41]   app.js updated: 12 Economist, 13 New Yorker issues
+[2026-05-31 10:47:43]   Pushed to GitHub.
+[2026-05-31 10:47:43] === Done ===
+
+[2026-05-31 10:52:46] === Econy weekly update started ===
+[2026-05-31 10:52:46] economist: 11 existing issues
+[2026-05-31 10:52:46] economist: new issue found — 2026-05-30
+[2026-05-31 10:52:46] Processing The Economist 2026-05-30
+[2026-05-31 10:53:00]   Translating titles...
+[2026-05-31 10:53:00]    Translated 0/0 titles
+[2026-05-31 10:53:00] new_yorker: 13 existing issues
+[2026-05-31 10:53:00] new_yorker: new issue found — 2026-03-02
+[2026-05-31 10:53:00] Processing The New Yorker 2026-03-02
+[2026-05-31 10:53:00]   Downloading new_yorker.2026.03.02.pdf...
+[2026-05-31 10:53:01]   Downloaded: 7496KB
+[2026-05-31 10:56:31]   Translating titles...
+[2026-05-31 10:57:08]    Translated 23/23 titles
+[2026-05-31 10:57:08] Updating docs/ and pushing to GitHub...
+[2026-05-31 10:57:08]   app.js updated: 12 Economist, 14 New Yorker issues
+[2026-05-31 10:57:09]   Pushed to GitHub.
+[2026-05-31 10:57:09] === Done ===
+
+[2026-05-31 11:11:04] === Econy weekly update started ===
+[2026-05-31 11:11:04] economist: 12 existing issues
+[2026-05-31 11:11:04] economist: new issue found — 2026-03-07
+[2026-05-31 11:11:04] Processing The Economist 2026-03-07
+[2026-05-31 11:11:05]   Downloading TheEconomist.2026.03.07.pdf...
+[2026-05-31 11:11:05]   Downloaded: 8176KB
+[2026-05-31 11:16:09]   Translating titles...
+[2026-05-31 11:17:38]    Translated 71/71 titles
+[2026-05-31 11:17:38] new_yorker: 14 existing issues
+[2026-05-31 11:17:38] new_yorker: new issue found — 2026-02-23
+[2026-05-31 11:17:38] Processing The New Yorker 2026-02-23
+[2026-05-31 11:17:38]   Downloading new_yorker.2026.02.23.pdf...
+[2026-05-31 11:17:39]   Downloaded: 12356KB
+[2026-05-31 11:20:11]   Translating titles...
+[2026-05-31 11:20:42]    Translated 27/27 titles
+[2026-05-31 11:20:42] Updating docs/ and pushing to GitHub...
+[2026-05-31 11:20:42]   app.js updated: 13 Economist, 15 New Yorker issues
+[2026-05-31 11:20:43]   Pushed to GitHub.
+[2026-05-31 11:20:43] === Done ===
+
+[2026-05-31 11:25:49]   app.js updated: 13 Economist, 15 New Yorker issues
+[2026-05-31 11:25:50]   Pushed to GitHub.
+[2026-06-05 12:54:45] === Econy weekly update started ===
+[2026-06-05 12:54:45] economist: 13 existing issues
+[2026-06-05 12:54:45] economist: new issue found — 2026-06-06
+[2026-06-05 12:54:45] Processing The Economist 2026-06-06
+[2026-06-05 12:54:45]   Downloading TheEconomist.2026.06.06.pdf...
+[2026-06-05 12:54:46]   Downloaded: 8398KB
+[2026-06-05 13:02:30]   Translating titles...
+[2026-06-05 13:05:11]    Translated 61/81 titles
+[2026-06-05 13:05:11] new_yorker: 15 existing issues
+[2026-06-05 13:05:11] new_yorker: new issue found — 2026-02-16
+[2026-06-05 13:05:11] Processing The New Yorker 2026-02-16
+[2026-06-05 13:05:12]   Downloading new_yorker.2026.02.16.pdf...
+[2026-06-05 13:05:13]   Downloaded: 7325KB
+[2026-06-05 13:08:53]   Translating titles...
+[2026-06-05 13:09:49]    Translated 27/27 titles
+[2026-06-05 13:09:49] Updating docs/ and pushing to GitHub...
+[2026-06-05 13:09:49]   app.js updated: 14 Economist, 16 New Yorker issues
+[2026-06-05 13:09:51]   Pushed to GitHub.
+[2026-06-05 13:09:51] === Done ===
+
+[2026-06-15 10:00:11] === Econy weekly update started ===
+[2026-06-15 10:00:11] economist: 14 existing issues
+[2026-06-15 10:00:12] economist: new issue found — 2026-06-13
+[2026-06-15 10:00:12] Processing The Economist 2026-06-13
+[2026-06-15 10:00:12]   Downloading TheEconomist.2026.06.13.pdf...
+[2026-06-15 10:00:13]   Downloaded: 9260KB
+[2026-06-15 10:06:43]   Translating titles...
+[2026-06-15 10:07:38]    Translated 40/80 titles
+[2026-06-15 10:07:38] Updating docs/ and pushing to GitHub...
+[2026-06-15 10:07:38]   app.js updated: 15 Economist, 16 New Yorker issues
+[2026-06-15 10:07:39]   Pushed to GitHub.
+[2026-06-15 10:07:39] === Done ===
+
+[2026-06-15 10:20:19] === Econy weekly update started ===
+[2026-06-15 10:20:19] economist: 15 existing issues
+[2026-06-15 10:20:20] economist: new issue found — 2026-02-28
+[2026-06-15 10:20:20] Processing The Economist 2026-02-28
+[2026-06-15 10:20:20]   Downloading TheEconomist.2026.02.28.pdf...
+[2026-06-15 10:20:21]   Downloaded: 12172KB
+[2026-06-15 10:28:13]   Translating titles...
+[2026-06-15 10:29:57]    Translated 56/76 titles
+[2026-06-15 10:29:57] Updating docs/ and pushing to GitHub...
+[2026-06-15 10:29:57]   app.js updated: 16 Economist, 16 New Yorker issues
+[2026-06-15 10:30:00]   Pushed to GitHub.
+[2026-06-15 10:30:00] === Done ===
+
+[2026-06-15 16:25:30] === Econy weekly update started ===
+[2026-06-15 16:25:32] economist: 16 existing issues
+[2026-06-15 16:25:50] economist: no new issues found
+[2026-06-15 16:25:50] No new issues. Nothing to push.
+[2026-06-15 16:25:51] === Done ===
+
+[2026-06-20 07:00:55] === Econy weekly update started ===
+[2026-06-20 07:00:55] economist: 15 existing issues
+[2026-06-20 07:00:57] economist: new issue found — 2026-06-20
+[2026-06-20 07:00:57] Processing The Economist 2026-06-20
+[2026-06-20 07:00:57]   Downloading TheEconomist.2026.06.20.pdf...
+[2026-06-20 07:00:58]   Downloaded: 8509KB
+[2026-06-20 08:44:35]   Translating titles...
+[2026-06-20 08:44:35]    Translated 0/0 titles
+[2026-06-20 08:44:35] Updating docs/ and pushing to GitHub...
+[2026-06-20 08:44:35]   app.js updated: 16 Economist, 16 New Yorker issues
+[2026-06-20 08:44:37]   Pushed to GitHub.
+[2026-06-20 08:44:39] === Done ===
+

@@ -85,7 +85,7 @@ def re_extract_summaries(date, magazine):
     def fetch_summaries(prompt, nb_id, batch_num):
         escaped = prompt.replace('"', '\\"').replace('\n', '\\n')
         print(f'  Batch {batch_num}: requesting...')
-        out = notebooklm(f'ask "{escaped}" --notebook {nb_id} --json', timeout=180)
+        out = notebooklm(f'ask "{escaped}" --notebook {nb_id} --json', timeout=360)
         answer = get_answer(out)
         data = extract_json_block(answer)
         summaries = data.get('summaries', {}) if data else {}
