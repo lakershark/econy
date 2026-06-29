@@ -75,12 +75,26 @@ def process_issue(pdf_path, magazine, date):
         pdf_converted = upload_path.with_suffix('.pdf')
         if not pdf_converted.exists():
             print(f'2. Converting {upload_path.suffix} to PDF...')
-            r = subprocess.run(
-                ['ebook-convert', str(upload_path), str(pdf_converted)],
-                capture_output=True, text=True
-            )
-            if r.returncode != 0:
-                raise RuntimeError(f'ebook-convert failed: {r.stderr}')
+            # ebook-convert (Calibre) occasionally crashes mid-run on otherwise
+            # valid EPUBs, so retry a few times before giving up — one flaky
+            # crash should not skip the whole week's issue.
+            attempts = 3
+            for attempt in range(1, attempts + 1):
+                r = subprocess.run(
+                    ['ebook-convert', str(upload_path), str(pdf_converted)],
+                    capture_output=True, text=True
+                )
+                if r.returncode == 0:
+                    break
+                # Clean up any partial output before retrying.
+                if pdf_converted.exists():
+                    pdf_converted.unlink()
+                if attempt < attempts:
+                    print(f'   ebook-convert failed (attempt {attempt}/{attempts}), retrying...')
+                    time.sleep(5 * attempt)
+                else:
+                    raise RuntimeError(
+                        f'ebook-convert failed after {attempts} attempts: {r.stderr}')
         else:
             print(f'2. Using cached PDF conversion...')
         upload_path = pdf_converted
