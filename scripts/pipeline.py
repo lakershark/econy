@@ -25,6 +25,14 @@ def notebooklm(args, timeout=120):
     r = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=timeout)
     return r.stdout.strip()
 
+def notebooklm_ask(prompt, nb_id, timeout=180):
+    # argv, not shell: prompts contain JSON templates whose quotes the shell
+    # would strip (and titles with $ would get expanded) — that was the cause
+    # of the recurring "0 sections, 0 articles" TOC failures.
+    r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json'],
+                       capture_output=True, text=True, timeout=timeout)
+    return r.stdout.strip()
+
 def extract_json_block(text):
     text = re.sub(r'\\u([0-9a-fA-F]{4})', lambda m: chr(int(m.group(1), 16)), text)
     m = re.search(r'```json\n(\{.*?\})\n```', text, re.DOTALL)
@@ -119,26 +127,31 @@ def process_issue(pdf_path, magazine, date):
     else:
         toc_prompt = '请列出这期《纽约客》杂志的完整目录，包括每篇文章的：1) 栏目名称（如The Talk of the Town, Comment, Profiles, Fiction, Poetry, Reporting等），2) 文章标题，3) 副标题或作者（如有）。按杂志顺序列出所有文章，输出为JSON格式：{"sections": [{"section": "栏目名", "articles": [{"title": "标题", "subtitle": "副标题"}]}]}'
 
-    out = notebooklm(f'ask "{toc_prompt}" --notebook {nb_id} --json', timeout=120)
-    answer = get_answer(out)
-    toc_data = extract_json_block(answer)
+    toc_data = None
+    for attempt in range(1, 4):
+        out = notebooklm_ask(toc_prompt, nb_id, timeout=180)
+        toc_data = extract_json_block(get_answer(out))
+        if toc_data and toc_data.get('sections'):
+            break
+        toc_data = None
+        print(f'   TOC parse failed (attempt {attempt}/3)')
+        time.sleep(10)
 
     if not toc_data:
-        print('   ERROR: Could not parse TOC. Saving raw answer.')
-        toc_data = {'sections': []}
+        # Abort instead of saving an empty issue: once a <date>.json exists,
+        # update.py treats the issue as done forever and publishes the shell.
+        notebooklm(f'delete -n {nb_id} -y')
+        raise RuntimeError('TOC extraction failed after 3 attempts')
 
     total_articles = sum(len(s['articles']) for s in toc_data.get('sections', []))
     print(f'   Found {len(toc_data.get("sections", []))} sections, {total_articles} articles')
 
-    # Save intermediate
     issue = {
         'magazine': mag_label,
         'issue_date': date,
         'notebook_id': nb_id,
         'toc': toc_data.get('sections', [])
     }
-    with open(out_path, 'w', encoding='utf-8') as f:
-        json.dump(issue, f, ensure_ascii=False, indent=2)
 
     # 5. Generate briefing doc
     print('5. Generating briefing document...')
@@ -169,9 +182,7 @@ def process_issue(pdf_path, magazine, date):
         return header + '\n'.join(lines)
 
     def fetch_summaries(prompt, nb_id):
-        # Escape for shell
-        escaped = prompt.replace('"', '\\"').replace('\n', '\\n')
-        out = notebooklm(f'ask "{escaped}" --notebook {nb_id} --json', timeout=180)
+        out = notebooklm_ask(prompt, nb_id, timeout=300)
         answer = get_answer(out)
         data = extract_json_block(answer)
         return data.get('summaries', {}) if data else {}
@@ -196,6 +207,12 @@ def process_issue(pdf_path, magazine, date):
                 article['summary'] = all_summaries[key]
                 matched += 1
     print(f'   Merged {matched}/{total_articles}')
+
+    if total_articles > 0 and matched == 0:
+        # Same rule as the TOC: no <date>.json for a shell issue, so next
+        # week's run retries it instead of publishing titles without summaries.
+        notebooklm(f'delete -n {nb_id} -y')
+        raise RuntimeError('No summaries could be merged')
 
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(issue, f, ensure_ascii=False, indent=2)

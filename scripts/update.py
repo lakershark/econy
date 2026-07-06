@@ -76,6 +76,13 @@ def notebooklm(args, timeout=120):
     out, err, code = run(f'notebooklm {args}', timeout=timeout)
     return out
 
+def notebooklm_ask(prompt, nb_id, timeout=180):
+    # argv, not shell: prompts contain JSON templates and article titles whose
+    # quotes/$ the shell would mangle (root cause of past TOC/translation loss).
+    r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json'],
+                       capture_output=True, text=True, timeout=timeout)
+    return r.stdout.strip()
+
 def normalize(s):
     return (s.replace('\u2019',"'").replace('\u2018',"'")
              .replace('\u201c','"').replace('\u201d','"')
@@ -162,9 +169,8 @@ def translate_titles(nb_id, issue, max_attempts=3):
         for i in range(0, len(todo), batch_size):
             batch = todo[i:i+batch_size]
             lines = '\n'.join(f'[{sec}] {a["title"]}' for sec, a in batch)
-            prompt = f'请将以下文章标题翻译成中文，保持简洁准确。输出JSON格式：{{"titles": {{"英文标题": "中文标题"}}}}\\n\\n{lines}'
-            escaped = prompt.replace('"', '\\"')
-            out = notebooklm(f'ask "{escaped}" --notebook {nb_id} --json', timeout=120)
+            prompt = f'请将以下文章标题翻译成中文，保持简洁准确。输出JSON格式：{{"titles": {{"英文标题": "中文标题"}}}}\n\n{lines}'
+            out = notebooklm_ask(prompt, nb_id, timeout=120)
             answer = get_answer(out)
             data = extract_json_block(answer)
             if data and 'titles' in data:
@@ -278,18 +284,24 @@ def update_app_js(all_issues):
 # ── Git push ──────────────────────────────────────────────────────────────────
 
 def git_push(new_dates):
+    """Commit docs/ and push. Returns True only if the push reached GitHub."""
     os.chdir(ROOT)
     run('git add docs/')
     msg = f'Auto-update: add {", ".join(new_dates)}'
     out, err, code = run(f'git commit -m "{msg}"')
     if code != 0:
         log(f'  Nothing to commit or error: {err}')
-        return
-    out, err, code = run('git push', timeout=60)
-    if code == 0:
-        log(f'  Pushed to GitHub.')
-    else:
-        log(f'  Push failed: {err}')
+    # Push failures are usually transient (Wi-Fi/DNS right after wake), so
+    # retry with growing pauses. An unpushed commit rides along next week.
+    for attempt in range(1, 4):
+        out, err, code = run('git push', timeout=120)
+        if code == 0:
+            log(f'  Pushed to GitHub.')
+            return True
+        log(f'  Push failed (attempt {attempt}/3): {err}')
+        if attempt < 3:
+            time.sleep(60 * attempt)
+    return False
 
 # ── NotebookLM housekeeping ───────────────────────────────────────────────────
 
@@ -362,11 +374,12 @@ def main():
         else:
             failures.append(f'{mag_key} {issue["date"]}')
 
+    pushed = True
     if new_dates:
         log('Updating docs/ and pushing to GitHub...')
         update_docs()
         update_app_js(None)
-        git_push(new_dates)
+        pushed = git_push(new_dates)
         cleanup_notebooks()
     else:
         log('No new issues. Nothing to push.')
@@ -379,6 +392,10 @@ def main():
     elif failures:
         notify('Econy 更新失败 ❌',
                f'失败：{", ".join(failures)}（见 update.log）', sound='Basso')
+    elif new_dates and not pushed:
+        notify('Econy 已处理、未发布 ⚠️',
+               f'{", ".join(new_dates)} 已生成并提交本地，但 push 失败——网站还是旧的（见 update.log）',
+               sound='Basso')
     elif new_dates:
         notify('Econy 更新成功 ✅', f'已添加 {", ".join(new_dates)}')
     else:
