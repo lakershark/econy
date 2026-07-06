@@ -253,3 +253,42 @@
 [2026-06-20 08:44:39] === Done ===
 
 [2026-06-22 07:54:25]   app.js updated: 16 Economist, 16 New Yorker issues
+[2026-06-27 07:26:41] === Econy weekly update started ===
+[2026-06-27 07:26:41] economist: 16 existing issues
+[2026-06-27 07:26:41] economist: new issue found — 2026-06-27
+[2026-06-27 07:26:41] Processing The Economist 2026-06-27
+[2026-06-27 07:26:41]   Downloading TheEconomist.2026.06.27.epub...
+[2026-06-27 07:26:42]   Downloaded: 6656KB
+[2026-06-27 08:06:44]   ERROR processing economist 2026-06-27: ebook-convert failed: Load of clbr://internal.invalid/book/EPUB/f3a1baa5-d0f6-4772-b00c-3f5f5c665d00.html failed
+
+[2026-06-27 08:06:44] No new issues. Nothing to push.
+[2026-06-27 08:06:44] === Done ===
+
+[2026-06-29 17:31:49] === Econy weekly update started ===
+[2026-06-29 17:31:49] economist: 16 existing issues
+[2026-06-29 17:31:49] economist: new issue found — 2026-06-27
+[2026-06-29 17:31:49] Processing The Economist 2026-06-27
+[2026-06-29 17:40:00]   Translating titles...
+[2026-06-29 17:40:00]    title translation attempt 1: 75 remaining
+[2026-06-29 17:42:01]    Translated 75/75 titles
+[2026-06-29 17:42:01] Updating docs/ and pushing to GitHub...
+[2026-06-29 17:42:01]   app.js updated: 17 Economist, 16 New Yorker issues
+[2026-06-29 17:42:03]   Pushed to GitHub.
+[2026-06-29 17:42:04] === Done ===
+
+[2026-07-04 07:20:48] === Econy weekly update started ===
+[2026-07-04 07:20:48] economist: 17 existing issues
+[2026-07-04 07:20:48] economist: new issue found — 2026-07-04
+[2026-07-04 07:20:48] Processing The Economist 2026-07-04
+[2026-07-04 07:20:49]   Downloading TheEconomist.2026.07.04.pdf...
+[2026-07-04 07:20:49]   Downloaded: 9023KB
+[2026-07-04 09:35:57]   Translating titles...
+[2026-07-04 09:35:57]    Translated 0/0 titles
+[2026-07-04 09:35:57] Updating docs/ and pushing to GitHub...
+[2026-07-04 09:35:57]   app.js updated: 18 Economist, 16 New Yorker issues
+[2026-07-04 09:35:58]   Push failed: 致命错误：无法访问 'https://github.com/lakershark/econy.git/'：Could not resolve host: github.com
+[2026-07-04 09:35:59] === Done ===
+
+[2026-07-05 10:27:12]    title translation attempt 1: 74 remaining
+[2026-07-05 10:28:58]    Translated 74/74 titles
+[2026-07-05 10:29:14]   app.js updated: 18 Economist, 16 New Yorker issues
