@@ -284,9 +284,12 @@ def update_app_js(all_issues):
 # ── Git push ──────────────────────────────────────────────────────────────────
 
 def git_push(new_dates):
-    """Commit docs/ and push. Returns True only if the push reached GitHub."""
+    """Commit everything a run produced (site + source data + log) in ONE
+    commit and push once. Multiple pushes minutes apart make GitHub Pages
+    cancel the in-flight deployment and the follow-up one tends to 504
+    (seen 2026-07-06)."""
     os.chdir(ROOT)
-    run('git add docs/')
+    run('git add docs/ data/ scripts/update.log')
     msg = f'Auto-update: add {", ".join(new_dates)}'
     out, err, code = run(f'git commit -m "{msg}"')
     if code != 0:
