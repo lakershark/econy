@@ -8,7 +8,7 @@ Run: python3 scripts/update.py
 Schedule: every Saturday at noon (see cron setup below)
 """
 
-import os, sys, json, re, subprocess, urllib.request, time
+import os, sys, json, re, subprocess, urllib.request, time, difflib
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -87,6 +87,13 @@ def normalize(s):
     return (s.replace('\u2019',"'").replace('\u2018',"'")
              .replace('\u201c','"').replace('\u201d','"')
              .replace('\u2014','--'))
+
+def merge_key(s):
+    # NotebookLM does not echo titles verbatim (2026-07-11 it kept the
+    # "[Section] " prefix from the prompt), so match on a normalized form.
+    s = normalize(s).strip()
+    s = re.sub(r'^\[[^\]]*\]\s*', '', s)
+    return s.casefold()
 
 def get_answer(raw):
     try:
@@ -174,11 +181,15 @@ def translate_titles(nb_id, issue, max_attempts=3):
             answer = get_answer(out)
             data = extract_json_block(answer)
             if data and 'titles' in data:
-                translations.update({normalize(k): v for k, v in data['titles'].items()})
+                translations.update({merge_key(k): v for k, v in data['titles'].items()})
             time.sleep(3)
         for sec, a in todo:
-            key = normalize(a['title'])
+            key = merge_key(a['title'])
             zh = translations.get(key)
+            if zh is None:
+                close = difflib.get_close_matches(key, list(translations), n=1, cutoff=0.8)
+                if close:
+                    zh = translations[close[0]]
             if zh and zh != a['title']:
                 a['title_zh'] = zh
 

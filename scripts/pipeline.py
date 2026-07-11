@@ -11,7 +11,7 @@ Usage: python3 scripts/pipeline.py <pdf_path> <magazine> <date>
   date: YYYY-MM-DD
 """
 
-import sys, os, json, re, subprocess, time
+import sys, os, json, re, subprocess, time, difflib
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -134,7 +134,7 @@ def process_issue(pdf_path, magazine, date):
         if toc_data and toc_data.get('sections'):
             break
         toc_data = None
-        print(f'   TOC parse failed (attempt {attempt}/3)')
+        print(f'   TOC parse failed (attempt {attempt}/3), answer head: {get_answer(out)[:200]!r}')
         time.sleep(10)
 
     if not toc_data:
@@ -182,10 +182,17 @@ def process_issue(pdf_path, magazine, date):
         return header + '\n'.join(lines)
 
     def fetch_summaries(prompt, nb_id):
-        out = notebooklm_ask(prompt, nb_id, timeout=300)
-        answer = get_answer(out)
-        data = extract_json_block(answer)
-        return data.get('summaries', {}) if data else {}
+        # Same retry rule as the TOC: one flaky/empty answer must not sink
+        # the whole issue (2026-07-11 failed with 0 summaries on both batches).
+        for attempt in range(1, 4):
+            out = notebooklm_ask(prompt, nb_id, timeout=300)
+            answer = get_answer(out)
+            data = extract_json_block(answer)
+            if data and data.get('summaries'):
+                return data['summaries']
+            print(f'   summaries parse failed (attempt {attempt}/3), answer head: {answer[:200]!r}')
+            time.sleep(15)
+        return {}
 
     print('6. Fetching summaries (batch 1/2)...')
     s1 = fetch_summaries(build_summary_prompt(articles_all[:mid], magazine), nb_id)
@@ -198,17 +205,32 @@ def process_issue(pdf_path, magazine, date):
     all_summaries = {normalize(k): v for d in [s1, s2] for k, v in d.items()}
     print(f'   Total: {len(all_summaries)} summaries')
 
-    # Merge summaries
+    # Merge summaries. NotebookLM does not reliably echo titles verbatim —
+    # 2026-07-11 it prefixed every key with the "[Section] " from the prompt,
+    # giving 0/76 exact matches — so match on a normalized form with a fuzzy
+    # fallback instead.
+    def merge_key(s):
+        s = normalize(s).strip()
+        s = re.sub(r'^\[[^\]]*\]\s*', '', s)
+        return s.casefold()
+
+    lookup = {merge_key(k): v for k, v in all_summaries.items()}
     matched = 0
     for section in issue['toc']:
         for article in section['articles']:
-            key = normalize(article['title'])
-            if key in all_summaries:
-                article['summary'] = all_summaries[key]
+            key = merge_key(article['title'])
+            summary = lookup.get(key)
+            if summary is None:
+                close = difflib.get_close_matches(key, list(lookup), n=1, cutoff=0.8)
+                if close:
+                    summary = lookup[close[0]]
+            if summary is not None:
+                article['summary'] = summary
                 matched += 1
     print(f'   Merged {matched}/{total_articles}')
 
     if total_articles > 0 and matched == 0:
+        print(f'   sample summary keys: {list(all_summaries)[:3]!r}')
         # Same rule as the TOC: no <date>.json for a shell issue, so next
         # week's run retries it instead of publishing titles without summaries.
         notebooklm(f'delete -n {nb_id} -y')
