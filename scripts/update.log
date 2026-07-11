@@ -292,3 +292,40 @@
 [2026-07-05 10:27:12]    title translation attempt 1: 74 remaining
 [2026-07-05 10:28:58]    Translated 74/74 titles
 [2026-07-05 10:29:14]   app.js updated: 18 Economist, 16 New Yorker issues
+[2026-07-11 07:43:22] === Econy weekly update started ===
+[2026-07-11 07:43:22] economist: 18 existing issues
+[2026-07-11 07:43:22] economist: new issue found — 2026-07-11
+[2026-07-11 07:43:22] Processing The Economist 2026-07-11
+[2026-07-11 07:43:23]   Downloading TheEconomist.2026.07.11.epub...
+[2026-07-11 07:43:23]   Downloaded: 6992KB
+[2026-07-11 10:02:56]   ERROR processing economist 2026-07-11: No summaries could be merged
+[2026-07-11 10:02:56] No new issues. Nothing to push.
+[2026-07-11 10:02:56] === Done ===
+
+[2026-07-11 11:11:42] === Econy weekly update started ===
+[2026-07-11 11:11:42] economist: 18 existing issues
+[2026-07-11 11:11:43] economist: new issue found — 2026-07-11
+[2026-07-11 11:11:43] Processing The Economist 2026-07-11
+[2026-07-11 11:15:16]   ERROR processing economist 2026-07-11: TOC extraction failed after 3 attempts
+[2026-07-11 11:15:16] No new issues. Nothing to push.
+[2026-07-11 11:15:16] === Done ===
+
+[2026-07-11 15:56:34] === Econy weekly update started ===
+[2026-07-11 15:56:34] economist: 18 existing issues
+[2026-07-11 15:56:34] economist: new issue found — 2026-07-11
+[2026-07-11 15:56:34] Processing The Economist 2026-07-11
+[2026-07-11 16:06:23]   ERROR processing economist 2026-07-11: No summaries could be merged
+[2026-07-11 16:06:23] No new issues. Nothing to push.
+[2026-07-11 16:06:23] === Done ===
+
+[2026-07-11 16:07:25] === Econy weekly update started ===
+[2026-07-11 16:07:25] economist: 18 existing issues
+[2026-07-11 16:07:25] economist: new issue found — 2026-07-11
+[2026-07-11 16:07:25] Processing The Economist 2026-07-11
+[2026-07-11 16:16:51]   Translating titles...
+[2026-07-11 16:16:51]    title translation attempt 1: 76 remaining
+[2026-07-11 16:19:08]    title translation attempt 2: 76 remaining
+[2026-07-11 16:21:19]    title translation attempt 3: 76 remaining
+[2026-07-11 16:23:33]    Translated 0/76 titles
+[2026-07-11 16:23:33] Updating docs/ and pushing to GitHub...
+[2026-07-11 16:23:33]   app.js updated: 19 Economist, 16 New Yorker issues
