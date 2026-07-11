@@ -10,21 +10,21 @@
           "title": "Politics",
           "subtitle": "",
           "summary": "本周政治动态集中于安卡拉北约峰会，特朗普在重申集体防御承诺的同时，在格陵兰岛及对伊战争支持等问题上表达不满，并授权乌克兰制造“爱国者”导弹。中东局势因伊朗袭击油轮及美国撤销制裁豁免、发起空袭而再度紧张，停火协议被指“终结”。此外，伊朗为哈梅内伊举行葬礼，津巴布韦修改宪法巩固政权，中国在太平洋进行远程导弹测试。国际体育方面，国际奥委会初步解除对俄罗斯运动员的禁令。美国政坛亦有波动：缅因州参议院民主党候选人因性侵指控退选，勒庞被判滥用欧盟资金。英国改革党领袖法拉奇因巨额捐款争议辞去议员职务。[1-7]",
-          "title_zh": "Politics",
+          "title_zh": "[本周要闻] 政治",
           "subtitle_zh": ""
         },
         {
           "title": "Business",
           "subtitle": "",
           "summary": "商业领域，“特朗普账户”正式投入运行，主要由纳税人资助为2025-28年出生的婴儿投资基金。科技界动态频繁，OpenAI推出GPT-5.6；SK海力士计划在纳斯达克融资280亿美元。SpaceX在IPO不到一个月后被纳入纳斯达克100指数。银行业方面，欧洲央行和英格兰银行对高级AI模型的安全威胁发出警告；意大利联合信贷银行增持德国商业银行股份至47.6%。传统行业中，easyJet初步达成被美资收购的协议，Sky计划收购ITV的媒体娱乐业务。微软则因硬件危机在Xbox业务裁员3200人并关闭工作室。日本十年期国债收益率升至2.9%，反映市场对其巨额投资计划融资能力的担忧。[8-14]",
-          "title_zh": "Business",
+          "title_zh": "[本周要闻] 商业",
           "subtitle_zh": ""
         },
         {
           "title": "Cartoon: The real threat to global growth",
           "subtitle": "A lighter take on the news",
           "summary": "本周漫画通过IMF官员观察霍尔木兹海峡上空的导弹和硝烟，讽刺地指出全球经济前景“局部多云，偶有失误”。画面背景中，霍尔木兹海峡的军事紧张局势被视为威胁全球增长的主要阴云。这直接关联到本期关于特朗普宣布与伊朗停火终结、液化天然气（LNG）市场冬季前可能面临崩溃的风险，以及在传统多边体系瓦解下世界正转向权宜联盟的深入探讨。漫画传达的核心观点是：地缘政治冲突——尤其是主要大国在关键贸易航道的博弈和判断失误，正成为干扰全球经济复苏和增长的最不确定因素。[15]",
-          "title_zh": "Cartoon: The real threat to global growth",
+          "title_zh": "[本周要闻] 漫画：全球增长的真正威胁",
           "subtitle_zh": "A lighter take on the news"
         }
       ]
@@ -36,35 +36,35 @@
           "title": "The man who would change Russia",
           "subtitle": "A leading oligarch speaks out, warning of the looming disaster facing his country",
           "summary": "俄罗斯最大工业家、人称“化肥大王”的安德烈·梅尔尼琴科在接受《经济学人》长达60小时的采访中，打破长期沉默，对俄罗斯的未来发出了严厉警告。作为曾长期游走于普京体系内的“内部人”，他的表态具有极强的风向标意义。梅尔尼琴科并非民主斗士，而是一名务实的实业家，他认为当前的战争和孤立政策正将俄罗斯推向深渊。他描绘了俄罗斯可能面临的三种至暗前景：一是陷入权力真空导致的无政府状态和军阀混战；二是彻底沦为外部势力的附庸，如成为中国的原材料供应地和对美缓冲带，或成为欧洲边缘的贫困依赖者；三是向内转为如朝鲜般的“闭关堡垒”，处于永久战争状态并陷入长期衰退。梅尔尼琴科建议西方国家应克制逼迫俄罗斯至极限的诱惑，转而寻求某种程度的共存，并赋予俄罗斯所谓的“主权”（类似于不干涉内政）。在内政上，他暗示普京必须放弃一人专制、下放权力，使国家对内具有可预测性且无需诉诸高压统治。尽管他不直接谈论民主，但他认为俄罗斯需要能够持续的体制改革，否则可能重演1905年战败后的动荡甚至革命。文章指出，尽管其论点带有自保和利己色彩，但在俄罗斯内部精英普遍对战争感到疲惫和对未来感到不安的背景下，这种来自实用主义技术官僚和商界领袖的呼声可能引发强烈共鸣。结论认为，普京正面临着继续升级战争、实施高压统治与进行风险重重的体制改革之间的艰难权衡，而俄罗斯的历史教训是：缺乏持久改革的集权体制最终难逃崩塌。[16-21]",
-          "title_zh": "The man who would change Russia",
+          "title_zh": "[社论] 那个想要改变俄罗斯的人",
           "subtitle_zh": "A leading oligarch speaks out, warning of the looming disaster facing his country"
         },
         {
           "title": "Two cheers for Trump Accounts",
           "subtitle": "The grubby scheme contains the seeds of a good idea",
           "summary": "美国政府正式推出名为“特朗普账户”的投资计划，为2025年至2028年间出生的婴儿提供1000美元的初始资金，投向美国股市。虽然该计划带有明显的党派色彩（仅限特朗普第二任期出生的婴儿）、执行手段略显粗糙且主要通过增加财政赤字提供资金，但《经济学人》仍对其核心理念给予了“两声欢呼”。首先，让儿童在经济中拥有股权在原则上是正确的，这有利于在年轻一代中推广自由企业制度。面对日益抬头的“Z世代社会主义”（即要求通过对富人征重税和价格管制来解决生活成本问题的政治思潮），赋予年轻人超越劳动力市场的私人部门利益分成，是赢回民心的关键。其次，这一实验在应对人工智能（AI）带来的潜在冲击时显得尤为及时。激进的预测显示，AI可能导致资本持有者获得巨额回报，而劳动者则面临困境，直接且显性的公共股权投资或许能有效防止贫富差距失控和社会动荡。文章建议，与其由政府代持AI公司的股份，不如直接通过此类账户分发给公民。此外，该计划还是开展全民财商教育的极佳切入点，让家庭在资产增长中学习金融知识。尽管赤字融资不理想，但由于资金投向储蓄而非即时消费，且对总赤字影响微乎其微（仅占年度GDP的0.005%），其正面意义仍不容忽视。结论呼吁该计划能超越党派之争持续下去，并建议未来能更名以便得到跨党派的支持，从而成为保护社会契约、抵御AI冲击和促进社会公平的基石。[22-26]",
-          "title_zh": "Two cheers for Trump Accounts",
+          "title_zh": "[社论] 为“特朗普账户”两声欢呼",
           "subtitle_zh": "The grubby scheme contains the seeds of a good idea"
         },
         {
           "title": "England needs fewer council homes, not more",
           "subtitle": "Andy Burnham’s plan is no way to ease the housing crisis",
           "summary": "面对英国年轻人对未来日益悲观的社会情绪，曼彻斯特市长、被视为“准首相”的安迪·伯纳姆提出大规模增建政府公屋以缓解住房危机。然而，《经济学人》对此持截然相反的立场，认为英格兰需要的不是更多公屋，而是更市场化的运作机制。文章指出，目前公屋体系最大的问题在于其补贴对象并非总是最需要的群体，且阻碍了劳动力流动。建议的激进改革方案是：将所有公屋租金提高至市场水平，腾出的数百亿英镑资金可直接通过经经济状况调查的福利金精准支持真正困难的家庭。这种做法不仅能引导资源优化配置，还能消除对特定“砖块瓦片”的过度依赖。此外，文章批评伯纳姆回避了核心的规划体制改革。英国目前僵化的土地用途分区制度和对城市周边“绿带”的过度保护，严重挤压了住房供应空间。现行的规划体系往往赋予当地否决权，且对私人开发项目中“保障性住房”比例的要求过高，常导致项目无利可图而搁浅。文章强调，真正的出路在于建立全国统一的分区系统，降低开发门槛，并取消那些听起来温情脉脉实则毒害经济的住房政策。结论认为，伯纳姆的“曼彻斯特主义”模型应转向更彻底的供给侧改革，通过释放市场活力、简化规划流程和纠正租金错位来增加房屋总量。虽然取消低于市场价租金的提议听起来冷酷，但对于病入膏肓的英国住房市场而言，这才是真正对症下药的强心剂。[27, 28]",
-          "title_zh": "England needs fewer council homes, not more",
+          "title_zh": "[社论] 英格兰需要更少的公屋，而非更多",
           "subtitle_zh": "Andy Burnham’s plan is no way to ease the housing crisis"
         },
         {
           "title": "A no-brainer for protecting your brain",
           "subtitle": "One simple vaccination may dramatically reduce the risk of dementia",
           "summary": "痴呆症（尤其是阿尔茨海默病）由于其蚕食自我意识的本质，已成为人类最恐惧的疾病之一。在寻找特效药的过程中，一项针对带状疱疹疫苗的新研究带来了令人振奋的突破。分析显示，接种Shingrix等带状疱疹疫苗可使接种者在未来至少七年内患痴呆症的风险降低约20%。这一发现最初来自威尔士的一项“自然实验”：2013年当地对70至79岁人群提供免费接种，恰好形成了几乎随机的对比组。随后的数据不仅证明了疫苗的显著预防效果，甚至还暗示其能减缓已有轻度痴呆患者的病情进展。相比之下，专门针对痴呆症研发的抗体药物（如Lecanemab和Donanemab）虽然备受关注，但实际疗效有限，且伴随着脑出血或肿胀等严重副作用风险，尤其是在高风险基因携带者中。从成本效益角度看，一套两剂Shingrix疫苗在英国和美国的成本仅为数百美元，远低于痴呆症长期的护理费用和对社会及家庭造成的间接损失。尽管尚需更多随机对照试验来确定最佳接种年龄和是否需要加强针，但文章认为，考虑到该疫苗极高的安全性和巨大的潜在收益，卫生部门不应迟疑。对于个人而言，接种带状疱疹疫苗是一个“无需思考”的明智选择：以低廉的代价显著降低这种毁灭性认知障碍的发生概率。结论指出，痴呆症的防治重点正从昂贵的晚期治疗转向廉价且普及的早期预防，带状疱疹疫苗的这一新用途将成为人类对抗大脑衰老的有力武器。[28-30]",
-          "title_zh": "A no-brainer for protecting your brain",
+          "title_zh": "[社论] 保护大脑的明智之举",
           "subtitle_zh": "One simple vaccination may dramatically reduce the risk of dementia"
         },
         {
           "title": "Who is capable of evil?",
           "subtitle": "Stop lowering the age of criminal responsibility",
           "summary": "随着帮派犯罪日益利用青少年作为廉价且受法律惩罚较轻的“打手”，全球范围内兴起了一股降低最低刑事责任年龄（MACR）的热潮。阿根廷将其降至14岁，瑞典正考虑降至14岁，甚至部分地区维持在10岁的极低水平。然而，《经济学人》警告说，简单地将儿童投入成人刑事司法系统不仅违背了人类性格发育缓慢的生物学事实，更可能适得其反。法律上传统的“无作恶能力”原则认为，年幼者无法充分理解行为的法律后果。与其通过惩罚来恐吓，不如采取更有针对性的康复措施。研究表明，进入青少年司法系统的孩子中，有很大一部分存在学习障碍或早期家庭背景问题。例如在瑞典，半数因严重犯罪被查的青少年在12岁前就已向社交服务机构表现出令人担忧的行为征兆。文章指出，降低入罪门槛容易被民粹主义政治家利用，作为应对社会安全焦虑的“廉价止痛药”，但它并不能切断犯罪根源。相反，将儿童早期标签化并隔离在监狱环境中，极易使其在成年后彻底沦为惯犯。真正的政策重点应该是严惩那些招募和剥削儿童的成年罪犯，同时通过教育、导师计划和社会支持，在危机爆发前进行干预。结论强调，法律的目标应该是创造更好的童年环境，切断“犯罪儿童转变为犯罪成年人”的链条，而非通过剥夺法律对最不成熟个体的宽容，来掩盖社会治理在解决贫困和帮派文化方面的失败。[30-32]",
-          "title_zh": "Who is capable of evil?",
+          "title_zh": "[社论] 谁有作恶的能力？",
           "subtitle_zh": "Stop lowering the age of criminal responsibility"
         }
       ]
@@ -76,7 +76,7 @@
           "title": "Why are big AI labs hiring so many philosophers?",
           "subtitle": "Also this week, the impact of the Iran war, academic standards, tall men, Alan Greenspan, Warrington",
           "summary": "本期读者来信涵盖多个热点。关于AI实验室聘用哲学家，读者指出哲学家虽擅长提问，但在战争伦理中对平民伤亡可接受上限等实操问题上难有定论。针对伊朗制裁，信件认为尽管美国豁免制裁影响巨大，但欧英的限制仍会阻碍买家，绕过霍尔木兹海峡的替代航线才是全球经济转折点。非洲经济方面，呼吁IMF重启应对粮食冲击的紧急窗口，以帮助受伊朗战争油价波动的国家缓解流动性危机。关于教育标准，有观点认为AI作弊将导致分化：普通学校沦为学历工厂，而名校如哈佛则会通过严苛的监考和成绩控制来维系声誉。此外，前编辑披露格林斯潘曾于60年代秘密为本刊贡献深度数据分析。[32-37]",
-          "title_zh": "Why are big AI labs hiring so many philosophers?",
+          "title_zh": "[读者来信] 为什么大型AI实验室要雇用这么多哲学家？",
           "subtitle_zh": "Also this week, the impact of the Iran war, academic standards, tall men, Alan Greenspan, Warrington"
         }
       ]
@@ -88,14 +88,14 @@
           "title": "Prepare for a world of ad hoc coalitions",
           "subtitle": "Neither wishful multilateralism nor cold realpolitik will do. Mark Carney and Alexander Stubb suggest a third way",
           "summary": "加拿大总理马克·卡尼与芬兰总统亚历山大·斯图布联名撰文指出，1945年后建立的多边秩序正加速崩溃，全球权力已分散至西方、东方、南方及不受国界限制的第四大力量——技术领域。他们主张采取“基于价值观的现实主义”：既不追求脱离现实的多边主义，也不陷入纯粹冷酷的实力政治。这种新范式强调建立“权宜联盟”，即针对特定议题（如乌克兰安全、关键矿产供应链、AI安全）组建灵活且目标明确的合作机制。文章认为，芬兰与加拿工作为高度连接且在国防及人权领域坚定投入的国家，能在这种“可变几何结构”的国际关系中发挥枢纽作用。结论呼吁各国不应哀悼旧秩序的消亡，而应在务实基础上构建适应当前复杂现实的新型治理网络。[38-43]",
-          "title_zh": "Prepare for a world of ad hoc coalitions",
+          "title_zh": "[特约专栏] 准备迎接权宜联盟的世界",
           "subtitle_zh": "Neither wishful multilateralism nor cold realpolitik will do. Mark Carney and Alexander Stubb suggest a third way"
         },
         {
           "title": "Medicine can treat obesity, but can’t agree on what obesity is",
           "subtitle": "Labelling it a disease means millions will get treatment they may not need, writes Francesco Rubino",
           "summary": "伦敦国王学院代谢外科教授弗朗切斯科·鲁比诺指出，虽然GLP-1类药物在减重方面效果卓越，但将所有肥胖简单定义为“疾病”正引发过度医疗的风险。他认为，这种宽泛的标签会导致数百万并无实际健康损害的人接受昂贵且长期的治疗，不仅可能带来副作用，还极大地推高了公共卫生支出的成本。鲁比诺主张应区分“临床肥胖”与“临床前肥胖”：前者基于生物学上的代谢损害，必须治疗；而后者可能仅表现为体脂率高而无即时健康威胁。他呼吁建立一套基于诊断纪律的新框架，让药物剂量、疗程及价格能精准匹配患者的实际健康状况。结论强调，只有摆脱仅凭BMI判断的粗放模式，转向以结果为导向的分类治疗，才能使肥胖干预在临床和商业上都具备可持续性。[44, 45]",
-          "title_zh": "Medicine can treat obesity, but can’t agree on what obesity is",
+          "title_zh": "[特约专栏] 医学可以治疗肥胖，但对肥胖的定义尚无共识",
           "subtitle_zh": "Labelling it a disease means millions will get treatment they may not need, writes Francesco Rubino"
         }
       ]
@@ -107,7 +107,7 @@
           "title": "The world is making heady progress in the fight against dementia",
           "subtitle": "Incidence among the elderly is falling fast",
           "summary": "全球对抗痴呆症的战争正迎来意想不到的乐观拐点。尽管随着人口老龄化加剧，患病总人数仍在攀升，但研究发现，老年人群体中痴呆症的发病率正在快速下降。数据显示，过去50年间，发达国家的痴呆症发病率以每代人2.5%至3%的速度递减，这一现象被科学家形容为该领域的“哥白尼革命”。这意味着长期以来担心的“痴呆症大流行”将摧毁医疗系统的恐惧可能是过度的。文章深入分析了发病率下降的原因，首先归功于生活方式的改善，包括更好的教育水平和心血管健康的普及（如胆固醇控制）。其次，科学家不断发现并验证了可干预的新风险因素，如未经治疗的视力损失、高LDL胆固醇，甚至口腔卫生（牙龈炎症对大脑的损害）。在干预手段上，带状疱疹疫苗展现了惊人的副产品效益，能将患病风险降低20%，且成本远低于昂贵的新兴抗体药物（如Lecanemab）。后者虽然能清除淀粉样蛋白，但在现实中的临床收益微弱，且伴有严重的脑部并发症风险，这甚至引发了学界对“淀粉样蛋白假说”的重新审视。目前，多项针对糖尿病药物二甲双胍以及通过健身房运动改善认知的试验（如MET-FINGER研究）正在进行中。文章指出，痴呆症风险在70岁后每五年翻一番，数学上的这一残酷逻辑也意味着巨大的机会：如果能通过组合干预将平均发病时间延迟五年，全球患病人数将减少约50%。尽管在欠发达国家这一趋势尚不明显，但富裕国家的经验证明，痴呆症并非老龄化不可避免的宿命。结论强调，通过政策引导和个人健康的精细管理，人类有望扭转痴呆症的增长曲线，甚至在不久的将来迎来富裕国家痴呆症总人数的绝对下降，让长寿不再与认知衰退画等号。[45-50]",
-          "title_zh": "The world is making heady progress in the fight against dementia",
+          "title_zh": "[深度报道] 全球对抗痴呆症取得显著进展",
           "subtitle_zh": "Incidence among the elderly is falling fast"
         }
       ]
@@ -119,42 +119,42 @@
           "title": "Texas is waging a battle to stop “Islamification”",
           "subtitle": "America’s biggest Republican state offers a playbook for a new identity politics",
           "summary": "德克萨斯州共和党人正发起一场针对所谓“伊斯兰化”的新身份政治斗争。州长阿格特将穆斯林社区开发项目定性为“沙里亚城市”，并将最大的穆斯林民权组织CAIR列为恐怖组织。共和党内部将“停止德州伊斯兰化”列为优先议程，导致穆斯林学校被排除在教育券计划外。这种趋势反映了全美共和党内“基督徒民族主义”的抬头：据统计，共和党官员的反穆斯林帖文增加了15倍。德州甚至修改了教学大纲，用探讨“圣战和征服基督徒土地”的内容取代世界文化课程。批评者认为这是变相的“宗教迫害”，意图迫使穆斯林“自我驱逐”。然而，民调显示共和党选民对伊斯兰威胁的关注度已远超堕胎和枪支，德州的这一激进打法正被多州效仿，将美国推向更深层的宗教和社会对立。[50-55]",
-          "title_zh": "Texas is waging a battle to stop “Islamification”",
+          "title_zh": "[美国] 德克萨斯州正发起一场阻止“伊斯兰化”的战斗",
           "subtitle_zh": "America’s biggest Republican state offers a playbook for a new identity politics"
         },
         {
           "title": "What Graham Platner’s collapse means for the Democrats",
           "subtitle": "The troubled Senate nominee has suspended his campaign in Maine",
           "summary": "缅因州参议院民主党候选人格雷厄姆·普拉特纳因被控强奸正式宣布退选。普拉特纳此前已身陷纳粹元素纹身和激进言论争议，但他作为退伍军人和直言不讳的农民形象，曾被舒默、沃伦等党内大佬视为在特朗普时代夺取关键席位的理想武器。由于缅因州是极少数在2024年支持哈里斯却拥有共和党籍参议员席位的州，此役对民主党夺回参议院多数席位至关重要。虽然选举模型显示通用民主党人仍有领先优势，但普拉特纳的起落暴露出该党在候选人背景调查和追求“民粹式”吸引力方面的急功近利。民主党现在仅剩两周时间寻找继任者，这场危机迫使党内重新审视：为了赢得选举，民主党究竟愿意在核心价值观上做出多少妥协。[56-61]",
-          "title_zh": "What Graham Platner’s collapse means for the Democrats",
+          "title_zh": "[美国] 格雷厄姆·普拉特纳的崩盘对民主党意味着什么",
           "subtitle_zh": "The troubled Senate nominee has suspended his campaign in Maine"
         },
         {
           "title": "Why Donald Trump won’t let a doomed bill die",
           "subtitle": "The SAVE Act is unlikely to pass Congress. Donald Trump may prefer it that way",
           "summary": "特朗普近期固执地要求国会批准《安全投票法案》（SAVE Act），并以此要挟拒绝签署包括住房和国防法案在内的任何立法，导致国会陷入瘫痪。尽管该法案因缺乏共识几乎没有通过可能，但特朗普似乎更乐见其失败。分析认为，这套策略旨在为即将到来的中期选举预设话语权：一旦共和党落败，便可宣称选举制度不公。这种持续的攻击已严重侵蚀公众信心，民调显示仅25%的美国人相信中期选举不会受到干扰，而对计票准确性的信任度两年内下降了17个百分点。特朗普将国会作为个人政治博弈的舞台，宁愿阻断两党在民生议题上的合作，也要强化其“选举被窃取”的叙事。这种极端的僵持态势表明，中期选举前的政治重点已从政策产出完全转向了关于民主合法性的破坏性对抗。[62-65]",
-          "title_zh": "Why Donald Trump won’t let a doomed bill die",
+          "title_zh": "[美国] 为什么特朗普不愿让一项注定失败的法案夭折",
           "subtitle_zh": "The SAVE Act is unlikely to pass Congress. Donald Trump may prefer it that way"
         },
         {
           "title": "Rise of the Gen-Z Luddite",
           "subtitle": "Resistance to tech is brewing among digital natives",
           "summary": "在数字化程度最高的“Z世代”中，一场反抗科技霸权的新卢德主义运动正在兴起。纽约举行的“卢德之夏”节日中，年轻人通过审判并摧毁电子设备来表达对算法追踪和社交异化的不满。调查显示，70%的Z世代担忧AI会导致失业。讽刺的是，“断网”本身正在互联网上流行：TikTok上推广使用旧款iPod或翻盖手机的视频播放量高达数百万。这些年轻人正将园艺、拼图等触觉活动重构为一种“奢侈”的生活方式，试图找回深度阅读和现实社交的能力。Pinterest等平台也通过承诺“关注生活而非点赞”来迎合这一需求。尽管彻底脱离数字世界仍面临城市生活的重重困难，但这种从数字原住民内部发起的抵抗，反映了年轻一代对硅谷技术至上论的深刻幻灭和对心理健康的集体自救。[65-67]",
-          "title_zh": "Rise of the Gen-Z Luddite",
+          "title_zh": "[美国] Z世代卢德分子的崛起",
           "subtitle_zh": "Resistance to tech is brewing among digital natives"
         },
         {
           "title": "Mehmet Oz, Donald Trump’s most effective TV star",
           "subtitle": "The telegenic doctor enacting the president’s agenda with professionalism and zeal",
           "summary": "曾因电视节目中的“伪科学”言论饱受争议的奥兹医生，在担任美国联邦医保与医助服务中心（CMS）主任14个月后，意外地成为了特朗普政府中最得力的干将。他管理着1.6万亿美元资金和两亿人的医保，正以专业的外科手术式精准执行总统议程：大刀阔斧削减医助开支、强力打击医保欺诈（甚至邀请媒体参与武装突袭），并成功游走于制药商之间推广廉价药。相比于频繁更替、陷入瘫痪的其他卫生机构，奥兹的CMS展现了罕见的官僚效率。他绕过传统规则制定的做法虽令民主党州极度不安并引发诉讼，但其在削减成本和执行力方面的表现甚至赢得了前任民主党官员的肯定。随着卫生系统其他岗位持续空缺，这位电视明星出身的官员正利用其独特的沟通技巧和务实精神，在华盛顿权力版图中占据更核心的位置，成为“特朗普主义”技术官僚化的典范。[67-73]",
-          "title_zh": "Mehmet Oz, Donald Trump’s most effective TV star",
+          "title_zh": "[美国] 梅赫梅特·奥兹：特朗普最得力的电视明星",
           "subtitle_zh": "The telegenic doctor enacting the president’s agenda with professionalism and zeal"
         },
         {
           "title": "The left’s common-sense problem on crime",
           "subtitle": "Radical ideas may seriously harm the Democratic Party",
           "summary": "尽管特朗普身负多项重罪指控，但在应对犯罪议题上，共和党的选民信任度仍领先民主党8个百分点。本刊分析认为，左翼阵营在常识问题上的偏离严重拖累了民主党。部分极进活动家和网红不仅重提“废除监狱”，甚至公开宣称抢劫公司是“正义之举”。这种无视社会秩序激励机制、将政治暴力合理化的激进叙事，虽然只代表少数人且并未进入政党纲领，却在社交媒体上制造了极大的噪音。这为共和党提供了完美的素材，将其描绘为“庇护歹徒”的政党。虽然大多数民主党政客仍支持主流执法标准，但其由于担心得罪激进派而展现出的软弱，使得选民容易受这些极端“氛围”的影响。文章警告，如果左翼不能在严惩杀人犯、打击偷窃等基本常识问题上坚定立场，这种“道德盲区”将成为共和党在中期选举中击败民主党的重磅炸弹。[73-78]",
-          "title_zh": "The left’s common-sense problem on crime",
+          "title_zh": "[美国] 左翼在犯罪问题上的常识困境",
           "subtitle_zh": "Radical ideas may seriously harm the Democratic Party"
         }
       ]
@@ -166,21 +166,21 @@
           "title": "Brazilian cities are building vast surveillance networks",
           "subtitle": "Can they combat the country’s biggest security threats?",
           "summary": "巴西圣保罗等大城市正斥巨资打造庞大的智能监控网络，如拥有5万个AI摄像头的Smart Sampa系统。市中心竖起的“入狱计”实时跳动着被捕人数，成为政客展示“铁腕治乱”政绩的显眼招牌。然而，这些号称对抗重特大安全威胁的技术正面临司法和隐私组织的严峻质疑。批评者指出，这些监控系统在实际操作中往往缺乏透明度和技术监管，且可能加剧对特定群体的歧视。尽管法院已开始干预，但地方官员对高科技监控的热情不减，将其视为10月大选前赢取选民信任的捷径。文章分析认为，这种“监控至上”的治理模式虽然能制造强大的视觉冲击力和短期捕获量，但在缺乏深度司法改革和技术伦理约束的情况下，可能最终沦为一种侵蚀公民权利、却无法根治犯罪结构性成因的政治表演工具。[79, 80]",
-          "title_zh": "Brazilian cities are building vast surveillance networks",
+          "title_zh": "[美洲] 巴西各城市正在建设庞大的监控网络",
           "subtitle_zh": "Can they combat the country’s biggest security threats?"
         },
         {
           "title": "Mexico is placing an enormous bet on rail",
           "subtitle": "Can it keep its plans on track?",
           "summary": "墨西哥总统克劳迪娅·辛鲍姆正发起一项雄心勃勃的铁路复兴计划，拟在2030年前建成逾3000公里客运轨道。该计划旨在通过将墨西哥城与蒙特雷、瓜达拉哈拉等核心大都市圈连接，缓解由于极度依赖公路运输导致的交通瘫痪和经济低效。相比其前任极具争议、破坏生态且效率低下的“玛雅铁路”，辛鲍姆方案在逻辑上更具科学性，强调在既有货运走廊旁修建客运专线。然而，巨大的资金缺口、如何在国家主导与私人承包商之间寻找平衡，以及避免“欲速则不达”的工程隐患（近期已发生数起脱轨致死事故），都是这项宏伟工程能否平稳落地的关键。如果成功，这将成为拉丁美洲少有的现代化客运网络典范；若失败，墨西哥将再次陷入由政府巨额负债和无效基建构成的财务泥潭。[80-84]",
-          "title_zh": "Mexico is placing an enormous bet on rail",
+          "title_zh": "[美洲] 墨西哥在铁路领域寄予厚望",
           "subtitle_zh": "Can it keep its plans on track?"
         },
         {
           "title": "Americans and Canadians are squabbling over mines",
           "subtitle": "The frontier complicates disagreements between indigenous groups",
           "summary": "在美加边界，一场围绕采矿权的跨国博弈正持续升级。加拿大不列颠哥伦比亚省的塔尔坦部落在成功通过抗议换取“红克里斯”铜矿的巨额分红和就业岗位后，正积极支持更多新矿开发。然而，河流下游的美国阿拉斯加州政府和当地社区则对此深感不安，担心矿山废水会对跨国水域造成长期的环境污染和生态灾难。地理边界的存在让原住民团体之间的利益诉求发生了严重撕裂：一方将其视为脱贫致富的绝佳机遇，另一方则视其为生存威胁。目前，由于跨国监管机制的缺失，双方已将争议诉诸公堂。这场“边境纠纷”揭示了在全球清洁能源转型推动关键矿产需求激增的背景下，传统的原住民权益、国家环境主权与跨国经济开发之间错综复杂的利益冲突。[85, 86]",
-          "title_zh": "Americans and Canadians are squabbling over mines",
+          "title_zh": "[美洲] 美国人和加拿大人正为矿场争执不休",
           "subtitle_zh": "The frontier complicates disagreements between indigenous groups"
         }
       ]
@@ -192,35 +192,35 @@
           "title": "Can cutting-edge semiconductors supercharge Japan?",
           "subtitle": "Visions of a high-tech hub in Hokkaido hinge on a single governmentbacked firm",
           "summary": "日本政府正致力于将北海道打造为“东方硅谷”，其核心是旨在突破2纳米先进制程的国家级初创企业Rapidus。在首相高市早苗的支持下，官方已承诺提供超过150亿美元的巨额补贴，试图借AI热潮重夺半导体领军地位。然而，这一“北海道梦想”面临多重障碍：一是人才匮乏，严寒气候及相对较低的薪资水平难以吸引顶尖国际工程师；二是产业链薄弱，当地制造业产出不足全国平均水平的一半，配套生态系统尚需十年培育；三是Rapidus独特的“小批量、定制化”商业模式尚未在市场中得到验证。不同于台积电的规模化量产，Rapidus押注的是快速交付。结论指出，这不仅是一场技术豪赌，更是日本新时代产业政策的试金石。如果Rapidus无法如期在明年实现量产并盈利，北海道的雪原恐将成为昂贵的基建遗迹。[86-90]",
-          "title_zh": "Can cutting-edge semiconductors supercharge Japan?",
+          "title_zh": "[亚洲] 尖端半导体能否为日本注入动力？",
           "subtitle_zh": "Visions of a high-tech hub in Hokkaido hinge on a single governmentbacked firm"
         },
         {
           "title": "Laos has big dreams of exporting energy",
           "subtitle": "But its dams have flooded it with debt and other problems",
           "summary": "老挝正竭力利用湄公河的水力资源，试图成为“东南亚蓄电池”，以满足该地区数据中心和工厂激进的电力需求。然而，这一愿景正被沉重的债务阴影笼罩：到2025年老挝公债已飙升至GDP的81%，其中半数债权掌握在中国手中。虽然中方多次通过推迟还款缓解危机，但老挝政府在2035年之前几乎无法真正收回大型水电站的控制权。讽刺的是，作为能源出口国，老挝国内却常年面临干旱季节的电力短缺，被迫高价从泰国进口电力。此外，大规模建坝导致河流生态恶化、鱼类减少，且巨额基建投资严重挤占了医疗和教育经费，导致本国劳动力外流。尽管老挝即将从联合国最不发达国家名单中除名，但结论认为，这种过度依赖单一自然资源输出且透支未来的发展模式，极易使其陷入长期陷阱。[90-94]",
-          "title_zh": "Laos has big dreams of exporting energy",
+          "title_zh": "[亚洲] 老挝怀揣能源出口的大梦",
           "subtitle_zh": "But its dams have flooded it with debt and other problems"
         },
         {
           "title": "Indian mangoes have been banned from Japan",
           "subtitle": "It’s the latest sign of a widespread food-safety problem",
           "summary": "印度最引以为傲的出口农产品芒果正遭到日本的全面禁运，原因是其害虫控制未能通过检疫。这只是印度食品安全危机的缩影：过去两年欧盟已对印度食品发出365次警报，涵盖香料、海鲜和稻米。问题的根源在于农业生产端化肥农药滥用、非法化学催熟及供应链中的监管腐败。甚至在印度国内，官方近期查获了大量准备用于榨汁的霉变芒果。食品安全问题不仅造成了巨大的外汇损失和声誉打击，更通过有毒残留物直接威胁本国国民、特别是儿童的认知健康。文章指出，印度应借鉴邻国孟加拉国的经验——后者通过高层强力干预，成功根除了姜黄中的铅污染。结论强调，印度急需建立从农田到港口的全程追溯体系并加强实验室检测，否则其庞大的农业出口潜力将持续被劣质标签所扼杀。[94-97]",
-          "title_zh": "Indian mangoes have been banned from Japan",
+          "title_zh": "[亚洲] 印度芒果被日本禁止进口",
           "subtitle_zh": "It’s the latest sign of a widespread food-safety problem"
         },
         {
           "title": "How South Korean Buddhists are trying to stay relevant",
           "subtitle": "Life is suffering; the Buddha can help",
           "summary": "面对信众流失和老龄化危机，韩国佛教界正发动一场“潮酷转型”以赢回年轻人的心。通过推出机器人僧侣Gabi、印有“闭嘴去冥想”的潮T以及在社交媒体上广传佛系表情包，佛寺成功吸引了数以万计追求心理慰藉的Z世代。在极度竞争和高压的韩国社会，年轻人将其视为信仰自我的出口而非宗教束缚，去年寺庙留宿人数创下历史新高。然而，辉煌的表面下隐藏着深层危机：过去20年曹溪宗的授戒人数锐减三分之二。宗教领袖担忧，这种仅关注冥想减压、消费佛系周边的“采摘式”兴趣，正在解构佛教的核心教义，使其沦为一种时尚的生活方式而非深刻的精神修行。文章指出，如何在保持非强制性吸引力的同时，建立持久的宗教参与，将决定这一千年古教在东亚现代文明中的存续。[97, 98]",
-          "title_zh": "How South Korean Buddhists are trying to stay relevant",
+          "title_zh": "[亚洲] 韩国佛教徒如何努力保持吸引力",
           "subtitle_zh": "Life is suffering; the Buddha can help"
         },
         {
           "title": "What Indians are reading, and what that reveals about the self",
           "subtitle": "English-language books offer a glimpse of India’s hopes and dreams",
           "summary": "现代印度人的书架正成为观察其社会抱负和心理演变的窗口。英语图书市场的火爆，揭示了中产阶级对自我提升和全球化认同的渴望。阅读与社交媒体形成了共生关系：从YouTube网红作家的霸榜小说，到Instagram上流行的“书店打卡照”，阅读已成为一种社交货币。特别是将古代史诗与地缘政治、企业管理相结合的精神自救类书籍广受欢迎。文章分析认为，在依然深植集体主义文化的印度社会，阅读是极少数被社会认可的、可以公开表达个体独特性和进行自我探索的方式。这种热潮背后，是数亿印度人正试图通过自学、自我发现甚至自我推销，在剧变的时代浪潮中锚定一个属于自己的坐标。阅读不仅是为了获取知识，更是为了在大众文化中完成一次优雅的“自我表达”。[98-100]",
-          "title_zh": "What Indians are reading, and what that reveals about the self",
+          "title_zh": "[亚洲] 印度人在读什么，以及这揭示了怎样的自我",
           "subtitle_zh": "English-language books offer a glimpse of India’s hopes and dreams"
         }
       ]
@@ -232,28 +232,28 @@
           "title": "Has China obtained the world’s most important machine?",
           "subtitle": "Its Dutch manufacturer is fighting to rebut American claims",
           "summary": "美国商务部长卢特尼克近期抛出重磅质疑，怀疑荷兰ASML公司最尖端的极紫外（EUV）光刻机已非法流入中国。ASML坚决否认，称对其生产的全部340台机器均有精确的在线监控，目前并无证据支持美方指控。争议背后是华盛顿对中国芯片技术飞速发展的集体焦虑：华为和中芯国际正利用不受限的旧款DUV机器通过“多重曝光”技术挑战7纳米极限，且有报道称中方已在深圳测试自主EUV原型机。为此，美国正强推《MATCH法案》，试图通过长臂管辖切断对华存量机器的售后服务。荷兰政府对此深感不安，指出美方一方面严控旧机器、另一方面却允许英伟达出口最新H200芯片的矛盾策略。结论认为，无论指控真伪，ASML已陷入大国AI霸权争夺的火线，全球半导体供应链正面临被“安全逻辑”彻底撕裂的风险。[100-109]",
-          "title_zh": "Has China obtained the world’s most important machine?",
+          "title_zh": "[中国] 中国是否获得了世界上最重要的机器？",
           "subtitle_zh": "Its Dutch manufacturer is fighting to rebut American claims"
         },
         {
           "title": "China releases a prominent Christian pastor",
           "subtitle": "Jin Mingri formerly ran a large house church in Beijing",
           "summary": "中国政府近日释放了北京最大的地下教会之一“锡安教会”的知名牧师金明日，目前他已飞抵美国。金氏因去年10月针对宗教活动的集中清理行动被拘。据报道，美国总统特朗普在5月与中方领导人会晤时曾亲自提及此案。在华盛顿的叙事中，金明日的获释被视为美方外交努力的成果，但锡安教会的其他多位骨干成员仍处于关押状态。与此同时，关于香港壹传媒创办人黎智英的案件也在会谈中被触及，中方表示该案性质“棘手”，暗示其法律程序不会轻易受外交压力动摇。结论认为，尽管个别标志性人物的获释为美中紧张关系提供了微小的缓冲，但中国对宗教团体及异见人士的严厉监管底色并未改变，此类人员往来更像是大国博弈中一种经过精算后的筹码释放。[109-111]",
-          "title_zh": "China releases a prominent Christian pastor",
+          "title_zh": "[中国] 中国释放一名知名基督教牧师",
           "subtitle_zh": "Jin Mingri formerly ran a large house church in Beijing"
         },
         {
           "title": "A rare Chinese missile test unnerves Asian neighbours",
           "subtitle": "China moves a step closer to having an operational “nuclear triad”",
           "summary": "7月6日，中国军方在太平洋罕见地进行了一次潜射远程弹道导弹测试，打破了其核潜艇部队长期以来的隐秘姿态，引发亚太周边国家及北约的高度不安。尽管中方在发射前通知了部分国家，但日、澳及美国务院仍将其定性为“破坏稳定的挑衅行为”。五角大楼预测，到2030年中国核弹头总数将突破1000枚，且正在服役能打击美国本土的巨浪-3型导弹。分析认为，在北约峰会和美方夏威夷军演期间进行的这次测试，旨在验证装备可靠性并展示其构建“三位一体”核打击能力的决心。这标志着中国已不再满足于单纯的陆基威慑，正迅速补齐海基核反击的短板。结论指出，这种快速且不透明的核扩张正大幅提升台海冲突升级为核对抗的风险。[111-115]",
-          "title_zh": "A rare Chinese missile test unnerves Asian neighbours",
+          "title_zh": "[中国] 中国罕见的导弹测试令亚洲邻国不安",
           "subtitle_zh": "China moves a step closer to having an operational “nuclear triad”"
         },
         {
           "title": "China’s media gloat at Britain’s chaotic democracy",
           "subtitle": "But Chinese viewers also love British comedy that laughs at politics",
           "summary": "英国首相斯塔默的辞职及随后的政坛震荡，成为中国官媒嘲讽西方民主体制脆弱性的绝佳素材。官方媒体将其描绘为“只顾选票、不解决深层问题”的负面典型，以此反衬中国体制的稳定性。有趣的是，这种宏大叙事在民间呈现出另一种面貌：英国政治讽刺剧《是，大臣》在网络平台上火爆异常。中国观众不仅在剧中精英官僚的玩世不恭中寻找笑料，更从中辨识出本土官僚体系中同样存在的特权逻辑。文章敏锐地指出，这种“幸灾乐祸”中夹杂着复杂的社会情绪——人们一面在官方引导下质疑英式“玩泥巴”政治，另一面却在社交媒体上对英国首相的频繁更换流露出某种对“权力更迭权”的隐秘羡慕。结论认为，这种关注实则反映了中国民众对自身官僚体系现状的一种借镜与解构。[115-119]",
-          "title_zh": "China’s media gloat at Britain’s chaotic democracy",
+          "title_zh": "[中国] 中国媒体对英国混乱的民主幸灾乐祸",
           "subtitle_zh": "But Chinese viewers also love British comedy that laughs at politics"
         }
       ]
@@ -265,28 +265,28 @@
           "title": "Is Donald Trump serious in declaring the ceasefire with Iran over?",
           "subtitle": "Iran’s ultra-nationalist new leaders may welcome his bluster",
           "summary": "特朗普正式宣布与伊朗的停火协议终结，并对伊南部发起数十次精准空袭，以报复革命卫队对霍尔木兹海峡油轮的无人机攻击。与此同时，伊朗正为哈梅内伊举行史无前例的宏大葬礼，新崛起的军方高层表现出浓厚的民族主义和扩张野心，试图通过军事施压而非外交来消耗特朗普。尽管双方仍预定在伊斯兰堡进行核谈判，但言语交锋已极度恶化。这种剑拔弩张的背后，是伊朗深重的国内经济危机与革命卫队重塑“波斯帝国野心”之间的博弈。海湾阿拉伯国家虽表面吊唁，实则正敦促各大国加大施压。结论认为，尽管存在复战风险，但伊朗凋敝的工业基础和民众对制裁解除的渴望，最终可能迫使其在“炸弹与面包”之间做出艰难妥协。[119-125]",
-          "title_zh": "Is Donald Trump serious in declaring the ceasefire with Iran over?",
+          "title_zh": "[中东与非洲] 特朗普宣布与伊朗停火结束是认真的吗？",
           "subtitle_zh": "Iran’s ultra-nationalist new leaders may welcome his bluster"
         },
         {
           "title": "Rebuilding Syria will cost over $200bn. Bombs are not helping",
           "subtitle": "Emmanuel Macron is greeted by explosions in Damascus",
           "summary": "法国总统马克龙近日率团访问大马士革，成为阿萨德政权倒台后首位到访的西方大国元首，标志着叙利亚新领导人希拉在外交承认上取得重大进展。然而，欢迎典礼伴随的爆炸声揭示了重建之路的艰辛。世界银行估计叙利亚重建需耗资2160亿美元，而该国银行体系目前基本瘫痪，本币持续贬值。尽管卡塔尔和阿联酋正通过基建（机场、电力）和金融投资抢占战略滩头，甚至Visa等美资公司也开始谨慎回归，但叙利亚国内严重的官僚腐败和陈旧规章正扼杀基层活力。四分之一的叙利亚人仍生活在极端贫困中，普通民众对希拉沉迷于外交秀而忽视民生改善日益不满。结论指出，宏大的投资意向书无法掩盖满目疮痍的现实，叙利亚能否从废墟中崛起，取决于能否将投资转化为真正改善平民生活的实体基建。[125-131]",
-          "title_zh": "Rebuilding Syria will cost over $200bn. Bombs are not helping",
+          "title_zh": "[中东与非洲] 重建叙利亚将耗资逾2000亿美元，炸弹于事无补",
           "subtitle_zh": "Emmanuel Macron is greeted by explosions in Damascus"
         },
         {
           "title": "Ahmed al-Sharaa is quashing Syria’s vast captagon trade",
           "subtitle": "But pills that cost cents to produce still sell for $25",
           "summary": "叙利亚新总统希拉正全力清算前政权留下的毒品遗产——曾作为国家财政支柱、价值100亿美元的芬乙茶贸易。在邻国的压力和外交正常化的诱惑下，叙方加强了边境封锁并捣毁大量实验室。然而，这种严厉打击正产生“打地鼠”效应：芬乙茶生产正迅速向科威特、埃及、苏丹乃至印度等地去中心化扩散。真主党被指在这一链条中扮演了关键技术输出者角色。同时，由于叙利亚产源头断供导致价格飙升，中东庞大的消费群体正转向更具毁灭性的冰毒。文章分析，阿萨德时代建立的走私网络仍由地方武装残余控制，希拉的禁毒战争虽然赢得了国际好评，却未能从根源上降低区域对合成毒品的饥渴需求。结论强调，若无跨国联合治理，这种危机只会发生形态演变而非终结。[131-134]",
-          "title_zh": "Ahmed al-Sharaa is quashing Syria’s vast captagon trade",
+          "title_zh": "[中东与非洲] 艾哈迈德·沙拉正打击叙利亚庞大的芬乙茶贸易",
           "subtitle_zh": "But pills that cost cents to produce still sell for $25"
         },
         {
           "title": "Can Africa take the Asian path to growth?",
           "subtitle": "Stalling agricultural productivity makes it look unlikely",
           "summary": "非洲经济学家长期憧憬能复刻亚洲上世纪60年代的“绿色革命”，通过农业技术进步带动工业化转型。然而现实却面临严峻阻碍：非洲的农业生产率目前陷入停滞，呈现出一种尴尬的“U型”特征——即中型农场产量往往不及小型家庭作坊，且缺乏实现大规模机械化的条件。尽管自2005年以来，非洲农产品市场价值增速已能比肩南亚，但全球化环境已今非昔比。非洲必须面对土壤退化、气候变化以及更激烈的国际制造业竞争。文章指出，简单套用半个世纪前的亚洲模板已不合时宜，非洲需要一套基于本土作物和数字技术的新型农业战略。结论强调，农业依旧是非洲摆脱贫困的基石，但其成功将取决于能否在不具备亚洲当年廉价劳动力红利的情况下，走出一条独特的发展之路。[134, 135]",
-          "title_zh": "Can Africa take the Asian path to growth?",
+          "title_zh": "[中东与非洲] 非洲能否走上亚洲式的增长之路？",
           "subtitle_zh": "Stalling agricultural productivity makes it look unlikely"
         }
       ]
@@ -298,42 +298,42 @@
           "title": "Europe has promised cash for defence. It’s failing to provide it",
           "subtitle": "Most Europeans want stronger armed forces, but are unwilling to pay for them",
           "summary": "尽管面对俄罗斯威胁，欧洲各国承诺在2035年前将国防开支提升至GDP的3.5%，但实际执行情况却分化严重。本刊将其分为三类：波兰、波罗的海三国等“前线派”宁愿削减医疗教育也要扩军，且拥有德、北欧等国的融资空间；英、法等核大国则陷入“悲情派”困境，因财政极度拮据且民众反对增税而难以达标；意、西、葡等“漠视派”则利用免责条款或会计手段虚报数字。除了资金总量，欧洲军工业极度碎片化也是核心症结：全欧拥有12种主战坦克，而美国仅1种，导致成本高昂且互操作性差。德国近期因超支取消百亿欧元造船计划更是敲响了效率警钟。结论指出，欧洲若不能在扩军的同时实现产业整合并提升透明度，这种“有承诺无产出”的现状将加速其安全自主权的丧失。[135-140]",
-          "title_zh": "Europe has promised cash for defence. It’s failing to provide it",
+          "title_zh": "[欧洲] 欧洲承诺了国防资金，却未能兑现",
           "subtitle_zh": "Most Europeans want stronger armed forces, but are unwilling to pay for them"
         },
         {
           "title": "Marine Le Pen is running for the French presidency",
           "subtitle": "Despite being found guilty by the Paris court of appeal",
           "summary": "尽管被巴黎上诉法院判定滥用欧盟资金罪名成立，玛丽娜·勒庞仍正式宣布将参加明年的法国总统大选。法官虽然维持了原判，但通过缩短禁选期为其参选保留了生机。民调显示，这位极右翼领导人在第二轮投票中面对马克龙的接班人时具有极强的竞争力，甚至有获胜可能。勒庞成功地将自己塑造成“体制迫害”的受害者，以此固化基层选民。然而，潜在的风险同样巨大：她可能在佩戴电子脚镣或软禁状态下进行选举活动，这在法兰西第五共和国历史上尚属首次。此外，相比于党内新星巴尔德拉，勒庞的再次出山被部分温和派视为缺乏“更新感”。结论认为，勒庞能否通过终审上诉彻底翻盘，将决定法国未来五年的政治走向。[141, 142]",
-          "title_zh": "Marine Le Pen is running for the French presidency",
+          "title_zh": "[欧洲] 玛丽娜·勒庞竞选法国总统",
           "subtitle_zh": "Despite being found guilty by the Paris court of appeal"
         },
         {
           "title": "NATO survives its bipolar summit",
           "subtitle": "Allies breath a sigh of relief; Ukraine may even cheer",
           "summary": "安卡拉北约峰会以一种近乎“躁郁”的戏剧性收场：特朗普从入会时威胁因格陵兰和伊朗问题撤军，转变为离任时高赞成员间的“浓浓爱意”。虽然《北约条约》第五条得到重申，但欧洲人已不再天真，开始通过英国主导的500亿美元导弹计划谋求深层打击能力。泽连斯基成为最大赢家，获得了急需的“爱国者”导弹制造许可，并得到了特朗普对乌军越境打击俄罗斯油库的默许。土耳其总统埃尔多安也借东道主之利，换取了F-35战机禁令的松动。然而，峰会的成功反而让盟友们感到筋疲力尽，多国提议将峰会改为两年一届，以减少与特朗普打交道引发的风险。结论指出，这只是一次勉强的续命，北约的长期生存依然高度依赖于能否在特朗普多变的个人意志与欧洲缓慢的军事自主之间找到平衡。[142-149]",
-          "title_zh": "NATO survives its bipolar summit",
+          "title_zh": "[欧洲] 北约熬过了其情绪剧烈波动的峰会",
           "subtitle_zh": "Allies breath a sigh of relief; Ukraine may even cheer"
         },
         {
           "title": "Poland and Ukraine have fallen out over history",
           "subtitle": "The row could have lasting consequences for Europe’s security",
           "summary": "波兰与乌克兰之间因1943年沃伦大屠杀的历史遗留问题正爆发严重外交冲突。波兰右翼势力借7月11日纪念日之机，强力要求在乌境内进行遗骸挖掘并谴责当时的乌克兰民族主义者，旨在为明年的议会选举谋取政治利益。乌克兰议会则拟通过反“恐乌症”法案予以回击。这种“历史内战”正危及两国在抗俄前线的军事合作和波兰对乌加入欧盟的支持。分析指出，泽连斯基虽然曾展现和解姿态，但在国内民族主义情绪升温下也难以后退。这一局面被莫斯科视为重大战略利好，因为任何撕裂波乌团结的裂痕都会直接削弱欧洲的整体安全防御。结论警告，如果双方不能迅速将历史争议与当前的生存威胁脱钩，持续的民族主义博弈将导致灾难性的“双输”结局。[149, 150]",
-          "title_zh": "Poland and Ukraine have fallen out over history",
+          "title_zh": "[欧洲] 波兰与乌克兰因历史问题反目",
           "subtitle_zh": "The row could have lasting consequences for Europe’s security"
         },
         {
           "title": "Russians are growing anxious and angry",
           "subtitle": "The war has come home and is everyone’s problem",
           "summary": "随着俄乌战争的持续和近期乌克兰无人机对俄罗斯境内（如奥姆斯克炼油厂）的深度打击，俄罗斯国内的社会焦虑感正达到自2022年动员以来的最高点。核心论点是，克里姆林宫与民众之间“民众远离政治，政府不干涉私人生活”的非正式契约已经破裂，战争正成为每个人的直接负担。关键数据显示，FOM民调显示民众焦虑率从去年的40%飙升至55%；由于炼油厂受袭，汽油配给制已在多地推行，部分地区禁止零售汽油。背景分析指出，民众的愤怒不仅源于物资短缺（如土豆价格单月上涨4.5%）和网络中断，更源于官方宣传（“一切按计划进行”）与现实（战线陷入僵局、后方受袭）之间日益扩大的鸿沟。结论认为，尽管普京仍表现出“十足的韧性”，但社会情绪正从挫败感转向对当局的隐秘痛恨，俄罗斯社会正处于一种危险的沸腾状态。",
-          "title_zh": "Russians are growing anxious and angry",
+          "title_zh": "[欧洲] 俄罗斯人日益焦虑和愤怒",
           "subtitle_zh": "The war has come home and is everyone’s problem"
         },
         {
           "title": "Europe’s public broadcasters go from prime time to hard-to-find",
           "subtitle": "Apathetic teenagers and culture warriors are hobbling venerable state media outlets",
           "summary": "欧洲公共服务广播机构（PSB，如BBC、RAI、ZDF等）正面临历史上最严峻的生存挑战。文章的核心论点是，这些曾被视为欧洲社会结构基石的媒体，正受到冷漠的青少年、美国科技巨头以及右翼民粹政客的三重夹击。关键数据显示，由于受众流向TikTok和YouTube，过去十年公共广播的预算实际下降了10%，而其运营交响乐团或地方电台的成本却未减少。背景分析揭示，在流媒体和算法驱动的时代，PSB的内容往往被埋在智能电视菜单的十几页之后，缺乏可见性；同时，像德国和法国的右翼政党正叫嚣将其私有化。结论强调，尽管存在官僚臃肿和明星高薪等问题，PSB在抵御社会极化和提供权威信息方面依然不可替代。目前其伞形组织EBU正游走于欧盟，试图通过立法确保其在所有数字终端上的“突出显示权”。",
-          "title_zh": "Europe’s public broadcasters go from prime time to hard-to-find",
+          "title_zh": "[欧洲] 欧洲公共广播机构：从黄金时段到难寻踪迹",
           "subtitle_zh": "Apathetic teenagers and culture warriors are hobbling venerable state media outlets"
         }
       ]
@@ -345,49 +345,49 @@
           "title": "How realistic is Andy Burnham’s council-house building pledge?",
           "subtitle": "Manchesterism offers a model for a prime-minister-in-waiting",
           "summary": "被视为未来英国首相有力竞争者的曼彻斯特市长安迪·伯纳姆，承诺实施二战以来最大规模的公屋（Council House）建造计划。文章的核心论点是，这一计划虽然在民调中广受欢迎（72%支持率），但其怀旧的政策逻辑回避了核心的规划体制问题。关键数据显示，英国公屋比例已占住房存量的16%，在G7国家中最高，但住房短缺依然严重。背景分析指出，现行规划体系极度缓慢，且所谓“保障性住房”配额往往令私人开发商无利可图；伯纳姆主张通过“政府直接拿铁锹”的方式不仅成本高昂，且由于地方政府缺乏建筑人才而难以落地。结论认为，伯纳姆不应回归过时的国家主导模式，而应学习“曼彻斯特主义”的成功经验，即通过更好的地方协调、简化高层建筑审批和降低私人领域负担来增加供应。相比宏大的建设承诺，激进的规划权下放和市场化租金改革才是缓解危机的良药。",
-          "title_zh": "How realistic is Andy Burnham’s council-house building pledge?",
+          "title_zh": "[英国] 安迪·伯纳姆的公屋建造承诺有多现实？",
           "subtitle_zh": "Manchesterism offers a model for a prime-minister-in-waiting"
         },
         {
           "title": "Britain’s social housing subsidises the wrong people",
           "subtitle": "And is bad for growth",
           "summary": "英国当前的公屋补贴系统被批评为“漏水的管道”，未能精准帮助真正需要的人。文章的核心论点是，低于市场价的公屋租金不仅导致了严重的资源错配，还阻碍了劳动力流动和经济增长。关键数据显示，全英400万公屋住户中，有10%属于收入最高的前40%群体，甚至包括塞拉利昂总统的夫人在伦敦也拥有一套公屋。在某些伦敦行政区，近40%的住房为公屋，但每年流转率仅为3%。背景分析指出，一旦进入公屋体系，现行法律通常不设后续的经济状况审查（Means-test），这导致高收入者长期占据低价房，而大量低保户却在私人租赁市场挣扎。结论呼吁采取激进改革：将公屋租金提高至市场水平，并将省下的数百亿英镑直接以现金补贴形式发给真正的贫困家庭。通过将支出从“砖块和砂浆”转向“人”，才能从根源上解决住房不公。",
-          "title_zh": "Britain’s social housing subsidises the wrong people",
+          "title_zh": "[英国] 英国社会住房补贴了错误的对象",
           "subtitle_zh": "And is bad for growth"
         },
         {
           "title": "Why Britons now trust weather forecasters",
           "subtitle": "The Met Office’s predictive powers have improved",
           "summary": "长期以来，天气预报在英国一直因1987年那场“未被预警的致命飓风”而饱受嘲笑，但这种态度正在发生根本性转变。文章的核心论点是，由于技术进步带来的准确率大幅提升以及沟通策略的科学化，气象局（Met Office）正赢回公众信任。关键数据显示，YouGov最新调查显示62%的英国人信任预报员，信任度远超经济学家（37%）和政客（4%）。背景分析提到，由于气候变化使极端天气更难预测，气象局引入了命名风暴（如4月的Storm Dave）和分颜色预警系统，成功增强了公众的参与感和应对意识。尽管人们不再记得迈克尔·菲什（Michael Fish）当年的失误，但现实挑战依然存在：英国老旧的住房设计用于御寒而非散热，导致预警后的避暑手段匮乏。结论认为，气象预报已完成从“茶余饭后笑料”到“权威预警工具”的华丽转身，但在基础设施配套上，英国仍未跟上全球变暖的步伐。",
-          "title_zh": "Why Britons now trust weather forecasters",
+          "title_zh": "[英国] 为什么英国人现在信任天气预报员",
           "subtitle_zh": "The Met Office’s predictive powers have improved"
         },
         {
           "title": "Nigel Farage’s stunts made him a successful politician. They won’t make him PM",
           "subtitle": "The theatrics could point to Reform UK’s weaknesses",
           "summary": "法拉奇虽然凭借其政治噱头和媒体直觉成功地搅动了英国政坛，但其改革党（Reform UK）的软肋正逐渐显露。文章的核心论点是，法拉奇擅长“当马戏团团长”，但缺乏组建政府所需的政策深度和组织纪律。关键数据显示，认为改革党“已准备好执政”的选民比例从去年的29%下降到21%，法拉奇个人的好感度也跌至25%，落后于保守党领袖巴德诺赫和劳工党的伯纳姆。背景分析指出，法拉奇近期因身陷500万英镑捐款调查而辞去议员职务，试图通过克拉克顿补选来重塑“民众对抗建制派”的叙事，但这更像是一种退守舒适区的表现。此外，该党在国防、外交、医疗等核心领域的政策纲领几乎空白。结论预测，尽管法拉奇能赢得局部补选，但他那种通过倒啤酒照相和发表排外言论的政治打法，注定无法吸引足够广泛的中间选民，使其无法真正入主唐宁街10号。",
-          "title_zh": "Nigel Farage’s stunts made him a successful politician. They won’t make him PM",
+          "title_zh": "[英国] 奈杰尔·法拉奇的噱头成就了他的政途，却无法让他当上首相",
           "subtitle_zh": "The theatrics could point to Reform UK’s weaknesses"
         },
         {
           "title": "Is AI writing taking over Westminster?",
           "subtitle": "Several influential policy papers are failing AI detectors",
           "summary": "英国政坛近期爆发了一场关于政策文件“AI化”的争议，多份重要报告被曝出由Claude或ChatGPT代笔。核心论点是，AI不仅产生了枯燥的文风，更掩盖了政治思考的平庸与欠缺。关键数据由检测工具Pangram提供，该工具对长文本的错误率近乎为零，其分析显示，伯纳姆近臣路易丝·海格的政策建议书以及主张“曼彻斯特主义”的70页宣言均存在大量AI生成痕迹。背景分析指出，AI写作具有明显的特征：过度热爱排比（如“精心排序、清晰沟通、持续承诺”）、频繁使用破折号以及对仗工整的转折。尽管作者辩称AI仅用于“版本控制”或“润色”，但文章认为，写作本身是理清逻辑、打磨论点的痛苦过程，外包这一过程意味着政治家在逃避思考。结论警示，当政客在没有事先披露的情况下使用AI来重塑国家治理蓝图时，公众的信任度将遭受沉重打击。PDF文件不再是思想的载体，而沦为了快速生产的官僚垃圾。",
-          "title_zh": "Is AI writing taking over Westminster?",
+          "title_zh": "[英国] AI写作正在接管威斯敏斯特吗？",
           "subtitle_zh": "Several influential policy papers are failing AI detectors"
         },
         {
           "title": "Some Scottish wrens are a striking case of “island syndrome”",
           "subtitle": "They have got much bigger than their mainland cousins",
           "summary": "苏格兰群岛上的鹪鹩正成为生物进化研究中“岛屿综合征”的经典案例。文章的核心论点是，由于地理隔离和捕食者的缺失，岛屿动物往往会演化出与大陆近亲截然不同的体型特征。关键数据显示，圣基尔达岛和设得兰群岛上的鹪鹩体型巨大，最重的个体是大陆最小个体的两倍，在“岛屿巨型化”记录中排名前25%。背景分析提到，研究人员通过对比695对岛屿-大陆鸟类样本发现，尽管这些巨型化鹪鹩在外观和鸣叫声上趋同，但决定其体型的基因重叠比例极低。结论认为，这表明它们是沿着不同的遗传路径实现了平行进化。苏格兰鹪鹩的进化历程不仅展示了大自然的神奇，也为科学家破解“岛屿物种为何变巨或变矮”这一进化谜题提供了关键线索。结论强调，岛屿环境是观察自然选择如何快速塑造新物种的绝佳实验室。",
-          "title_zh": "Some Scottish wrens are a striking case of “island syndrome”",
+          "title_zh": "[英国] 某些苏格兰鹪鹩是“岛屿综合征”的显著案例",
           "subtitle_zh": "They have got much bigger than their mainland cousins"
         },
         {
           "title": "Theresa May: Britain’s first—and last—woke prime minister",
           "subtitle": "That whooshing sound was the Overton window hurtling by",
           "summary": "本期《Bagehot》专栏提出了一个极具挑战性的观点：保守党首相特蕾莎·梅实际上是英国第一位（也可能是最后一位）“觉醒派”（Woke）领导人。核心论点是，梅在任内极力推动身份政治，使社会关切凌驾于经济逻辑之上。关键数据支持包括：她发起了全英“种族差异审计”，推动了全球首部《现代奴隶制法案》，并在离任前仓促确立了2050年“净零排放”法定目标。背景分析指出，梅将警察部门贴上“种族歧视”和“厌女”标签的做法，在如今法拉奇等右翼政客大肆抨击“警察反向歧视白人”的背景下，显得极为超前且不可思议。文章认为，梅反映了那个时代的进步主义共识，而非塑造了它。结论认为，随着社会情绪剧烈右转，梅的政治遗产正被其继任者们（约翰逊、苏纳克及斯塔默）视为“麻烦”而遭到拆除，她在议会中已成为一个来自远古时代、身披貂皮大衣的“觉醒派幽灵”。",
-          "title_zh": "Theresa May: Britain’s first—and last—woke prime minister",
+          "title_zh": "[英国] 特蕾莎·梅：英国首位——也是最后一位——“觉醒派”首相",
           "subtitle_zh": "That whooshing sound was the Overton window hurtling by"
         }
       ]
@@ -399,14 +399,14 @@
           "title": "Child suspects are being prosecuted at younger ages",
           "subtitle": "Some governments are lowering the age of criminal responsibility. That may backfire",
           "summary": "面对日益猖獗的帮派犯罪，全球范围内正出现一股降低最低刑事责任年龄（MACR）的浪潮。核心论点是，这种“成人犯罪，成人惩罚”的民粹主义做法极可能适得其反，加剧社会动荡。关键数据显示，阿根廷已将其降至14岁，瑞典正推进同样的改革，而英格兰、威尔士和瑞士仍维持在欧洲最低的10岁。背景分析通过瑞典一个13岁男孩受黑帮雇佣枪击以色列国防商的案例指出，犯罪组织正刻法利用法律对低龄者的宽容，将其作为廉价且“免疫”的杀手。然而，研究表明进入青少年司法系统通常是惯犯化的开始：在威尔士，三分之二服刑不满一年的未成年人在出狱一年内会再次犯罪。结论强调，简单地降低入罪门槛无法切断犯罪根源，真正的解决方案应在于严惩剥削儿童的成年首脑，并通过早期教育和社会干预切断“犯罪儿童转变为犯罪成年人”的链条。法律不应剥夺对不成熟个体的宽容，来掩盖社会治理的失败。",
-          "title_zh": "Child suspects are being prosecuted at younger ages",
+          "title_zh": "[国际] 未成年嫌疑人正面临低龄化起诉",
           "subtitle_zh": "Some governments are lowering the age of criminal responsibility. That may backfire"
         },
         {
           "title": "If ludicrous Trump flattery can save NATO, bring it on",
           "subtitle": "The NATO chief Mark Rutte is quite annoying. It is in a worthy cause",
           "summary": "北约秘书长马克·吕特近期因对特朗普极度卑微的奉承而饱受同僚诟病，但本刊认为这是在进行一场高尚的“驯狮行动”。核心论点是，吕特通过出让个人尊严和灵活运用事实，换取了美国继续留在北约的宝贵时间。背景分析揭示，吕特在安卡拉峰会上脸不红心不跳地将特朗普比作二战英雄艾森豪威尔，甚至私下称其为“爸爸”，以此安抚特朗普因欧洲盟友未全力支持伊朗战争而爆发的怒火。关键数据指出，吕特用事实进行软回击：欧洲不仅提供了5000架次飞行支援，且英法等国已承诺保护霍尔木兹海峡。文章指出，吕特实际上是在扮演一名“驯兽师”，他深知特朗普可能随时翻脸（如对待梅洛尼或斯塔默那样），但在欧洲建立自主防御体系之前，他必须用“赞美与现实的三明治”来维持现状。结论认为，如果这些看似荒谬的奉承能阻止特朗普咆哮着冲出联盟或停止对乌克兰的背后捅刀，那么吕特尊严的粉碎是值得的。",
-          "title_zh": "If ludicrous Trump flattery can save NATO, bring it on",
+          "title_zh": "[国际] 如果荒诞的奉承能拯救北约，那就尽管来吧",
           "subtitle_zh": "The NATO chief Mark Rutte is quite annoying. It is in a worthy cause"
         }
       ]
@@ -418,7 +418,7 @@
           "title": "A top oligarch breaks his silence",
           "subtitle": "An interview with Andrey Melnichenko on the future of Russia",
           "summary": "俄罗斯化肥大王安德烈·梅尔尼琴科打破长期沉默，通过接受《经济学人》长达60小时的采访，对俄罗斯的未来发出了最严厉的警告。核心论点是，普京的战争政策正将俄罗斯推向无政府状态、彻底沦为中国附庸或变为“朝鲜化闭关堡垒”的至暗时刻。关键背景是，作为长期游走于体系内的实业家，梅尔尼琴科并非在谈论民主，而是在谈论“生存权”。他认为当前的精英阶层已被排除在决策之外，俄罗斯急需建立保障私有财产的制度。分析指出，他主张一种基于“主权”的现实主义：即西方应克制对抗，而俄应下放权力给技术官僚。结论认为，梅尔尼琴科的表态反映了俄罗斯内部精英对战争长期化和经济孤立的深刻恐惧。尽管他仍在支持战争机器，但他对体制崩坏的精准预测（类比1905年战败后的崩溃）揭示了普京一人专制下的结构性腐朽。这不仅是一名商人的自保书，更是一份关于帝国末日的警示录。",
-          "title_zh": "A top oligarch breaks his silence",
+          "title_zh": " 一位顶级寡头打破沉默",
           "subtitle_zh": "An interview with Andrey Melnichenko on the future of Russia"
         }
       ]
@@ -430,42 +430,42 @@
           "title": "Beware the top-heavy economy",
           "subtitle": "Supersize capital flows are reshaping business—and building risk",
           "summary": "全球经济正呈现出一种前所未有的“头重脚轻”特征，核心论点是超大规模的资本流向极少数巨头企业，正在重塑商业竞争并累积系统性风险。关键数据显示，今年以来价值超过100亿美元的超大型并购占交易总额的48%，创历史新高；超过10亿美元的巨额风投轮次占VC融资总额的61%。背景分析指出，这一趋势由AI竞赛驱动，五大巨头（Alphabet、亚马逊、Meta、微软、甲骨文）今年的资本支出预计高达8000亿美元。与此同时，政治干预（如美欧放宽并购审查）和保护主义（如巨额绿地投资补贴）进一步加剧了资本的集中。文章指出，市场正赋予大企业更高的估值溢价，认为“大即安全”。结论警告，这种同步且高度依赖少数企业的结构极其脆弱：一旦某个背负巨额债务的巨头因技术误判或地缘冲突而倒下，其引发的连锁反应将足以摧毁全球金融市场的稳定性。规模带来了效率，但也可能成为 populism 的燃料。",
-          "title_zh": "Beware the top-heavy economy",
+          "title_zh": "[商业] 警惕“头重脚轻”的经济",
           "subtitle_zh": "Supersize capital flows are reshaping business—and building risk"
         },
         {
           "title": "Microsoft’s gaming strategy has misfired badly",
           "subtitle": "A supply-chain crisis for Xbox couldn’t have come at a worse time",
           "summary": "微软的游戏帝国正经历25年来最大的动荡，核心论点是其试图淡化硬件、追求“游戏界Netflix”的战略遭遇惨败，并撞上了AI引发的供应链危机。关键数据显示，Xbox业务近期裁员3200人，关闭5个工作室；其核心订阅服务Game Pass用户数不足3000万，远低于7700万的目标；业务利润率仅为3%，远逊于对手。背景分析指出，由于AI芯片需求激增，游戏控制器的零部件成本在短短50天内暴涨50%，迫使厂商在增长乏力时提价。前Instacart高管阿莎·夏尔马临危受命进行大规模“重置”，试图纠正过度依赖跨平台战略而削弱自身主机的错误。结论认为，微软在AI领域的巨大投入已分散了其对游戏业务的关注，如果持续亏损且官僚臃肿无法解决（部分流程需14层审批），剥离游戏业务（Game Over）可能成为最终选择。",
-          "title_zh": "Microsoft’s gaming strategy has misfired badly",
+          "title_zh": "[商业] 微软的游戏战略惨遭滑铁卢",
           "subtitle_zh": "A supply-chain crisis for Xbox couldn’t have come at a worse time"
         },
         {
           "title": "Could a Chinese bike win the Tour de France?",
           "subtitle": "The country’s manufacturers hope that high-performance models will improve their image",
           "summary": "中国自行车制造业正试图摆脱“低价代工厂”的标签，向环法赛场发起冲锋。核心论点是，通过推出高性能自主品牌并大幅压低价格，中国厂商正重塑全球自行车竞技和消费市场的格局。关键数据显示，全球60%的自行车产自中国，但像X-Lab等品牌的价格比同规格的西方老牌（如Pinarello）低40%。背景分析指出，哈萨克斯坦车队已在去年的环法中首次使用了X-Lab碳纤维赛车，而Pardus等品牌也正借巴黎奥运会之机进军欧洲市场。尽管中国选手纪成曾在2014年获得“红灯笼奖”（最后一名），但现在的竞争已转向了装备和研发实力。结论认为，虽然由于坠车等意外，中国品牌今年在环法上大包大揽的可能性较小，但随着其在美国开设300多家零售店并完善D2C渠道，中国自行车正迅速从产业链低端向具有世界级竞争力的品牌转型，“轮子已经转动”。",
-          "title_zh": "Could a Chinese bike win the Tour de France?",
+          "title_zh": "[商业] 中国自行车能否在环法赛场夺冠？",
           "subtitle_zh": "The country’s manufacturers hope that high-performance models will improve their image"
         },
         {
           "title": "China’s semiconductor industry is racing to catch the West’s",
           "subtitle": "But it is proving easier to design chips than to make them",
           "summary": "中国半导体产业在先进制程上正呈现出“设计领先，制造受困”的非对称发展态势。核心论点是，尽管设计端已实现高度国产替代，但缺乏EUV光刻机依然是其迈向3纳米及以下领域的致命伤。关键数据显示，中国当前的计算能力仅为美国的七分之一，但今年中国AI芯片支出的五分之四流向了本土公司；华为通过CloudMatrix系统挑战英伟达，性能相近但能耗高出四倍。背景分析揭示，由于美国严苛的出口管制，华为和中芯国际正全力开发“多重曝光”和“逻辑折叠”等 workaround 技术，试图利用旧有的DUV机器压榨出7纳米甚至更强性能。此外，中国在HBM内存领域的追赶极快，长鑫存储（CXMT）预计到2028年将占据全球12%的份额。结论认为，美国的技术封锁反而强化了中国的内部市场隔离和创新动力，虽然制造端的物理壁垒仍需十年突破，但中国在系统集成和低精度算法优化方面的进展，已使其在AI主权竞争中保有一席之地。",
-          "title_zh": "China’s semiconductor industry is racing to catch the West’s",
+          "title_zh": "[商业] 中国半导体行业正加速赶超西方",
           "subtitle_zh": "But it is proving easier to design chips than to make them"
         },
         {
           "title": "The secret to good questions",
           "subtitle": "Consideration, consistency and curveballs",
           "summary": "本期《巴特比》专栏探讨了提问的艺术及其对职业生涯的决定性作用。核心论点是，提问不仅是获取信息的工具，更是建立人际关系和判断组织文化的核心指标。关键背景通过苏黎世联邦理工学院的研究发现，高薪求职者往往会因为面试官提问过于简单而拒绝Offer，因为他们将“软绵绵的问题”视为未来同事平庸的信号。数据分析指出，在上市公司财报电话会议中，明星分析师提出的“曲球问题”（即难以预料、难以回避且与背景高度相关的问题）与股价波动和评级调整呈显著正相关。文章认为，随着职位晋升，提问应逐渐取代执行成为首席输出。结论总结了高质量提问的三要素：深思熟虑、一致性以及出其不意。好的问题能暴露平庸思维，也能在复杂决策中锚定真相；对于职场新人而言，保持“外行人的好奇”和提出刁钻问题的勇气，是打破常规、展现潜力的捷径。",
-          "title_zh": "The secret to good questions",
+          "title_zh": "[商业] 高质量提问的秘诀",
           "subtitle_zh": "Consideration, consistency and curveballs"
         },
         {
           "title": "Elon Musk and the age of the corporate leviathan",
           "subtitle": "For the world’s largest companies, the normal rules of corporate governance no longer apply",
           "summary": "本期《熊彼特》专栏指出，随着SpaceX和特斯拉等巨无霸的崛起，传统的“股东至上”公司治理模式正在崩坍。核心论点是，这些万亿级企业已达到一种“脱离速度”，普通财务约束和治理规则对其完全失效。背景分析将当前的万亿俱乐部划分为四个部落：以苹果、英伟达为代表的“股东原教旨主义者”；以Meta、谷歌为代表、追求创始人意志的“家长制企业”；以台积电、沙特阿美为代表的“国家冠军”；以及像SpaceX这样采用“霍布斯式设计”的“利维坦”。关键数据显示，SpaceX在2027-34年间预计每年需要84亿美元的外部融资，且要在2035年才能实现正向现金流，但其估值仍被摩根士丹利看高一倍。分析指出，马斯克将利润视为“登陆火星”的手段而非终点，股东实际上交出了所有权利，沦为被动支持者。结论认为，这种绝对意志驱动的治理模式是对公司法“历史终结论”的有力嘲讽，预示着一个个人崇拜与企业力量高度融合的新利维坦时代已经到来。",
-          "title_zh": "Elon Musk and the age of the corporate leviathan",
+          "title_zh": "[商业] 埃隆·马斯克与公司利维坦时代",
           "subtitle_zh": "For the world’s largest companies, the normal rules of corporate governance no longer apply"
         }
       ]
@@ -477,49 +477,49 @@
           "title": "China may struggle to fund Xi Jinping’s tech dreams",
           "subtitle": "Even though capital markets are staging a comeback",
           "summary": "尽管中国资本市场正呈现回暖迹象，但核心论点指出，国家主导的投资模式可能难以高效支持习近平的宏大技术愿景。关键数据显示，今年上半年中国有80家初创企业估值突破10亿美元，股权融资额达32亿，是2024年的三倍；上海科创板（STAR Market）已重新允许亏损企业上市。背景分析指出，资金流向正被严密引导：中芯国际旗下基金已投资400多家半导体公司，银行背景的VC则由于避险心理，极少投资5年以下的初创企业。这种“ greed 靠后，政策先行”的模式导致大量零售资金从消费类股票撤出，疯狂涌入技术版块（ChiNex指数上涨20%），引发泡沫担忧。结论强调，政府的深度干预虽然能解决资金总量问题，但其对“稳定”和“既定目标”的执着可能扼杀真正的颠覆性创新，导致资本分配低效，使技术主权的梦想因市场活力的丧失而变得难以企及。",
-          "title_zh": "China may struggle to fund Xi Jinping’s tech dreams",
+          "title_zh": "[金融与经济] 中国可能难以支撑习近平的技术梦想",
           "subtitle_zh": "Even though capital markets are staging a comeback"
         },
         {
           "title": "AI has taken over the stock market. The bond market is next",
           "subtitle": "Judging credit risk of the AI boom is difficult",
           "summary": "AI热潮正从股市向债市蔓延，核心论点是这场技术革命正引发类似于19世纪铁路时代的债市大扩张，但信用风险的评估变得极度复杂。关键数据显示，今年以来美债市场中与AI相关的投资级债券发行额预计达3500亿至4000亿美元，占总量的近五分之一；五大云巨头的债务在半年内激增2280亿美元。背景分析指出，由于这些“超大规模”公司（如微软、Meta）现金流充裕且信用极佳，债市平均利差仍维持在0.8个百分点的窄区间。然而，风险正向次级环节转移：由私募股权支持的、为微软提供服务的QTS等数据中心项目，其利差在短短三个月内从1.1%扩大到1.6%。结论警示， bond 投资是“规避劣质标的”的负面艺术，在AI技术迭代极快的今天，今日的赢家可能迅速沦为明日的违约者，投资者必须具备分辨“长期基础设施”与“短期烧钱陷阱”的卓越洞察力。",
-          "title_zh": "AI has taken over the stock market. The bond market is next",
+          "title_zh": "[金融与经济] AI已席卷股市，债市将是下一个目标",
           "subtitle_zh": "Judging credit risk of the AI boom is difficult"
         },
         {
           "title": "The World Bank has ditched its climate targets",
           "subtitle": "The rise and fall of the institution’s love for green growth",
           "summary": "在特朗普重返白宫及其财政部长贝森特的强力施压下，世界银行正式废除了45%的年度气候融资目标。核心论点是，这一转向标志着世行正从“绿色增长”回归到传统的“扶贫减灾”使命。背景分析指出，世行作为全球最大开发银行，过去两年在气候项目上投入了44%的贷款（约430亿美元），引发了部分发展中国家的不满，认为这挤占了用于诊所、学校和基础设施的基本民生资金。贝森特认为专注于气候是“不务正业”，分散了帮助穷国增长的精力。关键数据揭示，这一转向令世界上最贫穷国家松了一口气，因为气候资金此前更多流向了碳排放较高的中等收入国家。结论认为，尽管欧洲国家极力反对，但在美国这个最大股东的坚持下，气候目标的终结已成定局。世行员工可能会通过将项目“重新包装”来延续部分环保工程，但这掩盖不了一个事实：在“炸弹与面包”的现实威胁（如伊朗战争导致的能源涨价）面前，全球气候共识正在瓦解。",
-          "title_zh": "The World Bank has ditched its climate targets",
+          "title_zh": "[金融与经济] 世界银行已放弃气候融资目标",
           "subtitle_zh": "The rise and fall of the institution’s love for green growth"
         },
         {
           "title": "Women’s progress at work is stalling",
           "subtitle": "Is the “Lean In” generation leaning out?",
           "summary": "过去十年女性在职场中的卓越进击正陷入停滞甚至倒退。核心论点是，曾经由谢丽尔·桑德伯格倡导的“向前一步”（Lean In）时代正演变为“向后退缩”。关键数据显示，标普500企业中女性高管比例在2023年出现了20年来的首次下降；新任董事中女性占比从42%滑落至38%；经合组织（OECD）国家女性全职工作比例也出现了15年来首次下滑。背景分析指出，原因包括高昂的托幼成本（德国缺口达30万个位置）、疫情后的就业结构调整，以及当下美国企业界对多元化（DEI）政策的集体冷淡。在特朗普时代的“阿尔法男性”文化影响下，曾经积极推动女性职位的CEO（如摩根大通的杰米·戴蒙）也转而推出了全男性接班人名单。结论警告，女性受教育程度虽已超越男性，但职场环境的恶化和托育支持的缺失，正使人类历史上最优秀的一代职场女性不得不重新审视事业与家庭的权衡，性别鸿沟正重新张开。",
-          "title_zh": "Women’s progress at work is stalling",
+          "title_zh": "[金融与经济] 女性在职场中的进步陷入停滞",
           "subtitle_zh": "Is the “Lean In” generation leaning out?"
         },
         {
           "title": "Three ways the LNG market could crack before winter",
           "subtitle": "War, weather and outages may still send gas prices soaring",
           "summary": "全球液化天然气（LNG）市场正处于崩溃边缘，核心论点是地缘战争、极端气候和基建脆弱性构成的三重打击，可能导致冬季前气价失控。关键数据显示，欧洲储气量目前仅为47%，创15年新低；伊朗战争已使全球20%的流量和卡塔尔17%的出口能力受损，今年全球将面临4000万吨的供应缺口。背景分析指出，亚洲国家因罕见高温（受厄尔尼诺影响）正以更高价格抢夺美国货源，导致原本驶向欧洲的油轮大规模改道。此外，高温导致的河水升温使欧洲核反应堆被迫降功率，加剧了对燃气发电的依赖。结论认为，市场容错率已几乎为零，任何微小的突发事件（如美国出口终端火灾或俄罗斯彻底断供）都可能引发指数级的价格飙升。欧洲今年虽不至于冻馁，但将不得不面对一张金额惊人的能源账单，南亚贫困国家则可能直接断能。",
-          "title_zh": "Three ways the LNG market could crack before winter",
+          "title_zh": "[金融与经济] 冬季前液化天然气市场可能崩溃的三种路径",
           "subtitle_zh": "War, weather and outages may still send gas prices soaring"
         },
         {
           "title": "Europe’s economy is a mess. Its stock markets are a steal",
           "subtitle": "International investors still aren’t interested",
           "summary": "尽管欧洲整体经济数据疲软，但其股市正呈现出极具吸引力的投资价值。核心论点是，“股市不等于经济”，欧洲企业的全球化程度和资产质量被市场严重低估。背景分析指出，投资者因对美国AI热潮的迷信和对中东战事的焦虑而纷纷抛售欧洲资产，导致欧股复苏远慢于美股。关键数据显示，欧洲上市企业60%的收入来自欧洲以外，主要受益于全球大宗商品涨价和工业需求；分析师预测其2026年每股收益（EPS）将增长17%。此外，欧洲股市中有40%由资源、机械等“实物资产”构成，20%为银行股，这些在通胀和高利率环境下具有天然韧性。结论认为，当下的欧洲股市就像是“掉在废墟里的金子”，其与宏观经济的脱钩程度为全球之最。对于寻求资产多元化、不愿在美股泡沫中冒险的投资者而言，现在的欧洲股市正处于一个完美的低吸窗口。",
-          "title_zh": "Europe’s economy is a mess. Its stock markets are a steal",
+          "title_zh": "[金融与经济] 欧洲经济一团糟，但其股市非常便宜",
           "subtitle_zh": "International investors still aren’t interested"
         },
         {
           "title": "An ageing society might not cost too much",
           "subtitle": "A dystopian vision of the future may not come to pass",
           "summary": "传统经济学对“老龄化危机将拖垮财政”的悲观预测可能过于夸张。核心论点是，通过医疗效率的提升和劳动节约型技术的快速采用，长寿社会可能比预想中更具生产力。关键数据显示，2024年美国医疗支出比2010年的官方预测少了1万亿美元；66岁美国人的平均健康预期寿命在过去30年里增长了2.4岁，严重身心障碍时间反而减少了0.6年。背景分析提到，由于生育率下降，社会正被迫加速采用自动化和AI技术，这种压力反而催生了更高的全要素生产率。阿西莫格鲁的研究证明，老龄化社会并不一定更穷，因为机器人和AI分享了抚养负担。结论认为，尽管养老金发放仍是棘手挑战，但只要能通过逐步提高退休年龄（如从67岁提高至70岁）来应对，人口结构并非国家的宿命。未来100年，那些率先适应劳动力短缺、将技术与银发健康相结合的国家，有望走出一条超越人口陷阱的繁荣之路。",
-          "title_zh": "An ageing society might not cost too much",
+          "title_zh": "[金融与经济] 老龄化社会可能不会耗费太多成本",
           "subtitle_zh": "A dystopian vision of the future may not come to pass"
         }
       ]
@@ -531,35 +531,35 @@
           "title": "The future of chipmaking looks more like Manhattan than Silicon Valley",
           "subtitle": "Constrained by physics and politics, chipmakers are building upwards",
           "summary": "半导体产业正进入一个“垂直增长”的新时代。核心论点是，由于物理极限的逼近和地缘政治制裁（尤其是对华制裁），芯片制造正从硅谷式的“平房布局”转向曼哈顿式的“摩天大楼堆叠”。背景分析指出，美国对EUV光刻机的出口限制切断了中国制造极微小晶体管的路径，迫使华为等企业另辟蹊径，开发出“逻辑折叠”（Logic Folding）技术。该技术通过将整个电路层层堆叠而非单纯缩小元件，显著缩短了电信号传输距离。关键数据显示，这种3D架构可使能效提升40%，晶体管密度达到每平方毫米2.38亿个，即便使用旧机器也能挑战3纳米制程的性能。然而，散热难题、设计软件重构以及高难度的晶圆键合（Bonding）精度仍是量产的拦路虎。结论认为，随着摩尔定律放缓，3D堆叠不再是备选方案，而是全行业的必然选择，地缘冲突只不过加速了这一演进过程。",
-          "title_zh": "The future of chipmaking looks more like Manhattan than Silicon Valley",
+          "title_zh": "[科学与技术] 芯片制造的未来更像曼哈顿，而非硅谷",
           "subtitle_zh": "Constrained by physics and politics, chipmakers are building upwards"
         },
         {
           "title": "How to hide from killer drones",
           "subtitle": "In the Ukraine war, anti-AI tactics are producing bizarre forms of camouflage",
           "summary": "在乌克兰战场上，一场针对人工智能（AI）视觉系统的伪装竞赛正进入白热化。核心论点是，通过利用计算机视觉的“脆弱性”，士兵们正使用极具干扰性的图案来误导自杀式无人机。背景分析指出，俄罗斯军车近期刷上了黑白条纹的“斑马装”，这种“炫目伪装”并非为了瞒过肉眼，而是为了破坏AI模型的特征识别逻辑，使其无法识别目标。关键科学原理在于AI的“对抗性样本”效应：微小的图案改变可能导致系统将坦克误认为卡车。此外，俄军还在飞机机翼上摆放旧轮胎来干扰图像匹配。尽管这种优势是暂时的——一旦模型通过新数据进行再训练，这些伪装便会失效——但乌克兰政府旗下的Brave1表示，这是一场“矛与盾”的快速博弈。结论强调，随着乌克兰计划今年生产1000万架无人机，战场决策将更多依赖自主AI，而能否在毫秒间识破伪装将直接决定士兵的生还率。",
-          "title_zh": "How to hide from killer drones",
+          "title_zh": "[科学与技术] 如何躲避杀手无人机",
           "subtitle_zh": "In the Ukraine war, anti-AI tactics are producing bizarre forms of camouflage"
         },
         {
           "title": "A statistician’s guide to Wimbledon",
           "subtitle": "How to turn a tiny advantage into sporting glory",
           "summary": "网球名将费德勒在其职业生涯中仅赢得了略多于一半（约54%）的总得分，却夺得了20个大满贯冠军。文章的核心论点是，网球运动的计分结构能让微小的点优势通过统计学效应滚雪球般转化为巨大的胜算。关键数据显示，如果一名男选手的场均得分胜率仅比对手高出1%，其最终赢得整场比赛的概率就会增加12.5%（女性为10.5%）。背景分析揭示，温布尔登的快速草地增强了发球优势，使非技术性胜率提升了2.5%。此外，文章探讨了计分制对心理压力的放大作用：发球方在破发点上的胜率通常会下降0.8%，在决胜盘平分时甚至下降4.6%。费德勒之所以伟大，正是因为他在这种高压时刻的稳定度远超其他Top 25选手。结论认为，竞技体育不仅是体力的对抗，更是对统计概率的极致博弈，成功属于那些能将千分之几的优势在关键得分中“ grace under pressure ”（压力下的优雅）变现的人。",
-          "title_zh": "A statistician’s guide to Wimbledon",
+          "title_zh": "[科学与技术] 统计学家的温网指南",
           "subtitle_zh": "How to turn a tiny advantage into sporting glory"
         },
         {
           "title": "How the biggest trees survive droughts",
           "subtitle": "Being tall would be a disadvantage, if not for some clever engineering",
           "summary": "高度超过100米的龙脑香（Dipterocarp）是全球最高的赤道树种，它们正通过精密的水力工程学设计来对抗干旱。核心论点是，对于巨型树木而言，高度虽然带来了阳光优势，但在干旱期维持从根部到百米树冠的水分输送是一个巨大的物理挑战。背景分析指出，树木利用叶片蒸腾产生的负压吸水，但干旱会导致导管产生气栓（Embolism），阻断水分流。龙脑香演化出了独特的解剖结构：它们不仅拥有极深的根系，更在木质部中设计了“安全阀”和冗余管道，即使部分导管失效，也能绕过气泵维持树冠的生命活动。这种“生物工程杰作”使它们能在厄尔尼诺引发的极端气候中依然傲视群雄。结论认为，这些巨树的生存策略展示了进化如何在物理极限边缘寻找最优解。尽管如此，随着气候变暖加剧干旱频率，这些森林巨人的水力冗余正被逼向极限，保护它们不仅是为了维持景观，更是为了守护脆弱的热带碳汇生态。",
-          "title_zh": "How the biggest trees survive droughts",
+          "title_zh": "[科学与技术] 巨树如何在干旱中生存",
           "subtitle_zh": "Being tall would be a disadvantage, if not for some clever engineering"
         },
         {
           "title": "How little exercise can you get away with?",
           "subtitle": "Even tiny bursts of activity have measurable benefits",
           "summary": "现代科学正颠覆“必须去健身房才能健身”的刻板印象。核心论点是，极短时间的体力爆发，即“运动零食”（Exercise Snacks），也能产生显著的健康益处。关键背景提到，对于久坐不动的上班族而言，即便是在等水开时做几个深蹲，或者在枯燥的视频会议间隙做几个开合跳，都能显著改善心血管指标并降低早逝风险。研究发现，这些分散在全天的微小活动量可以累加，其效果在某些维度上不亚于长时间的连续锻炼。文章建议，摆脱“非全即无”的完美主义心态是保持健康的关键。结论强调，即便每次仅几分钟的活动，只要强度足以让心跳加速，都是对健康的“有效存款”。在快节奏的现代生活中，这种“化整为零”的策略是应对久坐危机最务实、也最易坚持的方案：每一点运动都比完全不动要强得多。",
-          "title_zh": "How little exercise can you get away with?",
+          "title_zh": "[科学与技术] 最少做多少运动就能见效？",
           "subtitle_zh": "Even tiny bursts of activity have measurable benefits"
         }
       ]
@@ -571,42 +571,42 @@
           "title": "Inside the fantasy world of Donald Trump",
           "subtitle": "“Regime Change” is an eye-popping report on “the most powerful man that the planet has ever known”",
           "summary": "资深记者玛吉·哈伯曼和乔纳森·斯旺的新书《政权更迭》（Regime Change）为公众揭开了特朗普第二任期内那个由“臆想与谎言”构成的白宫内幕。核心论点是，特朗普的世界并非“权力游戏”式的权谋场，而是一个完全脱离事实的幻境。关键细节包括：他坚称1870-1913年是美国最富有的时代，并命令助手Google出“根本不存在的证据”来反驳商务部关于关税的统计数据；他在椭圆办公室亲手用胶水粘金饰；他无视中情局（CIA）的警告，仅凭“直觉”就相信了以色列关于伊朗政权更迭的激进计划。背景分析指出，在特朗普身边，事实被扔进“记忆黑洞”，司法部甚至被迫撤下显示极右翼恐袭多于左翼的调查报告。结论认为，这本书的价值在于其细致入微的记录，展示了一个世界最强权力的拥有者如何将个人虚荣和幻想凌驾于全球利益之上，甚至将高尔夫球童的评价视为历史定论。这种对事实的践踏已不仅是性格缺陷，而是对全球秩序的深层威胁。",
-          "title_zh": "Inside the fantasy world of Donald Trump",
+          "title_zh": "[文化] 走进唐纳德·特朗普的幻想世界",
           "subtitle_zh": "“Regime Change” is an eye-popping report on “the most powerful man that the planet has ever known”"
         },
         {
           "title": "A century on, Pilates flexes its muscles",
           "subtitle": "An old exercise method is newly trendy",
           "summary": "皮拉提斯（Pilates）这项诞生于一个世纪前的运动，正在全球范围内经历一场前所未有的“奢华复兴”。核心论点是，其从伤病康复工具演变为精英阶层推崇的、集核心训练与身心自省于一体的潮流生活方式。背景分析指出，核心器械Reformer（核心床）因其类似“酷刑架”的外观和极高的训练强度，吸引了从顶级超模到橄榄球明星的拥趸。关键数据显示，即便在纽约一节课程售价高达50美元，且供应增长正赶上需求的饱和点，该市场的热度依然不减。这种趋势反映了在数字焦虑时代，人们对“触觉控制”和“肉体精准度”的渴望。文章认为，皮拉提斯成功跨越了百年的审美变迁，通过社交媒体的传播将其塑造为一种“低调、痛苦且昂贵”的精英身份标签。结论强调，尽管粉丝在训练中常感到力竭虚脱，但皮拉提斯作为全球健身IP的商业地位正变得前所未有的强大。",
-          "title_zh": "A century on, Pilates flexes its muscles",
+          "title_zh": "[文化] 诞生百年后，普拉提大显身手",
           "subtitle_zh": "An old exercise method is newly trendy"
         },
         {
           "title": "Why Old Master paintings are back in vogue",
           "subtitle": "They feel more artisanal and human in an age of AI",
           "summary": "在AI生成艺术泛滥的今天，传统西方古典大师（Old Masters）油画正迎来一场出人意料的审美回归。核心论点是，人们正产生一种“AI效应”驱动的怀旧感，渴望那些具有肉眼可见的“手工匠心和人类情感”的作品。关键数据显示，在佳士得近期的一场拍卖中，一幅仅描绘两颗头骨的无名氏画作竟然以43万英镑成交，是估价的四倍。背景分析指出，这种热潮由两股力量推动：一是“社交媒体审美”——具象的人物肖像和织物细节极具上镜感；二是经销商的营销转型——他们不再推销刻板的宗教叙事，而是挖掘画作背后的世俗轶事（如将圣母像解读为艺术家的情妇）。结论认为，古典绘画正被重构为一种抵御虚无数字时代的精神资产，收藏家们不再仅仅是为了增值，更是为了拥有一段“有迹可循、带有人类体温”的历史片段。",
-          "title_zh": "Why Old Master paintings are back in vogue",
+          "title_zh": "[文化] 为什么西方古典大师画作重新流行",
           "subtitle_zh": "They feel more artisanal and human in an age of AI"
         },
         {
           "title": "The history of the human face is more than skin deep",
           "subtitle": "An exuberant new book includes physiognomy, portraiture and plastic surgery",
           "summary": "费伊·邦德·阿尔伯蒂的新书《面孔》（The Face）将人类面部作为一段跨越生物、心理与科技的历史进行了解构。核心论点是，面孔从未仅仅是皮肤组织，而是社会身份、阶级偏见和自我完美的战场。背景分析涵盖了从拜占庭皇帝查士丁尼二世的金质假鼻子，到达尔文因为鼻型险些错失环球航行机会的奇闻异事。文章特别关注了社交媒体如何重塑了我们的“面孔观”：广告诱导人们将脸视为可以不断被完美化的“工程项目”，从而催生了医美行业的爆发。遗憾的是，书中对“深伪”（Deepfake）技术可能导致的心理创伤着墨不多。结论认为，这是一部充满奇闻趣事且发人深思的著作，它提醒读者，在每一张被精心修饰或解锁手机的面孔背后，都隐藏着深层的文化权力博弈和对“真实自我”的永恒追寻。",
-          "title_zh": "The history of the human face is more than skin deep",
+          "title_zh": "[文化] 人脸的历史不仅关乎皮相",
           "subtitle_zh": "An exuberant new book includes physiognomy, portraiture and plastic surgery"
         },
         {
           "title": "The brightest tourism trend can be found in the darkest places",
           "subtitle": "Stargazing is an illuminating business",
           "summary": "在全球超过80%的人口生活在光污染天空下的今天，“观星旅游”（Astrotourism）正成为最热门的旅行趋势。核心论点是，人们正通过寻找“绝对黑暗”来寻求精神的静谧和“宇宙级的解脱”。关键数据显示，全球夜空亮度正以每年10%的速度增长，全美99%的地区已看不见银河。这种稀缺性催生了巨大的商机：DarkSky国际收到的黑暗天空保护区申请量在今年上半年翻倍；沙特和印度的偏远村庄正建立顶级天文台和奢华观星帐篷。背景分析揭示，观星能显著降低皮质醇水平并提升幸福感，正如奥斯卡·王尔德所言：“我们都在阴沟里，但总有人在仰望星空。”结论认为，黑暗不再是荒凉的代名词，而是一种昂贵的旅游资源。这种回归原始、仰望苍穹的渴望，反映了现代人对工业文明异化的一种集体自救和回归自然秩序的尝试。",
-          "title_zh": "The brightest tourism trend can be found in the darkest places",
+          "title_zh": "[文化] 最亮的旅游趋势隐藏在最暗的地方",
           "subtitle_zh": "Stargazing is an illuminating business"
         },
         {
           "title": "The real value of the Bayeux tapestry",
           "subtitle": "The precious work, insured for $1bn, is bound for Britain. It’s more famous there than in France",
           "summary": "价值10亿美元、承载千年历史的《贝叶挂毯》即将开启其首次英伦之旅，这不仅是一次艺术借展，更是一场精心策划的“纤维外交”。核心论点是，马克龙通过出借这件描绘1066年诺曼征服的国宝，试图在后脱欧时代的英法关系中建立某种文化纽带。关键背景是，这件在英国刺绣、在法国保存了千年的珍品，将在12个精密减震器的保护下横跨英吉利海峡。由于贝叶博物馆即将装修，且英方即便面对王室和保守派的长期游说也始终保持谦卑姿态，法国政府最终排除了文物保护界的强烈反对批准了借展。结论认为，尽管挂毯叙述的是英国人的战败与羞辱，但英国民众对此的极度推崇反而会增强法国人对自身文化资产的自豪感。这是一次双赢的文化输出：它不仅象征着英法剪不断的历史连接，更是马克龙用文化力量柔化地缘政治裂痕的高明手腕。",
-          "title_zh": "The real value of the Bayeux tapestry",
+          "title_zh": "[文化] 贝叶挂毯的真正价值",
           "subtitle_zh": "The precious work, insured for $1bn, is bound for Britain. It’s more famous there than in France"
         }
       ]
@@ -618,7 +618,7 @@
           "title": "Economic data, commodities and markets",
           "subtitle": "",
           "summary": "本周全球经济指标反映出强烈的波动与分化。核心论点是，日本债券市场的剧震和能源价格的坚挺正重构投资者对下半年市场的预期。关键数据显示，日本十年期国债收益率已升至2.9%，为1996年以来最高，显示出市场对日本巨额债务融资能力的担忧。在能源市场，受中东战争重燃影响，天然气现货价格在欧亚两地分别跳涨55%和73%；与此同时，由于供应链压力，金属价格（-5.7%）和布伦特原油（$74.2）出现阶段性回调。分析指出，主要经济体中，中国一季度GDP增长5.0%，表现稳健，但股市（深证成指-7.1%）依然承压。结论认为，全球资本正处于一种“安全与成长”的剧烈切换中：美股（S&P 500）持平显示出对AI溢价的审慎，而债市的高收益率则预示着通胀阴影依然挥之不去。市场正处于地缘风险与技术红利博弈的十字路口。",
-          "title_zh": "Economic data, commodities and markets",
+          "title_zh": "[经济与金融指标] 经济数据、大宗商品与市场",
           "subtitle_zh": ""
         }
       ]
@@ -630,7 +630,7 @@
           "title": "Mona Khalil defied danger to protect her “family”",
           "subtitle": "Lebanon’s most dedicated conservationist was killed on June 19th, aged 76",
           "summary": "本期讣告纪念了黎巴嫩最具献身精神的自然保护者莫娜·哈利勒。莫娜于6月19日遇害，享年76岁。核心论点是，她不仅是在保护海龟，更是在战火纷飞的土地上守护一种超越种族的生命尊严。背景分析提到，她在黎巴嫩南部著名的“橙色屋”居住了几十年，由于不愿在内战期间像其他权贵一样逃往巴黎，她选择留在沙滩上阻挡那些试图用炸药炸鱼或破坏海龟巢穴的武装分子。她将每年回归产卵的海龟视为自己的“家人”，并以此建立了黎巴嫩唯一的生态避难所。尽管该地区历经数次战争和以色列的轰炸，她从未撤离。结论感叹，莫娜用一种近乎顽固的坚持证明了：在混乱的秩序中，一个人对一片沙滩、一群生灵的守护，可以成为支撑文明不坠的微光。她的离去不仅是生物保护界的损失，更是黎巴嫩失落的、那个勇敢且富有同情心时代的终结。",
-          "title_zh": "Mona Khalil defied danger to protect her “family”",
+          "title_zh": "[讣告] 莫娜·哈利勒：冒着危险守护她的“家人”",
           "subtitle_zh": "Lebanon’s most dedicated conservationist was killed on June 19th, aged 76"
         }
       ]
