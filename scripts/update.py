@@ -290,6 +290,11 @@ def update_app_js(all_issues):
     content = re.sub(r'const ISSUES = \{.*?\};', new_issues, content, flags=re.DOTALL)
     with open(app_js, 'w', encoding='utf-8') as f:
         f.write(content)
+    # Keep the web/ template in sync: update_docs() copies web/app.js over
+    # docs/app.js, so a stale ISSUES list there reverts the site whenever
+    # update_docs() runs without update_app_js() right after (bit us 2026-07-11).
+    with open(ROOT / 'web' / 'app.js', 'w', encoding='utf-8') as f:
+        f.write(content)
     log(f'  app.js updated: {len(econ)} Economist, {len(ny)} New Yorker issues')
 
 # ── Git push ──────────────────────────────────────────────────────────────────
