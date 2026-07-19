@@ -31,6 +31,10 @@ def notebooklm_ask(prompt, nb_id, timeout=180):
     # of the recurring "0 sections, 0 articles" TOC failures.
     r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json'],
                        capture_output=True, text=True, timeout=timeout)
+    if not r.stdout.strip():
+        # 2026-07-18: six asks in a row returned empty stdout and the real
+        # error was invisible because stderr was dropped — keep it.
+        print(f'   notebooklm ask empty (rc={r.returncode}), stderr: {r.stderr.strip()[:500]!r}')
     return r.stdout.strip()
 
 def extract_json_block(text):
@@ -191,7 +195,9 @@ def process_issue(pdf_path, magazine, date):
             if data and data.get('summaries'):
                 return data['summaries']
             print(f'   summaries parse failed (attempt {attempt}/3), answer head: {answer[:200]!r}')
-            time.sleep(15)
+            # 60s, not 15s: 2026-07-18 all six attempts fell inside one bad
+            # NotebookLM window — denser retries don't outlast it.
+            time.sleep(60)
         return {}
 
     print('6. Fetching summaries (batch 1/2)...')

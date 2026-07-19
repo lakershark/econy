@@ -81,6 +81,10 @@ def notebooklm_ask(prompt, nb_id, timeout=180):
     # quotes/$ the shell would mangle (root cause of past TOC/translation loss).
     r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json'],
                        capture_output=True, text=True, timeout=timeout)
+    if not r.stdout.strip():
+        # Same as pipeline.py: keep stderr visible when ask returns nothing
+        # (2026-07-18 all-empty answers left no trace of the real error).
+        log(f'   notebooklm ask empty (rc={r.returncode}), stderr: {r.stderr.strip()[:500]!r}')
     return r.stdout.strip()
 
 def normalize(s):

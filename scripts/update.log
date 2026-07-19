@@ -355,3 +355,8 @@
 [2026-07-19 11:10:32]    Translated 71/71 titles
 [2026-07-19 11:10:32] Updating docs/ and pushing to GitHub...
 [2026-07-19 11:10:32]   app.js updated: 20 Economist, 16 New Yorker issues
+[2026-07-19 11:10:35]   Pushed to GitHub.
+[2026-07-19 11:10:38]   cleaned up old notebook: The Economist 2026-06-20
+[2026-07-19 11:10:38]   notebook cleanup: deleted 1, kept up to 5 per magazine
+[2026-07-19 11:10:38] === Done ===
+
