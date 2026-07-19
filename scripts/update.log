@@ -336,3 +336,22 @@
 [2026-07-11 16:27:15]    Translated 76/76 titles
 [2026-07-11 16:27:17]   Pushed to GitHub.
 [2026-07-11 16:34:27]   app.js updated: 19 Economist, 16 New Yorker issues
+[2026-07-18 08:08:14] === Econy weekly update started ===
+[2026-07-18 08:08:14] economist: 19 existing issues
+[2026-07-18 08:08:14] economist: new issue found — 2026-07-18
+[2026-07-18 08:08:14] Processing The Economist 2026-07-18
+[2026-07-18 08:08:14]   Downloading TheEconomist.2026.07.18.pdf...
+[2026-07-18 08:08:15]   Downloaded: 8301KB
+[2026-07-18 09:30:07]   ERROR processing economist 2026-07-18: No summaries could be merged
+[2026-07-18 09:30:07] No new issues. Nothing to push.
+[2026-07-18 09:30:08] === Done ===
+
+[2026-07-19 11:01:28] === Econy weekly update started ===
+[2026-07-19 11:01:28] economist: 19 existing issues
+[2026-07-19 11:01:29] economist: new issue found — 2026-07-18
+[2026-07-19 11:01:29] Processing The Economist 2026-07-18
+[2026-07-19 11:09:00]   Translating titles...
+[2026-07-19 11:09:00]    title translation attempt 1: 71 remaining
+[2026-07-19 11:10:32]    Translated 71/71 titles
+[2026-07-19 11:10:32] Updating docs/ and pushing to GitHub...
+[2026-07-19 11:10:32]   app.js updated: 20 Economist, 16 New Yorker issues

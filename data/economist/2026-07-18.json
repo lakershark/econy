@@ -1,0 +1,599 @@
+{
+  "magazine": "The Economist",
+  "issue_date": "2026-07-18",
+  "notebook_id": "11d986d1-f052-446d-a97a-575a32fdef3d",
+  "toc": [
+    {
+      "section": "The world this week",
+      "articles": [
+        {
+          "title": "Politics",
+          "subtitle": "July 16th 2026",
+          "summary": "本周全球政治局势动荡。美伊停火协议几近崩溃，特朗普恢复对霍尔木兹海峡伊朗船只的封锁并下令打击，伊朗则袭击了阿联酋油轮，导致油价跳升[1, 2]。伊拉克新总理访美，特朗普对其大加赞赏，旨在施压要求其解除亲伊武装[2]。以色列定于10月27日举行大选，这将是该国历史上最重要的选举之一[2, 3]。刚果（金）暴发埃博拉疫情，已有近800人死亡，科学家担忧其规模可能超过十年前的西非疫情[3]。美国资深参议员林赛·格雷厄姆意外去世[3, 4]。英国政坛方面，保守党前部长安·威德科姆遇害，嫌疑人已被捕；安迪·伯纳姆当选工党党魁，将接替斯塔默[4, 5]。此外，布克尔再次获提名竞选萨尔瓦多总统，委内瑞拉地震死亡人数接近5000人[6, 7]。",
+          "title_zh": "政治",
+          "subtitle_zh": "July 16th 2026"
+        },
+        {
+          "title": "Business",
+          "subtitle": "July 16th 2026",
+          "summary": "美联储主席凯文·沃什向国会作首份报告，承诺恢复价格稳定并实施政策转型[8]。6月美国CPI降至3.5%，核心CPI降至2.6%，能源价格也有所下降[9]。得益于股市交易活跃，美国各大银行二季度利润激增，摩根大通净利润增长41%[9, 10]。韩国央行三年来首次加息，SK海力士在纳斯达克成功上市融资265亿美元[10, 11]。航空业方面，EasyJet接受了Apollo 76亿美元的私有化收购；Uber以148亿美元收购Delivery Hero[11, 12]。中国二季度GDP同比增长4.3%，虽是除疫情期外的历史低点，但出口表现强劲，特别是汽车出口首次突破百万辆[12, 13]。科技领域，苹果起诉OpenAI窃取机密；ASML和台积电受AI热潮驱动，业绩远超预期；而SpaceX股价跌破发行价[13-15]。",
+          "title_zh": "商业",
+          "subtitle_zh": "July 16th 2026"
+        },
+        {
+          "title": "Cartoon: Continuing uncertainty over the Strait of Hormuz",
+          "subtitle": "A lighter take on the news",
+          "summary": "本周漫画聚焦霍尔木兹海峡持续的不确定性。特朗普总统对重开海峡缺乏有效方案，局势陷入僵持。美国与伊朗在海峡周边频繁交火，导致航运陷入停滞。尽管特朗普试图通过武力威胁和制裁逼迫伊朗妥协，但伊朗强硬派不仅未退缩，反而利用地区代理人增强影响力。这种僵局不仅推高了全球油价，也让资金匮乏的伊朗面临巨大经济代价，而美国在海峡的博弈同时也面临着在伊拉克与伊朗争夺影响力的另一场战斗[16, 17]。",
+          "title_zh": "漫画：霍尔木兹海峡持续的不确定性",
+          "subtitle_zh": "A lighter take on the news"
+        }
+      ]
+    },
+    {
+      "section": "Leaders",
+      "articles": [
+        {
+          "title": "Donald Trump’s gutting of the Department of Justice",
+          "subtitle": "What the degraded institution means for America",
+          "summary": "核心论点：特朗普正将司法部（DoJ）从法律守护者转变为总统权力的政治工具，这种对制度的侵蚀对美国民主构成深刻威胁[18, 19]。\n背景分析：自水门事件以来，司法部一直保持相对独立。然而在第二任期内，特朗普通过任命私人律师托德·布兰奇为代理司法部长，将重点转向打击政敌（如各州民主党州长）和追查所谓的“选举欺诈”[20, 21]。\n关键数据：目前司法部约四分之一的律师已离职，纽约和华盛顿的金融欺诈起诉量比十年平均水平下降了30%，约300名负责国家安全的FBI特工辞职，导致反恐和网络战经验大量流失[22, 23]。此外，DoJ在14个月内近100次向法庭提供错误信息，失去了司法信任[23]。\n结论：尽管最高法院赋予了总统解雇半独立机构领导人的权力，增加了其控制力，但目前的希望寄托于联邦法官能守住底线。即便未来选出新总统，这种党派化的破坏也将极难修复，因为专业人才流失和政治肃清的恶性循环已经形成[24-26]。",
+          "title_zh": "特朗普对司法部的“清洗”",
+          "subtitle_zh": "What the degraded institution means for America"
+        },
+        {
+          "title": "It’s too darn hot. Blame global dimming",
+          "subtitle": "Earth is absorbing a lot more sunshine",
+          "summary": "核心论点：地球正以惊人的速度变热，这不仅是因为温室气体，还归因于“反照率”（Albedo）的降低，即地球反射阳光能力的减弱[27, 28]。\n背景分析：科学家发现海洋吸收了更多热量，部分原因是变暖导致云层减少。另一个讽刺的原因是环保努力的副作用：减少化石燃料产生的二氧化硫排放虽然保护了呼吸健康，但也消除了这些颗粒物反射阳光的降温效应，可能导致全球升温额外增加1°C[29, 30]。\n关键数据：2026年7月的海面温度创下历史新高，欧洲自5月以来经历了三次热浪。虽然各国承诺“净零”，但进程极其缓慢，且容易受到政治变动影响[26, 31, 32]。\n结论：单纯依赖减排已无法快速扭转趋势，人类必须学会忍受极端气候。更激进的对策——地球工程（如向平流层喷洒安全气溶胶以增加反射）虽然饱受争议，但随着变暖加剧，可能很快就会成为不得不讨论的选项[33-35]。",
+          "title_zh": "酷暑难耐：归咎于全球变暗",
+          "subtitle_zh": "Earth is absorbing a lot more sunshine"
+        },
+        {
+          "title": "Donald Trump’s blind alley",
+          "subtitle": "America’s president looks bereft of good options for solving the stand-off in the Gulf",
+          "summary": "核心论点：特朗普在霍尔木兹海峡局势上陷入了“死胡同”，在拒绝大幅妥协的同时，他缺乏重开这一战略要道的有效军事或外交手段[35, 36]。\n背景分析：一个月前签署的备忘录旨在通过解除制裁换取伊朗重开海峡，但由于双方对条款解读存在巨大分歧（伊朗认为其拥有管理权，美国则要求完全自由通行），局势演变为导弹和无人机袭击的互换[37, 38]。\n关键决策：特朗普曾错误地提出对通过海峡的船只征收20%费用，但在幕僚劝阻下取消。他目前主要依赖有限的军事打击和封锁，但伊朗拥有射程超过1000公里的武器，且能从内陆发起攻击[36, 39]。\n结论：尽管伊朗也面临严重的经济困难（战争损失估达2700亿美元），但其国内强硬派目前占据主导地位。特朗普发动的这场战争不仅未能推翻政权，反而强化了极端势力。目前美国几乎别无选择，只能通过持续封锁展示意志，尽管这将推高大选前的油价[39-41]。",
+          "title_zh": "特朗普的死胡同",
+          "subtitle_zh": "America’s president looks bereft of good options for solving the stand-off in the Gulf"
+        },
+        {
+          "title": "China’s rulers have a woman problem",
+          "subtitle": "Antagonism between the sexes does nothing to address China’s demographic problems",
+          "summary": "核心论点：中国老迈的男性统治者在处理性别问题上存在根本性错误，通过打压“极端女性主义”和催促女性回归传统角色来解决人口危机，只会适得其反[41, 42]。\n背景分析：由于长期的独生子女政策导致性别失衡，中国目前22至37岁年龄段的男性比女性多出2250万。男性面临巨大的结婚经济压力，约三分之一的年轻男性移民认为自己在30岁前结婚的概率不足50%[43, 44]。\n关键挑战：政治局自2022年起便全无女性成员，性别平权排名持续下滑。当局容忍网上的仇女言论，却严格审查任何鼓励独身的女性主义帖子[45, 46]。\n结论：政府应通过切实保护女性婚姻权益（如解决家暴、婚内强奸、薪资公平和公允的离婚补偿）以及降低房价等政策来提升结婚率，而非一味教导女性做“贤妻良母”。如果不倾听女性的真实想法，对抗将继续加剧[47-49]。",
+          "title_zh": "中国统治者的“女性难题”",
+          "subtitle_zh": "Antagonism between the sexes does nothing to address China’s demographic problems"
+        },
+        {
+          "title": "How to make AI safe—and lessen dependence on America and China",
+          "subtitle": "State-backed efforts to catch up with frontier models are doomed",
+          "summary": "核心论点：各国对美中AI霸权的依赖已成为战略软肋，虽然在尖端模型上追赶已不现实，但通过自主建设算力中心和寻找“卡脖子”筹码，仍可实现一定程度的“主权安全”[50-52]。\n背景分析：美中正将模型访问权限作为外交杠杆。OpenAI和Anthropic的融资额均超千亿美元，政府主导的追赶计划注定失败[51, 53]。\n关键建议：1. 建设本地数据中心，确保在断网时能运行开源模型，并加速电力电网审批。2. 利用自身优势制造筹码，如台湾的芯片制造、荷兰的ASML设备和韩国的存储技术[54-56]。3. 建立公私合营的监管机构（如哈萨比斯提议的模式），由美国领导并向全球扩散标准[53, 57]。\n结论：各国必须做好与AI超级大国进行“交易性”互动的准备，虽然美国比中国更可信，但每一分谈判筹码都至关重要[52]。",
+          "title_zh": "如何确保人工智能安全并减少对美中的依赖",
+          "subtitle_zh": "State-backed efforts to catch up with frontier models are doomed"
+        },
+        {
+          "title": "America should stop making it so hard to have fun",
+          "subtitle": "Bureaucracy is nightlife’s toughest bouncer",
+          "summary": "核心论点：美国城市繁琐的官僚制度和源自禁酒令时代的过时规则正在扼杀夜生活，这对经济活力和社会联系都造成了损害[52, 58]。\n背景分析：许多城市对酒牌数量设置严格配额，导致新泽西州一张酒牌的价格高达35万美元。复杂的土地分区法和噪音投诉机制也让酒吧老板不堪重负[59, 60]。\n关键数据：2003年至2023年间，18至30岁美国人每天社交的时间减少了38%；约三分之一的22至35岁单身人士在过去一年中没有约会过[61]。\n结论：繁荣的夜生活能创造就业并吸引年轻人才。城市应通过简化许可流程、取消酒牌配额、改善深夜交通以及增加警力（而非单纯惩罚）来振兴夜间经济。纽约和旧金山已开始在废除禁舞令等规则上迈出正确步伐[60, 62, 63]。",
+          "title_zh": "美国不应让寻欢作乐变得如此困难",
+          "subtitle_zh": "Bureaucracy is nightlife’s toughest bouncer"
+        }
+      ]
+    },
+    {
+      "section": "Letters",
+      "articles": [
+        {
+          "title": "The United States is once again in a state of rebellion",
+          "subtitle": "Also this week, the backlash against AI, homelessness, Eisenhower and roads, oil predictions",
+          "summary": "本栏目汇总了读者的观点。针对特朗普引发的“推土机革命”，有读者认为这标志着大国博弈正被“交易艺术”取代，如《亚伯拉罕协议》所示，双边协议正成为权力平衡的新机制[64-66]。另有读者指出，美国的民粹主义反弹并非单纯的排外，而是公民对边境、大学和公共服务被管理得不再以本国公民为核心的抗议[67]。在科技方面，有评论指出AI数据中心与居民争夺淡水资源是冲突根源，呼吁专家治理应更具同理心[68, 69]。此外，信件还涉及了丹佛无家可归问题的成本挑战、艾森豪威尔与州际公路的历史渊源以及对油价预测失败的调侃[70-72]。",
+          "title_zh": "美国再次陷入“叛乱”状态",
+          "subtitle_zh": "Also this week, the backlash against AI, homelessness, Eisenhower and roads, oil predictions"
+        }
+      ]
+    },
+    {
+      "section": "By Invitation",
+      "articles": [
+        {
+          "title": "Would Europeans fight, if it came to that?",
+          "subtitle": "Putting boots on the ground would not help Ukraine, but it might help Europe find the stomach for war, writes Nathalie Tocci",
+          "summary": "由于冲突临近，欧洲国防预算大幅增长。然而，2024年的民调显示约三分之一的欧洲人拒绝在国家受袭时参战，意大利的拒绝率甚至高达78%[73, 74]。这一现象反映了亲俄宣传的影响、地理距离带来的安全错觉以及媒体对防御准备的冷嘲热讽[75, 76]。作者认为，乌克兰的坚韧源于战争激发的生存本能，而和平时期的欧洲缺乏这种社会韧性。为了增强威慑力，作者建议在乌克兰部署“保障部队”，这不仅能展现团结，更能让欧洲公民意识到战争的真实性，通过分担风险来培养应对冲突的心态，从而防止战争蔓延[77-79]。",
+          "title_zh": "如果战争来临，欧洲人愿意战斗吗？",
+          "subtitle_zh": "Putting boots on the ground would not help Ukraine, but it might help Europe find the stomach for war, writes Nathalie Tocci"
+        }
+      ]
+    },
+    {
+      "section": "Briefing",
+      "articles": [
+        {
+          "title": "Israel’s future hangs in the balance",
+          "subtitle": "The country’s coming election may be its most important ever",
+          "summary": "核心论点：10月27日的选举是以色列历史上最重要的分水岭，选民将在内塔尼亚胡的“永恒战争”模式与一种尚未完全定义的替代愿景之间做出抉择[80, 81]。\n背景分析：尽管内塔尼亚胡坚称国家强大，但以色列在外交上正陷入孤立，西方盟友支持度大幅下滑，美、以关系因黎巴嫩和加沙局势出现裂痕。国内方面，IDF因多线作战和预备役超负荷而疲惫不堪[82-85]。\n关键分歧：1. 安全策略：反对派批评内塔尼亚胡未能将军事胜利转化为政治成果，但由于民众整体右倾，他们不敢公开讨论撤出西岸或两国方案[85, 86]。2. 社会裂痕：哈雷迪教徒（极正统派）拒绝服役成为核心矛盾。这类群体占人口14%且增长最快，其不工作、不参军的现状被许多以色列人视为生存威胁[87-89]。3. 经济隐忧：以色列依赖核心科研医疗人才，但人才流失（Brain-drain）正因司法改革和国际孤立而加剧[90, 91]。\n结论：内塔尼亚胡试图建立“雅典与超级斯巴达”的合体，但历史证明这类军事独裁终将崩溃。反对派若想获胜，必须在10月前团结分散的选民，并对巴勒斯坦定居点和定居者暴力等“不讨好”的问题给出真实答案。即便获胜，重建国家的任务才刚刚开始[92-94]。",
+          "title_zh": "以色列的未来命悬一线",
+          "subtitle_zh": "The country’s coming election may be its most important ever"
+        }
+      ]
+    },
+    {
+      "section": "United States",
+      "articles": [
+        {
+          "title": "Donald Trump’s transformation of the Department of Justice will be hard to undo",
+          "subtitle": "Political prosecutions are just part of a more radical reinvention",
+          "summary": "特朗普正在对司法部进行根本性改造。他提名私人律师托德·布兰奇领导DoJ，即使未获参议院通过，也将通过代理任命实施其议程。DoJ正转向政治报复，如二次起诉科米，同时对政敌如蒂姆·沃尔兹进行骚扰式传唤[95-98]。与此同时，司法部大规模流失资深人才，纽约和曼哈顿的金融犯罪起诉量下降30%，反恐和网络犯罪部门因人手不足陷入困境[99-101]。更严重的是，DoJ在移民和抗议者案件中多次向法院提供不实信息，导致法官信任崩溃。即便特朗普离任，这种被削弱的独立性和党派化的机构也将难以恢复到先前的专业水准[102-104]。",
+          "title_zh": "特朗普对司法部的改造将积重难返",
+          "subtitle_zh": "Political prosecutions are just part of a more radical reinvention"
+        },
+        {
+          "title": "Democrats challenge a big Hollywood tie-up",
+          "subtitle": "A dozen states are suing to block Paramount’s merger with Warner Bros",
+          "summary": "加州领衔的12个民主党州总检察长提起诉讼，旨在阻止派拉蒙与华纳兄弟探索频道的111亿美元合并。起诉方认为该交易将损害院线和有线电视发行竞争，最终导致票价和月费上涨[105, 106]。然而，反垄断执法正日益成为政治博弈的工具。民主党人以此传达“保护消费者”而非“偏袒富豪朋友”的信息，特别是考虑到派拉蒙高管家属曾为特朗普捐款[107, 108]。加州政府还面临保护本地电影产业就业的压力。派拉蒙则威胁可能将总部迁出加州。此案反映了加州严格监管与企业外迁压力之间的博弈，也揭示了大型媒体合并在当前政治环境下的极高难度[109, 110]。",
+          "title_zh": "民主党人挑战好莱坞合并大案",
+          "subtitle_zh": "A dozen states are suing to block Paramount’s merger with Warner Bros"
+        },
+        {
+          "title": "Cities are rethinking what happens after dark",
+          "subtitle": "Making it easier to party is becoming serious public policy",
+          "summary": "美国城市正从单纯规制夜生活转变为积极推广。包括波士顿和纽约在内的十多个城市设立了“夜生活市长”或相关专员。他们的目标是在保护居民安宁的同时，通过测量分贝而非单纯取缔噪音来帮助酒吧运营[111, 112]。纽约废除了过时的《卡巴莱法》，波士顿则因世界杯期间球迷的需求增加了酒牌配额。奥斯汀甚至规定新住宅开发商必须承担隔音责任。这种政策转向旨在留住年轻专业人才并增加税收[113-116]。面临年轻人社交时间大幅减少38%的“沙发战争”，城市管理者正努力通过改善深夜交通等手段，让街道在办公室关门后依然保持活力[117, 118]。",
+          "title_zh": "城市正在重新思考夜生活",
+          "subtitle_zh": "Making it easier to party is becoming serious public policy"
+        },
+        {
+          "title": "America’s other elections problem",
+          "subtitle": "No other rich democracy hands as many decisions directly to its voters",
+          "summary": "美国的选举系统极其冗长且低效。选民不仅要选总统，还要选从法官、法医到学校董事会的约50万名官员，导致三分之二的候选人因无人竞争而自动当选[119, 120]。此外，由于繁琐的投票倡议制度，选民需决定诸如“成人电影演员是否戴避孕套”或复杂的税法等立法事项[120, 121]。研究显示，加州多数倡议书的阅读难度达到了大学甚至研究生水平，而仅三分之一的美国人拥有学士学位[122, 123]。如今这类活动往往由财团和工会而非草根主导，例如塞吉·布林就为反对财富税投入了8200万美元。这使得政府问责制受损，民众也因过度参与而感到疲惫[124, 125]。",
+          "title_zh": "美国的另一个选举问题",
+          "subtitle_zh": "No other rich democracy hands as many decisions directly to its voters"
+        },
+        {
+          "title": "Lindsey Graham tried to save the wrong countries from Donald Trump",
+          "subtitle": "He should have put American democracy first",
+          "summary": "格雷厄姆参议员的去世引发了华盛顿精英的哀悼。他的职业生涯映射了共和党从传统保守派向特朗普主义的转变。格雷厄姆曾是特朗普最猛烈的批评者，称其为“排外偏执狂”，但自2016年后他通过极端忠诚来维持“相关性”[126-128]。他辩称这样做是为了在外交政策上约束特朗普，支持乌克兰和以色列。然而，他在公开场合支持特朗普的虚假选举指控，甚至在老友麦凯恩受辱时保持沉默[129-131]。最终，他并没有像自己希望的那样改变特朗普，反而因追求影响力而助长了特朗普对权力的掌控，并在试图拯救海外民主的同时，削弱了本国的民主基石[132]。",
+          "title_zh": "林赛·格雷厄姆救错了受特朗普威胁的国家",
+          "subtitle_zh": "He should have put American democracy first"
+        }
+      ]
+    },
+    {
+      "section": "The Americas",
+      "articles": [
+        {
+          "title": "The Panama Canal is growing more important",
+          "subtitle": "And the challenges to it are getting more acute",
+          "summary": "受中东霍尔木兹海峡局势影响，巴拿马运河作为替代航线的重要性陡增，4、5月间其过闸费用一度涨至原先的三倍，为国库贡献了超20%的财政收入[133-135]。然而，运河面临气候变化和地缘政治的双重挑战。干旱曾导致日通行量砍半，目前正耗资建设新水库以保供[136, 137]。地缘政治上，特朗普重拾“门罗主义”，威胁要“收回”运河，并担忧中国在周边港口的控制权。在美方压力下，巴拿马最高法院已判定中资港口合同违宪，并退出了中国的“一带一路”。巴拿马现任总统穆利诺正小心翼翼地在想要更多控制权的美国与可能实施报复的中国之间寻找平衡[138-142]。",
+          "title_zh": "巴拿马运河的重要性日益凸显",
+          "subtitle_zh": "And the challenges to it are getting more acute"
+        },
+        {
+          "title": "The biggest schools training America’s doctors are in the Caribbean",
+          "subtitle": "The industry has a seedy underbelly",
+          "summary": "加勒比地区已成为美国医生的重要输出地。圣乔治大学（SGU）每年招收上千名学生，其中70%是美国人，其提供的医生数量超过全球任何一所学校[143, 144]。由于美国本土医学院名额不足且门槛极高，许多落榜生选择支付高额学费前往格林纳达等地求学。然而，该行业存在黑暗面：约100所学校中夹杂着许多无证经营者。认证过程极其混乱，有的学校甚至通过吉尔吉斯斯坦获取认可[145, 146]。许多学生背负巨额债务却无法获得行医资格，有学生因学校突然转入线上教学并违约而破产。这一现象揭示了美国医疗系统严重的人才缺口与离岸教育监管缺失之间的矛盾[147, 148]。",
+          "title_zh": "美国医生的摇篮在加勒比",
+          "subtitle_zh": "The industry has a seedy underbelly"
+        },
+        {
+          "title": "Argentina v England is one of the most intense rivalries in sport",
+          "subtitle": "The two countries have not played each other in over two decades",
+          "summary": "英阿足球对决不仅是体育竞技，更是历史仇恨的延续。自1966年世界杯的“世纪劫案”起，两国的对抗便充满了火药味。1986年马勒多纳的“上帝之手”被阿根廷人视为马尔维纳斯战争失败后的复仇[149-151]。在今年7月15日的半决赛中，阿根廷以2-1击败英格兰，这是两队二十多年来首次交锋，看台上的阿根廷球迷依然高唱着关于马岛的赞歌[152-154]。阿根廷总统米莱近期也对马岛主权展示了更为强硬的态度。尽管足球场上的胜利无法改变马岛目前仍属英国领土的事实，但对阿根廷人来说，在赛场上击败英格兰永远具有超越胜负的民族尊严意义[151, 154]。",
+          "title_zh": "阿英对决：体坛最激烈的竞争之一",
+          "subtitle_zh": "The two countries have not played each other in over two decades"
+        }
+      ]
+    },
+    {
+      "section": "Asia",
+      "articles": [
+        {
+          "title": "Is Aung San Suu Kyi dead?",
+          "subtitle": "Myanmar’s jailed leader has not been seen since 2022",
+          "summary": "缅甸原领导人昂山素季自2022年审判结束后已从公众视野消失长达五年，其子正呼吁国际社会向军政府索要“生存证明”[155, 156]。尽管军方声称已将其转为家政，但拒绝了所有外交官的访问请求，其仰光和内比都的住所据称已被拆除。敏昂莱大将在被问及其近况时表现出极大愤怒[157-159]。昂山素季对缅族多数派仍有巨大的象征意义，但她在少数民族武装中的支持度存疑。外交官们担忧，她的死亡若被隐瞒，将彻底断绝军政府重返东盟和联合国席位的希望。与此同时，缅甸监狱中仍关押着约1.4万名政治犯，医疗环境恶劣，仅今年就有超60人死亡[160-162]。",
+          "title_zh": "昂山素季去世了吗？",
+          "subtitle_zh": "Myanmar’s jailed leader has not been seen since 2022"
+        },
+        {
+          "title": "An unreliable America is drawing Asia’s middle powers closer",
+          "subtitle": "A burst of Indian diplomacy xemplifies the trend",
+          "summary": "随着特朗普执政下的美国变得愈发不可靠，以印度为首的亚洲中等强国正通过紧密的双边外交进行“自我投保”。莫迪近期密集的出访——从斯洛伐克、捷克到印尼、澳、新——展示了这一趋势[162, 163]。由于美军将“印太司令部”更名为“太平洋司令部”，去掉了具有战略意义的“印”字，德里方面深感被边缘化[164, 165]。为了应对中国并在美、中裂痕中生存，印度正与澳大利亚达成铀矿供应和海事安全协议，并与日本合作生产防务设备。这些国家并不寻求彻底抛弃美国或遏制中国，而是在旧有的分歧上达成妥协，试图在多极世界中通过中等强国联盟来对冲风险[165-167]。",
+          "title_zh": "不可靠的美国正促使亚洲中等强国走得更近",
+          "subtitle_zh": "A burst of Indian diplomacy xemplifies the trend"
+        },
+        {
+          "title": "Haunted houses are in demand in Japan",
+          "subtitle": "What’s behind the growing desire for once-shunned “incident properties”?",
+          "summary": "在日本，曾发生过自杀或谋杀案的“事故物件”（jiko bukken）正因高昂的房价而受到追捧。这类房产通常比市场价便宜10%至50%[168, 169]。由于日本人口老龄化加剧，2025年记录了超过2万起“孤独死”，政府放宽了披露规则，使得除了极端情况外，房东不必告知租客此前的普通病死事件[170]。尽管日本社会依然迷信，有公司专门用热成像仪检查“灵异活动”，但高涨的房租（如东京3月单间租金增长13%）让务实的年轻人和投资者开始接受这类房屋。投资者尤其看好这类房产，因为法律规定披露期限仅为三年，之后便可全价出售，成为一种特殊的套利手段[171, 172]。",
+          "title_zh": "日本“凶宅”需求旺盛",
+          "subtitle_zh": "What’s behind the growing desire for once-shunned “incident properties”?"
+        },
+        {
+          "title": "A real but selective crackdown on Cambodia’s scam industry",
+          "subtitle": "Sanctions from America and pressure from China have forced a reckoning",
+          "summary": "柬埔寨正面临前所未有的国际压力，其在线诈骗产业规模高达190亿美元，相当于正式GDP的40%[173, 174]。曾任洪森顾问的犯罪头目陈志（Chen Zhi）被引渡至中国，这一事件标志着长期以来“假打击、真保护”的模式发生了动摇[173, 175]。美国政府采取了更强硬的立场，不仅扣押了价值150亿美元的加密货币，还制裁了涉及诈骗园区运营的柬埔寨参议员。中国也因公民受害严重而加强了与东南亚各国的联合情报行动。虽然部分园区因保护伞失效而关闭，但诈骗集团正通过选择性执法转移至老挝、缅甸和印尼。柬埔寨精英阶层正努力平衡犯罪所得收益与被美国金融系统彻底孤立的巨大风险[176-178]。",
+          "title_zh": "柬埔寨对诈骗产业进行真实但有选择性的打击",
+          "subtitle_zh": "Sanctions from America and pressure from China have forced a reckoning"
+        },
+        {
+          "title": "An incomplete list of falling objects in India",
+          "subtitle": "Prosperity and infrastructure development have not come with improved safety",
+          "summary": "在印度，快速发展的基建与落后的安全管理导致“天降横祸”成为常态。孟买极端的季风气候仅在一周内就导致830棵树倒下，压死多名学生和摊主[179-181]。然而问题不仅限于自然灾害：为了修建地铁，大量树木被砍伐，取而代之的是倒塌的混凝土板、铁管甚至是各种在建桥梁。德里和拉杰果德的机场顶棚相继垮塌，印证了印度报纸的结论：“无处是安全的”[182-184]。落后的维护导致旧学校屋顶频繁坍塌，甚至发生了非法广告牌砸死17人的惨剧。尽管人均收入增长，但当局在事故后往往仅以少量补偿和寻找替罪羊结案，缺乏对安全法规的真正执行，使得absurd（荒诞）成为了生活的一部分[185, 186]。",
+          "title_zh": "印度天降横祸的不完全清单",
+          "subtitle_zh": "Prosperity and infrastructure development have not come with improved safety"
+        }
+      ]
+    },
+    {
+      "section": "China",
+      "articles": [
+        {
+          "title": "China is dealing with its own manosphere",
+          "subtitle": "But online misogyny is only one corner of a much bigger problem",
+          "summary": "中国的“男权圈”（manosphere）正由于性别失衡和经济压力而迅速膨胀。约33%的年轻男性移民认为自己结婚无望，且面临着平均高达12.7万元、需攒六年钱才能支付的彩礼压力[184, 187]。这种挫败感在社交媒体上转化为对女性的攻击，如指责女性主义受“境外势力”洗脑或过度索取。有趣的是，中国政府虽然表面上打压“极端女性主义”，视其为社会不稳定因素，但现在也开始担忧“性别对立”会进一步拉低跌至谷底的结婚率[188, 189]。尽管审查机构加强了对挑起性别矛盾账号的封禁，但仇女言论在传统价值观和官方“贤妻良母”导向的掩护下依然泛滥。单身男性的愤怒已成为一种难以消解的社会风险[190-192]。",
+          "title_zh": "中国正在应对自己的“男权圈”",
+          "subtitle_zh": "But online misogyny is only one corner of a much bigger problem"
+        },
+        {
+          "title": "Xi Jinping expels another leader from his top team",
+          "subtitle": "He has set a record for booting out members of the Politburo",
+          "summary": "习近奔驰下的中国政坛正经历着毛泽东时代以来最密集的权力洗牌。最新落马的是前新疆党委书记马兴瑞，他因“极其严重”的腐败被开除党籍[192, 193]。曾经身为航空专才的他曾主持月球探测项目，但现被指控收受巨额贿赂及利用职权谋取性利益[194]。自2022年以来，已有两名国防部长、一名外交部部长及数十名高级军官被撤换，目前的政治局仅剩21名活跃成员。习近平打破了“入局不死”的潜规则，这显示出他不仅对潜在政敌保持高度警惕，也愿意为了巩固权力而牺牲制度的表面稳定性。马兴瑞将面临漫长的监禁，这再次向官僚体系释放了不容挑战权威的严厉信号[195-197]。",
+          "title_zh": "习近平将又一位领导人逐出核心团队",
+          "subtitle_zh": "He has set a record for booting out members of the Politburo"
+        },
+        {
+          "title": "China wants to end AI romances",
+          "subtitle": "It was all having too much impact on young people’s lives",
+          "summary": "中国政府出台新规以遏制年轻人对AI的“情感依赖”。自7月15日起，严禁为未成年人提供虚拟伴侣服务，成年人使用此类服务也需接受“成瘾干预”和反色情审查[197, 198]。这一监管直接冲击了字节跳动的“猫箱”和MiniMax的“星野”等热门应用，后者的AI伴侣收入占比高达35%[199, 200]。官方担忧这种“虚假恋情”会分散年轻人组建真实家庭、生儿育女的精力，加剧人口危机，同时也为了防范因沉迷AI导致的财务鲁莽或自残风险[201, 202]。虽然监管暂时损害了AI企业的利润，但也展示了中国在追求社会目标时牺牲技术发展的决心。然而，这些企业被允许继续向海外市场输出此类服务[203, 204]。",
+          "title_zh": "中国想要终结“人工智能恋情”",
+          "subtitle_zh": "It was all having too much impact on young people’s lives"
+        },
+        {
+          "title": "A squeezed China is trying to wring more from its state assets",
+          "subtitle": "Its latest campaign won’t solve its debt woes, but inches in the right direction",
+          "summary": "面对土地财政收入减半导致的财政赤字，中国地方政府正从“大规模扩张”转向“盘活存量资产”的精细化治理模式，典型的便是“岳阳模式”[205, 206]。通过整合湖泊经营权、将废弃旅游区改造为人力资源中心，岳阳成功增加了非税收入。中央政府在2022年启动此项改革，核心是增加国有资产的回报率而非私有化，这符合习近平的经济偏好[207, 208]。关键数据显示，在最积极的十个省份，国有资产使用费已占支出的10%。虽然这无法彻底解决数万亿的债务问题，但它标志着中国发展模式的转型：从肆意扩张土地转向像“翻箱底”一样榨取现有资源的价值[209-211]。",
+          "title_zh": "财政拮据的中国正试图从国有资产中榨取更多价值",
+          "subtitle_zh": "Its latest campaign won’t solve its debt woes, but inches in the right direction"
+        }
+      ]
+    },
+    {
+      "section": "Middle East & Africa",
+      "articles": [
+        {
+          "title": "Donald Trump has no good options for reopening the Strait of Hormuz",
+          "subtitle": "Yet the stand-off has costs for cash-strapped Iran, too",
+          "summary": "特朗普上月签署的对伊备忘录已成废纸，美伊因对“安全通行”管理权的解释权争夺而重启战火。伊朗袭击了美军驻巴林和科威特基地，美国则对伊朗南部进行报复性轰炸[212, 213]。目前霍尔木兹海峡的油轮流量跌至近期低点，布伦特原油价格已回升至每桶87美元左右。特朗普面临三重困境：有限军事打击已证明无效；全面战争风险极大且无大选优势；国际援军因担忧报复而迟疑不决[214-216]。尽管伊朗也因油价折扣和制裁损失惨重，但强硬派坚持握紧海峡这一筹码。目前双方都陷入了既无法通过武力取胜、又无法通过谈判妥协的消耗战，最不坏的选择竟是那个正被他们亲手撕碎的脆弱协议[217, 218]。",
+          "title_zh": "特朗普在重开霍尔木兹海峡上缺乏良策",
+          "subtitle_zh": "Yet the stand-off has costs for cash-strapped Iran, too"
+        },
+        {
+          "title": "America’s other battle with Iran",
+          "subtitle": "The two countries are vying for influence in Iraq",
+          "summary": "在美伊争夺霍尔木兹海峡的同时，伊拉克成为了另一战场。伊拉克新总理阿里·扎伊迪作为商人出身，虽表面亲美并承诺缴械亲伊武装、堵截资金流向伊朗，但其实际受控于曾亲伊的首席法官法伊克·扎伊丹[218-220]。扎伊迪高度依赖美国的美元供应来支付公职人员薪水，但也深知伊朗掌握着伊拉克的地面控制权和宗教影响力[221, 222]。超过3000名武装人员拒绝裁军，并利用伊朗最高领袖丧礼展示武力。随着美国撤军期限临近，伊拉克人对美国“天空霸权”的抵触增加。如果扎伊迪未能完成反恐任务，特朗普可能切断油收，但这也将把伊拉克彻底推向伊朗，面临更多流血冲突[223-225]。",
+          "title_zh": "美国与伊朗的另一场战斗",
+          "subtitle_zh": "The two countries are vying for influence in Iraq"
+        },
+        {
+          "title": "The Ebola epidemic is getting out of control",
+          "subtitle": "It has spread to five provinces in Congo and may soon reach South Sudan",
+          "summary": "刚果（金）的埃博拉疫情已蔓延至五个省份并逼近南苏丹，形势极其严峻。截至7月14日，已有2073人感染，796人死亡，且仅有30%的新病例属于已知接触者，意味着大量感染者游离于视线之外[226-228]。由于针对此次毒株的疫苗尚在试验中，传统的隔离与追踪至关重要，但贫困和连年内战导致医疗资源匮乏，医护人员月薪仅80美元且已被拖欠数月[229-231]。虽然国际捐助承诺了12亿美元，但实际到账仅一成。医护人员正因缺乏防护设备和低薪而罢工。在南苏丹面临内战威胁且卫生系统更脆弱的背景下，疫情向北扩散的概率高达70%，世界正面临十年来最严重的病毒威胁[231-233]。",
+          "title_zh": "埃博拉疫情正走向失控",
+          "subtitle_zh": "It has spread to five provinces in Congo and may soon reach South Sudan"
+        },
+        {
+          "title": "A hit new show takes on polygamy in modern South Africa",
+          "subtitle": "“The Polygamist” is trashy yet perceptive about family, patriarchy and inequality",
+          "summary": "奈飞新剧《一夫多妻》在非洲走红，通过讲述暴发户泰康·乔纳西的家族沉浮，深刻描绘了南非现代社会与传统习俗的冲撞。虽然现实中仅1.6%的南非女性处于多妻婚姻，但在贫困农村和祖鲁人中这仍是重要传统。剧集通过“金矿之城”约翰内斯堡的背景，揭示了极端的贫富差距如何让一些女性（所谓的“杀戮女王”）将依附权贵视为阶层跨越的捷径。剧中不仅充斥着南非特有的电子舞曲AMAPIANO，更反映了黑人中产阶级在西方核家庭理念与传统价值观之间的焦虑。这种对非洲财富、父权制和不平等的直观呈现，引起了全大陆观众的强烈共鸣[233-236]。",
+          "title_zh": "热门新剧探讨现代南非的一夫多妻制",
+          "subtitle_zh": "“The Polygamist” is trashy yet perceptive about family, patriarchy and inequality"
+        },
+        {
+          "title": "How to preserve Africa’s architectural gems",
+          "subtitle": "Development and restoration must go hand in hand",
+          "summary": "非洲的历史建筑仅占联合国教科文组织名录的不到10%，但在“濒危”名单中比例极高。肯尼亚拉穆古镇有三分之一的建筑已成废墟[237, 238]。保护非洲遗产面临多重困难：资金严重依赖外援（如阿曼资助桑给巴尔），私有住房因多代继承纠纷难以修缮，且缺乏数字化档案[238-240]。更深层的障碍是民众和政府的冷漠，历史建筑常被视为殖民或异族入侵的产物，其关注度远不及野生动物。埃塞俄比亚甚至为了现代化拆除了大量古迹。学者呼吁不应将保护与发展对立，应通过适度商业化和旅游收入反哺社区，让当地人意识到建筑遗产带来的真实经济利益[241-243]。",
+          "title_zh": "如何保护非洲的建筑瑰宝",
+          "subtitle_zh": "Development and restoration must go hand in hand"
+        }
+      ]
+    },
+    {
+      "section": "Europe",
+      "articles": [
+        {
+          "title": "Ukraine’s reformist defence minister is ousted",
+          "subtitle": "The generals pushed back at his efforts to modernise the army",
+          "summary": "乌克兰总统泽连斯基近期大举改组内阁，任职仅半年的明星国防部长费多罗夫意外出局。这位35岁的“颠覆者”曾成功通过App实现国家数字化并打造了全球领先的“无人机大军”，但在转入国防部后与传统的将军阶层爆发了剧烈冲突[244-246]。他强力审计揭露了66亿美元的超支并推行公开招标，触动了既得利益集团，且曾试图撤换总司令瑟尔斯基未果。军方批评他缺乏实战经验，称其改革只是“公关包装”。虽然泽连斯基曾考虑提拔他为总理，但费多罗夫拒绝这种“明升暗降”。接替者为具有能源背景的科雷茨基。此次人事震荡显示了乌克兰战时体制内技术官僚与传统官僚体系之间难以调和的矛盾[247-250]。",
+          "title_zh": "乌克兰改革派国防部长被撤换",
+          "subtitle_zh": "The generals pushed back at his efforts to modernise the army"
+        },
+        {
+          "title": "Europe seems set to ease its carbon pricing",
+          "subtitle": "Green goals are running into fears about competitiveness",
+          "summary": "核心论点：由于担忧工业竞争力和能源价格高企，欧盟正倾向于放宽其标志性的碳排放交易体系（ETS）。\n背景分析：欧盟碳市场被视为减排的黄金准则，但在政治压力下，每吨约80欧元的成本增加了电力和航空负担。意大利、波兰等十国已呼吁进行审查。德国总理梅尔茨等也担心本国制造业的全球地位。\n关键数据：2024年碳配额拍卖为欧盟带来了400亿欧元的收入。每吨80欧元的成本为气电每千瓦时增加了约3欧分成本。\n结论：若放宽规则，将导致碳价下跌，迫使减排压力流向政治更敏感的取暖和农业领域。此举还可能伤害已投入绿色技术的企业，动摇欧洲在可持续发展领域的信誉。",
+          "title_zh": "欧洲似乎将放宽其碳定价政策",
+          "subtitle_zh": "Green goals are running into fears about competitiveness"
+        },
+        {
+          "title": "Sweden squashed migration. The populist right wants to go further",
+          "subtitle": "The Sweden Democrats could be heading for a bigger role in government",
+          "summary": "核心论点：瑞典在右翼民粹主义政党瑞典民主党（SD）的推动下，政策重心正从“阻止新移民”转向“促使现有移民离开”。\n背景分析：瑞典净移民人数已从2016年的11.7万高位降至去年的1.2万。SD作为议会最大的右翼力量，虽然不入阁，但通过分权协议施加了巨大影响。\n关键措施：政策核心是“遣返”。政府将针对回国难民的补助提高到35万克朗。新法还允许驱逐因欠债等行为“表现不佳”的移民，SD甚至寻求将永久居留权降级为临时。\n结论：随着移民关注度下降，SD面临政治挑战。企业界对失去海外人才表示担忧。即将到来的大选将检验这种针对已定居移民的强硬路线是否仍有民心基础。",
+          "title_zh": "瑞典已压低移民数量，民粹右翼还想更进一步",
+          "subtitle_zh": "The Sweden Democrats could be heading for a bigger role in government"
+        },
+        {
+          "title": "Opening the border between Spain and Gibraltar",
+          "subtitle": "The deal offers hope for a more pragmatic relationship between Britain and Europe",
+          "summary": "核心论点：一份历史性条约拆除了直布罗陀与西班牙之间的边界，旨在清理脱欧残局并将其事实性地融入申根区和欧盟关税同盟。\n背景分析：直布罗陀长期依赖西班牙提供日常物资和1万名跨境劳力，96%的人因担心硬边界而在脱欧公投中支持留欧。\n关键细节：直布罗陀将实施欧盟税收标准，征收15%至17%的交易税，其消费税也将向西班牙看齐，低价烟酒时代终结。非直布罗陀旅客进入机场需接受西班牙警方检查。\n结论：条约虽然搁置了主权争端，但通过合作实现了双赢，有望重振周边贫困地区。它被视为英欧关系重回务实合作的重要风向标。",
+          "title_zh": "开放西班牙与直布罗陀之间的边界",
+          "subtitle_zh": "The deal offers hope for a more pragmatic relationship between Britain and Europe"
+        },
+        {
+          "title": "Why Berlin’s airport is still completely hopeless",
+          "subtitle": "Blame passengers, lobbying, history and geography",
+          "summary": "核心论点：柏林布兰登堡机场（BER）在经历了预算超支和长期延误后，仍因缺乏基地航空公司、长途航线不足以及汉莎航空的保护主义而沦为欧洲最失败的枢纽之一。\n关键数据：BER目前仅有5个长途目的地，远逊于希思罗的100个。客流量比疫情前下降了四分之一。机场目前处于严重亏损状态。\n背景分析：冷战历史导致汉莎将其枢纽设在法兰克福和慕尼黑。汉莎出于利益考量，利用游说阻碍了阿联酋航空等潜在客户进入柏林。此外，柏林腹地缺乏像德南那样的工业中心支持。\n结论：地理、历史和行业利益的交织，使柏林无法建立起与其地位相称的枢纽，成为了德国大型项目失败的永恒象征。",
+          "title_zh": "为什么柏林机场依然毫无希望",
+          "subtitle_zh": "Blame passengers, lobbying, history and geography"
+        },
+        {
+          "title": "In praise of Scandinavia’s risky and dirty playgrounds",
+          "subtitle": "Kids stand to gain from a few bumps, bruises and mud-splatters",
+          "summary": "核心论点：北欧国家坚持在游乐场中引入“风险”元素（如分发刀具、允许玩火），认为与其消除伤害，不如培养儿童的责任感和免疫力。\n背景分析：全球范围内“焦虑式育儿”盛行，导致游乐场趋向平庸且安全，却剥夺了孩子学习风险管理的机会。北欧人认为过度的保护实际上会让孩子变得脆弱且不快乐。\n关键数据：芬兰研究显示，接触泥土对提升儿童免疫系统有奇效。在丹麦和挪威，“建筑游乐场”允许孩子用废弃木材、锯子和钉子自由建造。\n结论：由于北欧拥有免费医疗、低诉讼风险和普遍的双职工背景，家长更愿意让孩子探险。这种模式被证明比单纯的滑梯更能吸引孩子离开屏幕。",
+          "title_zh": "赞美斯堪的纳维亚充满风险与泥泞的游乐场",
+          "subtitle_zh": "Kids stand to gain from a few bumps, bruises and mud-splatters"
+        }
+      ]
+    },
+    {
+      "section": "Britain",
+      "articles": [
+        {
+          "title": "Can Andy Burnham keep his own MPs under control?",
+          "subtitle": "Britain’s prime-minister-to-be faces a big task to maintain his authority",
+          "summary": "核心论点：即将接任首相的安迪·伯纳姆承诺采取更人性化的议会管理方式，但在一个充斥着内斗文化和缺乏妥协精神的工党内，他面临着严峻的纪律挑战。\n背景分析：前任首相斯塔默曾因高压手段统一后备议员团而导致众叛亲离。伯纳姆承诺将党鞭办公室转变为“人力资源部”，并通过频繁参与投票加强与普通议员接触。\n关键数据：伯纳姆目前获得了九成以上议员的公开支持。但许多议员在2024年仅以微弱优势获胜，极其担心因支持全国性决策而丢掉席位。\n结论：伯纳姆具备社交天赋，但他习惯于被赞美。面对未来内阁任命后的失望者以及政策分歧，他是否能维持权威而不重蹈覆辙，仍是悬念。",
+          "title_zh": "安迪·伯纳姆能控制住他那些议员吗？",
+          "subtitle_zh": "Britain’s prime-minister-to-be faces a big task to maintain his authority"
+        },
+        {
+          "title": "Lessons from a cat about to outlast yet another prime minister",
+          "subtitle": "Number 10’s canny feline can teach Andy Burnham a thing or two",
+          "summary": "核心论点：唐宁街“首席捕鼠官”拉里猫已经历了六任首相，它的成功源于卓越的公关嗅觉、励志的出身背景以及在权力博弈中的冷酷，这为政客提供了另类教材。\n关键秘诀：拉里来自流浪动物之家，这赋予其天然的亲和力。它极其擅长利用镜头，甚至曾在特朗普访问期间抢夺头条。在内部斗争中，它击败了对手帕默斯顿猫，确立了绝对领地意识。\n关键数据：拉里在X上拥有超过90万粉丝。虽然捕鼠绩效被调侃为“仍处于战术规划阶段”，但这不影响其高人气。\n结论：在政坛动荡的15年里，拉里证明了维持“胜任的幻觉”和通过媒介传播魅力比实际政绩更具生存力。它是唐宁街真正的赢家。",
+          "title_zh": "这里的猫又要送走一位首相：拉里猫的经验",
+          "subtitle_zh": "Number 10’s canny feline can teach Andy Burnham a thing or two"
+        },
+        {
+          "title": "Glasgow, rescuer of the Commonwealth Games, needs saving too",
+          "subtitle": "The Scottish Nationalists are keen to take power from London but not to hand any to Glasgow",
+          "summary": "核心论点：格拉斯哥虽然通过接办英联邦运动会保住了该赛事遗产，但这座城市本身正深陷工业衰落、基建陈旧和权力被剥夺的困境，亟需制度性拯救。\n背景分析：相比曼彻斯特通过民选市长制度实现复兴，格拉斯哥依然受到爱丁堡苏格兰政府的严密控制。SNP寻求从伦敦扩权，却拒绝下放权力给格拉斯哥，甚至保留了交通审批权。\n核心危机：该市街道破旧，机场铁路建设极其缓慢。缺乏像曼彻斯特市长那样的“话事权”人物，导致格拉斯哥在官僚主义泥潭中举步维艰。\n结论：格拉斯哥拥有顶尖大学和建筑底蕴，但没有市长这一推手，其潜力难以释放。接办运动会虽能带来短期关注，但若无治理改革，其衰落难止。",
+          "title_zh": "拯救了英联邦运动会的格拉斯哥也需要被拯救",
+          "subtitle_zh": "The Scottish Nationalists are keen to take power from London but not to hand any to Glasgow"
+        },
+        {
+          "title": "Violence is reshaping British political life",
+          "subtitle": "The shocking murder of Ann Widdecombe will only reinforce the trend",
+          "summary": "核心论点：英国政界正面临弥散且不可预测的暴力威胁，这不仅导致人才退出公职，更在实质上萎缩了公共辩论的空间，侵蚀了民主基石。\n关键数据：2024年大选中有25%的候选人因恐惧考虑过退选。77%的人遭受过恐吓行为。超过两成的议员承认自己现在因安全担忧而避开敏感话题。\n背景分析：威胁已从历史上组织严密的团体转向难以预测的“独狼”。安·威德科姆的遇害是十年内第三起名宿被杀事件。议员住宅现在必须安装避难室。\n结论：暴力正在实现其目的：通过让政客处于被围困状态来破坏问责制。威斯敏斯特正在变成堡垒，这种恐惧正逐渐成为英国政治的新常态。",
+          "title_zh": "暴力正在重塑英国政治生活",
+          "subtitle_zh": "The shocking murder of Ann Widdecombe will only reinforce the trend"
+        },
+        {
+          "title": "Britain’s bookies have weathered a tricky World Cup",
+          "subtitle": "But bigger problems are stacking up",
+          "summary": "核心论点：虽然本届世界杯热门球队胜率极高，英国博彩业仍通过推广“组合投注”和依靠比赛中加时赛判定的规则漏洞，成功保住了利润。\n关键动态：热门球队胜率达63%。但组合投注现在已占到30%以上，极大地倾斜了胜率。此外，多场加时绝杀在常规盘口被计为“平局”，为博彩公司省下巨额派彩。\n监管压力：行业巨头Flutter决定从伦交所退市转投美股。政府将在线赌场税提高至40%，并强制推行极其严格的财务风险评估，导致老客户大量流失。\n结论：博彩公司虽然在数学上战胜了球赛结果，却正在输掉与英国监管机构的博弈。其经营重心正全面转向监管相对宽松的美国市场。",
+          "title_zh": "英国博彩公司平稳度过了这场棘手的世界杯",
+          "subtitle_zh": "But bigger problems are stacking up"
+        },
+        {
+          "title": "London’s private members’ clubs are proliferating",
+          "subtitle": "But building a new community is harder than it looks",
+          "summary": "核心论点：伦敦私人会所正迎来新一轮爆发，但这更多反映了远程办公时代的社交重构，而非传统精英阶层的凝聚。维持独特性与规模效益间的矛盾正日益尖锐。\n关键数据：伦敦现有130多家私人会所，是1985年的两倍。约90%的新会所在三年内倒闭。资本投入巨大而经常性收入微薄，使其极其脆弱。\n背景分析：现代会所正从“志趣相投者的聚集地”转变为带有社交外壳的纯餐饮生意。高端品牌入会费高达6万英镑终身。\n结论：Soho House的平庸化预示了维持“排他性”的艰难。当会员变得更像随时准备投诉的顾客而非主人时，真正的俱乐部精神便已消亡。历史证明，这类缺乏真正社群感的会所往往最短命。",
+          "title_zh": "伦敦私人会员俱乐部正在激增",
+          "subtitle_zh": "But building a new community is harder than it looks"
+        },
+        {
+          "title": "Sir Keir’s bucket list",
+          "subtitle": "The prime minister’s final few weeks sum him up",
+          "summary": "核心论点：斯塔默执政最后几周的举措诠释了他的局限性：缺乏核心价值观、在内外政策中表现随机，以及过度依赖“受害者视角”作为治理方向。\n分析：斯塔默通过削减长期基建预算填补国防缺口，这正是他曾抨击前任的行为。他在外交上表现出色但显示出英国的被动地位：有用时被接纳，软弱时被霸凌。他在受害者群体中寻找方向，导致了一些虽具同情心但低效的立法。\n结论：斯塔默实现了“为了赢而赢”，但在历史上未留下任何具体的意识形态。他悄无声息地离开，留下了一个财政烂摊子。英国人至今依然不清楚他最初为何想要首相这份工作。",
+          "title_zh": "基尔爵士的“遗愿清单”",
+          "subtitle_zh": "The prime minister’s final few weeks sum him up"
+        }
+      ]
+    },
+    {
+      "section": "International",
+      "articles": [
+        {
+          "title": "Sovereign AI, independent of America and China, is a pipe dream",
+          "subtitle": "But a degree of protection from coercion remains possible",
+          "summary": "核心论点：全球各国渴望通过“主权AI”摆脱对美中霸权的依赖，但受限于天文数字般的成本、硬件垄断和人才匮乏，完全的独立几乎不可能。\n关键数据：非美中项目在两年内增长五倍，政府承诺投资超700亿美元。然而，一个1GW大型数据中心成本就达500亿美元。美国五大巨头计划到2030年投入5万亿美元。\n背景分析：美国已开始限制对外尖端模型访问，并将其作为谈判杠杆。即便建设本地中心，芯片仍来自英伟达，开源模型可能仍来自中国。\n结论：主权AI本质是控制而非独立。各国必须在关键环节（如电网、数据安全）寻找局部自主。未来各国将不可避免地与AI超级大国进行交易性互动。",
+          "title_zh": "独立于美中的“主权人工智能”纯属空谈",
+          "subtitle_zh": "But a degree of protection from coercion remains possible"
+        },
+        {
+          "title": "When China’s open-source AI is a trap",
+          "subtitle": "America’s quest for AI dominance is scary. China is not the solution",
+          "summary": "核心论点：中国利用开源AI作为挑战美国霸权的外交工具，旨在通过廉价生态吸引全球用户，但其背后的政治控制对民主国家而言是个隐形陷阱。\n背景分析：中国将开源称为“全人类财富”，实质是落后者的追赶策略。通过低成本工具，中国正试图将发展中国家绑定在由其芯片、电网和监管规则构成的闭环中。\n关键风险：中国AI必须符合“社会主义核心价值观”，其出口设备在敏感问题上具有极强意识形态偏向。中国近期甚至考虑收紧先进模型的出口。\n结论：中国只有在不威胁统治的前提下才会拥抱开放。对于寻求避开美国控制的国家而言，投向中国可能只是进入了另一个更严密的陷阱。",
+          "title_zh": "当中国的人工智能开源成为一种陷阱",
+          "subtitle_zh": "America’s quest for AI dominance is scary. China is not the solution"
+        }
+      ]
+    },
+    {
+      "section": "Business",
+      "articles": [
+        {
+          "title": "Eli Lilly is reinventing the pharma business",
+          "subtitle": "The world’s largest drugmaker is betting big on preventive medicines—and learning from big tech",
+          "summary": "核心论点：礼来正凭借减肥药的成功，试图模仿硅谷平台模式，将制药模式从“疾病治疗”转向“疾病预防”，重构人类健康管理。\n关键数据：礼来市值已破1万亿美元。其减肥药Zepbound单年销售额近50亿美元，预计今年将翻四倍。自2020年起已投入500亿美元扩充产能。\n策略转型：CEO里克斯致力于建立直接面向消费者的平台，并利用AI进行生物建模。公司正测试药物对心血管、肾脏及阿尔茨海默症的早期预防作用。\n结论：预防模式面临医疗系统长期付费机制的挑战。礼来能否成功，取决于其能否克服大型平台的平庸化趋势，并利用利润优势建立起真正的技术壁垒。",
+          "title_zh": "礼来正在重塑制药行业",
+          "subtitle_zh": "The world’s largest drugmaker is betting big on preventive medicines—and learning from big tech"
+        },
+        {
+          "title": "Demis Hassabis has a plan to harness AI safely",
+          "subtitle": "The Google DeepMind co-founder sets out his vision in an exclusive interview",
+          "summary": "核心论点：哈萨比斯提议美国采取单边行动，建立一个混合制监管机构（参考FINRA模式），对高风险的“前沿模型”实施上市前强制性安全测试。\n背景分析：鉴于国际共识进展太慢，哈萨比斯主张美国应率先行动，通过市场准入为杠杆强制全球遵循其标准。方案主张根据模型能力水平而非算力规模设定监管门槛。\n核心动机：AI已显示出在制造生物武器方面的潜在风险。哈萨比斯认为时间紧迫，必须由行业资助、国家授权的专业机构防范风险。\n结论：虽然执行层面面临压力，但此转向标志着AI巨头对技术失控风险的真实担忧。强制监管已成为目前最务实的可操作方案。",
+          "title_zh": "德米斯·哈萨比斯有安全管控人工智能的计划",
+          "subtitle_zh": "The Google DeepMind co-founder sets out his vision in an exclusive interview"
+        },
+        {
+          "title": "How high can Red Bull fly?",
+          "subtitle": "The world’s most formidable marketing machine faces growing threats",
+          "summary": "核心论点：红牛凭借极其独特且昂贵的“体育+媒体”营销帝国，依然在能量饮料市场稳坐头把交椅，但面临健康监管收紧及新锐对手蚕食的挑战。\n关键数据：去年销量140亿罐，占据28%全球市场。每年将营收的30%（约34亿美元）投入营销。营销支出远超可口可乐等巨头。\n背景挑战：红牛成功的核心在于将廉价化工混合物包装成一种冒险生活方式。但咖啡因和糖对儿童健康的危害已促使波兰等多国禁止对其销售。\n结论：Celsius等主打无糖和健康的对手正迅速崛起。红牛能否在管理层更迭后继续维持品牌光环，将决定这家奥地利帝国的寿命。",
+          "title_zh": "红牛还能飞多高？",
+          "subtitle_zh": "The world’s most formidable marketing machine faces growing threats"
+        },
+        {
+          "title": "How to sell a kettle",
+          "subtitle": "Brand positioning reaches boiling point",
+          "summary": "核心论点：文章通过讽刺性的模拟文案，揭示了当代商业竞争中品牌溢价是如何通过虚浮词藻（如“生命之源、GPT驱动”）强加在平凡日用品之上的。\n文案分析：奢侈定位将水神圣化；极客定位推出支持手机通知的KetGPT；环保定位承诺可回收；民粹定位则打造“爱国者锅炉”，抨击草药茶。\n文化观察：这反映了市场饱和状态下企业对“心智占有率”的病态追求。产品功能已不再是重点，讲故事的能力成为了唯一的竞争维度。\n结论：最终水壶还是那个水壶，但文案必须变得越来越荒诞以赢得关注。这篇文章不仅嘲讽了术语癖，也提醒消费者警惕营销包装下的基本实用主义失踪。",
+          "title_zh": "如何卖出一个水壶",
+          "subtitle_zh": "Brand positioning reaches boiling point"
+        },
+        {
+          "title": "How SK Hynix became the king of advanced memory chips",
+          "subtitle": "Its advantages will not protect it if demand falters",
+          "summary": "核心论点：SK海力士通过从破产边缘转型到专注于高带宽内存（HBM），利用协作文化和对AI爆发的敏锐预判，成功篡夺了存储芯片业的王座。\n关键数据：市值曾短暂超越三星电子。通过纳斯达克融资265亿美元，计划到2040年总投资额达2万亿美元（含集群建设）。\n背景转折：2019年三星错误削减HBM团队导致人才流入海力士。海力士与英伟达的深度绑定使其目前在高端AI存储市场处于垄断地位。\n结论：成功也带来了前所未有的压力。海力士正面临巨大的产能扩张周期和复杂的国际政治博弈。其崛起证明了敏捷性在大资本行业中的颠覆力。",
+          "title_zh": "SK海力士如何成为先进存储芯片之王",
+          "subtitle_zh": "Its advantages will not protect it if demand falters"
+        },
+        {
+          "title": "Meet the committee to buy Europe",
+          "subtitle": "The continent’s dealmakers deserve much more attention",
+          "summary": "核心论点：三位顶尖交易员（Orcel、Niel、Kretinsky）正通过一系列跨境并购重塑欧洲经济版图，填补了由于监管障碍而缺失的“欧洲冠军企业”空白。\n角色分析：Orcel致力于打破银行界排外；Niel利用复杂股权结构整合跨国电信资源；Kretinsky被称为“欧洲杂货铺主人”，手握从西汉姆联到英国邮政的多样资产。\n行业背景：欧洲市场极度碎片化，电信运营商数量是美国的5倍。这三位被称为“购买欧洲委员会”的人，正通过务实并购来实现规模效应。\n结论：他们的频繁出现反映了其无限精力，也印证了欧洲商业权力的集中。他们能否成功构建跨国巨头，将是欧洲未来竞争力的关键。",
+          "title_zh": "认识一下这支“买下欧洲”的委员会",
+          "subtitle_zh": "The continent’s dealmakers deserve much more attention"
+        }
+      ]
+    },
+    {
+      "section": "Finance & economics",
+      "articles": [
+        {
+          "title": "Storm clouds gather over America’s financial supremacy",
+          "subtitle": "Its payments firms may be the first casualties",
+          "summary": "核心论点：随着多国积极建设本国主权支付系统（如巴西Pix、印度UPI）以摆脱对美轨道的依赖，美国在支付领域的垄断地位正面临系统性瓦解。\n背景分析：由于美国将支付系统工具化进行制裁，各国愈发不安。巴西总统卢拉公开宣称不会放弃Pix。欧洲央行则计划在2029年推出数字欧元。\n关键风险：这种碎片化不仅威胁美国卡巨头利润，更可能导致全球系统不兼容。研究预测碎片化可能导致2030年全球GDP损失2.6%。\n结论：金融霸权的裂痕已无法弥合。随着数字人民币等系统扩张，世界进入多轨支付时代。美国继续将其轨道武器化，最终将反噬其金融领导地位。",
+          "title_zh": "美国金融霸权上空乌云密布",
+          "subtitle_zh": "Its payments firms may be the first casualties"
+        },
+        {
+          "title": "America’s Hormuz brinkmanship is worsening a global fuel crunch",
+          "subtitle": "Rising oil prices are only part of the problem",
+          "summary": "核心论点：全球能源危机已从“原油短缺”转向“成品油荒”。美伊在海峡的僵持与俄乌冲突加剧了柴油和航空燃油的供应赤字。\n关键数据：全球成品油产量比战前减少700万桶/日。在亚洲，航空燃油价格飙升至150美元/桶。伊朗袭击已瘫痪了海湾140万桶/日的炼油产能。\n背景分析：成品油出口严重依赖海峡运输。与此同时，乌克兰无人机打击俄炼油厂导致俄成品油价月涨50%。中国因能源安全考量对出口增供意愿有限。\n结论：能源危机的本质已变，现在是“不仅缺油，更缺提炼机器”。即便原油价格平稳，全球司机仍需面对高昂的成品油成本。",
+          "title_zh": "美国在霍尔木兹海峡的边缘政策正加剧全球燃料短缺",
+          "subtitle_zh": "Rising oil prices are only part of the problem"
+        },
+        {
+          "title": "China’s trade gap is narrowing. And other surprises",
+          "subtitle": "The world’s second-biggest economy is stumbling into fiscal austerity",
+          "summary": "核心论点：中国出口红利可能已达顶峰。随着原材料进口成本激增和国内财政被迫转型，中国正陷入一种意想不到的紧缩和“社保驱动型财政”中。\n关键数据：二季度GDP增长4.3%，低于预期。尽管出口亮眼，但进口因芯片和原油涨价激增。强劲的VAT税收反映了地方政府因土地收入减半而加强了对内税收力度。\n财政转向：虽然官方推崇“新质生产力”，但主要预算支出正向养老、失业等社保项目倾斜，基建占比下降。\n结论：一个日益“苍老”且经济冷却的中国正在形成。中国正被迫从肆意扩张转向榨取现有资产价值的“精细化治理”。",
+          "title_zh": "中国贸易顺差正在收窄：以及其他意外发现",
+          "subtitle_zh": "The world’s second-biggest economy is stumbling into fiscal austerity"
+        },
+        {
+          "title": "Can Kevin Warsh’s Fed force 5 reimagine monetary policymaking?",
+          "subtitle": "The new chairman enlists heavy-hitters to fight a handful of gnarly problems",
+          "summary": "核心论点：美联储新主席沃什通过引入外部精英组成的“特别工作组”，试图打破美联储的闭门造车传统，通过外部审查应对通胀和平衡表缩减难题。\n架构分析：五支智囊团涵盖前央行行长、诺奖得主及硅谷风投。他们将重点研究沟通机制、平衡表、AI效率及通胀成因。\n关键挑战：由于成员背景迥异，达成共识将极具挑战。沃什在内部仅有一票权，他必须在不同利益团体间寻找平衡。\n结论：这场改革旨在通过“阳光审计”提升联储信誉。能否成功取决于沃什能否将这些颠覆性建议转化为可操作的共识决策，而不引发市场恐慌。",
+          "title_zh": "凯文·沃什的“联储五强”能重新定义货币政策制定吗？",
+          "subtitle_zh": "The new chairman enlists heavy-hitters to fight a handful of gnarly problems"
+        },
+        {
+          "title": "What investment gurus get wrong",
+          "subtitle": "To see a country’s financial follies, look to its celebrity advisers",
+          "summary": "核心论点：各国的“理财大师”所给出的建议往往是该国国民金融恶习的一面镜子。大师们正在加强或对抗当地的“金融原罪”。\n核心对比：美国大师拉姆齐主张疯狂偿债，对抗过度杠杆；英国大师刘易斯致力于省钱而非投资，反映出对股市的冷淡（英国股票资产仅占13% vs 美国44%）。\n关键警告：印度在过去一年有850万人参与风险极大的期权交易，九成亏损。韩国股民则通过杠杆推高股市泡沫。\n结论：虽然复利是通用真理，但大师们被迫在不同文化语境中与人性博弈。最成功的投资者通常离这些喧嚣的大师最远。",
+          "title_zh": "投资大师们哪里搞错了",
+          "subtitle_zh": "To see a country’s financial follies, look to its celebrity advisers"
+        },
+        {
+          "title": "How to shrink the Fed’s $7trn balance-sheet",
+          "subtitle": "Kevin Warsh will struggle to reverse the effects of bond-buying",
+          "summary": "核心论点：缩减美联储高达6.7万亿美元的资产负债表面临“棘轮效应”：由于银行已高度依赖大量准备金满足监管，任何激进缩表都可能引发流动性崩盘。\n关键逻辑：QE每进行一轮，银行的准备金需求就“上调一档”。准备金已从危机前的100亿激增至3.1万亿美元。当联储尝试收回流动性，极易引发利率跳升。\n结论：瘦身将是极其缓慢的过程。沃什最终可能采取“以短代长”策略，即通过持有更多短期国债减少对长期利率的扭曲，而非强行强卖资产。平衡金融稳定和市场中性是其极窄的平衡线。",
+          "title_zh": "如何缩减美联储 7 万亿美元的资产负债表",
+          "subtitle_zh": "Kevin Warsh will struggle to reverse the effects of bond-buying"
+        }
+      ]
+    },
+    {
+      "section": "Science & technology",
+      "articles": [
+        {
+          "title": "The rate at which Earth is absorbing energy is alarming climate scientists",
+          "subtitle": "Reflections on a warming planet",
+          "summary": "核心论点：地球能量失衡（EEI）剧增显示变暖正进入加速期。讽刺的是，减少污染物排放（如治理船舶硫排放）由于消除了原有的降温效应，反而成为了变暖的推手。\n科学背景：卫星数据显示反照率正在锐减，地球吸收的热量远超排放的红外线。海洋吸收了绝大部分过剩热量，深海温度持续刷新纪录。\n模型失效：现有气候预测模型普遍低估了EEI的增长。科学家担心，气候敏感性高于此前共识，这意味着升温上限比预想的要近得多。\n结论：由于无法在短期内恢复气溶胶，忍受极端高温将成常态。科学界急需重构模型以应对即将到来的更猛烈变暖。",
+          "title_zh": "地球能量吸收率令气候学家警觉",
+          "subtitle_zh": "Reflections on a warming planet"
+        },
+        {
+          "title": "How to train for a heatwave",
+          "subtitle": "A nice, hot bath can go a long way",
+          "summary": "核心论点：人体可通过短短4至7天的“受控高烧”训练适应极端热浪。这种生理适应能减轻心脏负担，保护热浪下的健康。\n科学方法：受控热暴露增加血浆量，使心脏更从容。研究发现，即使没专业设备，每天在40°C热水中浸泡一小时，连续四天即可显著提高耐热阈值。\n核心建议：热习服训练让排汗机制提前启动。适应性虽然非永久，但在此期间辅以补水能大幅降低热衰竭风险。\n结论：这种生理上的“未雨绸缪”性价比极高。在极端天气频发的未来，训练身体适应高温将从运动员专利变成必备的生存技能。",
+          "title_zh": "如何针对热浪进行身体训练",
+          "subtitle_zh": "A nice, hot bath can go a long way"
+        }
+      ]
+    },
+    {
+      "section": "Culture",
+      "articles": [
+        {
+          "title": "A very silly adaptation of “The Odyssey”",
+          "subtitle": "Sir Christopher Nolan’s film is emblematic of its time",
+          "summary": "核心论点：诺兰版《奥德赛》是一部典型的时代滤镜之作，为了迎合现代品味而阉割了原著野性、原始且充满道德灰度的内核。\n批判重点：电影将奥德赛塑造成受害者，用PTSD解释暴力行为，试图讨好女性观众却让原著的性别张力消失。对白充斥美式思维，使史诗沦为加勒比度假风背景。\n文化反思：这一改编反映了当代西方文化无法直面真正的古典经典，只能将其强行拉入现代社媒逻辑中。每一代人都通过该书进行自我投射。\n结论：在这个视觉先行、灵魂空洞的年代，诺兰版不过是映照出时代肤浅一面的镜子。它证明了经典无法也不该被强行“现代化”。",
+          "title_zh": "极其荒唐的《奥德赛》改编作品",
+          "subtitle_zh": "Sir Christopher Nolan’s film is emblematic of its time"
+        },
+        {
+          "title": "Why Sir Christopher Nolan inspires such devotion—and contempt",
+          "subtitle": "His films are ambitious and technically brilliant, but often emotionally detached",
+          "summary": "核心论点：作为这个时代最成功的导演，诺兰正处在从“机械解谜大师”向“人性观察者”转型的节点。他的原创性和实拍坚持依然无人能敌。\n艺术特征：诺兰电影常被形容为精密拼图，观众享受解谜快感，但也因其女性角色苍白而感到不适。死去的妻子往往是推进剧情的唯一工具。\n进化路径：从《奥本海默》到《奥德赛》，诺兰开始关注具体性格弱点而非单纯宏大目标。他正走出“技术茧房”，尝试通过关注凡人的情感归宿为电影宇宙注入灵魂。\n结论：无论是否喜欢他，诺兰是目前唯一能让大众进影院讨论物理学的人。他正试图通过关注 mortal 情感，真正实现从导演向艺术家的跨越。",
+          "title_zh": "为什么克里斯托弗·诺兰爵士既受狂热推崇又遭嗤之以鼻",
+          "subtitle_zh": "His films are ambitious and technically brilliant, but often emotionally detached"
+        },
+        {
+          "title": "Emo culture was not just a phase, as it turns out",
+          "subtitle": "The business of misery is thriving as emo bands go back on tour",
+          "summary": "核心论点：情绪摇滚（Emo）的全球复兴证明了这一亚文化并非青春期骚动，而是现代人在不确定社会中寻求情感连接和社群归属感的永恒避风港。\n现象描述：MCR巡演的火爆反映了千禧一代重拾自我与Gen Z发现经典的合流。Emo为神经多样性群体提供了共同语言。\n文化解释：20年复古周期让曾被主流嘲笑的“自怜”变成了珍贵的真实。音乐节证明痛苦可以共享。\n结论：Emo文化从未消亡，它在等待一个新的脆弱时代将其唤醒。涂上黑眼线不仅是时尚，更是一种防御性的自我宣告。作为一种持久亚文化，它正跨越世代继续前行。",
+          "title_zh": "事实证明，情绪摇滚并非过眼云烟",
+          "subtitle_zh": "The business of misery is thriving as emo bands go back on tour"
+        },
+        {
+          "title": "A mystery street artist is taking over cities",
+          "subtitle": "You can hunt for his mosaics in Paris and beyond",
+          "summary": "核心论点：化名为“Invader”的艺术家通过在全球植入上千块复古游戏风格的马赛克，成功将公共空间变成了一场规模宏大的数字与现实互动的艺术实验。\n核心特色：他的艺术是古代镶嵌工艺与80年代街机美学的融合。FlashInvaders应用通过寻宝计分彻底改变了人们的行走方式，鼓励人们“抬起头寻找惊喜”。\n社会意义：在这个低头刷视频的社交焦虑时代，这种“城市漫游”式艺术让空间重新获得好奇心。它证明街头艺术不一定要激进，也可以通过趣味性夺回街道。\n结论：从埃菲尔铁塔到外太空，Invader的艺术让我们重新思考在数字世界中，什么才是真正的“存在”与“发现”。",
+          "title_zh": "神秘街头艺术家席卷各大城市",
+          "subtitle_zh": "You can hunt for his mosaics in Paris and beyond"
+        },
+        {
+          "title": "George Sand’s life was a heady mix of sex and serious fiction",
+          "subtitle": "A new biography seeks to restore the French novelist’s place in the literary canon",
+          "summary": "核心论点：桑的最新传记展示了一位19世纪通过反叛传统为女性争取地位的先驱，但其张力的私生活始终掩盖了其在严肃文学史上的实质贡献。\n历史贡献：她是普鲁斯特等文豪的灵感源泉。高产背后是对女性心理和生态叙事的敏锐洞察。她的人生是一场不间断的突围：从暴力婚姻到巴黎文坛。\n核心反思：传记虽然文笔流畅，却未能真正确立其经典地位。桑在今日读者心中仍更多是那个“穿着男装的萧邦恋人”。\n结论：作为文学史上著名的“人格巨像”，桑的每一部小说都在其精彩绝伦的现实人生面前显得黯然。她是成功的偶像，却是被误读的小说家。",
+          "title_zh": "乔治·桑的生活：性与严肃小说的狂热混合",
+          "subtitle_zh": "A new biography seeks to restore the French novelist’s place in the literary canon"
+        },
+        {
+          "title": "The wild, gripping story of the Nord Stream pipeline bombing",
+          "subtitle": "A technicolour account of the sabotage suggests how fast the world has changed",
+          "summary": "核心论点：新书《北溪阴谋》披露了一支充满传奇色彩的乌克兰特遣队如何以民间筹资策划了大爆炸，揭开了混合战争的新纪元。\n情节纪实：行动小组包括前警官、准牧师和情色模特。他们利用假护照在暴雨中执行了看似不可能的深海任务。这种民间筹资、多国渗透的模式让传统情报防御彻底失效。\n战略意义：爆炸不仅切断了德国对俄能源依赖，更打破了西方的最后天真。德国警方锁定嫌疑人并指向基辅高层。\n结论：北溪时代已随爆炸终结。这种“隐形战争”正成为全球对抗新常态，真正的真相正随着钢管一同沉入海底，永远改变了世界。",
+          "title_zh": "北溪管道爆炸案惊心动魄的始末",
+          "subtitle_zh": "A technicolour account of the sabotage suggests how fast the world has changed"
+        }
+      ]
+    },
+    {
+      "section": "Economic & financial indicators",
+      "articles": [
+        {
+          "title": "Economic data, commodities and markets",
+          "subtitle": null,
+          "summary": "核心综述：本期数据描绘了一个处于地缘政治风暴中心的脆弱全球经济。成品油短缺带来的输入型通胀正对冲掉央行努力。\n关键指标：美国GDP增长2.7%，但3.5%的通胀预示着改革难度。中国增速滑落至4.3%，显现内需疲软。日本股市大涨36%，反映出资金在东亚寻找避风港。俄罗斯股市则损失了四分之一价值。\n商品走势：布伦特原油月涨7.3%，结算至84.8美元。食品通胀月涨5.9%，严重打击购买力。\n结论：市场处于极端波动期。对科技股的乐观与对能源危机的担忧并存，现金为王的避险情绪正主导投资决策。",
+          "title_zh": "经济数据、大宗商品与市场",
+          "subtitle_zh": null
+        }
+      ]
+    },
+    {
+      "section": "Obituary",
+      "articles": [
+        {
+          "title": "Humphrey Smith dictated what a good pub should be",
+          "subtitle": "The lord high brewer of Tadcaster died on June 19th, aged 81",
+          "summary": "核心论点：史密斯的一生是其对理想英国的守护与现实社会分裂之间矛盾的缩影。他通过严苛禁令维护的不仅是酒馆，更是一个已然消逝的文明。\n人物刻画：这位隐士大亨禁止在酒吧使用手机、说脏话甚至禁止男人亲吻。他推行绝对去品牌化，一旦发现员工没做他最爱的甜点就当场关停百年老店。这种偏执管理在现代社会显得格格不入。\n惨烈收场：他拒绝向政府和员工妥协，导致帝国半数停业。他在临终前守护的奥威尔式酒馆本质上是一座拒绝污染的私人孤岛。\n结论：史密斯的死标志着时代终结。他用整个公司前途为怀旧买单。最终证明了：那种“理想酒馆”在现实中从未真正存在过。",
+          "title_zh": "汉弗莱·史密斯：他规定了什么是好的酒馆",
+          "subtitle_zh": "The lord high brewer of Tadcaster died on June 19th, aged 81"
+        }
+      ]
+    }
+  ]
+}
