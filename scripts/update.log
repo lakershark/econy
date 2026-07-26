@@ -360,3 +360,65 @@
 [2026-07-19 11:10:38]   notebook cleanup: deleted 1, kept up to 5 per magazine
 [2026-07-19 11:10:38] === Done ===
 
+[2026-07-25 08:07:19] === Econy weekly update started ===
+[2026-07-25 08:07:19] economist: 20 existing issues
+[2026-07-25 08:07:19] FATAL:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1448, in connect
+    super().connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/update.py", line 431, in <module>
+    main()
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/update.py", line 376, in main
+    available = get_available_issues(mag_key)
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/update.py", line 133, in get_available_issues
+    folders = api_get(cfg['api'])
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/update.py", line 68, in api_get
+    with urllib.request.urlopen(req, timeout=30) as r:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+
+[2026-07-26 10:22:44] === Econy weekly update started ===
+[2026-07-26 10:22:44] economist: 20 existing issues
+[2026-07-26 10:22:44] economist: new issue found — 2026-07-25
+[2026-07-26 10:22:44] Processing The Economist 2026-07-25
+[2026-07-26 10:22:44]   Downloading TheEconomist.2026.07.25.pdf...
+[2026-07-26 10:22:45]   Downloaded: 9648KB
+[2026-07-26 10:27:48]   Translating titles...
+[2026-07-26 10:27:48]    title translation attempt 1: 76 remaining
+[2026-07-26 10:29:08]    Translated 76/76 titles
+[2026-07-26 10:29:09] Updating docs/ and pushing to GitHub...
+[2026-07-26 10:29:09]   app.js updated: 21 Economist, 16 New Yorker issues
