@@ -1,0 +1,613 @@
+{
+  "magazine": "The Economist",
+  "issue_date": "2026-08-01",
+  "notebook_id": "fa3e4273-3da6-4bdf-8422-ea595202a470",
+  "toc": [
+    {
+      "section": "The world this week",
+      "articles": [
+        {
+          "title": "Politics",
+          "subtitle": null,
+          "summary": "本周全球政治动态呈现多点爆发态势。美国与伊朗在非正式停火后重燃战火，特朗普政府在约旦基地遭袭后对伊朗南部实施报复性空袭，由于伊朗坚持对霍尔木兹海峡的控制权，双方外交谈判陷入僵局 [1, 2]。中东局势动荡波及能源市场，胡塞武装袭击沙特相关油轮导致布伦特原油价格回升至每桶90美元 [1]。在华盛顿，政要聚集参加参议员格雷厄姆的葬礼，内塔尼亚胡和泽连斯基在会后分别私下会见了特朗普 [3]。印度方面，因试卷泄密激发的青年抗议活动取得进展，教育部长辞职，这对一向不愿在压力下妥协的莫迪政府是一次罕见的挫败 [4]。欧洲正面临气候挑战，法、西两国的特大森林火灾迫使35万人撤离 [5]。此外，俄罗斯联邦安全局起诉电报（Telegram）创始人杜罗夫，指控其为恐怖活动提供便利 [6]；秘鲁迎来了藤森庆子就任总统 [7]。",
+          "title_zh": "政治动态",
+          "subtitle_zh": null
+        },
+        {
+          "title": "Business",
+          "subtitle": null,
+          "summary": "商业领域，美联储维持基准利率在3.5-3.75%区间，由于通胀仍高于2%目标，未来存在加息可能，这推高了30年期国债收益率至5.2%以上 [8, 9]。Meta二季度虽然盈利160亿美元，但由于在AI数据中心等基础设施上的巨额支出，其现金流骤减91% [9, 10]。韩国股市经历剧烈波动，主要指数KOSPI从6月高点下跌近40%，监管机构开始限制杠杆ETF以防过度投机 [10, 11]。芯片行业表现分化：SK Hynix利润同比暴涨1240%但股价因支出担忧下跌；中国长鑫存储（CXMT）在上海上市首日大涨466%，成为中国市值最高的本土企业，反映了存储芯片在全球AI浪潮下的核心地位 [11, 12]。此外，美国以国家安全为由禁止进口中国制造的人形机器人 [13]；FIFA拟通过出售赛事运营权股份筹集42亿美元，引发了欧洲足球界的激烈反对 [14]。",
+          "title_zh": "商业行情",
+          "subtitle_zh": null
+        },
+        {
+          "title": "Cartoon: Who benefits from AI?",
+          "subtitle": "A lighter take on the news",
+          "summary": "该漫画将当前的AI热潮比作一台复杂的“AI老虎机”。画面中，企业和投资者正向机器中投入巨额资金（Pay In），期望转出“通用人工智能”（AGI）或巨大的财富。然而，老虎机的显示屏上目前出现的更多是问号、表示贬值的符号以及尚未对齐的AGI字样。旁观者评论道“希望我们的运气能早点好转”，讽刺了目前AI领域投入极其巨大，但实现盈利和技术突破的路径依然充满了博弈与不确定性 [14, 15]。",
+          "title_zh": "漫画：谁从AI中获益？",
+          "subtitle_zh": "A lighter take on the news"
+        }
+      ]
+    },
+    {
+      "section": "Leaders",
+      "articles": [
+        {
+          "title": "What the Big Mac index reveals about a global currency beef",
+          "subtitle": "It highlights economic problems—and helps explain how to solve them",
+          "summary": "本文在巨无霸指数创立40周年之际，深入探讨了其揭示的全球货币失调问题 [16, 17]。核心论点是，尽管该指数最初只是一个趣味实验，但它已成为衡量货币购买力平价（PPP）的有效标准。背景分析显示，当前全球汇率正经历严重脱节。关键数据指出，在国际外汇市场上，100美元可以兑换约87欧元、677元人民币或超过16,000日元；但从购买力来看，100美元能购买16个巨无霸，这与100欧元、426元人民币或8,039日元的购买力基本相当。这意味着欧元、人民币和日元对美元的价值都被严重低估了 [18, 19]。尤其是中国，国际货币基金组织（IMF）曾暗示其货币比基本面低16%，这帮助中国去年积累了近1.2万亿美元的商品贸易顺差，引发了马克龙和特朗普等西方领导人的强烈抨击 [20, 21]。文章结论指出，这种不平衡与中国国内消费低迷以及美国庞大的预算赤字密切相关 [22]。要纠正人民币被低估的现状，不应依赖剧烈的名义汇率升值，因为那会导致通缩和增长停滞；更优的路径是刺激国内经济，通过工资和物价的上涨来提升“实际”有效汇率，实现全球贸易的再平衡 [23, 24]。",
+          "title_zh": "巨无霸指数折射全球货币纠纷",
+          "subtitle_zh": "It highlights economic problems—and helps explain how to solve them"
+        },
+        {
+          "title": "It is past time to upgrade to post-quantum encryption",
+          "subtitle": "When the quantum breakthrough comes, data being harvested today will be exposed",
+          "summary": "文章警告称，量子计算机的突破将对全球数据安全构成根本性威胁，社会各界必须尽快升级到“后量子加密”（PQC）技术 [25, 26]。核心论点在于，量子计算机利用量子力学的叠加和纠缠特性，能在几分钟内破解现有需要传统计算机数亿年才能破解的加密算法。尽管真正的“Q日”（即量子计算机具备这种能力的时刻）尚未到来，但风险已经迫在眉睫。背景分析指出，情报机构和网络罪犯正在实施“先收获，后解密”的策略，即拦截存储当下的加密数据，等待未来解密 [27, 28]。关键数据表明，虽然主要浏览器如Firefox、Chrome和苹果的iMessage已启用PQC，但后端服务器的渗透率极低——Cloudflare处理的前端流量中PQC占比已达59%，但其后端服务器支持率仅为11% [29, 30]。此外，大量联网的传感器、医疗设备等硬件因芯片性能太弱，无法处理计算需求更高的PQC算法。结论认为，切换到PQC并不能保证绝对安全，因为新算法可能存在未知漏洞，但这是目前保护长久数据安全的最佳希望，政府和企业必须有紧迫感，而不是重蹈以往安全补丁更新滞后的覆辙 [26, 31]。",
+          "title_zh": "升级后量子加密刻不容缓",
+          "subtitle_zh": "When the quantum breakthrough comes, data being harvested today will be exposed"
+        },
+        {
+          "title": "China is testing America’s defence lines in Asia",
+          "subtitle": "The allies must work to strengthen themselves, but also to strengthen America’s commitment",
+          "summary": "本文分析了中国近期针对美国亚洲盟友（菲律宾、日本和澳大利亚）的一系列军事挑衅行为，认为这旨在测试美国的防御底线和盟友承诺 [26, 32]。背景是特朗普与习近平自去年10月以来的几次会面后，美方为了确保峰会顺利进行，在领土争端中表现得相对低调且克制，这被中方视为探测弱点的窗口 [33, 34]。关键事实包括：中国与俄罗斯军舰在日本专属经济区进行实弹演习；中国潜艇向太平洋发射弹道导弹；以及中国海警在仁爱礁与菲律宾水兵发生肢体冲突 [32, 35]。核心论点指出，由于亚洲缺乏类似北约的集体安全协议，盟友的防务开支总和仍不到中国的一半，且均不具备核武器，因此它们对美国的依赖是结构性的 [36]。结论认为，尽管盟友正在加强自身防务和彼此联系，但威慑力最终必须来自美国最高层。亚洲领导人需要直接向特朗普阐明，中国的军事野心与其工业和经济扩张是同步的。如果特朗普意识到中国是一个危险的竞争对手，他可能会在太平洋地区采取更广泛的利益观，从而加强对盟友的承诺 [37, 38]。",
+          "title_zh": "中国正试探美国在亚洲的防线",
+          "subtitle_zh": "The allies must work to strengthen themselves, but also to strengthen America’s commitment"
+        },
+        {
+          "title": "Europe’s fires are just the start",
+          "subtitle": "They are not a new normal. But worse can nonetheless be expected",
+          "summary": "文章指出，当前席卷法国和西班牙的历史性火灾标志着欧洲气候风险进入了一个更危险的新阶段 [38, 39]。关键数据展示了灾情的严峻：法国往年平均过火面积为1.5万公顷，但仅波尔多以西的一处火灾在六天内就烧毁了三倍于此的土地 [38]；西班牙过火面积已超17万公顷，是去年同期的六倍。分析认为，这种极端火灾天气的频率在过去40年里不断增加，并非所谓的“新常态”，而是在气候变暖背景下不断刷新的灾害上限 [39, 40]。核心论点在于，火灾的间接伤害往往被忽视——烟雾吸入导致的死亡率极高，预计到本世纪末，全球每年死于火灾烟雾的人数将从目前的24万飙升至140万，其中美国到2050年每年可能因此增加3万名死者 [41, 42]。结论提出，仅仅加强灭火力量（如使用卫星和无人机）是不够的，更大的收益将来自于更好的预防和管理。目前的火灾抑制策略往往挤占了景观管理和公众教育的预算，而长期的韧性建设，如教育公众保护房屋和过滤空气，虽然不像空投冷水那样紧迫感十足，但对减少未来损失至关重要 [43, 44]。",
+          "title_zh": "欧洲火灾只是开端",
+          "subtitle_zh": "They are not a new normal. But worse can nonetheless be expected"
+        },
+        {
+          "title": "AI is getting better at writing. Humans must get better at editing",
+          "subtitle": "Our investigation suggests how",
+          "summary": "文章探讨了AI写作能力的快速进步及其对人类编辑技能提出的新要求 [39, 45]。核心论点是：随着大语言模型（LLM）的迭代，其产出的文本正日益逼近人类水平，这使得编辑从“可选技能”变为了“稀缺资源”。背景研究基于《经济学人》对14种AI模型的调查，通过对近6万个句子和120万个词汇的语料库分析发现，AI已经逐渐改掉了过度使用破折号或“leveraging”等词汇的旧习惯 [46, 47]。然而，AI写作仍存在显著弱点，如过度使用拉丁语源的长难词（如“expedite”）、堆砌陈词滥调、以及在一段话中机械地遵循“三段论”修辞（Rule of three） [48, 49]。此外，AI往往带有讨好读者的谄媚语气，缺乏针对特定语境的准确把握 [49]。结论指出，人类在与AI协作时应当“醉着写，醒着改”：将初稿交给高效的机器，但人类必须承担起编辑的职责——设定清晰的指令，精简冗余的辞藻，并根据读者受众调整语气。只有人类具备的精准编辑能力，才能将AI产生的“浆糊”转化为有洞察力的文字 [45, 50]。",
+          "title_zh": "AI写作日臻完善，人类编辑亟需加强",
+          "subtitle_zh": "Our investigation suggests how"
+        },
+        {
+          "title": "America’s startup boom offers hope for the future of work",
+          "subtitle": "AI could make more people their own boss",
+          "summary": "文章分析了美国自疫情以来持续爆发的创业潮，认为这可能重塑劳动力市场的未来 [51]。关键数据揭示：今年6月美国新商业申请量超过53万份，比2019年平均水平增长了81% [52]。背景分析显示，这种增长由AI技术赋能、大型企业招聘放缓以及电商平台（如Etsy, TikTok Shop）的成熟共同推动 [51, 52]。核心论点挑战了经济学界对小企业效率低下的传统偏见（传统认为小企业生产率仅为大企业的70%）。文章指出，AI正在民主化商业能力，通过AI代理，个体创业者可以低成本处理行政、法律注册、市场营销和数据分析，从而在不增加雇员的情况下实现规模化经营 [53, 54]。结论认为，这为那些可能被AI取代的专业阶层提供了“自雇”这一有意义的替代选择。虽然初创企业大多集中在服务业而非制造业，但这符合后工业时代的发展趋势 [55]。政府应通过简化医疗保险获取途径和削减职业准入许可，为这一新时代的“数字自耕农”扫清障碍，从而实现杰斐逊式的自力更生愿景 [56, 57]。",
+          "title_zh": "美国创业潮为未来工作带来希望",
+          "subtitle_zh": "AI could make more people their own boss"
+        }
+      ]
+    },
+    {
+      "section": "Letters",
+      "articles": [
+        {
+          "title": "Does Britain’s social housing subsidise the wrong people?",
+          "subtitle": "Also this week, weather forecasts, using AI in law, falling cows, drones and zebras, questions",
+          "summary": "这是一组读者来信，主要回应了此前关于英国社会住房体系的报道 [57]。来信者包括社会住房居民代表和住房协会，他们核心论点是社会住房不应被视为对高收入者的“不当补贴”，而应被视为支持人们建立稳定生活的“基础”。他们强调，居民增加收入是系统成功的标志而非缺陷 [58, 59]。另一封信件认为社会房东在建筑市场中起到了抗周期作用，建议政府应将其视为长期的基础设施投资而非单纯的成本负担 [60, 61]。",
+          "title_zh": "英国社会住房补贴了错误的人群吗？",
+          "subtitle_zh": "Also this week, weather forecasts, using AI in law, falling cows, drones and zebras, questions"
+        }
+      ]
+    },
+    {
+      "section": "By Invitation",
+      "articles": [
+        {
+          "title": "Don’t blame global imbalances on the undervalued yuan",
+          "subtitle": "Demanding that China revalue the yuan gets both the diagnosis and the cure wrong, write Gita Gopinath, Pierre-Olivier Gourinchas and Hélène Rey",
+          "summary": "国际货币基金组织（IMF）前首席经济学家撰文指出，西方国家过度关注汇率调节来解决全球不平衡是误入歧途 [62, 63]。核心论点是汇率只是国内政策配置后的“结果”而非“原因”。数据背景是中国拥有巨大的外部顺差而美国则是赤字，但这是中国抑制消费、房地产投资萎缩导致储蓄过剩，与美国财政赤字过大、私人储蓄不足共同作用的结果 [63, 64]。文章分析称，即使人民币名义升值，如果中国国内宏观政策不改变，升值反而会加剧通缩压力，减少中国对全球产品的吸收 [65, 66]。结论建议采取更务实和可持续的政策组合：中国应提高居民收入占比并扩大社会保障以刺激消费，美国则应收紧财政赤字，而非寻求 Plazza Accord 2.0 式的汇率协议 [67, 68]。",
+          "title_zh": "莫将全球不平衡归咎于人民币低估",
+          "subtitle_zh": "Demanding that China revalue the yuan gets both the diagnosis and the cure wrong, write Gita Gopinath, Pierre-Olivier Gourinchas and Hélène Rey"
+        }
+      ]
+    },
+    {
+      "section": "Briefing",
+      "articles": [
+        {
+          "title": "Despite 40 years of our Big Mac index, currencies are still mispriced",
+          "subtitle": "Exchange-rate theory can be a lot to digest. Instead, take three trips to McDonald’s",
+          "summary": "本篇详细简报回顾了巨无霸指数自1986年创立以来的历史、理论基础及现状 [68, 69]。背景基于购买力平价（PPP）理论，即汇率应反映货币在不同国家的实际购买力。关键数据展示了当前的剧烈失衡：根据2026年7月的价格，一个巨无霸在美国卖6.22美元，而在瑞士卖7.30瑞郎，这意味着隐含汇率为1.17，但实际市场汇率仅为0.81，表明瑞郎被高估了45% [70, 71]；相反，台币被严重低估了超过60% [72]。分析指出，由于劳动力和店面成本等非贸易投入占汉堡成本的一半以上，发达国家的汉堡通常显得更贵，为此《经济学人》在2011年推出了经过GDP校正的指数版本 [73, 74]。历史上，该指数曾成功预测1999年欧元被高估，促使部分对冲基金受益 [75]。结论认为，虽然汇率在5-6年的长周期内能部分抵消通胀差异，但目前的全球汇率错位程度（由美联储加息、日元贬值和人民币低估共同驱动）已达到1990年代中期以来的最高点 [76, 77]。这种简易的“汉堡学”虽然带有大量双关语和幽默感，但在大国角力汇率政策的今天，其揭示的经济逻辑比以往任何时候都更严肃 [78]。",
+          "title_zh": "巨无霸指数40载，汇率错配依然如故",
+          "subtitle_zh": "Exchange-rate theory can be a lot to digest. Instead, take three trips to McDonald’s"
+        }
+      ]
+    },
+    {
+      "section": "Asia",
+      "articles": [
+        {
+          "title": "China bets that Donald Trump won’t mind it bullying American allies",
+          "subtitle": "It has stepped up its abuse of Australia, the Philippines and Japan",
+          "summary": "文章描述了中国在南海及东海针对美国盟友的侵略性行为正显著增加，认为这是中方在测试特朗普政府保护盟友的意志 [79, 80]。关键事实包括中国海警在仁爱礁使用船桨殴打菲律宾水兵，以及在靠近日本的专属经济区进行实弹演习 [79, 81]。核心论点是中国观察到特朗普正深陷伊朗战事且急于与习近平达成“战略稳定”，因此赌定美国不会为了盟友的小纠纷而破坏美中大局。菲律宾总统马科斯曾称南海发生命案将触及战争定义，但特朗普是否会履行防卫义务仍存疑问 [82]。结论认为中国正试图通过这些行动将盟友与其保护者美国剥离开来 [83, 84]。",
+          "title_zh": "中国赌特朗普会纵容其欺凌美国盟友",
+          "subtitle_zh": "It has stepped up its abuse of Australia, the Philippines and Japan"
+        },
+        {
+          "title": "Behind India’s protests is a crisis in the graduate-jobs market",
+          "subtitle": "Fixing the exam system will not solve that",
+          "summary": "印度爆发的大规模学生抗议，表面上是因为试卷泄密，深层原因则是由于极度匮乏的高薪就业机会 [85]。关键数据触目惊心：2004-2023年间印度增加了500万毕业生，但就业岗位仅增加280万；220万医学生竞争12.6万个名额，而1.5万个低级政府职位竟吸引了280万申请者 [85, 86]。背景分析指出，由于印度制造业未能充分发展，大量毕业生只能在农业或低端岗位挣扎，只有55%的毕业生被认为具备就业能力 [87]。结论警告说，这种“教育换取成功”契约的崩塌，正成为这个世界人口大国最严峻的政治挑战 [88]。",
+          "title_zh": "印度抗议背后的毕业生就业危机",
+          "subtitle_zh": "Fixing the exam system will not solve that"
+        },
+        {
+          "title": "Japanese politics is becoming less of a turn-off for the young",
+          "subtitle": "Social-media-savvy politicians are drawing them in",
+          "summary": "日本政坛正出现一种由社交媒体驱动的新趋势，原本政治冷感的年轻人开始积极参与政治 [89, 90]。关键数据：18-19岁选民的投票率从35%跃升至45%，20-30岁人群的投票率也增长了10个百分点以上 [90]。分析认为，这归功于擅长使用YouTube和TikTok的“网红”政治家，以及承诺削减社保、增加实得工资的新政党。现任首相高市早苗作为首位女首相，其形象也吸引了许多渴望改变的年轻女性选民 [91]。结论指出，这并不意味着年轻人正在右倾，而是他们变得更加现实主义，更关心经济收益和国家安全，而非老一辈人的和平主义意识形态 [92, 93]。",
+          "title_zh": "日本政治对年轻人的吸引力正在回升",
+          "subtitle_zh": "Social-media-savvy politicians are drawing them in"
+        },
+        {
+          "title": "Beerlao: probably the most important lager in the world",
+          "subtitle": "Its country’s economy depends on it",
+          "summary": "老挝啤酒（Beerlao）不仅是老挝的国民品牌，更是该国病态经济中唯一的亮色 [93, 94]。关键数据：2024年其销售额达6亿美元，相当于老挝GDP的3.5%，并支付了2.4亿美元的税款，是该国最大的纳税人 [95]。背景分析显示，老挝在资源采矿和水电站之外几乎没有拿得出手的工业，且对外资吸引力极度依赖单一品牌。结论忧虑地指出，Beerlao的孤立成功凸显了该国经济改革的停滞，它现在像是一个人在唱独角戏 [96]。",
+          "title_zh": "老挝啤酒：或许是世上最重要的拉格",
+          "subtitle_zh": "Its country’s economy depends on it"
+        },
+        {
+          "title": "Narendra Modi is on a quest to regain his aura",
+          "subtitle": "What India’s government learnt from recent student protests",
+          "summary": "文章分析了莫迪政府在学生抗议压力下解雇教育部长后的政治姿态，认为这是莫迪试图挽回“无敌光环”的举动 [97, 98]。背景是莫迪在2024年失去绝对多数席位后，面临着政府历史上首次因压力被迫辞职的尴尬局面 [98, 99]。核心论点指出，莫迪政府虽然在表面上采取了建立调查组和加强立法的姿态，但在本质上仍倾向于通过封锁社交媒体账号和管控舆论来应对危机 [100, 101]。结论认为，莫迪甚至开始尝试入驻Instagram并利用Z世代流行语（如“Aura farming”）来展示其前卫形象，但这往往显得矫揉造作 [102, 103]。",
+          "title_zh": "莫迪寻求重塑其“无敌光环”",
+          "subtitle_zh": "What India’s government learnt from recent student protests"
+        }
+      ]
+    },
+    {
+      "section": "China",
+      "articles": [
+        {
+          "title": "China’s mightiest river is coming back from the brink",
+          "subtitle": "But eco-authoritarianism is not all roses",
+          "summary": "自2021年实施十年禁捕计划以来，长江正经历显著的生态修复 [104, 105]。关键数据：长江鱼类生物量自禁捕以来增长了200%以上，曾在禁捕前跌至不足10万吨；江豚数量从2017年的1000头恢复到1400多头 [105, 106]。分析指出，这种“生态威权主义”依赖顶层设计和无人机、摄像头等严厉监控，但也造成了23万渔民失去生计且补偿不足的代价 [107-109]。结论认为，尽管生物多样性有所恢复，但三峡大坝等大型水利设施依然是阻碍鱼类迁徙的结构性障碍，且政府在决策中依然很少听取环保人士或受损民众的意见 [110-112]。",
+          "title_zh": "长江生态保卫战：从崩溃边缘回归",
+          "subtitle_zh": "But eco-authoritarianism is not all roses"
+        },
+        {
+          "title": "Xi Jinping, pioneering venture capitalist",
+          "subtitle": "CXMT’s monster initial public offering is a money-maker for the state. Its success may not be repeated",
+          "summary": "长鑫存储（CXMT）的BLOCKBUSTER式上市标志着习近平“国家风险投资”模式的重大胜利 [112, 113]。关键数据：CXMT通过IPO筹集了86亿美元，市值达3.3万亿人民币，成为中国市值最高的本土上市公司，早期入股的国家基金获得了超过40倍的回报 [113-115]。背景是自2020年打击民营科技巨头以来，政府已成为初创企业的唯一大金主，总投资额达12万亿人民币 [115, 116]。结论指出，尽管CXMT获得了成功，但该模式面临腐败风险、退出机制匮乏以及政治基准而非财务基准主导等问题，这种成功或许难以在其他领域大规模复制 [117-119]。",
+          "title_zh": "习近平：开拓性的国家风险投资家",
+          "subtitle_zh": "CXMT’s monster initial public offering is a money-maker for the state. Its success may not be repeated"
+        },
+        {
+          "title": "The curious, never-ending crackdown on Hong Kong’s booksellers",
+          "subtitle": "A case of national-security theatre",
+          "summary": "香港政府针对书店（如“Have a Nice Stay”）的持续突击搜查被形容为一场“国家安全剧场” [120]。分析指出，当局执着于搜查实体书店而非网络空间，其目的不在于阻断资讯——因为违禁内容在网上唾手可得——而在于向三类观众展示权力：惩罚不服从的书商以抹去抗争集体记忆；警告普通市民谁是“坏人”；以及向北京老板证明巨额国安预算物有所值 [121, 122]。结论是，这种高压态势将成为香港政治常态 [123]。",
+          "title_zh": "香港书商面临离奇且持久的打压",
+          "subtitle_zh": "A case of national-security theatre"
+        },
+        {
+          "title": "Sex, blood and Communist Party virtues",
+          "subtitle": "A gory film tests prudish government censors",
+          "summary": "昆汀·塔伦蒂诺的极度暴力电影《杀死比尔》合集将在中国公映，这测试了中国审查制度的底线 [123, 124]。背景分析显示，中国没有分级制度，所有电影必须适合“四岁和四十岁”人共同观看，这迫使审查员必须通过数字技术遮盖裸体、删减血腥镜头 [125]。结论认为，放行此类争议影片可能是为了挽救今年上半年暴跌40%的电影票房，但如果过度删减导致剧情碎片化，观众是否买账仍未可知 [126, 127]。",
+          "title_zh": "性、鲜血与党的传统美德",
+          "subtitle_zh": "A gory film tests prudish government censors"
+        }
+      ]
+    },
+    {
+      "section": "United States",
+      "articles": [
+        {
+          "title": "The anti-abortion crusade’s new fight",
+          "subtitle": "With legal abortions on the rise, an aggressive battle is beginning",
+          "summary": "在最高法院推翻罗诉韦德案四年后，美国反堕胎运动正转向打击堕胎药邮寄及刑事化堕胎女性 [128-130]。关键事实：由于邮寄堕胎药的普及，目前美国合法堕胎数量反而高于罗诉韦德案时期，多达七个州通过了“屏蔽法”保护远程给药的医生 [129, 131, 132]。核心论点是反堕胎人士正试图利用19世纪的《康斯托克法案》禁止邮寄药物，并推动赋予胚胎与人同等的法律权利 [133, 134]。结论指出，这在反堕胎阵营内引发了代际分裂，温和派担心刑事化女性会疏远选民 [135, 136]。",
+          "title_zh": "反堕胎十字军的新战线",
+          "subtitle_zh": "With legal abortions on the rise, an aggressive battle is beginning"
+        },
+        {
+          "title": "Donald Trump is warming to Volodymyr Zelensky",
+          "subtitle": "The man with “no cards” plays a deft hand",
+          "summary": "特朗普与泽连斯基的关系出现了显著缓和，反映出特朗普对乌克兰军事能力的尊重 [137-139]。背景是此前特朗普曾称泽连斯基为“独裁者”，但近期参议院以86对12的高票通过了一项针对俄罗斯的制裁和关税法案 [137, 140]。核心事实是乌克兰展示了深入俄罗斯腹地的无人机打击能力，并同意在美国建设基于乌克兰设计的无人机工厂 [139, 141, 142]。结论认为，虽然泽连斯基在华盛顿打出了一张好牌，但由于和平谈判停滞，乌克兰仍面临严酷的冬季挑战 [143, 144]。",
+          "title_zh": "特朗普对泽连斯基态度转暖",
+          "subtitle_zh": "The man with “no cards” plays a deft hand"
+        },
+        {
+          "title": "How to turn solutions into problems",
+          "subtitle": "Lessons from a fight over a bridge between America and Canada",
+          "summary": "美加边境以冰球传奇戈迪·豪命名的桥梁建设历程，成为了特朗普第二任期内美加关系摩擦的缩影 [145, 146]。背景分析显示，这条连接底特律和温莎的要道承担了两国四分之一的卡车货运 [147]。核心冲突在于，特朗普在桥梁完工前夕威胁封锁，除非获得50%的所有权和贸易补偿，这似乎受到了来自既得利益者的游说 [148]。结论指出，尽管双方最终达成了利益分成协议，但这场争执增加了每周边际成本，并促使加拿大转向欧洲寻求更稳定的伙伴关系 [149, 150]。",
+          "title_zh": "如何变解决之道为难题",
+          "subtitle_zh": "Lessons from a fight over a bridge between America and Canada"
+        },
+        {
+          "title": "The tide turns for a Florida darling and California loser",
+          "subtitle": "Miami faces new problems as San Francisco makes a comeback",
+          "summary": "疫情后的城市格局出现反转：曾被认为陷入“末日循环”的旧金山正因AI浪潮和温和派政治复归而崛起，而曾经的明星城市迈阿密则面临严重的负担能力危机 [150-152]。关键数据：迈阿密Dade县房价自2020年上涨58%，成为全美居住成本占比最高的城市 [153]；而旧金山的办公楼空置率虽然仍高，但正随着AI企业占据全国三分之二的租赁面积而回升 [154, 155]。结论是，两个城市都正面临变为“富人游乐场”的风险，政客们必须解决如何让城市为普通中产阶级服务的问题 [156, 157]。",
+          "title_zh": "佛州宠儿与加州败者的运势反转",
+          "subtitle_zh": "Miami faces new problems as San Francisco makes a comeback"
+        },
+        {
+          "title": "Donald Trump’s food-stamp overhaul is beginning to bite",
+          "subtitle": "Federal reforms have left the states with a growing bill",
+          "summary": "特朗普政府通过的OBBBA法案正大幅削减联邦食品券（SNAP）开支，将其负担转嫁给各州 [157, 158]。关键数据：该法案预计在未来十年削减五分之一的SNAP支出，目前已有500万人退出了该计划 [158]。由于新规要求州政府承担更多的运营成本（从50%升至75%），并对资格审核错误率处以重罚，导致许多州（如亚利桑那）通过增加文书难度变相劝退合规申请者 [159-161]。结论认为，这项曾经拥有两党共识的福利政策正由于财政压力而变得难以为继 [162]。",
+          "title_zh": "特朗普粮食券改革初显阵痛",
+          "subtitle_zh": "Federal reforms have left the states with a growing bill"
+        },
+        {
+          "title": "The Michigan Senate primary is a fight for control of the Democrats",
+          "subtitle": "Anger at Donald Trump and Israel have given the left an opening",
+          "summary": "密歇根州参议院初选演变成了一场关于民主党灵魂的斗争，反映了该党内部在以色列政策及风格上的深刻分歧 [163, 164]。核心竞争者是偏向民粹风格、反对对以军事援助的埃及裔医生El-Sayed，以及获得建制派和亲以游说团体支持的温和派Stevens [165, 166]。分析指出，这场竞赛的核心不仅仅是谁能击败共和党对手，而是哪种意识形态将在未来的民主党内占据主导 [167, 168]。结论担心，这种党内互不容忍的态势可能重演共和党当年的分裂之路 [169]。",
+          "title_zh": "密歇根州参议院初选：民主党控制权之争",
+          "subtitle_zh": "Anger at Donald Trump and Israel have given the left an opening"
+        }
+      ]
+    },
+    {
+      "section": "The Americas",
+      "articles": [
+        {
+          "title": "Canada turns to Europe for its security",
+          "subtitle": "Donald Trump’s capriciousness has pushed Canada’s military spending towards Europe",
+          "summary": "由于担心美国（尤其是特朗普政府）的反复无常，加拿大正大幅调整国防策略，转向与欧洲深化合作 [169, 170]。关键决策：加拿大选择了德国TKMS公司作为12艘先进常规潜艇的供应方，合同价值高达1000亿加元 [170, 171]。此外，加拿大加入了欧盟的SAFE军事融资计划，并积极推动建立“北约银行” [172-174]。核心论点是加拿大希望通过这种转向减少对美制装备（目前占其开支的70%）的过度依赖。结论认为，特朗普对加拿大主权的威胁反而促成了加拿大的国防现代化 [173, 175]。",
+          "title_zh": "加拿大转向欧洲寻求安全保障",
+          "subtitle_zh": "Donald Trump’s capriciousness has pushed Canada’s military spending towards Europe"
+        },
+        {
+          "title": "How Filipino immigrants revitalised a small Canadian town",
+          "subtitle": "And how Mark Carney’s immigration curbs threaten the model",
+          "summary": "菲律宾移民成功重振了曼尼托巴省的小镇尼帕瓦（Neepawa），该镇一半以上的人口现在来自菲律宾 [175, 176]。核心逻辑是当地猪肉加工商HyLife大量招募菲律宾屠夫，这些持临时工签的劳动者通过努力工作获得永久居留权，并带动了当地零售、餐饮和教堂的复兴 [176, 177]。然而，马尼·卡尼政府近期大幅缩减签证数量（从68.7万减至38.5万），引发了当地对未来增长放缓和基础设施压力的担忧 [178, 179]。",
+          "title_zh": "菲律宾移民重振加拿大边陲小镇",
+          "subtitle_zh": "And how Mark Carney’s immigration curbs threaten the model"
+        },
+        {
+          "title": "Brazil has the world’s strictest laws against racist speech",
+          "subtitle": "But it is unclear what the rocketing number of prosecutions is achieving",
+          "summary": "巴西自2021年起实施了全球最严厉的反种族歧视法律，将种族侮辱等同于宪法规定的种族歧视罪 [180, 181]。关键数据：每月的种族案件处理量增长了十倍，已有近千人入狱 [182, 183]。分析认为，尽管法律提高了公众意识，但并未触及根源，黑人家庭收入仍仅为白人的一半，且黑人死于警察暴力的几率是白人的3.5倍 [184, 185]。结论警示说，这种严法可能会损害言论自由，而非真正消除结构性的种族不平等 [186]。",
+          "title_zh": "巴西实行全球最严厉反种族言论法",
+          "subtitle_zh": "But it is unclear what the rocketing number of prosecutions is achieving"
+        }
+      ]
+    },
+    {
+      "section": "Middle East & Africa",
+      "articles": [
+        {
+          "title": "New strikes in Iran show the weakness of Donald Trump’s deal",
+          "subtitle": "The two sides are trapped in a cycle of fighting and half-baked attempts at diplomacy",
+          "summary": "美伊之间仓促签署的6月中期协议仅维持了三周即宣告破裂 [2, 187]。分析指出，双方在伊朗冻结资产的释放节奏以及霍尔木兹海峡的共同管辖权上存在根本性分歧 [188, 189]。由于伊朗拒绝接受阿曼提出的联合管理方案，冲突再次升级，导致原油价格一度突破100美元 [190, 191]。结论认为，由于协议语言模糊且未能触及核问题的核心，这一轮外交努力极可能以失败告终 [192]。",
+          "title_zh": "对伊新打击暴露出特朗普协议的软肋",
+          "subtitle_zh": "The two sides are trapped in a cycle of fighting and half-baked attempts at diplomacy"
+        },
+        {
+          "title": "Saudi Arabia is locked in a dangerous stand-off with the Houthis",
+          "subtitle": "By threatening shipping, the Yemeni rebels hope to wring concessions from the kingdom",
+          "summary": "胡塞武装正通过袭击红海航线和沙特石油设施来敲诈沙特，要求其支付欠发多年的公务员工资 [193, 194]。背景分析显示，由于霍尔木兹海峡受阻，红海已成为沙特每日350万桶石油出口的救命稻草 [195, 196]。胡塞武装效仿伊朗的强硬姿态，试图通过海路封锁换取政治和经济让步 [197]。结论指出，虽然沙特进行了报复性空袭，但只要胡塞武装能维持每月击沉一两艘船的能力，就能有效阻断航运，使沙特陷入两难 [198, 199]。",
+          "title_zh": "沙特与胡塞武装陷入危险对峙",
+          "subtitle_zh": "By threatening shipping, the Yemeni rebels hope to wring concessions from the kingdom"
+        },
+        {
+          "title": "The International Criminal Court puts its house in order",
+          "subtitle": "But a new chief prosecutor will not end its troubles",
+          "summary": "国际刑事法院（ICC）罕见地解雇了首席检察官卡里姆·汗，原因是其涉及性骚扰指控 [199, 200]。核心事实是，尽管此举旨在维护机构信誉，但却引发了关于政治动机的猜测，特别是卡里姆·汗此前曾对以色列领导人发出逮捕令 [201, 202]。结论认为，ICC作为一个没有执法权的机构，急需一名低调且专业的检察官来重建与强权国家的平衡，而非继续沉溺于充满争议的自我宣传中 [203, 204]。",
+          "title_zh": "国际刑事法院内部整肃门户",
+          "subtitle_zh": "But a new chief prosecutor will not end its troubles"
+        },
+        {
+          "title": "West Africa has become a huge cocaine-trading hub",
+          "subtitle": "Scrutiny of other routes has changed traffickers’ strategy for shipping to Europe",
+          "summary": "西非正迅速崛起为从南美向欧洲运输可卡因的关键中转站 [204, 205]。关键数据：利比里亚单次缴获近4吨高纯度毒品，价值3.17亿美元；去年有超过100吨毒品通过此航线流入欧洲 [206, 207]。分析指出，欧洲对直航航线的严查迫使毒枭采取“母船+快艇”的策略，利用西非薄弱的港口管控和严重腐败进行走私 [207, 208]。结论是，面对高额利润和技术娴熟的跨国集团，薪资微薄且装备陈旧的当地执法部门几乎无能为力 [209, 210]。",
+          "title_zh": "西非沦为庞大可卡因贸易枢纽",
+          "subtitle_zh": "Scrutiny of other routes has changed traffickers’ strategy for shipping to Europe"
+        },
+        {
+          "title": "Why Rwandans are warming to dogs",
+          "subtitle": "Shunned after the genocide, they have become a status symbol",
+          "summary": "在1994年种族灭绝后曾因吃尸体而被厌恶的狗，正成为卢旺达城市中产阶级的新宠和地位象征 [210, 211]。核心事实是高档纯种犬（如杜高犬）的售价可高达200万卢旺达法郎，远超当地人均GDP [212, 213]。分析认为，警方展示的训练有素的牧羊犬形象改善了大众对犬类的偏见，催生了繁荣的寄养和训练市场 [213, 214]。结论指出，虽然这种趋势正在兴起，但对流浪犬的关爱依然缺失 [214, 215]。",
+          "title_zh": "卢旺达人为何开始接纳犬类",
+          "subtitle_zh": "Shunned after the genocide, they have become a status symbol"
+        }
+      ]
+    },
+    {
+      "section": "Europe",
+      "articles": [
+        {
+          "title": "France and Spain are suffering their biggest wildfires on record",
+          "subtitle": "Bordeaux is on alert, and worse is yet to come",
+          "summary": "法西两国正经历二战以来最严峻的火灾危机 [216]。背景是持续40度以上的极端热浪和由此产生的罕见气象现象“火灾积雨云” [217]。关键事实包括西班牙过火面积超17万公顷，以及多名村民丧生 [218, 219]。结论指出，尽管欧盟启动了联合民防机制，但两国因过去的预算削减导致灭火飞机短缺且森林管理荒废，未来必须从根本上重新评估气候风险和土地利用政策 [219-222]。",
+          "title_zh": "法西两国遭遇史上最严重野火",
+          "subtitle_zh": "Bordeaux is on alert, and worse is yet to come"
+        },
+        {
+          "title": "The Berlin terror attack exposes deep failings in the state",
+          "subtitle": "Germany knew Abdul Ballout was dangerous. It let him go anyway",
+          "summary": "本文核心论点指出，柏林恐怖袭击案（阿卜杜勒·巴卢特案）暴露了德国司法与安全体系之间的严重脱节。背景分析显示，巴卢特是一名被长期跟踪且具有极端主义前科的危险分子，但在其被判刑后，德国法院基于未成年人法偏重“康复”而非“风险管理”的原则将其释放，仅要求其参加去极端化课程。关键数据提及，巴卢特曾因准备严重暴力行为被判处22个月监禁，但他却在众目睽睽下发动了袭击。结论认为，该案件展示了德国 Islamist 威胁不仅是输入型的，更是本土化的，且司法系统的陈旧逻辑急需改革，以弥补安全漏洞。",
+          "title_zh": "柏林恐袭暴露国家体制的严重失能",
+          "subtitle_zh": "Germany knew Abdul Ballout was dangerous. It let him go anyway"
+        },
+        {
+          "title": "A new party breathes life into Turkey’s opposition",
+          "subtitle": "An end-run around a court ban gives Recep Tayyip Erdogan a strong challenger",
+          "summary": "文章探讨了土耳其反对派领袖厄兹居尔·厄泽尔通过成立“新党”（YP）成功规避司法打压并重塑政治格局的行为。背景是埃尔多安政府通过法院手段恢复了更易被控制的旧领袖克勒奇达尔奥卢的地位，试图分化共和人民党（CHP）。关键数据揭示，CHP的135名议员中有91人已转向新党，且新党目前的民调支持率超过30%，甚至领先于执政党。核心论点在于，厄泽尔通过这种“侧翼突破”为反对派注入了活力。结论指出，虽然新党面临严峻的司法镇压风险，但若能坚持半年到一年，将成为挑战埃尔多安政权的强力竞争者。",
+          "title_zh": "新政党为土耳其反对派注入活力",
+          "subtitle_zh": "An end-run around a court ban gives Recep Tayyip Erdogan a strong challenger"
+        },
+        {
+          "title": "Russian strikes may keep Ukraine's grain from reaching markets",
+          "subtitle": "Missile hits on ports near Odessa could stop the export of a bumper harvest",
+          "summary": "核心论点认为，俄罗斯近期对乌克兰敖德萨等港口的密集袭击正严重威胁其粮食出口支柱。关键数据展示了危机规模：本月已发生56次袭击，造成26名港口工人死亡，乌克兰90%的农产品出口依赖这些港口。尽管今年丰收预计达8100万吨，但出口量在5、6月已下降四分之一。背景分析指出，由于保险成本飙升，马士基等巨头已撤离，代之以冒险的第三方船队。同时，由于前线征兵，农业面临严重的劳动力和机械短缺。结论警告说，如果港口由于袭击彻底停摆，即使获得大丰收，乌克兰的战时经济也将因无法外运粮食而面临崩溃风险。",
+          "title_zh": "俄军袭击或阻断乌克兰粮食外运",
+          "subtitle_zh": "Missile hits on ports near Odessa could stop the export of a bumper harvest"
+        },
+        {
+          "title": "In Italy, America does business on the ambassador’s yacht",
+          "subtitle": "A billionaire diplomat’s floating statecraft",
+          "summary": "本文分析了美国驻意大利大使蒂尔曼·费尔蒂塔利用其私人超级游艇“Boardwalk”进行外交活动的新现象，认为这标志着特朗普时代美国外交向个人财富与权势展示的转型。核心事实包括：费尔蒂塔通过游艇在威尼斯等地接待意政要和名流，其游艇估值达4.5亿美元，配备泳池和直升机。背景分析指出，这种“游艇外交”将私人财富变为了非正式的外交筹码。结论认为，虽然这有助于与特定领导人搞好关系，但在意大利经济不景气的背景下，过分招摇的财富展示引发了当地关于外交精英化与平民隔阂的批评。",
+          "title_zh": "在意大利，美国的大使游艇外交",
+          "subtitle_zh": "A billionaire diplomat’s floating statecraft"
+        }
+      ]
+    },
+    {
+      "section": "Britain",
+      "articles": [
+        {
+          "title": "Having clawed his way to power, Andy Burnham wants to give some away",
+          "subtitle": "No representation without taxation",
+          "summary": "文章分析了英国新首相安迪·伯纳姆推行的深度放权计划，核心论点是消除地区不平等的关键在于赋予地方税收留存权。背景数据显示，英国是主要经济体中最集权的，伦敦的人均GDP是其落后地区的2.5倍。伯纳姆计划允许大都市政府保留更多当地所得税，以产生增长动力。结论认为，这种权力下放将打破“邮编决定命运”的现状，虽然不可避免会产生赢家和输家，但通过模仿德国式的财政平衡机制，可以实现更具活力的地区发展。这也是伯纳姆试图通过地方自主权来实现“曼彻斯特模式”全国化的战略尝试。",
+          "title_zh": "费力夺权后，安迪·伯纳姆欲下方权力",
+          "subtitle_zh": "No representation without taxation"
+        },
+        {
+          "title": "The world is entering a post-postcard era",
+          "subtitle": "This means fewer ghastly pictures of sunsets. More ghastly Instagram",
+          "summary": "核心论点指出，明信片这一曾经改变世界的物理社交媒介正面临终端衰退。背景分析回顾了明信片在二战期间通过假期图片协助盟军进行诺曼底登陆策划的历史。关键数据表明，英国目前仅8%的成年人仍寄送明信片，总量较峰值大幅萎缩。文章认为，明信片的视觉风格虽被现代社交媒体模仿，但其作为“物理痕迹”所承载的个人情感与亲密感正消失。结论感叹，尽管数字社交平台更加即时，但却失去了明信片那种厚重的历史感和文化独特性，明信片的消亡象征着一个更具质感的沟通时代的终结。",
+          "title_zh": "世界正步入“后明信片时代”",
+          "subtitle_zh": "This means fewer ghastly pictures of sunsets. More ghastly Instagram"
+        },
+        {
+          "title": "A widely repeated statistic is shaping Britain’s grooming-gangs debate",
+          "subtitle": "The Economist investigates whether it stands up",
+          "summary": "本文深入调查了关于英国诱拐团伙案中流传甚广的“25万名受害者”数据，核心论点指出该数据存在严重的统计误导，加剧了极右翼的偏见。关键数据披露，该数字源于皮尔逊勋爵基于个别案例的不合理全国外推，而政府2015年的严谨估算为6850人。背景分析显示，左翼的回避和右翼的夸大使得真相被掩盖，导致了严重的社会撕裂。结论认为，英国亟需通过即将到来的全国性调查提供科学数据，以真正解决族裔、宗教与犯罪之间的复杂联系，而非在虚假统计中持续陷入无意义的意识形态对抗。",
+          "title_zh": "广为流传的数据正左右英国诱拐团伙案辩论",
+          "subtitle_zh": "The Economist investigates whether it stands up"
+        },
+        {
+          "title": "Health tech and AI come to equestrianism",
+          "subtitle": "A heritage sport is enjoying a data revolution, with animal welfare as the justification",
+          "summary": "核心论点是，马术运动正迎来由AI和穿戴设备驱动的数据革命，且其动力主要源于动物福利而非竞技成绩。关键数据指出，70%的英国人认为动物福利应优先于比赛表现。Sleip和Equiyd等APP通过AI分析马匹步态，已拥有数万名普通用户。背景分析认为，由于马匹无法通过语言表达痛楚，24小时的监测在提高赛马“健康跨度”方面具有天然优势且监管门槛较低。结论预测，马匹很快将成为地球上被监测程度最高的运动员，这不仅提升了动物福利，也为这项传统体育项目带来了全新的科学管理维度。",
+          "title_zh": "健康科技与AI进军马术界",
+          "subtitle_zh": "A heritage sport is enjoying a data revolution, with animal welfare as the justification"
+        },
+        {
+          "title": "Britain is struggling to build data centres",
+          "subtitle": "It risks missing a big opportunity",
+          "summary": "文章探讨了英国在数据中心建设上的落后现状，核心论点指出规划延迟和能源成本是主要障碍。关键数据表明，由于电网接入需排队8年，而建设仅需18个月，导致英国人均数据中心容量仅为美国的三分之一。背景分析指出，尽管数据中心可能由自动化运营，但它们是AI主权的基石。结论认为，英国不应依赖外包给北欧国家，而应利用公众目前对此类设施较少反感的契机，通过建立“AI增长区”和改革电网接入机制，抢占未来AI产业链的税收和主权制高点，否则将面临技术孤岛化的风险。",
+          "title_zh": "英国数据中心建设步履维艰",
+          "subtitle_zh": "It risks missing a big opportunity"
+        },
+        {
+          "title": "The indie establishment",
+          "subtitle": "What happens when the alternative becomes the mainstream?",
+          "summary": "本篇Bagehot专栏分析了新首相伯纳姆所代表的“独立乐界建制派”文化。核心论点是，伯纳姆表面上推崇非主流文化（如80年代独立摇滚），实则其政策与精英背景仍植根于主流建制。背景分析提到，从卡梅伦到星默，英国政治精英长期将反主流文化作为展示平民性的工具。结论认为，这种文化与政治的深度绑定说明英国精英层仍生活在20世纪的文化回响中。如果领导层被这种“冻结的文化”所塑造，那么所谓的根本性政治变革将很难发生，伯纳姆的“非传统”形象更多是一种精心包装的建立在老派文化基础上的战略姿态。",
+          "title_zh": "独立乐界建制派",
+          "subtitle_zh": "What happens when the alternative becomes the mainstream?"
+        }
+      ]
+    },
+    {
+      "section": "International",
+      "articles": [
+        {
+          "title": "The restaurant business is changing beyond recognition",
+          "subtitle": "Blame technology, inflation and customers’ shifting habits",
+          "summary": "文章核心论点是餐饮业正经历技术与通胀驱动的结构性崩塌与重组。关键数据指出，美国75%的餐饮消费已转移至店外（外卖或提货），42%的餐饮点处于亏损。背景分析显示，远程办公减少了市中心的餐饮溢价，而高昂的劳动力成本迫使餐厅向两极发展。结论指出，“休闲餐饮”这一中间层正迅速消亡，未来只有两种生存模式：一种是像萨莉亚那样通过极高自动化和全产业链控制实现低价，另一种则是提供绝对不可替代、必须到店才能感受的奢华体验。这种“无感化”外卖趋势正从根本上重塑城市的社交与商业空间。",
+          "title_zh": "餐饮业正发生翻天覆地的变化",
+          "subtitle_zh": "Blame technology, inflation and customers’ shifting habits"
+        },
+        {
+          "title": "Can French nukes protect Europe if Donald Trump walks away?",
+          "subtitle": "Europeans are keen on nuclear collaboration with Emmanuel Macron. What if Marine Le Pen becomes president?",
+          "summary": "本文探讨了在美欧关系不确定的背景下，法国独立核武库作为“欧洲核保护伞”的可行性。核心论点是，虽然马克龙愿意提供合作，但法国核力量的规模及其在保护邻国时的可信度仍存争议。关键背景是法国拥有300枚完全主权控制的核弹头，与英国依赖美国的系统形成对比。分析认为，德国等国对“去美国化”的欧洲核防务仍持谨慎态度。结论警示，2027年法国大选是巨大的不确定因素，如果极右翼勒庞上台，这一旨在保护欧洲的核威慑愿景可能反转为法德之间的信任危机，欧洲将面临前所未有的核安全真空。",
+          "title_zh": "若特朗普抽身，法国核武能保护欧洲吗？",
+          "subtitle_zh": "Europeans are keen on nuclear collaboration with Emmanuel Macron. What if Marine Le Pen becomes president?"
+        }
+      ]
+    },
+    {
+      "section": "Business",
+      "articles": [
+        {
+          "title": "America has become an entrepreneur’s paradise",
+          "subtitle": "Etsy-sellers and small-town accountants are enjoying the fruits of AI",
+          "summary": "核心论点认为，AI正推动美国迎来新一轮个体创业高峰，颠覆了传统的大企业生产率优势。关键数据提及，今年6月美国新商业申请达53万份，较2019年增长81%，约60%的创业者在使用AI。背景分析显示，AI代理和电商平台（如Shopify）大大降低了初创企业的行政和营销门槛。结论指出，这为被大厂裁员或渴望自主权的专业人士提供了“自雇”这一有意义的替代方案，预示着美国劳动力市场正向着“数字个体农户”模式回归，这种趋势有望重塑美国的社会结构，让个人重新夺回对劳动的掌控权。",
+          "title_zh": "美国已成创业者的天堂",
+          "subtitle_zh": "Etsy-sellers and small-town accountants are enjoying the fruits of AI"
+        },
+        {
+          "title": "There’s never been a better time to commit financial fraud",
+          "subtitle": "American enforcement has collapsed and conditions are ripe for skulduggery",
+          "summary": "文章严厉批评了美国当前白领犯罪执法力度的崩塌。核心论点是，由于司法资源向禁毒和移民领域转移，金融欺诈正处于监管空白期。关键数据指出，联邦白领案件起诉量已降至20年前的一半，而欺诈每年摧毁约1.1万亿美元的股东价值。背景分析提到，调查复杂欺诈案需耗费数百天及大量专业律师，而现在的司法部正面临严重的预算和人才流失。结论警告称，由于许多犯罪存在五年追诉时效，当前泡沫期间累积的大量欺诈行为可能永远无法被清算。这种执法的缺失是对公平市场秩序的根本破坏。",
+          "title_zh": "金融诈骗正处于“黄金时代”",
+          "subtitle_zh": "American enforcement has collapsed and conditions are ripe for skulduggery"
+        },
+        {
+          "title": "Selling stakes in the beautiful game. What could go wrong?",
+          "subtitle": "FIFA’s plan to tap private investors is causing outrage",
+          "summary": "本文分析了FIFA拟出售商业股份给私人投资者的争议计划。核心论点认为，这反映了体育管理机构正试图将足球这一文化资产彻底金融化。关键事实是FIFA计划通过出售20%股份筹集42亿美元，项目估值达200亿美元。背景分析显示，投资者（如Thrive Capital）看中足球在AI时代的“人类真实体验感”和资产稀缺性。结论指出，虽然注资有助于推广足球，但追求利润的资本极可能推动更多、更商业化的赛事，从而挤占球员休息时间并进一步损害足球作为草根运动的“灵魂”。这场博弈将决定足球未来的公共属性。",
+          "title_zh": "出售足球运动股份：会有什么差错？",
+          "subtitle_zh": "FIFA’s plan to tap private investors is causing outrage"
+        },
+        {
+          "title": "Private equity is coming for the Indian Premier League",
+          "subtitle": "The cricket tournament has proved hugely profitable",
+          "summary": "核心论点是印度板超（IPL）已从本土名流的“玩具”演变为全球私募股权巨头争相追逐的顶级金融资产。关键数据表明，IPL估值已超200亿美元，单个球队收购价高达18亿美元，由于薪资上限制度，其运营成本极具竞争力。背景分析指出，印度崛起的中产阶级和高比例的女性观众为媒体版权提供了巨大的溢价空间。结论指出，IPL是少数能保证海量直播观众的超级IP，其资产的稀缺性吸引了黑石、KKR等大鳄进场。这种国际化资本的涌入虽然提升了赛事估值，但也标志着IPL正从一个充满情感的国民娱乐项目转向冷酷的资本游戏。",
+          "title_zh": "私募股权盯上印度板超",
+          "subtitle_zh": "The cricket tournament has proved hugely profitable"
+        },
+        {
+          "title": "Forget Airbus and Boeing. Embraer is soaring",
+          "subtitle": "Its boss has ambitious plans for the future",
+          "summary": "文章核心论点是，在波音和空客因产能积压和质量问题自顾不暇时，巴西航空工业公司（Embraer）通过其定位精准的“利润猎手”E2机型成功上位。关键数据展示，其股价自2021年以来上涨十倍，订单积压达345亿美元，由于波音/空客交付需等8年以上，Embraer的两年内交付期具有极强竞争力。背景分析提到，Embraer在支线和私人飞机市场已占据主导，现正考虑研发更大的窄体机直接挑战双巨头。结论认为，尽管挑战双头垄断风险巨大，但这是Embraer跨入全球顶级航空公司的历史性窗口期，其管理层的战略定力值得期待。",
+          "title_zh": "别管空客和波音了，巴航工业正高飞",
+          "subtitle_zh": "Its boss has ambitious plans for the future"
+        },
+        {
+          "title": "The battle for Hugo Boss",
+          "subtitle": "A British retail magnate tries to go upmarket",
+          "summary": "核心论点是英国零售大亨麦克·阿什利正利用Hugo Boss的品牌困境发起敌对收购，试图通过资产重组提升其集团档次。核心背景是Hugo Boss因中英市场消费疲软，一季度营业利润同比暴跌42%。阿什利提出20亿欧元的要约，并已入股Puma和Burberry，执行其“高端化”战略。结论指出，Boss管理层认为出价严重低估了品牌价值，但如果业绩持续低迷，阿什利将极具胜算。这场战役反映了时尚界在消费寒冬下的残酷整合，以及传统低端零售商通过并购重塑基因的焦虑感。",
+          "title_zh": "雨果博斯争夺战",
+          "subtitle_zh": "A British retail magnate tries to go upmarket"
+        },
+        {
+          "title": "The delights of deadlines",
+          "subtitle": "A friend to procrastinators, an enemy to prattlers, a necessity for managers",
+          "summary": "本篇Bartleby专栏探讨了截止日期（Deadline）的积极管理作用。核心论点是截止日期能通过对抗人类的拖延天性来建立协作节奏并终结无谓的讨论。关键数据提及，拖延症与低收入负相关，而设定截止日期能显著提高患者复诊率。背景分析提到，截止日期通过“分歧加截止日期”的模式，强制产出决策。结论认为，虽然截止日期可能导致匆忙出错，但它对于建立组织内部的共同预期至关重要，能防止项目因追求完美而陷入永无止境的边际效应递减中，是维持职场产出的必要“恶法”。",
+          "title_zh": "截止日期的魅力",
+          "subtitle_zh": "A friend to procrastinators, an enemy to prattlers, a necessity for managers"
+        },
+        {
+          "title": "South Korea’s stock-market boom is collapsing spectacularly",
+          "subtitle": "It may be a harbinger",
+          "summary": "本篇Schumpeter专栏分析了韩国股市（特别是半导体权重股）近期的崩溃。核心论点是，韩国作为AI基建的中游供应商，其利润正受困于“大宗商品化”和下游需求存疑的双重挤压。关键数据指出，韩国股市市值近期蒸发了1.2万亿美元，主要指数从峰值下跌近40%。背景分析显示，政府此前通过杠杆ETF诱导散户入市以提振信心，结果加剧了踩踏。结论警告说，韩国股市的波动是全球AI热潮的预警信号：如果算力需求的红利无法转化为最终的商业闭环，处于供应链各环节的公司都将面临估值和利润的双重反噬，而韩国正是第一个受害者。",
+          "title_zh": "韩国股市繁荣正惨烈崩塌",
+          "subtitle_zh": "It may be a harbinger"
+        }
+      ]
+    },
+    {
+      "section": "Finance & economics",
+      "articles": [
+        {
+          "title": "AI revenues are growing fast, but not fast enough",
+          "subtitle": "The returns on trillions of dollars of spending are deeply uncertain",
+          "summary": "核心论点认为，目前AI产业的资本投入与实际产出的营收严重脱节，面临巨大的资产回报挑战。关键数据指出，科技巨头今年计划支出9000亿美元，但要覆盖这些支出，行业需要每年2.5万亿美元收入，而当前实际收入仅约2000亿。背景分析显示，仅20%的公司正在使用AI，且大多停留在初级或免费应用阶段，尚未在大规模组织流程中转化为生产力提升。结论认为，当前的AI热潮在很大程度上是巨头间的零和竞争。如果无法在短期内看到跨行业的生产力大爆发，当前的巨额资本支出将成为历史上最大规模的无效投资，导致严重的资产泡沫破裂。",
+          "title_zh": "AI营收增长虽快，但仍力有不逮",
+          "subtitle_zh": "The returns on trillions of dollars of spending are deeply uncertain"
+        },
+        {
+          "title": "Oil prices remain highly flammable",
+          "subtitle": "As tensions flare in the Gulf, triple digits could return in a flash",
+          "summary": "文章指出，尽管外交斡旋不断，但中东地缘政治已导致全球原油供应体系处于崩溃边缘。关键数据提及，霍尔木兹海峡的油轮流量骤减90%，沙特经红海的出口量下降了四分之三。核心事实是，胡塞武装对红海航线的封锁和伊朗对海峡的管控，使得原油市场已失去弹性。背景分析指出，美国战略储备已处于1983年来的最低水平，缺乏缓冲。结论警告称，原油价格很可能在夏季再次突破110美元大关。特朗普试图通过推特安抚市场的努力，终将被残酷的实物供应短缺所击碎，并在大选前引发二次通胀风险。",
+          "title_zh": "油价依旧高度“易燃”",
+          "subtitle_zh": "As tensions flare in the Gulf, triple digits could return in a flash"
+        },
+        {
+          "title": "How to design paper money that represents Europe",
+          "subtitle": "The euro gets a makeover",
+          "summary": "本文探讨了欧元纸币 redesign 背后对欧洲共同体认同的重塑。核心论点是，欧洲央行希望通过具有文化深度的主题（如伟大的科学家和艺术家）来取代过去平淡的想象建筑图样，增强民众对欧盟的情感连接。方案分析了“自然”（鸟类与河流）与“文化”（贝多芬、居里夫人）两大竞争选项。背景是欧元已发行24年，旧版设计过于技术中立。结论指出，这反映了欧洲在危机时代试图回归“文化欧洲”的尝试。虽然公众提出了一些带有自嘲性质的创意方案，但这一设计过程本身正成为欧洲凝聚力的一次难得的公共演习。",
+          "title_zh": "如何设计代表欧洲的纸币",
+          "subtitle_zh": "The euro gets a makeover"
+        },
+        {
+          "title": "A common European safe asset is still unlikely",
+          "subtitle": "For that, blame high national debts",
+          "summary": "核心论点是建立统一的欧洲债券（安全资产）在可预见的未来依然难以实现，主要阻碍在于各成员国间巨大的债务差异。关键数据揭示，法、意、西三国的债务率均超过100%，而欧洲未来十年的潜在增长率仅为1.4%加2%通胀，勉强覆盖融资成本。背景分析提到，由于缺乏真正的财政联盟，共同债务被德国视为“跃向未知的深渊”。结论认为，尽管统一债券有利于金融整合和欧元国际化，但目前欧盟只能继续在特定项目（如乌克兰援助）下进行有限的债务试验。在各国缩减赤字之前，真正的欧洲债券市场将继续缺席。",
+          "title_zh": "统一的欧洲安全资产仍遥不可及",
+          "subtitle_zh": "For that, blame high national debts"
+        },
+        {
+          "title": "Japan pursues an ill-timed fiscal stimulus",
+          "subtitle": "Takaichi Sanae’s economic agenda bears little resemblance to her mentor’s",
+          "summary": "本文严厉批评了高市早苗推行的“高市经济学”。核心论点认为，在日本已摆脱通缩且出现过热迹象时，强行推行120万亿日元的基建刺激是极其危险的财政博弈。关键数据揭示，日本长期利率已升至30年来高位，日债收益率压力巨大。背景分析指出，高市试图将财政扩张与国家主权挂钩，对抗中国影响。结论指出，这种“选赛道、挑赢家”的官僚主导模式极易诱发通胀失控或债券市场叛乱。在缺乏实质性结构改革的情况下，单纯的货币与财政“箭矢”只会透支日本的信用储备并引发严重的金融后遗症。",
+          "title_zh": "日本推行不合时宜的财政刺激",
+          "subtitle_zh": "Takaichi Sanae’s economic agenda bears little resemblance to her mentor’s"
+        },
+        {
+          "title": "Retail investors should beware perpetual futures",
+          "subtitle": "These peculiar products, popular in the crypto world, are hitting the mainstream",
+          "summary": "本篇Buttonwood专栏警告散户远离日益流行的永续期货。核心论点是这种产品实质上是高杠杆赌博工具，其隐性成本极高。关键数据披露，这种产品通过“资金费率”让散户多头每年支付超10%的利息给职业空头。背景分析指出，该产品由于取消了交割日期，极大降低了交易门槛，导致全球交易规模已突破90万亿美元。结论认为，永续期货的繁荣建立在散户的金融盲点之上，监管机构的妥协正在让数以万计的普通投资者暴露在极高的爆仓风险和本金侵蚀中，这是现代金融创新的一个黑暗侧面。",
+          "title_zh": "散户应警惕永续期货",
+          "subtitle_zh": "These peculiar products, popular in the crypto world, are hitting the mainstream"
+        },
+        {
+          "title": "How many people are dying as a result of USAID’s demise?",
+          "subtitle": "Fewer than academics imagine, but more than Elon Musk will admit",
+          "summary": "核心论点是裁撤USAID确实导致了生命损失，但数量并非如医学界预言的1400万那样夸张，因为核心人道援助在裁撤中得到了不同程度的保留或转移。背景分析指出，马斯克主张的“零死亡”和学术界的“数千万死亡”都存在事实偏差。关键数据是，目前的全球健康预算仅削减了约20%，而非最初计划的83%。结论认为，真实的死亡案例（如马拉维的产妇急救断供）虽悲惨但相对规模有限。这揭示了政治选择的残酷真相：在财政压缩与全球公德之间，美国正在进行一场代价高昂的平衡游戏，结果往往既不像马斯克说的那么美好，也不像左翼说的那样末日降临。",
+          "title_zh": "USAID之死导致了多少人丧生？",
+          "subtitle_zh": "Fewer than academics imagine, but more than Elon Musk will admit"
+        }
+      ]
+    },
+    {
+      "section": "Science & technology",
+      "articles": [
+        {
+          "title": "Quantum computers promise mathematical superpowers",
+          "subtitle": "But like all superpowers, they will have their limits",
+          "summary": "本文探讨了量子计算的发展现状与局限。核心论点是，量子机并非传统电脑的全面替代者，而是在解决特定数学难题（如制药模拟、材料设计和密码破解）时具有“超能力”的特种工具。关键数据揭示，2025年该领域初创企业融资达126亿美元，且只需1200个逻辑量子位即可破解现有主流加密体系。背景分析指出，量子计算正从实验室原型转向具备“纠错能力”的实用化竞赛。结论认为，它是计算界的“航天飞机”，造价昂贵且使用不便，但能在它擅长的化学与数学领域创造物理奇迹，其影响将是行业性乃至地缘政治级的。",
+          "title_zh": "量子计算机许诺数学“超能力”",
+          "subtitle_zh": "But like all superpowers, they will have their limits"
+        },
+        {
+          "title": "AI and quantum computers will be frenemies",
+          "subtitle": "The two technologies look more complementary than rivalrous",
+          "summary": "核心论点认为AI与量子计算是高度互补的共生技术，而非零和竞争的对手。核心事实是，量子计算能为AI训练提供指数级的能效加速（兆瓦级对比吉瓦级），而AI正被用于解决量子的“逻辑纠错”难题。分析指出，量子模拟产生的高质量物理数据能让AI模型更精准。背景分析提到，科技巨头正在构建这种协同回路。结论预测，未来的顶级科技竞争将聚焦于如何整合这两者：量子计算解决AI的“能耗极限”问题，而AI提升量子的“计算准确度”，两者结合将开辟材料科学和生命科学的崭新领域。",
+          "title_zh": "AI与量子计算：亦敌亦友",
+          "subtitle_zh": "The two technologies look more complementary than rivalrous"
+        }
+      ]
+    },
+    {
+      "section": "Culture",
+      "articles": [
+        {
+          "title": "How to spot AI writing",
+          "subtitle": "Large language models like long words and em-dashes—or do they?",
+          "summary": "本文通过对120万词汇语料库的研究，揭示了AI写作风格的演变趋势。核心论点是，AI正从频繁使用破折号和“delve”等老旧指纹转向堆砌复杂的拉丁语词汇、nominalisations和“三段论”修辞。背景分析显示，AI由于接受人类反馈，其风格日益逼近人类，甚至 tripling 了亚马逊每月新出版物。结论指出，识别AI的关键在于寻找那种“谄媚而平庸”的博学感——即文本虽语法完美但缺乏具体的语境洞察和作者个人风格。文章建议人类在AI时代应“醉着写，醒着改”，将核心技能从撰写转向更高维度的编辑与语感把控。",
+          "title_zh": "如何识破AI写作",
+          "subtitle_zh": "Large language models like long words and em-dashes—or do they?"
+        },
+        {
+          "title": "How Tom Holland became the world’s highest-grossing young actor",
+          "subtitle": "Lessons from his prodigious early success",
+          "summary": "核心论点是赫兰德（Tom Holland）的成功是好莱坞高度工业化的产物，其核心在于极高的可靠性和商业路径的精准卡位。关键数据指出，其参演电影总票房近120亿美元，居30岁以下演员首位。背景分析认为，由于其“Everyman”式的平庸与稳健，他成为了导演眼中最完美的“工业黏土”，比有性格的天才（如提摩西·查拉梅）更容易融入大IP流水线。结论通过其早早锁定加盟蜘蛛侠和其个人公众形象的管理，总结了现代演艺界的财富密码：在追求奖项和追求金钱之间，选择做一个“无聊而稳定”的赚钱机器往往收获更丰。",
+          "title_zh": "汤姆·赫兰德如何成为全球最高票房年轻演员",
+          "subtitle_zh": "Lessons from his prodigious early success"
+        },
+        {
+          "title": "The terrifying threat of a genetically engineered plague",
+          "subtitle": "Annie Jacobsen imagines the repercussions of a leak from a Russian laboratory",
+          "summary": "本文探讨了基因工程生物武器带来的终极威胁，核心论点是生物战争的破坏力远超核武，且极易引发无法控制的全球连锁反应。背景分析模拟了一个由西伯利亚实验室泄漏的具有“社会性增强”特性的鼠疫场景，详尽描述了美国生物防御体系在面对此类危机时的全面崩溃。结论指出，随着基因编辑门槛由于AI而降低，病原体的人造化已成为不可忽视的现实威胁。遗憾的是，全球范围内的生物安全监管不仅 shoddily 且预算正在缩减。这是一本旨在警示政策制定者的“格林童话”，揭示了人类在自身创造的微观恶魔面前是多么脆弱。",
+          "title_zh": "基因工程瘟疫的恐怖威胁",
+          "subtitle_zh": "Annie Jacobsen imagines the repercussions of a leak from a Russian laboratory"
+        },
+        {
+          "title": "Bold, brash and divisive: inside the Barstool Sports empire",
+          "subtitle": "Dave Portnoy has created a loyal audience by refusing to please everyone",
+          "summary": "文章深入剖析了波特诺伊建立的Barstool体育帝国及其成功的文化根源。核心论点是，通过极致的政治不正确、拒绝道歉和建立“兄弟文化”共同体，该品牌捕获了海量年轻男性用户。关键数据提及，月活用户达6600万，估值达6.5亿美元。背景分析显示，Barstool已演变为一家新型的好莱坞式人才孵化器。结论认为，该品牌的生命力在于它提供了一种逃避现代“说教式”社交媒体的“避难所”。波特诺伊通过与粉丝建立深厚的情感共鸣，成功地将一种极具争议的小众亚文化转化为了极其稳固且多金的商业闭环。",
+          "title_zh": "狂妄且具争议：深入Barstool体育帝国",
+          "subtitle_zh": "Dave Portnoy has created a loyal audience by refusing to please everyone"
+        },
+        {
+          "title": "A racist massacre. A white-supremacist coup. A century of lies",
+          "subtitle": "A new book tells the story of an atrocity in North Carolina in 1898 and its long aftermath",
+          "summary": "核心论点是劳伦·科林斯通过还原1898年威尔明顿大屠杀，揭露了美国历史上唯一的武装政变及其长达一个世纪的真相掩盖过程。背景事实是，白人民兵通过武力血洗黑人社区并非法推翻了民选政府，事后却将其美化为“光荣革命”。文章深入分析了这种“免责文化”对当地黑人社区长达百年的创伤影响。结论指出，虽然历史已远去，但关于真相的斗争仍在继续。在当前部分政治力量试图淡化种族不义背景下，记录和承认这段真实历史，是美国走向真正社会和解与公正赔偿的必经之路。",
+          "title_zh": "种族屠杀、白人至上政变与百年的谎言",
+          "subtitle_zh": "A new book tells the story of an atrocity in North Carolina in 1898 and its long aftermath"
+        },
+        {
+          "title": "Border walls are symbols of power—and monuments to delusion",
+          "subtitle": "A summer stroll along Hadrian’s Wall is also a rendezvous with history",
+          "summary": "核心论点指出，所有的边境墙本质上都是建造者权力的虚幻缩影和衰落的见证，哈德良长城亦不例外。历史背景显示，长城在军事上并非坚不可摧，更多是皇帝哈德良个人意志（自我陶醉）的体现。文章分析认为，墙的存在往往伴随着帝国的崩溃，其最终命运都是沦为旅游胜地或采石场。结论深刻地指出：宏大高墙从未能真正阻挡流动的世界，它们最终只是一座座铭刻着统治者恐惧与傲慢的、荒芜的纪念碑。现代社会应从中汲取智慧，承认边界的脆弱与文化的融合。",
+          "title_zh": "边境墙：权力的象征与幻觉的丰碑",
+          "subtitle_zh": "A summer stroll along Hadrian’s Wall is also a rendezvous with history"
+        }
+      ]
+    },
+    {
+      "section": "Economic & financial indicators",
+      "articles": [
+        {
+          "title": "Economic, data, commodities and markets",
+          "subtitle": null,
+          "summary": "核心论点是当前全球金融市场呈现出极度的避险情绪与板块震荡。关键数据反映了剧烈的波动：美国GDP健康（2.7%），但韩国股市在AI泡沫疑云中周跌幅近17%；金价突破4000美元大关（同比上涨21%），布伦特原油在84至91美元剧烈震荡。背景分析显示，中、俄等国经济增长乏力或陷入萎缩。结论指出，市场对AI硬件估值及中东战火扩大的担忧已达临界点，投资者正通过抢购避险资产（金、能源）来对冲未来的不确定性。全球经济正步入一个由二次通胀风险和地缘政治溢价主导的震荡周期。",
+          "title_zh": "经济指标、数据、大宗商品与市场",
+          "subtitle_zh": null
+        }
+      ]
+    },
+    {
+      "section": "Obituary",
+      "articles": [
+        {
+          "title": "Lam Wing-kee, the bookseller who would not admit defeat",
+          "subtitle": "The Hong Kong bookseller died on July 2nd, aged 70",
+          "summary": "本篇讣告纪念了香港书商林荣基。核心论点是，林荣基不仅是言论自由的捍卫者，更是个人尊严对抗庞大国家机器的象征。核心事实回顾了他因售卖政治禁书被囚禁8个月、拒绝出卖读者名单并流亡台湾重开书店的英勇历程。背景分析提到了他在极端恐慌中因海明威名言“人不是为了失败而生”而重获勇气的细节。结论庄严地宣示：林荣基的生命轨迹证明了，即便是在香港最黑暗的时刻，一个个体的坚持也能激发出照亮世界的道德力量。他虽死，但他那决不妥协的自由灵魂将永存。",
+          "title_zh": "林荣基：永不言败的书商",
+          "subtitle_zh": "The Hong Kong bookseller died on July 2nd, aged 70"
+        }
+      ]
+    }
+  ]
+}

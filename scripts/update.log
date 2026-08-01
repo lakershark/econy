@@ -422,3 +422,27 @@ urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, 
 [2026-07-26 10:29:08]    Translated 76/76 titles
 [2026-07-26 10:29:09] Updating docs/ and pushing to GitHub...
 [2026-07-26 10:29:09]   app.js updated: 21 Economist, 16 New Yorker issues
+[2026-07-26 10:29:10]   Pushed to GitHub.
+[2026-07-26 10:29:13]   cleaned up old notebook: The Economist 2026-06-27
+[2026-07-26 10:29:13]   notebook cleanup: deleted 1, kept up to 5 per magazine
+[2026-07-26 10:29:13] === Done ===
+
+[2026-08-01 07:51:15] === Econy weekly update started ===
+[2026-08-01 07:51:15] economist: 21 existing issues
+[2026-08-01 07:51:15] economist: new issue found — 2026-08-01
+[2026-08-01 07:51:15] Processing The Economist 2026-08-01
+[2026-08-01 07:51:15]   Downloading TheEconomist.2026.08.01.pdf...
+[2026-08-01 07:51:16]   Downloaded: 9445KB
+[2026-08-01 07:51:18]   ERROR processing economist 2026-08-01: 'notebook'
+[2026-08-01 07:51:18] No new issues. Nothing to push.
+[2026-08-01 07:51:18] === Done ===
+
+[2026-08-01 16:51:31] === Econy weekly update started ===
+[2026-08-01 16:51:31] economist: 21 existing issues
+[2026-08-01 16:51:32] economist: new issue found — 2026-08-01
+[2026-08-01 16:51:32] Processing The Economist 2026-08-01
+[2026-08-01 16:59:52]   Translating titles...
+[2026-08-01 16:59:52]    title translation attempt 1: 73 remaining
+[2026-08-01 17:02:01]    Translated 73/73 titles
+[2026-08-01 17:02:01] Updating docs/ and pushing to GitHub...
+[2026-08-01 17:02:02]   app.js updated: 22 Economist, 16 New Yorker issues
