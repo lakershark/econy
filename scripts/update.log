@@ -446,3 +446,27 @@ urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, 
 [2026-08-01 17:02:01]    Translated 73/73 titles
 [2026-08-01 17:02:01] Updating docs/ and pushing to GitHub...
 [2026-08-01 17:02:02]   app.js updated: 22 Economist, 16 New Yorker issues
+[2026-08-01 17:02:04]   Pushed to GitHub.
+[2026-08-01 17:02:07]   cleaned up old notebook: The Economist 2026-06-27
+[2026-08-01 17:02:07]   notebook cleanup: deleted 1, kept up to 5 per magazine
+[2026-08-01 17:02:07] === Done ===
+
+[2026-08-08 07:02:08] === Econy weekly update started ===
+[2026-08-08 07:02:08] economist: 22 existing issues
+[2026-08-08 07:02:08] economist: new issue found — 2026-08-08
+[2026-08-08 07:02:08] Processing The Economist 2026-08-08
+[2026-08-08 07:02:08]   Downloading TheEconomist.2026.08.08.pdf...
+[2026-08-08 07:02:10]   Downloaded: 8645KB
+[2026-08-08 07:56:42]   ERROR processing economist 2026-08-08: Command '['notebooklm', 'ask', '请列出这期杂志的完整目录，包括每篇文章的：1) 栏目名称，2) 文章标题，3) 副标题（如有）。按杂志顺序列出所有文章，输出为JSON格式：{"sections": [{"section": "栏目名", "articles": [{"title": "标题", "subtitle": "副标题"}]}]}', '--notebook', 'a60ccffa-6c3a-404c-b8aa-d549af4b2606', '--json']' timed out after 180 seconds
+[2026-08-08 07:56:42] No new issues. Nothing to push.
+[2026-08-08 07:56:43] === Done ===
+
+[2026-08-11 07:40:04] === Econy weekly update started ===
+[2026-08-11 07:40:04] economist: 22 existing issues
+[2026-08-11 07:40:05] economist: new issue found — 2026-08-08
+[2026-08-11 07:40:05] Processing The Economist 2026-08-08
+[2026-08-11 07:47:13]   Translating titles...
+[2026-08-11 07:47:13]    title translation attempt 1: 71 remaining
+[2026-08-11 07:49:05]    Translated 71/71 titles
+[2026-08-11 07:49:05] Updating docs/ and pushing to GitHub...
+[2026-08-11 07:49:05]   app.js updated: 23 Economist, 16 New Yorker issues
