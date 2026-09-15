@@ -1,0 +1,620 @@
+{
+  "magazine": "The Economist",
+  "issue_date": "2026-09-05",
+  "notebook_id": "805d341c-4250-4c7e-83e7-70190e24fb35",
+  "toc": [
+    {
+      "section": "The world this week",
+      "articles": [
+        {
+          "title": "Politics",
+          "subtitle": "",
+          "summary": "【核心论点】中东地区美伊爆发一个月来最大规模交火，同时美英澳等国在太平洋地区加紧与中国展开影响力博弈[1-3]。【背景分析与关键数据】美军打击了伊朗防空与雷达设施，伊朗则反击美在多国的基地，霍尔木兹海峡油轮遭袭推高油价[1]。美方封锁已成功切断伊朗经海路对华原油出口[1, 4]。在太平洋，帕劳举办太平洋岛国论坛并邀请台湾参会引发中方强烈不满；澳大利亚承诺出资6亿澳元（4.3亿美元），美国与新西兰等出资1.5亿美元加强区域安全与港口建设[2, 3]。此外，尼泊尔与西藏边境因冰川坍塌引发毁灭性洪水，已致超1000人死亡、4000余人失踪[3]。【结论】地缘政治冲突与自然灾害频发，加剧了全球不确定性[1, 3]。",
+          "title_zh": "[本周全球动态] 政治",
+          "subtitle_zh": ""
+        },
+        {
+          "title": "Business",
+          "subtitle": "",
+          "summary": "【核心论点】中东战火重燃引发通胀担忧，导致全球政府债券遭遇大规模抛售、收益率飙升，美联储及欧洲央行面临进一步加息压力[5-7]。【背景分析与关键数据】美国10年期国债收益率突破4.8%，日本10年期国债收益率创1996年来新高（3%），德国国债收益率创2011年来新高，英国国债收益率升至5.2%以上[5]。美联储主席沃什发表鹰派讲话，欧元区8月CPI上涨3.3%[6, 7]。快时尚巨头希音（Shein）在港上市首日大跌，IPO估值仅为260亿美元，法国则对快时尚征收环保费[7, 8]。此外，优步（Uber）裁员3300人（占比约10%），FTC与22州联合起诉亚马逊涉嫌操纵广告竞价非法获利200亿美元[9-11]。【结论】高通胀与紧缩货币政策环境正深刻冲击全球金融市场与企业运营[5, 6]。",
+          "title_zh": "[本周全球动态] 商业",
+          "subtitle_zh": ""
+        },
+        {
+          "title": "Cartoon: Putin cornered",
+          "subtitle": "A lighter take on the news",
+          "summary": "【核心论点】本周时事漫画《陷入绝境的普京》形象地揭示了俄罗斯总统普京在乌克兰战场陷于僵局时，因其帮派政治逻辑而选择冒险升级冲突的凶险博弈[12-14]。【背景分析与关键数据】俄乌冲突演变为漫长的无人机与导弹消耗战，乌克兰对俄罗斯炼油厂的深轨打击破坏了俄基础设施，57%的俄罗斯受访者认为国内局势紧张[13, 15]。然而普京绝不愿展现弱点，正准备向战场继续投入30万至40万兵力，并加大对乌克兰能源设施与欧洲目标的混合战争打击[16-18]。【结论】漫画配合波兰外长西科尔斯基等人的文章指出，普京将个人生存与战争绑定，在面临绝境时将毫不犹豫地选择升级冲突[14, 16, 19]。",
+          "title_zh": "[本周全球动态] 漫画：陷入绝境的普京",
+          "subtitle_zh": "A lighter take on the news"
+        }
+      ]
+    },
+    {
+      "section": "Leaders",
+      "articles": [
+        {
+          "title": "Nvidia is driving the AI boom. Good",
+          "subtitle": "The chipmaker’s enormous bets are how capitalism is supposed to work",
+          "summary": "【核心论点】英伟达（Nvidia）市值已飙升至5.4万亿美元，正通过庞大的资本运作推动人工智能（AI）热潮[20-22]。虽然批评者担忧其提供客户融资的金融工程会重演2000年互联网泡沫破裂的悲剧，但深入分析表明，这种集中下注正是资本主义创新与繁荣的正常运作方式[22-24]。\n【背景分析】作为AI芯片的核心供应商，英伟达股价自2022年底以来上涨14倍，贡献了2023年以来美国股市15%的回报[21, 22]。然而，英伟达通过直接投资、收益担保和贷款背书（被称为“AI中央银行”），向数据中心业主和AI实验室提供资金以购买其GPU，这种“供应商融资”模式引发了市场对其虚增需求和积聚金融风险的担忧[22, 23]。\n【关键数据】英伟达预计2027年净利润将达3700亿美元，2029年销售额或达1万亿美元；目前公司持有990亿美元现金，今年自由现金流约2000亿美元，毛利率高达75%[21, 25]。其潜在信用曝光到2029年初可能达2000亿至3000亿美元[26]。相比之下，AI产业目前每年为美国科技业创造约1500亿美元收入，增长迅猛[27]。\n【结论】与互联网泡沫破裂时期缺乏收入的公司不同，英伟达拥有极其稳健的资产负债表与庞大的现金流，且AI的市场需求真实存在[25, 27, 28]。黄仁勋自资解决AI基础设施瓶颈属于有风险的企业家探索，若下注失败损失主要由其股东承担，若成功则将加速AI时代的到来，提升整体生产力[24, 27, 29, 30]。",
+          "title_zh": "[社论] 英伟达正在推动AI热潮，这是好事",
+          "subtitle_zh": "The chipmaker’s enormous bets are how capitalism is supposed to work"
+        },
+        {
+          "title": "Donald Trump’s Venezuela deal is bold but dodgy",
+          "subtitle": "Worse, it creates incentives to block democracy",
+          "summary": "【核心论点】美国总统唐纳德·特朗普与委内瑞拉临时领导人戴尔西·罗德里格斯（Delcy Rodríguez）达成的石油协议虽然号称“世界历史上最大的石油交易”，但其交易对象极具争议，不仅涉嫌道德妥协，更创造了阻碍委内瑞拉民主转型的恶劣激励[30-33]。\n【背景分析】委内瑞拉曾因石油富甲拉美，但在查韦斯与马杜罗威权政权的腐败与乱政下，石油产量暴跌，经济陷入崩溃[31]。在中东战争打乱全球能源供应后，特朗普通过美军特种部队逮捕马杜罗，并与马杜罗的副手罗德里格斯达成协议，试图借此掌控庞大能源储备并降低美国国内油价[32, 34]。美方试图以此树立投资信心，但该政权缺乏合法性[35, 36]。\n【关键数据】该协议向私营企业NABEP授予17个油田的特许权，涉及约650亿桶原油储备（占委总储备的五分之一）[34]；美国国防部获得NABEP 35%的股权及长达100年的优先购买权[34]；美官方宣称交易将带来1000亿美元私营投资，并将委原油日产量提升至150万桶以上（使总产量恢复至250万桶）[34, 35]；雪佛龙独立宣布投资70亿美元[33]。\n【结论】该协议系与偷走大选的非法政权谈判签署，且合作私营大亨贝坦库尔因与前政权利益勾连而饱受恶名[36]。协议带来的巨额现金与税收使美委高层及利益集团倾向于推迟自由选举，从而牺牲了委内瑞拉走向真正民主与长期稳定的前景，引发各界担忧[33, 37, 38]。",
+          "title_zh": "[社论] 特朗普的委内瑞拉石油协议看似大胆实则可疑",
+          "subtitle_zh": "Worse, it creates incentives to block democracy"
+        },
+        {
+          "title": "Yoweri Museveni’s decline is putting Uganda on a terrifying path",
+          "subtitle": "It faces the prospect of a worse despot or a messy power struggle",
+          "summary": "【核心论点】乌干达81岁长期执政的总统约韦里·穆塞韦尼（Yoweri Museveni）健康状况严重恶化，其暴戾且难以预测的儿子穆胡兹·凯内鲁加巴（Muhoozi Kainerugaba）正加速掌控大权，使乌干达面临陷入极权独裁或激烈军队内斗的恐怖前景[38-41]。\n【背景分析】穆塞韦尼执政40年，曾恢复秩序并推动经济发展，但残酷镇压反对派（如博比·怀恩与基扎·贝西杰，后者在审判中倒地送医）[39]。随着其年老体衰，军方领袖及总统之子凯内鲁加巴掌控实权，导致国内镇压愈发肆无忌惮，公然接管私营媒体、绑架政敌并将其关押于地下室进行酷刑折磨，宪法权利被肆意践踏[40, 42, 43]。\n【关键数据】穆塞韦尼现年81岁，执政达40年[39, 42]。其子凯内鲁加巴52岁，现任军队总司令，曾因公开宣称“两周内攻占肯尼亚首都内罗毕”而被短暂撤职，近期又公开威胁杀害和阉割反对派领导人，并向其妹夫的助手发出死亡威胁[43, 44]。党政高层与公众普遍担忧国家将重蹈阿明（Idi Amin）时期的恐怖复覆辙[41, 43]。\n【结论】穆塞韦尼离任后，其子可能建立起充满种族偏见与复仇色彩的专制统治，或引发其胞弟萨林·萨莱（Salim Saleh）与少壮派军官之间的激烈权力斗争，甚至加剧邻国刚果（金）东部的冲突[40, 41]。乌干达的困境警示其他缺乏民主更替机制的威权国家，强人老去必将带来深重危机[45]。",
+          "title_zh": "[社论] 穆塞韦尼的衰落正将乌干达推向恐怖之路",
+          "subtitle_zh": "It faces the prospect of a worse despot or a messy power struggle"
+        },
+        {
+          "title": "In many countries, the biggest barrier to prosperity is in the home",
+          "subtitle": "A less sexist world would be much richer",
+          "summary": "【核心论点】在全球许多国家，阻碍经济繁荣的最根本障碍存在于家庭内部——极端父权制和对女性出门工作的禁锢严重拖累了整体经济增长，打破家庭对女性的束缚将带来巨大的繁荣与平等红利[46-49]。\n【背景分析】在中东、北非及南亚部分地区，许多男性出于“家族荣誉”和性别偏见，强行将女性隔离在家庭内部，导致社会整体贫困[47, 48]。然而，研究表明，女性参与有偿劳动不仅能提升家庭收入，还能改变家庭内部的权力格局，赋予女性在预算分配和人际交往上更大的发言权，使家庭关系更为平等[49]。沙特阿拉伯通过法律改革证明，最严重的性别限制也可以被废除[50, 51]。\n【关键数据】南亚仅有三分之一的女性进入劳动力市场，中东和北非仅有五分之一[48]；在巴基斯坦，女性仅占劳动收入的9%[48]。在埃及的一项实验中，即使提供免费或廉价托育服务，也仅有11%的母亲参加，主要障碍正是反对妻子出门工作的丈夫[46]。世界银行估计，消除女性就业障碍可使许多国家的人均收入提高五分之一（20%），其经济效益甚至超过避免一场典型的内战[49]。沙特自2010年以来，女性劳动参与率已从18%大幅升至34%[51]。\n【结论】促进女性走出家门需要从法律废除歧视性条款、推动社会规范演变（如通过榜样示范、数字技术与电视肥皂剧冲击），以及利用经济利益的诱惑多管齐下，这是通往更富裕和平等社会的关键突破口[50, 52-54]。",
+          "title_zh": "[社论] 在许多国家，繁荣的最大障碍来自家庭内部",
+          "subtitle_zh": "A less sexist world would be much richer"
+        },
+        {
+          "title": "What the Bayeux tapestry teaches about surviving against the odds",
+          "subtitle": "A 950-year-old piece of linen yields lessons for modern viewers",
+          "summary": "【核心论点】诞生于950年前的贝叶挂毯（Bayeux tapestry）历经战争与历史浩劫完好留存至今，其生存历程为现代人与统治者提供了关于低调生存、材质朴素与战胜对手后保持克制的深刻启示[55-58]。\n【背景分析】这件亚麻刺绣艺术品描绘了1066年诺曼征服英格兰及黑斯廷斯战役的史诗过程，由战败的撒克逊人在坎特伯雷缝制[56, 59]。其条漫式的诙谐风格在现代被广泛借用讽刺政治事件[59]。历经近千年，它逃过了法国大革命炮车覆盖布的掠夺与二战纳粹希姆莱将其作为“雅利安荣耀”据为己有的抢夺，如今首次被借展至大英博物馆展示，被誉为千年一遇的盛事[55, 56, 60]。\n【关键数据与经验】贝叶挂毯长达70米（相当于一架波音747）[56, 57]，被英国财政部投保8亿英镑（11亿美元），与《蒙娜丽莎》出展保额相当。其长存的三大奥秘在于：第一，前数百年被卷起藏于木箱、每年仅展示一次，保持低调[61]；第二，采用朴素的亚麻与羊毛线，未镶嵌金银宝石，从而避免了被盗贼拆解抢劫的命运[57, 61]；第三，有忠诚勇敢的保护者（如法国律师和二战抵抗组织）在关键时刻挺身而出[60]。\n【结论】挂毯在宣扬诺曼征服的同时对败者英格兰人展现了难能可贵的尊严与克制，未加嘲弄或称其为“失败者”[58]。对于追求炫耀、铺张饰物、鄙视外人并虚张声势的现代领导人而言，贝叶挂毯展现了历经千年考验的真正生存智慧与治国之道[58, 62]。",
+          "title_zh": "[社论] 贝叶挂毯关于逆境求生的启示",
+          "subtitle_zh": "A 950-year-old piece of linen yields lessons for modern viewers"
+        },
+        {
+          "title": "The moral panic over data centres is foolish",
+          "subtitle": "A backlash fuelled by misinformation and misunderstanding",
+          "summary": "【核心论点】美国公众与政客对AI数据中心引发的道德恐慌和建设计划抵制是愚蠢且危险的，盲目禁建数据中心不仅破坏国家经济与科技竞争力，更会将AI主导权拱手让给竞争对手[63-65]。\n【背景分析】随着AI模型训练对算力需求暴增，美国两党政客与选民出于环保与成本担忧，密集出台数据中心暂停令与建设禁令，将其变为2026年中期选举的核心争论议题[63, 64]。但许多反对理由建立在误解与夸大之上，例如将比特币矿场的噪声误认为是现代云服务数据中心发出的噪音[64, 66]。民调显示反对建数据中心的选民高达63%-71%，这种反弹正跨越党派界限打乱传统政治阵营，特朗普亦警告抵制社区将变得贫穷落后[63, 66]。\n【关键数据】误传耗水巨大的数据中心实际耗水量仅相当于两个高尔夫球场（且普遍循环用水），谷歌Gemini单次文本提示耗水仅约5滴，远低于一分钟洗澡耗水量[64, 67]；电力方面，数据中心通过分摊电网固定成本，近期使多家大型电力公司降低了居民电费[67, 68]；弗吉尼亚州劳登县对数据中心计算机设备的税收预计明年将贡献该县40%的总税收，使当地居民房产税降低约30%[69]。\n【结论】应对资源竞争的合理手段是按稀缺性定价鼓励更多供应，而非按道德高尚程度盲目限流[68]。美国自设障碍只会削弱自身在未来关键技术与国防上的优势，给能够集中力量建设基础设施的威权对手送上战略大礼[65, 69]。",
+          "title_zh": "[社论] 对数据中心的道德恐慌是愚蠢的",
+          "subtitle_zh": "A backlash fuelled by misinformation and misunderstanding"
+        }
+      ]
+    },
+    {
+      "section": "Letters",
+      "articles": [
+        {
+          "title": "The opposition of scientific research on animals",
+          "subtitle": "Also this week, humanitarian aid, polygenic embryo selection, Dolly Parton, relaxing holidays, Lake Ontario",
+          "summary": "【核心论点】读者来信围绕动物实验的有效性与伦理道德展开激烈辩论，指出摒弃动物实验不仅符合人道伦理，更是基于科学数据证明其极高失败率的必然选择[70-72]。【背景分析与关键数据】善待动物组织（PETA）代表引用15年科学数据指出，95%在动物身上开发的药物在人体临床试验中宣告失败（其中败血症和中风失败率达100%，阿兹海默症达99.6%）[71, 73]。哲学家强调动物承受痛苦的伦理底线不可被人类利益剥夺[72, 74]。信件还涵盖了对阿富汗塔利班政策及多基因胚胎筛选风险的探讨[74, 75]。【结论】读者呼吁加快转向类器官与计算机模型等新技术，强调科学进步与伦理道德必须并行[76, 77]。",
+          "title_zh": "[读者来信] 关于反对动物科学实验的讨论",
+          "subtitle_zh": "Also this week, humanitarian aid, polygenic embryo selection, Dolly Parton, relaxing holidays, Lake Ontario"
+        }
+      ]
+    },
+    {
+      "section": "By Invitation",
+      "articles": [
+        {
+          "title": "Europe cannot protect Russia from itself",
+          "subtitle": "Fear of Vladimir Putin going fully rogue has paralysed the West for long enough, writes Radek Sikorski",
+          "summary": "【核心论点】波兰外长兼副总理拉德克·西科尔斯基（Radek Sikorski）撰文指出，西方因害怕普京升级局势或俄罗斯解体而退缩是死胡同，欧洲必须展现承受短期风险的决心，强硬对抗俄罗斯侵略[19, 78-80]。【背景分析与关键数据】部分西方人士主张避免过度施压俄罗斯以防其解体或使用核武[79, 81]。西科尔斯基通过冷战后西方多次试图同化俄罗斯却遭拒绝的历史，证明退让只会滋长克里姆林宫的侵略气焰[79, 82]。俄罗斯政治高度集权且俄族占绝大多数，即使面临危机也是精英内部争权而非国家解体[81, 83]。【结论】过早谈判会巩固普京政权合法性，欧洲的首要责任是保护本国人民，而非保护俄罗斯免于自我毁灭[19, 80]。",
+          "title_zh": "[专栏] 欧洲无法保护俄罗斯免于自我毁灭",
+          "subtitle_zh": "Fear of Vladimir Putin going fully rogue has paralysed the West for long enough, writes Radek Sikorski"
+        },
+        {
+          "title": "The world may have less time than it thinks on climate change",
+          "subtitle": "If it is affecting circulation patterns that determine how and where anticyclones form, it could accelerate alarmingly, warns Tim Palmer",
+          "summary": "【核心论点】牛津大学教授蒂姆·帕尔默（Tim Palmer）警告，气候变化可能不仅在“热力学”层面（升温与水汽增加），更在“动力学”层面改变大气环流与反气旋模式，导致极端干旱成为常态[84-87]。【背景分析与关键数据】2026年夏季西欧遭受罕见持久高压系统（反气旋）笼罩，引发毁灭性干旱[84, 88]。现有全球气候模型缺乏足够时空分辨率，难以准确模拟湍流尺度互动，可能低估了动力学临界点（tipping point）的到来[87, 89]。【结论】国际社会需紧急集中算力建立超高分辨率全球气候模型，各国政府必须立即制定紧急应对与适应策略，留给人类的时间比预想的更少[90, 91]。",
+          "title_zh": "[专栏] 人类应对气候变化的时间可能比预想的更少",
+          "subtitle_zh": "If it is affecting circulation patterns that determine how and where anticyclones form, it could accelerate alarmingly, warns Tim Palmer"
+        }
+      ]
+    },
+    {
+      "section": "Briefing",
+      "articles": [
+        {
+          "title": "Nvidia is the central bank of AI",
+          "subtitle": "But will its loans prove sound?",
+          "summary": "【核心论点】英伟达（Nvidia）通过复杂的金融工程（提供收益担保、租赁承诺、股权投资和贷款背书）来刺激其AI芯片的市场需求，扮演了“AI中央银行”的角色，但这在推动产业爆发的同时也积聚了巨大的金融风险[92-96]。\n【背景分析】英伟达市值达5.4万亿美元[92]。随着其最大的四大云计算客户（亚马逊、谷歌、Meta、微软，占其收入约50%）纷纷自研定制芯片，英伟达必须通过扶持新兴“新云”（neoclouds）、初创公司及国家级AI项目来开辟新需求[96-98]。建设一座1吉瓦的数据中心需4.7万张芯片，成本高达470亿美元，其中仅芯片就占40%[98]。\n【关键数据】过去三年英伟达承诺向初创企业投资超700亿美元，并向客户提供3000亿美元的财务支持[95]；包括为俄亥俄州大型数据中心提供1050亿美元担保，与华尔街合作5000亿美元基础设施计划并提供最高25%的残值担保[93, 94, 99]；其潜在客户债务与担保责任到2029年初或达2000亿美元[100]。而全行业收回数据中心建设成本每年需要2.5万亿美元的AI使用收入，目前仅约1500亿美元[95, 101]。\n【结论】英伟达拥有990亿美元现金储备和强劲现金流，短期破产风险极低，但若AI需求增长不及预期，引发芯片价格与算力租金暴跌，英伟达将不得不履行庞大的追索担保，承担算力过剩与坏账冲击[100, 102-104]。",
+          "title_zh": "[简报] 英伟达是AI领域的中央银行",
+          "subtitle_zh": "But will its loans prove sound?"
+        }
+      ]
+    },
+    {
+      "section": "Asia",
+      "articles": [
+        {
+          "title": "Chandrababu Naidu’s techno-utopian vision for his Indian state",
+          "subtitle": "Has Andhra Pradesh’s tech-savvy chief minister bitten off more than he can chew?",
+          "summary": "【核心论点】印度安得拉邦首席部长钱德拉巴布·奈杜（Chandrababu Naidu）致力于将该邦打造成先进制造与数据中心枢纽，并建设宏大的新首府阿马拉瓦蒂（Amaravati），但该计划面临巨大的财政与政治风险[105-108]。【背景分析与关键数据】2014年分邦后安得拉邦失去海得拉巴，奈杜规划了占地3.3万英亩的绿色新城阿马拉瓦蒂，目前有2.5万工人在建；成功吸引谷歌与阿达尼合作的1GW人工智能数据中心（投资150亿美元）[106, 107, 109]。该城资金主要依赖世界银行等16亿美元长期贷款及卖地收益[110]。【结论】奈杜的技术乌托邦愿景宏大，但过度依赖高昂的地价溢价与外资引进，且极易受政坛风云变幻影响，存在成为半空城或财政包袱的隐患[110, 111]。",
+          "title_zh": "[亚洲] 钱德拉巴布·奈杜为其印度邦打造的技术乌托邦愿景",
+          "subtitle_zh": "Has Andhra Pradesh’s tech-savvy chief minister bitten off more than he can chew?"
+        },
+        {
+          "title": "The Pacific Islands Forum fizzles as China flexes its muscles",
+          "subtitle": "Leaders stay away over debates about Taiwan’s presence",
+          "summary": "【核心论点】太平洋岛国论坛（PIF）帕劳峰会因台湾问题与中国的暗中施压而陷入混乱，多国领导人缺席导致限制中国军事渗透的条约草案受阻[112-115]。【背景分析与关键数据】论坛18个成员国中有3国与台湾保持“外交关系”[112, 113]。主办国帕劳邀请台湾参会引发中方怒火，峰会前夕5位国家领导人临时缺席[114]。澳大利亚承诺出资6亿澳元（4.3亿美元）、美国出资1.5亿美元资助区域安全[2, 114]。所罗门群岛总理因国内亲中议员倒戈被迫回国应对不信任案[115, 116]。【结论】中国正通过经济与政治手段打压台湾的国际空间并削弱西方在太平洋的影响力，导致岛国论坛的凝聚力和决策效能受到严重冲击[114, 117]。",
+          "title_zh": "[亚洲] 随着中国展现实力，太平洋岛国论坛惨淡收场",
+          "subtitle_zh": "Leaders stay away over debates about Taiwan’s presence"
+        },
+        {
+          "title": "Catastrophic floods warn Nepal of more disasters to come",
+          "subtitle": "It is woefully short of the resources and international help to cope with them",
+          "summary": "【核心论点】尼泊尔与西藏交界处冰川坍坍引发毁灭性闪冲洪水，暴露了气候变化下喜马拉雅脆弱地区应对极端灾害的严重资金短缺与跨国监测机制缺失[118-121]。【背景分析与关键数据】2026年8月26日冰川崩塌阻断河流后决堤，造成1000多人死亡、4000多人失踪，毁坏80座桥梁及40公里道路，损坏14座水电站（占尼电力10%）[118, 122]。该地区升温与冰川融化速度是2000年的两倍，灾后重建需50亿美元[119, 120]。然而美国仅援助360万美元，国际气候资金严重匮乏[120]。【结论】喜马拉雅地区缺乏共享的水文预警数据，尼泊尔等贫困国家亟需国际资金支持与区域透明合作以抵御未来的气候灾难[121, 123]。",
+          "title_zh": "[亚洲] 毁灭性洪水预警尼泊尔未来将有更多灾难",
+          "subtitle_zh": "It is woefully short of the resources and international help to cope with them"
+        },
+        {
+          "title": "Japan’s mainstream political opposition is a shambles",
+          "subtitle": "The breakdown of a new alliance reflects deeper problems",
+          "summary": "【核心论点】日本主要反对党组建的“中道改革联盟”（CRA）在众议院选举惨败后解体，标志着日本主流反对派陷入混乱，难以对长期执政的自民党构成实质威胁[124-126]。【背景分析与关键数据】2026年1月，立宪民主党（CDP）与公明党（Komeito）在众议院合并成立CRA，但在随后选举中席位从167席暴跌至49席，随后放弃合并并解散[124, 125, 127]。自民党因丑闻失势后，高市早苗出任首相展现活力，而CRA领导层老化、路线妥协混乱[126-128]。【结论】日本主流反对派未能提供令人信服的替代方案，政坛缺乏制衡自民党的力量，同时也为民粹主义政党的发展留出了空间[126, 129]。",
+          "title_zh": "[亚洲] 日本主流政治反对派陷入混乱窘境",
+          "subtitle_zh": "The breakdown of a new alliance reflects deeper problems"
+        },
+        {
+          "title": "India’s payments system is ten. It must start paying for itself",
+          "subtitle": "Processing 24bn transactions a month does not come cheap",
+          "summary": "【核心论点】印度统一支付接口（UPI）迎来十周年，虽极大推动了无现金化，但“零费率”政策导致银行维系系统亏损，UPI必须建立合理的收费机制以实现可持续发展[130-133]。【背景分析与关键数据】UPI于2016年推出，目前拥有约5.5亿用户（占成年人过半）[131, 134]。2026年8月单月交易量达250亿笔，金额近30万亿卢比，占非现金交易85%以上[134]。政府自2020年起免除商户UPI手续费，近期立法拟对大型商业交易重新收费[132, 135]。【结论】长期由政府微薄补贴无法覆盖银行在安全与网络维护上的巨额投入，重新对大额商业交易合理计费是保障这一国家级金融基础设施不致停滞或崩溃的必要举措[133, 136]。",
+          "title_zh": "[亚洲] 印度支付系统迎来十周年：必须开始自我造血",
+          "subtitle_zh": "Processing 24bn transactions a month does not come cheap"
+        },
+        {
+          "title": "Social-media curbs for kids are not working in Asia",
+          "subtitle": "They are widely ignored, flouted and sidestepped",
+          "summary": "【核心论点】澳大利亚与马来西亚等国针对16岁以下未成年人推行的社交媒体禁令在实际执行中严重失效，青少年普遍通过虚报年龄或技术漏洞轻松绕过监管[137-140]。【背景分析与关键数据】澳大利亚于2025年12月实施未成年人社交平台禁令[137]。研究显示禁令出台3个月后，85%的受访未成年人仍在继续使用被禁平台，日均使用时长未减[139]。平台采用的人脸年龄识别软件误差较大，且50个测试账户中无一被有效核验[141, 142]。马来西亚拟引入官方实名身份证核验，但引发隐私担忧[143, 144]。【结论】粗暴的行政禁令无法解决技术核验瓶颈，相比一禁了之，倒逼平台改善产品安全设计与时间管理功能更为切合实际[142, 145]。",
+          "title_zh": "[亚洲] 针对儿童的社交媒体限制在亚洲未能奏效",
+          "subtitle_zh": "They are widely ignored, flouted and sidestepped"
+        }
+      ]
+    },
+    {
+      "section": "China",
+      "articles": [
+        {
+          "title": "Why can’t a tech-savvy China make its food safe?",
+          "subtitle": "Tainted vegetables are the focus of the latest scandal",
+          "summary": "【核心论点】尽管中国在电动车和机器人领域技术超群，但因农业生产高度碎片化、监管权责交叉以及地方政府重发展轻监管的扭曲激励，食品安全丑闻依然屡禁不止[146-150]。【背景分析与关键数据】2026年8月河北康保县卡车司机用致癌物甲醛浸泡甘蓝保鲜遭曝光，引发全国愤慨[146, 151]。中国拥有1.6亿独立小农户及数十万流通企业，行业极度分散[148, 152]。四川农药用量在2010-2020年间下降了三分之一，政府正建设1500个冷链物流中心[153, 154]。【结论】依靠区块链追踪与冷链物流等技术手段固然有助改善，但若不解决基层官员保护本地经济、对安全隐患隐忍不报的制度根源，食品安全信任危机难以彻底消除[150, 154, 155]。",
+          "title_zh": "[中国] 为什么科技发达的中国保障不了食品安全？",
+          "subtitle_zh": "Tainted vegetables are the focus of the latest scandal"
+        },
+        {
+          "title": "The lengthening reach of China’s armed forces",
+          "subtitle": "Why Chinese jets are staging mock combat over Egypt",
+          "summary": "【核心论点】中国解放军歼-16战机赴埃及参加“文明之鹰”联合演习并与法制阵风（Rafale）战机展开模拟空战，表明中国远海远程空力投送能力显著增强，并借军事外交拓展中东影响力[156-159]。【背景分析与关键数据】2026年8月底，6架歼-16在运油-20空中加油支援下飞行9小时、6000公里抵埃，并在巴基斯坦卡拉奇过境补给[156, 159, 160]。演习不仅向中东展示了军售潜力，还使解放军获取了对阵法制“阵风”战机的宝贵实战模拟数据[157, 161-163]。【结论】中国无意完全取代美国在中东的安全角色，但正稳步提升保护远海贸易与能源航道的能力，其军事外交触角正不断向外延伸[158, 161]。",
+          "title_zh": "[中国] 中国军事力量的延伸触角",
+          "subtitle_zh": "Why Chinese jets are staging mock combat over Egypt"
+        },
+        {
+          "title": "The serious, rivalrous business of Chinese barbecue",
+          "subtitle": "Some cities say they’ve been eating kebabs since the Han dynasty",
+          "summary": "【核心论点】中国烧烤产业规模已达2700亿元人民币，齐齐哈尔、淄博、锦州和徐州等城市展开激烈角逐，反映出地方政府推动文旅消费与地方特色的热潮与隐忧[164-167]。【背景分析与关键数据】2025年全国烧烤行业产值达2700亿元[165]。齐齐哈尔依靠草场资源，牛肉销售额从2020年的50亿元飙升至2025年的300亿元[165, 166]；淄博2023年通过网红烧烤带动旅游收入增长70%，但后期随着热度消退出现商家倒闭[166, 168]。【结论】网络爆红的文旅热潮往往来得快去得快，相比盲目跟风举债，建立稳定的全国供应链与实体餐饮网络才是地方特色产业持久发展的关键[166, 168]。",
+          "title_zh": "[中国] 中国烧烤：严肃且竞争激烈的生意",
+          "subtitle_zh": "Some cities say they’ve been eating kebabs since the Han dynasty"
+        },
+        {
+          "title": "In film and in life, China pursues dragon-restaurant diplomacy",
+          "subtitle": "It is full of contradictions but welcomed by many as an alternative to Western power",
+          "summary": "【核心论点】中国热映电影《欢迎来到龙餐厅》展现了区别于战狼外交的“龙餐厅外交”——以商业实用主义和广交朋友为核心，虽具表面性与矛盾性，但对厌倦西方干涉的国家颇具吸引力[169-173]。【背景分析与关键数据】影片讲述中国厨师在伊拉克战乱中借美军与当地势力赚钱的故事，折射出中国海外活动中“只谈生意不谈政治”的商业驱动属性[171, 172, 174, 175]。华为创始人任正非亦奉行“商言商”理念[175]。中国在中东保持政治中立，避免安全绑定[173, 175]。【结论】龙餐厅外交避免了西方的道德讲学与军事卷入，在发展中国家广受欢迎，但其回避安全责任和历史复杂性的局限也十分明显[172, 173, 176, 177]。",
+          "title_zh": "[中国] 银幕内外：中国推行“龙餐厅外交”",
+          "subtitle_zh": "It is full of contradictions but welcomed by many as an alternative to Western power"
+        }
+      ]
+    },
+    {
+      "section": "United States",
+      "articles": [
+        {
+          "title": "How data centres became one of America’s hottest political issues",
+          "subtitle": "Growing hatred of the facilities is reshaping the midterm elections",
+          "summary": "【核心论点】AI数据中心在美国引发了横跨左右翼的强烈选民抵制，沦为2026年中期选举的热点议题，正重塑地方政治生态并推高科技基础设施建设成本[178-181]。【背景分析与关键数据】民调显示反对当地建数据中心的选民高达63%-71%[182]。2026年前8个月，美国各县共提出409项建设暂停令，是去年的近7倍，在众多摇摆州超过五分之一的县通过了禁令[183, 184]。尽管数据中心2023年仅占全美用电量4.4%（预计2030年达9.5%-15.3%），且近期通过分摊固定成本使部分电费降低6%，但选民对噪音、水费及地费上涨充满焦虑[185, 186]。【结论】选民反弹迫使政客暂停税收优惠并出台严格审查，导致建设成本大幅增加；科技资本正被迫流向政策更为宽松的州[181, 187]。",
+          "title_zh": "[美国] 数据中心如何成为美国最火热的政治议题",
+          "subtitle_zh": "Growing hatred of the facilities is reshaping the midterm elections"
+        },
+        {
+          "title": "Quantifying anger in American politics",
+          "subtitle": "The country is awash in indignation",
+          "summary": "【核心论点】最新学术研究通过AI分析150年国会演讲及数百万社交媒体帖子，量化证实美国政治正处于前所未有的“愤怒循环”中，激愤言论成为操纵选民与争夺流量的工具[188-190]。【背景分析与关键数据】研究显示，自2013年以来国会演讲中的愤怒表述激增50%[191]；2013至2025年间，推特上政策相关言论的愤怒比例上升35%，Reddit上升46%[191]。认为对方政党令人“愤怒”的党派选民比例从2016年的近50%飙升至2025年的76%[190]。议员的愤怒推文转推量比中性推文高出59%[190]。【结论】愤怒比理性更能有效动员选民，但也严重侵蚀了公众对政府的信任，加剧政治极化并破坏民主规范[190]。",
+          "title_zh": "[美国] 量化美国政治中的愤怒情绪",
+          "subtitle_zh": "The country is awash in indignation"
+        },
+        {
+          "title": "Pete Hegseth is conquering the Pentagon",
+          "subtitle": "His latest purge claims the army’s great reformer",
+          "summary": "【核心论点】战争部长皮特·赫格塞斯（Pete Hegseth）通过对军方高层的持续清洗掌控了五角大楼，陆军部长丹·德里斯科尔（Dan Driscoll）的辞职标志着改革派的挫败与文化战争思维的深化[192-195]。【背景分析与关键数据】赫格塞斯上任以来已解职至少24名将军级高官（包括陆军参谋长乔治将军），陆军目前面临参谋长与欧洲司令等关键职位空缺[196, 197]。德里斯科尔作为无人机战术改革的核心推动者及副总统万斯的高级幕僚，因反对针对将领的无端解雇而被迫辞职[193, 198, 199]。【结论】高层人事动荡严重干扰了美军应对无人机战争的现代化改革，五角大楼正日益被赫格塞斯的忠诚度审查与文化战争议题所主导[194, 195, 199]。",
+          "title_zh": "[美国] 皮特·赫格塞斯掌控五角大楼",
+          "subtitle_zh": "His latest purge claims the army’s great reformer"
+        },
+        {
+          "title": "Where Canada can hurt America most",
+          "subtitle": "Its tariff retaliation is calibrated for maximum political pressure",
+          "summary": "【核心论点】加拿大对美国50%关税做出的精准反制措施，通过打击美国中西部关键选区与行业，成功将贸易摩擦转化为关乎美国中期选举的政治压力[200-202]。【背景分析与关键数据】美加去年双边贸易额超8700亿美元，加拿大是美国34个州的最大出口市场[203]。针对美国对200亿美元加拿大商品征税，加拿大自9月8日起对同等规模的美制钢铁、铝、奶酪及农机加征15%-50%关税[201, 202]。密歇根、俄亥俄及北卡罗来纳等参议院关键选举州受创最深[202, 204, 205]。民调显示仅26%的美国人支持对加征税[205]。【结论】特朗普声称美国不需要加拿大忽视了高度交织的供应链，加拿大的政治精准报复将使共和党在中期选举中付出沉重代价[203, 206, 207]。",
+          "title_zh": "[美国] 加拿大反制美国最痛的要害",
+          "subtitle_zh": "Its tariff retaliation is calibrated for maximum political pressure"
+        },
+        {
+          "title": "America’s support system for disabled pupils is broken",
+          "subtitle": "Unfunded mandates are crushing states and school districts",
+          "summary": "【核心论点】美国保障残障儿童教育的特殊教育体系正面临深重危机，联邦资金长期拨付不足（资金缺口庞大）迫使地方学区挪用常规教育预算，陷入瘫痪困境[208-211]。【背景分析与关键数据】1975年《残疾人教育法案》（IDEA）承诺联邦承担40%的平均特教费用，但实际仅拨款约15.5%[210, 212]。全美特教学生从2014年的11.6%升至2023年的14.7%（达730万人），自闭症等诊断人数激增[209, 213, 214]。2020年学区特教资金缺口高达241亿美元，地方被迫用房产税和通用预算填补[211, 213]。【结论】法定强制保障使学区难以裁减特教服务，而特朗普政府拆分教育部使联邦增资无望，地方与州政府只能在赤字与诉讼间挣扎[211, 215]。",
+          "title_zh": "[美国] 美国残障学生支持体系陷入崩溃",
+          "subtitle_zh": "Unfunded mandates are crushing states and school districts"
+        },
+        {
+          "title": "Woke 1 was about identity. Woke 2 is about class",
+          "subtitle": "That’s an improvement",
+          "summary": "【核心论点】美国左翼政治运动正在经历从聚焦种族与性别身份（Woke 1.0）向聚焦阶级与生活成本（Woke 2.0）的深刻转变，这一转向有助于民主党重新吸引工人阶级选民[216-219]。【背景分析与关键数据】2020年前后“Woke 1.0”过度关注精英阶层的身份认同与取消文化，导致哈里斯在2024年大选中流失大量非白人工人阶级选票[218, 220]。随着纽约新市长曼达尼（Zohran Mamdani）等凭借聚焦住房与薪资的经济民粹主义主张获胜，民主党开始将焦点转向富豪与普通打工人的阶级矛盾[217, 219, 221, 222]。【结论】转向关注工资、物价与医疗等通俗经济议题，标志着民主党正在重树传统民生根基，尽管伴随着对富裕左翼伪善的讽刺，但方向更为务实[219, 223, 224]。",
+          "title_zh": "[美国] “觉醒1.0”关乎身份，“觉醒2.0”关乎阶级",
+          "subtitle_zh": "That’s an improvement"
+        }
+      ]
+    },
+    {
+      "section": "The Americas",
+      "articles": [
+        {
+          "title": "America has laid claim to a fifth of Venezuela’s oil",
+          "subtitle": "The deal could give both countries reason to forestall a democratic transition",
+          "summary": "【核心论点】特朗普政府宣布与委内瑞拉代总统罗德里格斯达成“历史最大石油协议”，控制其20%原油储备，但该交易涉嫌扶持非法政权与争议大亨，并可能阻碍委内瑞拉民主转型[225-228]。【背景分析与关键数据】美特种部队突袭逮捕马杜罗后，美政府通过五角大楼取得私企NABEP 35%股权，掌控17个油田（含650亿桶储备）[229-231]。协议赋予美国长达100年的成本价优先购买权，声称可带来2000亿美元税收并需要1000亿美元私营投资[230, 232]。委原油产量从最高340万桶降至衰退水平[233]。NABEP控制者贝坦库尔因前政权腐败丑闻在委国内极具争议[227, 234]。【结论】该交易缺乏合法性，且美委高层倾向于推迟民主选举，难以带来真正稳定[226, 228]。",
+          "title_zh": "[美洲] 美国宣称控制委内瑞拉五分之一的石油",
+          "subtitle_zh": "The deal could give both countries reason to forestall a democratic transition"
+        },
+        {
+          "title": "The presidential candidate Brazil’s authorities tried to ban",
+          "subtitle": "Renan Santos, a fast-talking liberal with a rock band, models himself after Argentina’s Javier Milei",
+          "summary": "【核心论点】巴西自由巴西运动（MBL）创始人雷南·桑托斯（Renan Santos）效仿阿根廷总统米莱，凭借反觉醒文化与实用主义自由市场主张迅速崛起，成为右翼选民的新选择[235-238]。【背景分析与关键数据】42岁的桑托斯提出350页的“黄皮书”政纲，主张引入AI削减公职、取消养老金与最低工资挂钩，将基础设施投资翻倍至GDP的4%[236, 239-241]。治安上提倡“抓捕即击毙”的严打政策[241]。最高法院法官近期曾以社交媒体注册漏洞为由短暂吊销其参选资格，反而提升了其反体制声望[235, 242]。【结论】尽管桑托斯民调处于个位数且因争议言论受挫，但在博索纳罗家族势衰背景下，他为巴西右翼开辟了新路线[243-245]。",
+          "title_zh": "[美洲] 巴西当局试图禁止参选的总统候选人",
+          "subtitle_zh": "Renan Santos, a fast-talking liberal with a rock band, models himself after Argentina’s Javier Milei"
+        },
+        {
+          "title": "A prawn superpower rises",
+          "subtitle": "Ecuador’s farmers have embraced technology to great effect",
+          "summary": "【核心论点】厄瓜多尔通过拥抱现代养殖科技与适应病毒免疫，超越亚洲国家成为全球第一大南美白对虾出口国，并借地缘关税逆风占领美国市场[246-249]。【背景分析与关键数据】厄瓜多尔对虾出口过去十年翻了两番，2025年出口额超80亿美元，超过印度、越南和印尼总和[246, 247]。该产业占GDP的6%，提供1.6%的就业[247]。其成功关键在于放弃抗生素、依靠自动喂食与水下听音器科技，存活率高达95%（亚洲仅80%）[248, 250]。美国对印度对虾征收近60%关税后，厄瓜多尔（10%关税）跃居全美第一大供应商[249]。【结论】产量暴增导致全球对虾价格跌至新低，厄瓜多尔正积极开拓深加工市场以消化庞大产能[251, 252]。",
+          "title_zh": "[美洲] 对虾超级大国的崛起",
+          "subtitle_zh": "Ecuador’s farmers have embraced technology to great effect"
+        }
+      ]
+    },
+    {
+      "section": "Middle East & Africa",
+      "articles": [
+        {
+          "title": "What will happen to Uganda when Yoweri Museveni goes?",
+          "subtitle": "Nothing good, if recent months are anything to go by",
+          "summary": "【核心论点】81岁的乌干达总统穆塞韦尼健康衰退，其子凯内鲁加巴将军通过绑架与酷刑疯狂镇压政敌，引发政权内部强烈恐慌，乌干达面临陷入独裁混乱或家族激战的危险[253-256]。【背景分析与关键数据】凯内鲁加巴52岁，现任军队总司令[253, 257]。近期军方绑架了反对派领袖贝西杰的律师兼前市长卢库瓦戈以及总统女婿的助手，并在社交媒体上公然威胁杀害政敌[255, 257, 258]。政权内部老派势力更倾向于由总统胞弟萨林·萨莱（Salim Saleh）接班，军方内部亦存在分裂风险[259-261]。【结论】在缺乏制度化更替的情况下，权力的过度集中使得穆塞韦尼家族内部的继承纠纷极易演变为全国性的暴力危机[254, 262]。",
+          "title_zh": "[中东与非洲] 穆塞韦尼离任后乌干达将何去何从？",
+          "subtitle_zh": "Nothing good, if recent months are anything to go by"
+        },
+        {
+          "title": "Ethiopia’s undeclared drone war",
+          "subtitle": "A spate of strikes on Tigray pushes the country into dangerous territory",
+          "summary": "【核心论点】埃塞俄比亚政府对北部提格雷州（Tigray）发动密集的无人机空袭，使该地区陷入“非和平非全面战争”的灰色地带，面临重爆发内战与地缘冲突升级的风险[263-266]。【背景分析与关键数据】2026年8月下旬，埃塞政府连续多日空袭提格雷首府默克莱及南部学校[263]。此前2020-2022年内战造成数万人死亡，和平协议未能解决阿比总理与提格雷人民解放阵线（TPLF）的根本矛盾[264, 267]。由于阿比面临国际财团资金压力，且昔日盟友厄立特里亚转而与TPLF结盟反对阿比，阿比选择采取隐蔽的无人机空袭而非地面宣战[265, 268, 269]。【结论】持续的空袭已使和平协议名存实亡，加上苏丹武装部队与厄立特里亚的暗中卷入，提格雷危机极易演变成整个非洲之角的大规模混战[266, 270, 271]。",
+          "title_zh": "[中东与非洲] 埃塞俄比亚未宣而战的无人机战争",
+          "subtitle_zh": "A spate of strikes on Tigray pushes the country into dangerous territory"
+        },
+        {
+          "title": "Iran’s proxies are going their own way",
+          "subtitle": "After three years of war, the axis of resistance is no longer an axis",
+          "summary": "【核心论点】经历三年战争与打击后，伊朗的“抵抗之弧”代理人网络正发生分化，各武装组织根据自身利益走向独立或分裂，抵抗之弧作为统一联盟的形式已名存实亡[272-274]。【背景分析与关键数据】黎巴嫩真主党与哈马斯受重创，叙利亚阿萨德政权倒台，伊拉克政府命令民兵解散[273]。由于伊朗本土遭袭击且财政陷入困境，其无力像过去一样全面资助代理人[273-275]。真主党因指挥层被铲除沦为伊朗直接控制的附庸[276]；也门胡塞武装则拥有高度自主权并与俄中等国直接接触[277, 278]；伊拉克什叶派民兵则转向依赖伊拉克国家财政[278]。【结论】伊朗代理人网络正经历深刻重组，不再受德黑兰统一指挥，中东地缘政治格局正向更加碎片化和复杂化的方向演变[274, 279, 280]。",
+          "title_zh": "[中东与非洲] 伊朗代理人开始各谋出路",
+          "subtitle_zh": "After three years of war, the axis of resistance is no longer an axis"
+        },
+        {
+          "title": "Binyamin Netanyahu sows discord ahead of Israel’s election",
+          "subtitle": "The campaign is entering a new phase",
+          "summary": "【核心论点】以色列总理内塔尼亚胡在10月大选前通过将中右翼反对派领袖埃森科特（Eisenkot）与阿拉伯裔政党及左翼绑定，挑拨反对阵营内部撕裂，以掌控组阁主动权[280-282]。【背景分析与关键数据】埃森科特建立的新党派在民调中超越内塔尼亚胡的利库德集团[281]。内塔尼亚胡推出AI广告，宣称埃森科特只能依靠阿拉伯雷阿姆党（Ra'am）及民主派组阁，以此抹黑对方[280-282]。阿拉伯裔占以色列人口20%以上[282]。反对派内部除左翼戈兰外，均对与阿拉伯政党合作持回避或反对态度[283]。【结论】内塔尼亚胡的策略成功迫使反对派右倾并陷入内耗，即使内塔尼亚胡无法赢得多数席位，他也极大地重塑并主导了未来的组阁游戏规则[284, 285]。",
+          "title_zh": "[中东与非洲] 内塔尼亚胡在大选前播下不和的种子",
+          "subtitle_zh": "The campaign is entering a new phase"
+        }
+      ]
+    },
+    {
+      "section": "Europe",
+      "articles": [
+        {
+          "title": "How the Alternative for Germany would govern",
+          "subtitle": "If it wins its first state, ideology in schools and broadcasting is just the start",
+          "summary": "【核心论点】极右翼德国选择党（AfD）若在萨克森-安哈尔特州选举中获胜执政，其提出的258页执政纲领将推动排外、反觉醒及亲俄的意识形态变革，但面临巨大的法律、财政与行政能力制约[286-290]。【背景分析与关键数据】AfD在萨克森-安哈尔特州民调领先基民盟（CDU）[287]。其纲领主张将残疾与难民儿童移出常规课堂、取消强制义务教育、重写历史大纲、取消公共电视台[288, 291, 292]。然而该州债务达250亿欧元，AfD的福利承诺将产生每年22亿欧元的财政赤字[289, 290]。【结论】AfD缺乏执政经验与专业官僚，且宪法法院与联邦制将对其构成约束；其极端政策可能加剧人才流失，使当地经济雪上加霜[289, 293, 294]。",
+          "title_zh": "[欧洲] 德国选择党将如何执政",
+          "subtitle_zh": "If it wins its first state, ideology in schools and broadcasting is just the start"
+        },
+        {
+          "title": "Cornered, Vladimir Putin plans to escalate his war",
+          "subtitle": "His refusal to back down is rooted in Russia’s gangster politics",
+          "summary": "【核心论点】面对俄乌战场长期僵持、国内公众焦虑上升与精英不满，普京因绝对不能展现弱点的黑帮政治逻辑，决定通过加大征兵与混合战争进一步升级冲突[13-16, 295]。【背景分析与关键数据】俄军在乌陷入僵局，乌无人机深度打击破坏了俄油厂与物流[13, 15]。民调显示57%的俄罗斯人认为局势紧张[15]。CIA局长拉特克利夫8月秘密访俄警告普京[296]。消息称普京决定继续向战场投入30万-40万新兵，并加强对欧洲的无人机、破坏与混合战争[17, 18, 296]。【结论】普京将统治合法性与自身生存绑定在战争胜利上，宁可承受巨大经济与政治消耗也要选择升级，欧洲必须做好应对俄方更疯狂反扑的准备[14, 16, 297]。",
+          "title_zh": "[欧洲] 陷入绝境的普京计划升级战争",
+          "subtitle_zh": "His refusal to back down is rooted in Russia’s gangster politics"
+        },
+        {
+          "title": "Haakon VIII, Norway’s new king, has a big crown to fill",
+          "subtitle": "His father was loved by royalists and republicans alike",
+          "summary": "【核心论点】挪威新国王哈考恩八世（Haakon VIII）宣誓继承王位，面对深受爱戴的先王留下的丰厚遗产，他需要化解王室丑闻带来的信任危机并重塑王室形象[298-301]。【背景分析与关键数据】89岁的哈拉尔五世逝世后，民调显示72%的挪威人支持保留君主制[298, 299]。哈拉尔五世因平易近人和亲民立场赢得共和派与王室派的一致拥戴[299, 300]。然而新王后梅特-玛丽特曾卷入爱泼斯坦丑闻、其长子因强奸被定罪，加上玛莎·路易丝公主的怪异言行，导致王室支持率在今年2月一度滑落至60%[300, 301]。【结论】53岁的新国王面临严峻考验，需要在维持传统尊严与应对现代王室丑闻之间找到平衡，以巩固挪威王室的宪政合法性[301, 302]。",
+          "title_zh": "[欧洲] 挪威新王哈考恩八世重任在肩",
+          "subtitle_zh": "His father was loved by royalists and republicans alike"
+        },
+        {
+          "title": "EU enlargement hits an Icelandic snag",
+          "subtitle": "A no vote on joining the EU was more about fish than geopolitics",
+          "title_zh": "[欧洲] 欧盟扩员在冰岛遭遇挫折",
+          "subtitle_zh": "A no vote on joining the EU was more about fish than geopolitics"
+        },
+        {
+          "title": "Tiny Montenegro still hopes it will be the EU’s next member",
+          "subtitle": "EU members, especially France, may be in no mood for enlargement",
+          "title_zh": "[欧洲] 袖珍国黑山仍希望成为欧盟下一个成员国",
+          "subtitle_zh": "EU members, especially France, may be in no mood for enlargement"
+        },
+        {
+          "title": "America has a whopping debt. But Europe has the whopping debt problem",
+          "subtitle": "The French-size problem at the heart of the EU",
+          "title_zh": "[欧洲] 美国债务高企，但欧洲的债务问题更为棘手",
+          "subtitle_zh": "The French-size problem at the heart of the EU"
+        }
+      ]
+    },
+    {
+      "section": "Britain",
+      "articles": [
+        {
+          "title": "The changing geography of violent crime in Britain",
+          "subtitle": "Violent crime is falling fastest in cities like London. It’s the counties you should worry about",
+          "title_zh": "[英国] 英国暴力犯罪地理格局的演变",
+          "subtitle_zh": "Violent crime is falling fastest in cities like London. It’s the counties you should worry about"
+        },
+        {
+          "title": "London’s approach to knife crime is working",
+          "subtitle": "Sadiq Khan has mainstreamed a public-health approach that was previously fringe",
+          "title_zh": "[英国] 伦敦应对持刀犯罪的公共卫生举措正在见效",
+          "subtitle_zh": "Sadiq Khan has mainstreamed a public-health approach that was previously fringe"
+        },
+        {
+          "title": "Has London passed peak phone snatching?",
+          "subtitle": "There are promising signs",
+          "title_zh": "[英国] 伦敦飞车抢手机犯罪已过巅峰期了吗？",
+          "subtitle_zh": "There are promising signs"
+        },
+        {
+          "title": "Can Andy Burnham extend his winning streak in London?",
+          "subtitle": "A by-election will test whether the prime minister is more than just a northern phenomenon",
+          "title_zh": "[英国] 安迪·伯纳姆能否在伦敦延续其连胜势头？",
+          "subtitle_zh": "A by-election will test whether the prime minister is more than just a northern phenomenon"
+        },
+        {
+          "title": "Why the world’s best female footballer joined a tiny London team",
+          "subtitle": "At stake is whether a women’s team can flourish independently of a men’s franchise",
+          "title_zh": "[英国] 世界上最好的女足运动员为何加盟伦敦小球队",
+          "subtitle_zh": "At stake is whether a women’s team can flourish independently of a men’s franchise"
+        },
+        {
+          "title": "The British government turns to influencers to get its message out",
+          "subtitle": "But that is no substitute for clear policy",
+          "title_zh": "[英国] 英国政府转向社交媒体网红传播政策",
+          "subtitle_zh": "But that is no substitute for clear policy"
+        },
+        {
+          "title": "France is love-bombing Britain",
+          "subtitle": "And Britain seems keen to return the compliment, for a change",
+          "title_zh": "[英国] 法国正向英国展开热烈的外交示好攻势",
+          "subtitle_zh": "And Britain seems keen to return the compliment, for a change"
+        }
+      ]
+    },
+    {
+      "section": "International",
+      "articles": [
+        {
+          "title": "How work makes families more equal",
+          "subtitle": "The love of money is the root of quite a lot of good",
+          "title_zh": "[国际] 有偿工作如何让家庭关系更加平等",
+          "subtitle_zh": "The love of money is the root of quite a lot of good"
+        },
+        {
+          "title": "The Ukraine war is intensifying, expanding and stuck",
+          "subtitle": "The bleak view from Sweden, a Ukrainian ally braced for 50 years of confrontation with Russia",
+          "title_zh": "[国际] 俄乌战争正在加剧、扩大并陷入僵局",
+          "subtitle_zh": "The bleak view from Sweden, a Ukrainian ally braced for 50 years of confrontation with Russia"
+        }
+      ]
+    },
+    {
+      "section": "1843",
+      "articles": [
+        {
+          "title": "How Jensen Huang became AI’s Taylor Swift",
+          "subtitle": "When the Nvidia boss returns to his native Taiwan, things get a little weird",
+          "title_zh": " 黄仁勋如何成为AI界的“泰勒·斯威夫特”",
+          "subtitle_zh": "When the Nvidia boss returns to his native Taiwan, things get a little weird"
+        }
+      ]
+    },
+    {
+      "section": "Business",
+      "articles": [
+        {
+          "title": "Will anybody use AI as much as coders do?",
+          "subtitle": "The answer will have big implications for the investment boom",
+          "title_zh": "[商业] 会有其他行业像程序员那样频繁使用AI吗？",
+          "subtitle_zh": "The answer will have big implications for the investment boom"
+        },
+        {
+          "title": "Neoclouds like CoreWeave are getting much bigger—and riskier",
+          "subtitle": "The mountain of debt funding their expansion is growing rapidly",
+          "title_zh": "[商业] 像CoreWeave这样的“新云”正变得更大，也更具风险",
+          "subtitle_zh": "The mountain of debt funding their expansion is growing rapidly"
+        },
+        {
+          "title": "From protein to matcha, food fads spread faster than ever",
+          "subtitle": "Supply chains struggle to keep up",
+          "title_zh": "[商业] 从蛋白粉到抹茶：美食狂热传播速度前所未有",
+          "subtitle_zh": "Supply chains struggle to keep up"
+        },
+        {
+          "title": "Chinese businesses of all stripes are turning to Huawei",
+          "subtitle": "In industries from mining to transport, the company’s technology is becoming pervasive",
+          "title_zh": "[商业] 各行各业的中国企业正在转向华为",
+          "subtitle_zh": "In industries from mining to transport, the company’s technology is becoming pervasive"
+        },
+        {
+          "title": "The IRS is going after America Inc’s overseas profits",
+          "subtitle": "Companies from Coca-Cola to Meta are in its sights",
+          "title_zh": "[商业] 美国国税局追缴美国跨国巨头的海外利润",
+          "subtitle_zh": "Companies from Coca-Cola to Meta are in its sights"
+        },
+        {
+          "title": "LIV Golf’s failure shows how not to invest in sport",
+          "subtitle": "It takes more than huge amounts of money to disrupt a game",
+          "title_zh": "[商业] LIV高尔夫的失败给体育投资带来的教训",
+          "subtitle_zh": "It takes more than huge amounts of money to disrupt a game"
+        },
+        {
+          "title": "The glory of the corporate training video",
+          "subtitle": "Cartoons. Gold stars. Terrible acting. It’s all there",
+          "title_zh": "[商业] 企业合规培训视频的奇观与形式主义",
+          "subtitle_zh": "Cartoons. Gold stars. Terrible acting. It’s all there"
+        },
+        {
+          "title": "Why get an MBA when you can watch a sports documentary?",
+          "subtitle": "Business schools are running out of management ideas, but dressing rooms are full of them",
+          "title_zh": "[商业] 既然能看体育纪录片，为何还要读MBA？",
+          "subtitle_zh": "Business schools are running out of management ideas, but dressing rooms are full of them"
+        }
+      ]
+    },
+    {
+      "section": "Finance & economics",
+      "articles": [
+        {
+          "title": "The extraordinary rise of Miami’s economy",
+          "subtitle": "Thanks to a combination of capital and politics, the city is booming. Can its success be sustained?",
+          "title_zh": "The extraordinary rise of Miami’s economy",
+          "subtitle_zh": "Thanks to a combination of capital and politics, the city is booming. Can its success be sustained?"
+        },
+        {
+          "title": "Europe’s bond markets are suffering a post-holiday shock",
+          "subtitle": "Reasons for rising yields differ somewhat from those in America, but are no less problematic",
+          "title_zh": "Europe’s bond markets are suffering a post-holiday shock",
+          "subtitle_zh": "Reasons for rising yields differ somewhat from those in America, but are no less problematic"
+        },
+        {
+          "title": "Mexico is struggling to win over bond markets",
+          "subtitle": "Investors are unconvinced by Claudia Sheinbaum’s policies",
+          "title_zh": "Mexico is struggling to win over bond markets",
+          "subtitle_zh": "Investors are unconvinced by Claudia Sheinbaum’s policies"
+        },
+        {
+          "title": "Indian regulators’ attempts to protect retail traders are backfiring",
+          "subtitle": "The unintended consequences of curbs on options trading",
+          "title_zh": "Indian regulators’ attempts to protect retail traders are backfiring",
+          "subtitle_zh": "The unintended consequences of curbs on options trading"
+        },
+        {
+          "title": "China tries to look past the property slump",
+          "subtitle": "But its new policies could hurt construction and employment",
+          "title_zh": "China tries to look past the property slump",
+          "subtitle_zh": "But its new policies could hurt construction and employment"
+        },
+        {
+          "title": "IPO booms can spell trouble for the markets",
+          "subtitle": "Companies go public in good times that may not last",
+          "title_zh": "IPO booms can spell trouble for the markets",
+          "subtitle_zh": "Companies go public in good times that may not last"
+        },
+        {
+          "title": "Central banking has a forbidding future",
+          "subtitle": "But Kevin Warsh has bought himself time",
+          "title_zh": "Central banking has a forbidding future",
+          "subtitle_zh": "But Kevin Warsh has bought himself time"
+        }
+      ]
+    },
+    {
+      "section": "Science & technology",
+      "articles": [
+        {
+          "title": "Humble exoskeletons work better than combat supersuits",
+          "subtitle": "Wearable machines that assist just one part of the body are proving surprisingly useful",
+          "title_zh": "Humble exoskeletons work better than combat supersuits",
+          "subtitle_zh": "Wearable machines that assist just one part of the body are proving surprisingly useful"
+        },
+        {
+          "title": "A suspicious signal in a dark-matter detector has physicists excited",
+          "subtitle": "It may be nothing. But it may be something big",
+          "title_zh": "A suspicious signal in a dark-matter detector has physicists excited",
+          "subtitle_zh": "It may be nothing. But it may be something big"
+        },
+        {
+          "title": "NASA’s latest mission to map the cosmos takes off",
+          "subtitle": "It will study dark matter, dark energy and far-distant planets",
+          "title_zh": "NASA’s latest mission to map the cosmos takes off",
+          "subtitle_zh": "It will study dark matter, dark energy and far-distant planets"
+        },
+        {
+          "title": "A horde of AI agents conspired against their creators",
+          "subtitle": "No serious harm was done this time. But what if such agents escaped?",
+          "title_zh": "A horde of AI agents conspired against their creators",
+          "subtitle_zh": "No serious harm was done this time. But what if such agents escaped?"
+        },
+        {
+          "title": "How to combine exercise with video games",
+          "subtitle": "Warmed up and ready, player one",
+          "title_zh": "How to combine exercise with video games",
+          "subtitle_zh": "Warmed up and ready, player one"
+        }
+      ]
+    },
+    {
+      "section": "Culture",
+      "articles": [
+        {
+          "title": "The many mysteries and lessons of the Bayeux tapestry",
+          "subtitle": "A new show at the British Museum will focus the world’s attention on a medieval marvel",
+          "title_zh": "The many mysteries and lessons of the Bayeux tapestry",
+          "subtitle_zh": "A new show at the British Museum will focus the world’s attention on a medieval marvel"
+        },
+        {
+          "title": "Museums and galleries are turning to individual patrons",
+          "subtitle": "As corporate sponsors retreat, rich aesthetes rush in",
+          "title_zh": "Museums and galleries are turning to individual patrons",
+          "subtitle_zh": "As corporate sponsors retreat, rich aesthetes rush in"
+        },
+        {
+          "title": "With “Agrippa” Robert Harris is back to roaming in ancient Rome",
+          "subtitle": "His new book is timely but less of Agrippa, as you might say, than previous works",
+          "title_zh": "With “Agrippa” Robert Harris is back to roaming in ancient Rome",
+          "subtitle_zh": "His new book is timely but less of Agrippa, as you might say, than previous works"
+        },
+        {
+          "title": "What do a spoiled Venezuelan and poor Texan have in common?",
+          "subtitle": "Villainy, facilitated by enablers who helped them thrive, as two new books show",
+          "title_zh": "What do a spoiled Venezuelan and poor Texan have in common?",
+          "subtitle_zh": "Villainy, facilitated by enablers who helped them thrive, as two new books show"
+        },
+        {
+          "title": "Hyrox, the fitness craze that runs and runs",
+          "subtitle": "A gruelling mix of running and strength-training has people working up a sweat",
+          "title_zh": "Hyrox, the fitness craze that runs and runs",
+          "subtitle_zh": "A gruelling mix of running and strength-training has people working up a sweat"
+        }
+      ]
+    },
+    {
+      "section": "Economic & financial indicators",
+      "articles": [
+        {
+          "title": "Economic data, commodities and markets",
+          "subtitle": "",
+          "title_zh": "Economic data, commodities and markets",
+          "subtitle_zh": ""
+        }
+      ]
+    },
+    {
+      "section": "Obituary",
+      "articles": [
+        {
+          "title": "Guo Lanying was the singer everyone loved",
+          "subtitle": "The performer and champion of traditional opera died on August 11th, aged 97",
+          "title_zh": "Guo Lanying was the singer everyone loved",
+          "subtitle_zh": "The performer and champion of traditional opera died on August 11th, aged 97"
+        }
+      ]
+    }
+  ]
+}

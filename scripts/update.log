@@ -494,3 +494,119 @@ urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, 
 [2026-08-15 15:01:17]    Translated 76/76 titles
 [2026-08-15 15:01:17] Updating docs/ and pushing to GitHub...
 [2026-08-15 15:01:17]   app.js updated: 24 Economist, 16 New Yorker issues
+[2026-08-15 15:01:19]   Pushed to GitHub.
+[2026-08-15 15:01:23]   cleaned up old notebook: The Economist 2026-07-18
+[2026-08-15 15:01:25]   cleaned up old notebook: The Economist 2026-07-11
+[2026-08-15 15:01:25]   notebook cleanup: deleted 2, kept up to 5 per magazine
+[2026-08-15 15:01:25] === Done ===
+
+[2026-08-15 14:50:21] === Econy weekly update started ===
+[2026-08-15 14:50:21] economist: 23 existing issues
+[2026-08-15 14:50:21] economist: new issue found — 2026-08-15
+[2026-08-15 14:50:21] Processing The Economist 2026-08-15
+
+============================================================
+Processing: The Economist 2026-08-15
+============================================================
+1. Creating notebook...
+   Notebook ID: 8fe8dc0d-f8f7-455c-a601-712540f69c5c
+2. Uploading PDF...
+   Source ID: fcfa57d7-1677-423b-9616-d2c0c9bb3577
+3. Waiting for PDF processing...
+   Ready.
+4. Extracting table of contents...
+   Found 19 sections, 76 articles
+5. Generating briefing document...
+   Task ID: 0b616c5a-0152-4c43-95e6-c1bfd67f6ec2 — waiting...
+   Briefing saved: /Users/Nimmersatt/Documents/claude_projects/econy/data/economist/2026-08-15_briefing.md
+6. Fetching summaries (batch 1/2)...
+   Got 38 summaries
+   Fetching summaries (batch 2/2)...
+   Got 38 summaries
+   Total: 76 summaries
+   Merged 76/76
+Done: /Users/Nimmersatt/Documents/claude_projects/econy/data/economist/2026-08-15.json
+[2026-08-15 14:59:24]   Translating titles...
+[2026-08-15 14:59:24]    title translation attempt 1: 76 remaining
+[2026-08-15 15:01:17]    Translated 76/76 titles
+[2026-08-15 15:01:17] Updating docs/ and pushing to GitHub...
+[2026-08-15 15:01:17]   app.js updated: 24 Economist, 16 New Yorker issues
+[2026-08-15 15:01:19]   Pushed to GitHub.
+[2026-08-15 15:01:23]   cleaned up old notebook: The Economist 2026-07-18
+[2026-08-15 15:01:25]   cleaned up old notebook: The Economist 2026-07-11
+[2026-08-15 15:01:25]   notebook cleanup: deleted 2, kept up to 5 per magazine
+[2026-08-15 15:01:25] === Done ===
+
+[2026-09-15 13:28:55] === 手动补跑开始（09-05, 09-12）===
+[2026-09-15 13:28:55] Processing The Economist 2026-09-05
+[2026-09-15 13:28:55]   Downloading TheEconomist.2026.09.05.pdf...
+[2026-09-15 13:28:56]   Downloaded: 9966KB
+[2026-09-15 13:37:11]   ❌ 2026-09-05 异常: Command '['notebooklm', 'ask', '请为以下《经济学人》文章写详细中文摘要。Leaders和Briefing栏目每篇600-800字，其他栏目250-400字。涵盖核心论点、关键数据、背景分析和结论。输出JSON：{"summaries": {"英文标题": "中文摘要"}}\n\n[The world this week] Politics\n[The world this week] Business\n[The world this week] Cartoon: Putin cornered\n[Leaders] Nvidia is driving the AI boom. Good\n[Leaders] Donald Trump’s Venezuela deal is bold but dodgy\n[Leaders] Yoweri Museveni’s decline is putting Uganda on a terrifying path\n[Leaders] In many countries, the biggest barrier to prosperity is in the home\n[Leaders] What the Bayeux tapestry teaches about surviving against the odds\n[Leaders] The moral panic over data centres is foolish\n[Letters] The opposition of scientific research on animals\n[By Invitation] Europe cannot protect Russia from itself\n[By Invitation] The world may have less time than it thinks on climate change\n[Briefing] Nvidia is the central bank of AI\n[Asia] Chandrababu Naidu’s techno-utopian vision for his Indian state\n[Asia] The Pacific Islands Forum fizzles as China flexes its muscles\n[Asia] Catastrophic floods warn Nepal of more disasters to come\n[Asia] Japan’s mainstream political opposition is a shambles\n[Asia] India’s payments system is ten. It must start paying for itself\n[Asia] Social-media curbs for kids are not working in Asia\n[China] Why can’t a tech-savvy China make its food safe?\n[China] The lengthening reach of China’s armed forces\n[China] The serious, rivalrous business of Chinese barbecue\n[China] In film and in life, China pursues dragon-restaurant diplomacy\n[United States] How data centres became one of America’s hottest political issues\n[United States] Quantifying anger in American politics\n[United States] Pete Hegseth is conquering the Pentagon\n[United States] Where Canada can hurt America most\n[United States] America’s support system for disabled pupils is broken\n[United States] Woke 1 was about identity. Woke 2 is about class\n[The Americas] America has laid claim to a fifth of Venezuela’s oil\n[The Americas] The presidential candidate Brazil’s authorities tried to ban\n[The Americas] A prawn superpower rises\n[Middle East & Africa] What will happen to Uganda when Yoweri Museveni goes?\n[Middle East & Africa] Ethiopia’s undeclared drone war\n[Middle East & Africa] Iran’s proxies are going their own way\n[Middle East & Africa] Binyamin Netanyahu sows discord ahead of Israel’s election\n[Europe] How the Alternative for Germany would govern\n[Europe] Cornered, Vladimir Putin plans to escalate his war\n[Europe] Haakon VIII, Norway’s new king, has a big crown to fill', '--notebook', '354bfd0b-5b42-41ba-ace6-000db13b0799', '--json']' timed out after 300 seconds
+[2026-09-15 13:37:11] Traceback (most recent call last):
+  File "/tmp/econy_backfill.py", line 15, in <module>
+    if U.process_new_issue(mag, folder, date):
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/update.py", line 234, in process_new_issue
+    issue = process_issue(str(file_path), mag_key, date)
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/pipeline.py", line 204, in process_issue
+    s1 = fetch_summaries(build_summary_prompt(articles_all[:mid], magazine), nb_id)
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/pipeline.py", line 192, in fetch_summaries
+    out = notebooklm_ask(prompt, nb_id, timeout=300)
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/pipeline.py", line 32, in notebooklm_ask
+    r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json'],
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr
+[2026-09-15 13:37:11] Processing The Economist 2026-09-12
+[2026-09-15 13:37:11]   Downloading TheEconomist.2026.09.12.epub...
+[2026-09-15 13:37:12]   Downloaded: 6755KB
+[2026-09-15 13:47:27]   ❌ 2026-09-12 异常: Command '['notebooklm', 'ask', '请为以下《经济学人》文章写详细中文摘要。Leaders和Briefing栏目每篇600-800字，其他栏目250-400字。涵盖核心论点、关键数据、背景分析和结论。输出JSON：{"summaries": {"英文标题": "中文摘要"}}\n\n[The world this week] Politics\n[The world this week] Business\n[The world this week] Cartoon: How 9/11 empowers Donald Trump’s presidency\n[Leaders] The truth and the lies about Islam in Europe\n[Leaders] In praise of the Democrats’ disarray\n[Leaders] What should Germany do about its rising right?\n[Leaders] Kevin Warsh should raise interest rates\n[Leaders] Plunging test scores are a slow-moving catastrophe\n[Leaders] Argentina needs less shouting and more growth\n[Letters] Could AIs become conscious?\n[By Invitation] This article wasn’t written by an AI. So what if it had been!\n[By Invitation] Israel’s neglected threat from within\n[Briefing] The good news: few Muslims want to subvert European democracy\n[Asia] Takaichi Sanae\'s big-spending plans are unnerving markets\n[Asia] Malaysia is enjoying a massive data-centre boom\n[Asia] Why India baffles China\n[Asia] “Black gold” is pouring out of Myanmar\n[Asia] India at last acquires a taste for cheese\n[China] Can China finally relax?\n[China] Only children in China prefer to marry other only children\n[China] Tung Chee-hwa, Hong Kong’s first chief executive, has died\n[China] Speech in China is in the deep freeze\n[United States] How far left will Democrats go?\n[United States] Donald Trump’s disintegrating coalition\n[United States] How 9/11 empowers Donald Trump’s imperial presidency\n[United States] How American universities get around the DEI backlash\n[United States] A reservoir of last resort is running dry in Wyoming\n[United States] How Donald Trump boxed his party in\n[The Americas] Javier Milei’s liberal experiment is struggling\n[The Americas] When the defenders of democracy turn their backs on it instead\n[Middle East & Africa] Is traffic through Hormuz really back to normal?\n[Middle East & Africa] As the Iran war menaces shipping, land routes are making a comeback\n[Middle East & Africa] Too many Nigerian women are still dying in childbirth\n[Middle East & Africa] William Ruto turns against foreign traders\n[Europe] The AfD is making the weather in German politics\n[Europe] Pedro Sánchez has let Ceuta turn into a crisis', '--notebook', '9931f8bb-8fb3-4d64-9c34-69e7d097a149', '--json']' timed out after 300 seconds
+[2026-09-15 13:47:27] Traceback (most recent call last):
+  File "/tmp/econy_backfill.py", line 15, in <module>
+    if U.process_new_issue(mag, folder, date):
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/update.py", line 234, in process_new_issue
+    issue = process_issue(str(file_path), mag_key, date)
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/pipeline.py", line 204, in process_issue
+    s1 = fetch_summaries(build_summary_prompt(articles_all[:mid], magazine), nb_id)
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/pipeline.py", line 192, in fetch_summaries
+    out = notebooklm_ask(prompt, nb_id, timeout=300)
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/pipeline.py", line 32, in notebooklm_ask
+    r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json'],
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr
+[2026-09-15 13:47:27] 没有成功的期号，不推送
+[2026-09-15 13:47:27] 清空 econy notebook（keep=0）...
+[2026-09-15 13:47:32]   cleaned up old notebook: The Economist 2026-09-12
+[2026-09-15 13:47:33]   cleaned up old notebook: The Economist 2026-09-05
+[2026-09-15 13:47:33]   notebook cleanup: deleted 2, kept up to 0 per magazine
+[2026-09-15 13:47:33] === 完成：成功 []，失败 ['2026-09-05', '2026-09-12'] ===
+[2026-09-15 13:48:38] === 手动补跑开始（09-05, 09-12）===
+[2026-09-15 13:48:38] Processing The Economist 2026-09-05
+[2026-09-15 16:44:51]   Translating titles...
+[2026-09-15 16:44:51]    title translation attempt 1: 79 remaining
+[2026-09-15 17:29:30]    notebooklm ask timed out after 120s — treating as empty, will retry
+[2026-09-15 17:29:33]    title translation attempt 2: 19 remaining
+[2026-09-15 17:34:50]    notebooklm ask timed out after 120s — treating as empty, will retry
+[2026-09-15 17:34:53]    title translation attempt 3: 19 remaining
+[2026-09-15 18:06:48]    notebooklm ask timed out after 120s — treating as empty, will retry
+[2026-09-15 18:06:51]    Translated 60/79 titles
+[2026-09-15 18:06:51]   ✅ 2026-09-05 完成
+[2026-09-15 18:06:51] Processing The Economist 2026-09-12
+[2026-09-15 22:51:23]   ❌ 2026-09-12 异常: No summaries could be merged
+[2026-09-15 22:51:23] Traceback (most recent call last):
+  File "/tmp/econy_backfill.py", line 15, in <module>
+    if U.process_new_issue(mag, folder, date):
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/update.py", line 240, in process_new_issue
+    issue = process_issue(str(file_path), mag_key, date)
+  File "/Users/Nimmersatt/Documents/claude_projects/econy/scripts/pipeline.py", line 250, in process_issue
+    raise RuntimeError('No summaries could be merged')
+RuntimeError: No summaries could be merged
+
+[2026-09-15 22:51:23] 更新 docs/ 并推送...
+[2026-09-15 22:51:23]   app.js updated: 25 Economist, 16 New Yorker issues
