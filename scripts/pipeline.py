@@ -16,6 +16,31 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 
+# Budget per summary request, in "article units". Keep small — see the
+# chunking note in process_issue(); large batches time out and lose
+# everything in them.
+SUMMARY_CHUNK = 8
+
+# Leaders/Briefing/By Invitation are asked for at 600-800 zh chars each vs
+# 250-400 for the rest, so eight of them is roughly double the answer the
+# others produce — and that is exactly where 2026-09-12 kept timing out.
+# Count them double so those chunks come out half as long.
+HEAVY_SECTIONS = {'Leaders', 'Briefing', 'By Invitation'}
+
+
+def chunk_by_weight(articles, budget=SUMMARY_CHUNK):
+    chunks, cur, load = [], [], 0
+    for section, art in articles:
+        w = 2 if section in HEAVY_SECTIONS else 1
+        if cur and load + w > budget:
+            chunks.append(cur)
+            cur, load = [], 0
+        cur.append((section, art))
+        load += w
+    if cur:
+        chunks.append(cur)
+    return chunks
+
 def run(cmd):
     r = subprocess.run(cmd, shell=True, capture_output=True, text=True)
     return r.stdout.strip(), r.stderr.strip(), r.returncode
@@ -29,8 +54,15 @@ def notebooklm_ask(prompt, nb_id, timeout=180):
     # argv, not shell: prompts contain JSON templates whose quotes the shell
     # would strip (and titles with $ would get expanded) — that was the cause
     # of the recurring "0 sections, 0 articles" TOC failures.
-    r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json'],
-                       capture_output=True, text=True, timeout=timeout)
+    try:
+        r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json'],
+                           capture_output=True, text=True, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        # 2026-09-15: a timeout raised straight through the caller's 3-attempt
+        # retry loop and killed the whole issue on the first slow answer.
+        # Treat it like an empty answer so the retry actually gets to run.
+        print(f'   notebooklm ask timed out after {timeout}s — treating as empty, will retry')
+        return ''
     if not r.stdout.strip():
         # 2026-07-18: six asks in a row returned empty stdout and the real
         # error was invisible because stderr was dropped — keep it.
@@ -173,7 +205,6 @@ def process_issue(pdf_path, magazine, date):
 
     # 6. Get per-article summaries
     articles_all = [(s['section'], a) for s in issue['toc'] for a in s['articles']]
-    mid = len(articles_all) // 2
 
     def build_summary_prompt(articles_slice, mag):
         if mag == 'economist':
@@ -188,27 +219,28 @@ def process_issue(pdf_path, magazine, date):
     def fetch_summaries(prompt, nb_id):
         # Same retry rule as the TOC: one flaky/empty answer must not sink
         # the whole issue (2026-07-11 failed with 0 summaries on both batches).
-        for attempt in range(1, 4):
-            out = notebooklm_ask(prompt, nb_id, timeout=300)
+        for attempt in range(1, 3):
+            out = notebooklm_ask(prompt, nb_id, timeout=600)
             answer = get_answer(out)
             data = extract_json_block(answer)
             if data and data.get('summaries'):
                 return data['summaries']
-            print(f'   summaries parse failed (attempt {attempt}/3), answer head: {answer[:200]!r}')
-            # 60s, not 15s: 2026-07-18 all six attempts fell inside one bad
-            # NotebookLM window — denser retries don't outlast it.
-            time.sleep(60)
+            print(f'   summaries parse failed (attempt {attempt}/2), answer head: {answer[:200]!r}')
+            time.sleep(30)
         return {}
 
-    print('6. Fetching summaries (batch 1/2)...')
-    s1 = fetch_summaries(build_summary_prompt(articles_all[:mid], magazine), nb_id)
-    print(f'   Got {len(s1)} summaries')
-
-    print('   Fetching summaries (batch 2/2)...')
-    s2 = fetch_summaries(build_summary_prompt(articles_all[mid:], magazine), nb_id)
-    print(f'   Got {len(s2)} summaries')
-
-    all_summaries = {normalize(k): v for d in [s1, s2] for k, v in d.items()}
+    # Half an issue (~40 articles x 250-800 zh chars) is far more than one
+    # NotebookLM answer delivers before the request times out: 2026-09-05 lost
+    # batch 2 entirely and 2026-09-12 lost both. Ask in small chunks instead —
+    # a chunk that still fails costs its own articles, not half the issue.
+    print(f'6. Fetching summaries in chunks (budget {SUMMARY_CHUNK})...')
+    all_summaries = {}
+    chunks = chunk_by_weight(articles_all)
+    for i, chunk in enumerate(chunks, 1):
+        got = fetch_summaries(build_summary_prompt(chunk, magazine), nb_id)
+        all_summaries.update({normalize(k): v for k, v in got.items()})
+        print(f'   chunk {i}/{len(chunks)}: got {len(got)} (total {len(all_summaries)})')
+        time.sleep(5)
     print(f'   Total: {len(all_summaries)} summaries')
 
     # Merge summaries. NotebookLM does not reliably echo titles verbatim —

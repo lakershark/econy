@@ -656,3 +656,5 @@ RuntimeError: No summaries could be merged
 [2026-09-16 19:41:03] [repair 2026-09-12] FINAL 72/72 summaries
 [2026-09-16 19:41:03] 更新 docs/ 并推送...
 [2026-09-16 19:41:03]   app.js updated: 26 Economist, 16 New Yorker issues
+[2026-09-16 19:41:05]   Pushed to GitHub.
+[2026-09-16 19:41:05] === repair 2026-09-12 结束 ===

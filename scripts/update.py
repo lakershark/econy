@@ -79,8 +79,14 @@ def notebooklm(args, timeout=120):
 def notebooklm_ask(prompt, nb_id, timeout=180):
     # argv, not shell: prompts contain JSON templates and article titles whose
     # quotes/$ the shell would mangle (root cause of past TOC/translation loss).
-    r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json'],
-                       capture_output=True, text=True, timeout=timeout)
+    try:
+        r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json'],
+                           capture_output=True, text=True, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        # Same fix as pipeline.py (2026-09-15): a timeout must look like an
+        # empty answer, otherwise it escapes the caller's retry loop.
+        log(f'   notebooklm ask timed out after {timeout}s — treating as empty, will retry')
+        return ''
     if not r.stdout.strip():
         # Same as pipeline.py: keep stderr visible when ask returns nothing
         # (2026-07-18 all-empty answers left no trace of the real error).
@@ -164,7 +170,9 @@ def translate_titles(nb_id, issue, max_attempts=3):
     titles up to `max_attempts` times before falling back to the English title.
     """
     all_articles = [(s['section'], a) for s in issue['toc'] for a in s['articles']]
-    batch_size = 20
+    # 10, not 20, at 300s not 120s: on 2026-09-05 every 20-title batch hit the
+    # 120s timeout and 19 titles fell back to English.
+    batch_size = 10
 
     def pending():
         # A title counts as untranslated if missing or still equal to the English.
@@ -181,7 +189,7 @@ def translate_titles(nb_id, issue, max_attempts=3):
             batch = todo[i:i+batch_size]
             lines = '\n'.join(f'[{sec}] {a["title"]}' for sec, a in batch)
             prompt = f'请将以下文章标题翻译成中文，保持简洁准确。输出JSON格式：{{"titles": {{"英文标题": "中文标题"}}}}\n\n{lines}'
-            out = notebooklm_ask(prompt, nb_id, timeout=120)
+            out = notebooklm_ask(prompt, nb_id, timeout=300)
             answer = get_answer(out)
             data = extract_json_block(answer)
             if data and 'titles' in data:
