@@ -1,0 +1,563 @@
+{
+  "magazine": "The Economist",
+  "issue_date": "2026-09-12",
+  "notebook_id": "d75dbe17-3e8d-47ab-8265-d0f43ab0f90c",
+  "toc": [
+    {
+      "section": "The world this week",
+      "articles": [
+        {
+          "title": "Politics",
+          "subtitle": "",
+          "title_zh": "本周政治",
+          "subtitle_zh": ""
+        },
+        {
+          "title": "Business",
+          "subtitle": "",
+          "title_zh": "本周商业",
+          "subtitle_zh": ""
+        },
+        {
+          "title": "Cartoon: How 9/11 empowers Donald Trump’s presidency",
+          "subtitle": "A lighter take on the news",
+          "title_zh": "政治漫画：9/11事件如何强化特朗普的总统执政权力",
+          "subtitle_zh": "A lighter take on the news"
+        }
+      ]
+    },
+    {
+      "section": "Leaders",
+      "articles": [
+        {
+          "title": "The truth and the lies about Islam in Europe",
+          "subtitle": "Islam poses no serious danger. But Islamism and the fear of Islam do",
+          "title_zh": "欧洲伊斯兰教的真相与谎言",
+          "subtitle_zh": "Islam poses no serious danger. But Islamism and the fear of Islam do"
+        },
+        {
+          "title": "In praise of the Democrats’ disarray",
+          "subtitle": "Republicans are proving that party unity is overrated",
+          "title_zh": "为民主党的混乱唱赞歌",
+          "subtitle_zh": "Republicans are proving that party unity is overrated"
+        },
+        {
+          "title": "What should Germany do about its rising right?",
+          "subtitle": "A stunning success for the AfD in Saxony-Anhalt",
+          "title_zh": "德国应如何应对崛起的极右翼？",
+          "subtitle_zh": "A stunning success for the AfD in Saxony-Anhalt"
+        },
+        {
+          "title": "Kevin Warsh should raise interest rates",
+          "subtitle": "The Federal Reserve’s next meeting will be his first big test as chair",
+          "title_zh": "凯文·沃什应当加息",
+          "subtitle_zh": "The Federal Reserve’s next meeting will be his first big test as chair"
+        },
+        {
+          "title": "Plunging test scores are a slow-moving catastrophe",
+          "subtitle": "Machines are getting brighter. Teens are getting dimmer. Schools must act now",
+          "title_zh": "暴跌的考试成绩是一场慢动作灾难",
+          "subtitle_zh": "Machines are getting brighter. Teens are getting dimmer. Schools must act now"
+        },
+        {
+          "title": "Argentina needs less shouting and more growth",
+          "subtitle": "Without it, Javier Milei’s remarkable liberal experiment could end next year",
+          "title_zh": "阿根廷需要少些喧嚣，多些增长",
+          "subtitle_zh": "Without it, Javier Milei’s remarkable liberal experiment could end next year"
+        }
+      ]
+    },
+    {
+      "section": "Letters",
+      "articles": [
+        {
+          "title": "Could AIs become conscious?",
+          "subtitle": "Also this week, American science policy, “Paw Patrol”, Zack Polanski",
+          "title_zh": "人工智能会拥有意识吗？",
+          "subtitle_zh": "Also this week, American science policy, “Paw Patrol”, Zack Polanski"
+        }
+      ]
+    },
+    {
+      "section": "By Invitation",
+      "articles": [
+        {
+          "title": "This article wasn’t written by an AI. So what if it had been!",
+          "subtitle": "It’s great that bots can help poor writers say what they want to for a fraction of the cost of a ghostwriter, argues Ryan Jacobs",
+          "title_zh": "本文非AI所写，就算是由AI写的又如何！",
+          "subtitle_zh": "It’s great that bots can help poor writers say what they want to for a fraction of the cost of a ghostwriter, argues Ryan Jacobs"
+        },
+        {
+          "title": "Israel’s neglected threat from within",
+          "subtitle": "Educational decay, driven by demographic change, endangers the nation’s future, writes Dan Ben-David",
+          "title_zh": "以色列被忽视的内部威胁",
+          "subtitle_zh": "Educational decay, driven by demographic change, endangers the nation’s future, writes Dan Ben-David"
+        }
+      ]
+    },
+    {
+      "section": "Briefing",
+      "articles": [
+        {
+          "title": "The good news: few Muslims want to subvert European democracy",
+          "subtitle": "The bad news: there is no easy way to counter those who do",
+          "title_zh": "好消息：极少数穆斯林意图颠覆欧洲民主",
+          "subtitle_zh": "The bad news: there is no easy way to counter those who do"
+        }
+      ]
+    },
+    {
+      "section": "Asia",
+      "articles": [
+        {
+          "title": "Takaichi Sanae's big-spending plans are unnerving markets",
+          "subtitle": "She is putting the state at the centre of Japan’s economy",
+          "title_zh": "高市早苗的大额支出计划引发市场不安",
+          "subtitle_zh": "She is putting the state at the centre of Japan’s economy"
+        },
+        {
+          "title": "Malaysia is enjoying a massive data-centre boom",
+          "subtitle": "Could it help the country escape its middle-income trap?",
+          "title_zh": "马来西亚迎来数据中心建设热潮",
+          "subtitle_zh": "Could it help the country escape its middle-income trap?"
+        },
+        {
+          "title": "Why India baffles China",
+          "subtitle": "Chinese scholarship on India has grown in breadth but not depth",
+          "title_zh": "印度为何让中国困惑",
+          "subtitle_zh": "Chinese scholarship on India has grown in breadth but not depth"
+        },
+        {
+          "title": "“Black gold” is pouring out of Myanmar",
+          "subtitle": "It is again the world’s largest producer of opium",
+          "title_zh": "“黑金”源源不断涌出缅甸",
+          "subtitle_zh": "It is again the world’s largest producer of opium"
+        },
+        {
+          "title": "India at last acquires a taste for cheese",
+          "subtitle": "Thank modern fermentation, changing diets and pizza",
+          "title_zh": "印度终于爱上了奶酪",
+          "subtitle_zh": "Thank modern fermentation, changing diets and pizza"
+        }
+      ]
+    },
+    {
+      "section": "China",
+      "articles": [
+        {
+          "title": "Can China finally relax?",
+          "subtitle": "The hard-working society wants to kick back more, but faces constraints",
+          "title_zh": "中国终于可以放松了吗？",
+          "subtitle_zh": "The hard-working society wants to kick back more, but faces constraints"
+        },
+        {
+          "title": "Only children in China prefer to marry other only children",
+          "subtitle": "And yes, they do have a choice",
+          "title_zh": "中国独生子女更倾向于与独生子女结婚",
+          "subtitle_zh": "And yes, they do have a choice"
+        },
+        {
+          "title": "Tung Chee-hwa, Hong Kong’s first chief executive, has died",
+          "subtitle": "He had an impossible job, and did it badly",
+          "title_zh": "香港首任行政长官董建华逝世",
+          "subtitle_zh": "He had an impossible job, and did it badly"
+        },
+        {
+          "title": "Speech in China is in the deep freeze",
+          "subtitle": "A natural disaster and a comedy mishap testify to the party’s power",
+          "title_zh": "中国言论空间陷入深度冰封",
+          "subtitle_zh": "A natural disaster and a comedy mishap testify to the party’s power"
+        }
+      ]
+    },
+    {
+      "section": "United States",
+      "articles": [
+        {
+          "title": "How far left will Democrats go?",
+          "subtitle": "Its base is almost as mad at their leaders as they are at the president",
+          "title_zh": "民主党会向左走多远？",
+          "subtitle_zh": "Its base is almost as mad at their leaders as they are at the president"
+        },
+        {
+          "title": "Donald Trump’s disintegrating coalition",
+          "subtitle": "The swing voters of 2024 have abandoned the president",
+          "title_zh": "特朗普解体中的政治联盟",
+          "subtitle_zh": "The swing voters of 2024 have abandoned the president"
+        },
+        {
+          "title": "How 9/11 empowers Donald Trump’s imperial presidency",
+          "subtitle": "A tentative debate has started over America’s counter-terror laws",
+          "title_zh": "9/11事件如何强化特朗普的帝权总统制",
+          "subtitle_zh": "A tentative debate has started over America’s counter-terror laws"
+        },
+        {
+          "title": "How American universities get around the DEI backlash",
+          "subtitle": "Schools are relabelling offices faster than they are cutting them",
+          "title_zh": "美国高校如何规避对DEI的反弹浪潮",
+          "subtitle_zh": "Schools are relabelling offices faster than they are cutting them"
+        },
+        {
+          "title": "A reservoir of last resort is running dry in Wyoming",
+          "subtitle": "Competing water uses in the American West are getting harder to manage",
+          "title_zh": "怀俄明州最后保障水库趋于干涸",
+          "subtitle_zh": "Competing water uses in the American West are getting harder to manage"
+        },
+        {
+          "title": "How Donald Trump boxed his party in",
+          "subtitle": "Despite his unpopularity, Republicans have to bet on him to hold their congressional majorities",
+          "title_zh": "特朗普如何将共和党逼入困局",
+          "subtitle_zh": "Despite his unpopularity, Republicans have to bet on him to hold their congressional majorities"
+        }
+      ]
+    },
+    {
+      "section": "The Americas",
+      "articles": [
+        {
+          "title": "Javier Milei’s liberal experiment is struggling",
+          "subtitle": "In an interview with The Economist, Argentina’s president is unyielding",
+          "title_zh": "米莱的自由主义实验陷入困局",
+          "subtitle_zh": "In an interview with The Economist, Argentina’s president is unyielding"
+        },
+        {
+          "title": "When the defenders of democracy turn their backs on it instead",
+          "subtitle": "Brazil’s top court saved the country’s young democracy. Now it is strangling it through corruption",
+          "title_zh": "当民主的守护者反而背叛民主",
+          "subtitle_zh": "Brazil’s top court saved the country’s young democracy. Now it is strangling it through corruption"
+        }
+      ]
+    },
+    {
+      "section": "Middle East & Africa",
+      "articles": [
+        {
+          "title": "Is traffic through Hormuz really back to normal?",
+          "subtitle": "America would like the world to think so as oil prices top $100 again",
+          "title_zh": "霍尔木兹海峡航运真的恢复正常了吗？",
+          "subtitle_zh": "America would like the world to think so as oil prices top $100 again"
+        },
+        {
+          "title": "As the Iran war menaces shipping, land routes are making a comeback",
+          "subtitle": "That could rejuvenate regional trade in the Middle East",
+          "title_zh": "伊朗战争威胁航运，陆路贸易通道东山再起",
+          "subtitle_zh": "That could rejuvenate regional trade in the Middle East"
+        },
+        {
+          "title": "Too many Nigerian women are still dying in childbirth",
+          "subtitle": "The government has been woefully slow to address the problem",
+          "summary": "在尼日利亚，产妇分娩死亡率依然高得惊人，世界卫生组织数据显示2023年尼日利亚近1%的产妇在分娩中死亡 [1]。产后大出血是导致死亡的首要原因，严重贫血、镰状细胞病以及高生育率进一步加剧了风险 [1]。相比印度通过提供免费母婴医疗大幅降低死亡率，尼日利亚仅有不到7%的人口拥有医疗保险，半数女性分娩时缺乏合格医护人员陪同 [2, 3]。全国每千人病床数不足1张，90%的医学生计划毕业后出国，基层的医疗与转诊协调机制严重脱节 [4]。虽然Birthsafe和盖茨基金会等非政府组织正通过移动应用、输铁剂及AI工具展开救援，政府也开始培训传统接生员并升级基层诊所，但整体政策推进迟缓，解决这一公共卫生惨剧仍任重道远 [5, 6]。",
+          "title_zh": "仍有太多尼日利亚女性死于分娩",
+          "subtitle_zh": "The government has been woefully slow to address the problem"
+        },
+        {
+          "title": "William Ruto turns against foreign traders",
+          "subtitle": "Kenya is the latest African country to struggle with anti-migrant sentiment",
+          "summary": "肯尼亚总统威廉·鲁托宣布要求从事零售与小商品经营的外国商人于90天内理顺合法身份，此前他甚至曾宣称要在一周内禁止外国“排档商贩” [7-9]。这一表态迅速引发了针对外籍移民（尤其是布隆迪难民）的排外暴力袭击 [8]。鲁托在2022年凭借平民主义政纲当选，但近期因加税、物价上涨（受伊朗战争影响）及威权倾向导致民望暴跌，面对即将到来的大选，将贫困移民选作经济困境的“替罪羊”成为了政治避雷针 [10]。这一现象折射出全非范围内的排外浪潮：从索马里兰、埃及到坦桑尼亚，多国均出台针对外国人的商业禁令或驱逐行动，全非跨境迁移人口已达2500万 [9, 11]。在富国援助缩减的背景下，煽动排外情绪不仅破坏了非洲大陆经济一体化的努力，也无法从根本上解决本国就业与经济难题 [12]。",
+          "title_zh": "威廉·鲁托转向排斥外籍商贩",
+          "subtitle_zh": "Kenya is the latest African country to struggle with anti-migrant sentiment"
+        }
+      ]
+    },
+    {
+      "section": "Europe",
+      "articles": [
+        {
+          "title": "The AfD is making the weather in German politics",
+          "subtitle": "After the Saxony-Anhalt result, Friedrich Merz is on the ropes",
+          "summary": "在德国萨克森-安哈尔特州选举中，极右翼德国选择党（AfD）斩获44%选票创历史新高，总理梅尔茨领导的基民盟（CDU）得票率暴跌至17% [13-15]。梅尔茨在联邦议院预算辩论中严词谴责AfD的“再移民”等极端主张，但其个人支持率已跌至13%，党内甚至开始讨论是否应提前更换领袖 [15, 16]。AfD在全国民调中领先基民盟8个百分点，成功将传统建制派逼入内斗 [17]。受选举冲击，联合执政的社民党（SPD）开始动摇此前达成的涵盖税收与养老金的34项改革方案，这可能导致关键的经济改革陷入瘫痪 [18]。讽刺的是，德国经济正展现出出口增长与创业活跃等复苏迹象，但政治生态的极化与碎片化正严重威胁着德国经济长远转型的前景 [19]。",
+          "title_zh": "德国选择党正主导德国政治气候",
+          "subtitle_zh": "After the Saxony-Anhalt result, Friedrich Merz is on the ropes"
+        },
+        {
+          "title": "Pedro Sánchez has let Ceuta turn into a crisis",
+          "subtitle": "Spain’s PM is failing to deport or process thousands of migrants from Morocco",
+          "summary": "六周前，超过7万名移民从摩洛哥强行涌入西班牙飞地休达，至今仍有约1万名移民滞留当地 [20]。首相佩德罗·桑切斯初期应对极其迟钝，在短暂视察后即离开休假，直到8月下旬才由中央政府接管，承诺提供3.09亿欧元援助并建立6000个帐篷营地 [21]。休达8.4万名当地居民面临严重的治安恐慌、医疗挤兑与商业瘫痪，而摩洛哥政府被指将移民潮作为主权声索的“混合战争”工具 [22, 23]。受限于法律对2500名无人陪伴未成年人的保护以及繁琐的审核程序，遣返工作进展缓慢 [21]。桑切斯因畏惧损害西摩关系而态度软弱，民调显示仅14%的受访者认可其危机处理，这一移民困境正成为右翼反对党动员选民的有力武器，极大危及桑切斯政府在明年大选中的执政地位 [23, 24]。",
+          "title_zh": "桑切斯放任休达陷入危机",
+          "subtitle_zh": "Spain’s PM is failing to deport or process thousands of migrants from Morocco"
+        },
+        {
+          "title": "Russia has turned its schools into indoctrination machines",
+          "subtitle": "Soviet-style educational propaganda is back",
+          "summary": "俄罗斯正全面将其教育体系转化为国家宣传与军事动员机器，普京将争取青少年思想的斗争称为“新战线”，将“爱国主义教育”强制引入从幼儿园到大学的所有课程 [25, 26]。学校每周举行统一脚本的“重要对话”晨会，将侵乌战争与二战相提并论，并恢复了苏制“基础军事训练”课程与官方青年组织“第一运动”及“青年军”（成员达200万） [26]。官方推出了由普京助手梅津斯基主编的历史教材与由梅德韦杰夫主编的社会学教材 [27, 28]。这种“主权教育”以牺牲学术自由与教学质量为代价：外语学习被削减，国际文凭（IB）被禁，普京旨在塑造忠诚一代的思想战争本质上正在对俄罗斯青少年的认知与未来造成不可逆的伤害 [27, 28]。",
+          "title_zh": "俄罗斯将学校变成了思想灌输机器",
+          "subtitle_zh": "Soviet-style educational propaganda is back"
+        },
+        {
+          "title": "Facing global crises, Europe rearranges the diplomatic deckchairs",
+          "subtitle": "Foreign affairs, domestic rows",
+          "summary": "面对地缘政治动荡，德法两国提出改革欧盟外交机制，拟重组或将欧洲对外工作局（EEAS）的职能并入欧盟委员会 [29, 30]。EEAS自2011年设立以来因权责不清及内部摩擦饱受诟病，现任高级代表卡拉斯亦难以推动形成统一声音 [30, 31]。然而，重组机构图表根本无法解决欧盟27个成员国在核心外交议题上的根本分歧：在巴以问题上德国挺以而西班牙强烈谴责，在“战略自主”上法国积极推动而波兰坚守北约地位 [32, 33]。在外交决策仍需全票一致通过的框架下，没有任何行政机构改组能够凭空创造出根本不存在的政治共识，欧盟的外交困境源于政治意愿的缺失而非外交官的无能 [32, 33]。",
+          "title_zh": "面对全球危机，欧洲在外交机构修修补补",
+          "subtitle_zh": "Foreign affairs, domestic rows"
+        }
+      ]
+    },
+    {
+      "section": "Britain",
+      "articles": [
+        {
+          "title": "Islamism is a threat to Britain. Islam is not",
+          "subtitle": "The government is struggling to deal with the problem",
+          "summary": "过去25年间，英国穆斯林人口翻倍至总人口的7%，民调显示53%的英国人认为伊斯兰教与英国价值观不可调和，但这种恐慌混淆了伊斯兰教（宗教）与伊斯兰主义（主张通过国家机构实施教法的政治意识形态） [34, 35]。民调显示33%的英国穆斯林认为伊斯兰原则应指导公共生活与法律，约20%有伊斯兰主义倾向 [36]。绝大多数伊斯兰主义者不提倡暴力，而是通过“渗入主义”渗透地方议会、学校与慈善机构，对穆斯林群体实施宗教规训并阻碍社会融合 [37, 38]。由于地方官员与警方害怕被贴上“种族主义”标签而不敢干预，导致受害者往往是温和派与女性穆斯林，主流政界必须区分宗教与极端意识形态，坚守言论自由与法律权威 [39, 40]。",
+          "title_zh": "伊斯兰主义对英国构成威胁，伊斯兰教则不然",
+          "subtitle_zh": "The government is struggling to deal with the problem"
+        },
+        {
+          "title": "One British Muslim group is faring better than it seems to be",
+          "subtitle": "The younger generation is triumphant",
+          "summary": "英格兰和威尔士约65万孟加拉裔群体中90%以上为穆斯林 [41]。1980年代该群体曾被视为英国最贫困、教育水平最低的移民阶层，如今虽然仍有一半家庭处于全英收入最低的20%阶梯 [41, 42]。但其年轻一代在社会流动上取得了显著突破：2021年参加GCSE考试的孟加拉裔青年中19岁时大学入学率高达67%（远超白人英国人的38%），且理工与医学专业人数大幅增加 [42]。本土出生的孟加拉裔女性就业率升至68%，专业与管理岗位比例已追平白人 [42]。尽管持续的新移民流入稀释了整体统计数据，但英国本土生长的孟加拉裔已展现出令人瞩目的代际阶层跃升 [43]。",
+          "title_zh": "一个英国穆斯林群体的境况比表面看起来要好",
+          "subtitle_zh": "The younger generation is triumphant"
+        },
+        {
+          "title": "Brexit has disappointed British fishermen",
+          "subtitle": "But they have greater things to worry about",
+          "title_zh": "英国脱欧让英国渔民失望",
+          "subtitle_zh": "But they have greater things to worry about"
+        },
+        {
+          "title": "Warming seas are enticing octopus to British waters",
+          "subtitle": "But some fish are being pushed away",
+          "title_zh": "变暖的海水将章鱼吸引至英国水域",
+          "subtitle_zh": "But some fish are being pushed away"
+        },
+        {
+          "title": "The misanthrope party",
+          "subtitle": "Reform UK’s miserabilist streak is Nigel Farage’s asset, and his problem",
+          "title_zh": "厌世者政党",
+          "subtitle_zh": "Reform UK’s miserabilist streak is Nigel Farage’s asset, and his problem"
+        }
+      ]
+    },
+    {
+      "section": "International",
+      "articles": [
+        {
+          "title": "Are teenagers growing dimmer?",
+          "subtitle": "The latest global school tests reveal shocking new declines",
+          "title_zh": "青少年正变得越来越愚钝吗？",
+          "subtitle_zh": "The latest global school tests reveal shocking new declines"
+        },
+        {
+          "title": "World leaders are losing their terror of nuclear war",
+          "subtitle": "Putin, Trump and Xi control the most powerful arsenals on Earth. They should take nuclear risks more seriously",
+          "title_zh": "世界领袖正失去对核战争的恐惧",
+          "subtitle_zh": "Putin, Trump and Xi control the most powerful arsenals on Earth. They should take nuclear risks more seriously"
+        }
+      ]
+    },
+    {
+      "section": "1843",
+      "articles": [
+        {
+          "title": "The assassination of the world’s only openly gay imam",
+          "subtitle": "Muhsin Hendricks knew that his liberal approach to Islam put his life in danger",
+          "title_zh": "全球首位公开同性恋身份阿訇遇刺案",
+          "subtitle_zh": "Muhsin Hendricks knew that his liberal approach to Islam put his life in danger"
+        }
+      ]
+    },
+    {
+      "section": "Business",
+      "articles": [
+        {
+          "title": "Chinese carmakers are bringing their factories to the world",
+          "subtitle": "Incumbents will have to accelerate to compete",
+          "title_zh": "中国车企正在将工厂建向全球",
+          "subtitle_zh": "Incumbents will have to accelerate to compete"
+        },
+        {
+          "title": "As booze sales fall, competition among drinks-makers intensifies",
+          "subtitle": "The line between brewers, vintners and distillers is blurring",
+          "title_zh": "随着酒类销量下滑，酿酒商之间的竞争加剧",
+          "subtitle_zh": "The line between brewers, vintners and distillers is blurring"
+        },
+        {
+          "title": "How Oura’s rings found their way onto millions of fingers",
+          "subtitle": "Its business is booming as consumers look to take charge of their health",
+          "title_zh": "Oura智能戒指如何戴上数百万人指头",
+          "subtitle_zh": "Its business is booming as consumers look to take charge of their health"
+        },
+        {
+          "title": "War has not halted the Gulf’s data-centre boom",
+          "subtitle": "Investors see plenty of reasons to continue pouring money into the region",
+          "title_zh": "战争未能阻止海湾地区的数据中心建设热潮",
+          "subtitle_zh": "Investors see plenty of reasons to continue pouring money into the region"
+        },
+        {
+          "title": "Beef has never been pricier—and meatpackers are suffering",
+          "subtitle": "Donald Trump is going after the wrong suspects",
+          "title_zh": "牛肉价格创历史新高，肉类加工商苦不堪言",
+          "subtitle_zh": "Donald Trump is going after the wrong suspects"
+        },
+        {
+          "title": "Are you committed to your company or your team?",
+          "subtitle": "Employees have overlapping identities at work. That’s a challenge for bosses",
+          "title_zh": "你忠于公司还是忠于团队？",
+          "subtitle_zh": "Employees have overlapping identities at work. That’s a challenge for bosses"
+        },
+        {
+          "title": "The rise of retrofuturism",
+          "subtitle": "A new aesthetic is taking hold in Silicon Valley and beyond",
+          "title_zh": "复古未来主义的兴起",
+          "subtitle_zh": "A new aesthetic is taking hold in Silicon Valley and beyond"
+        }
+      ]
+    },
+    {
+      "section": "Finance & economics",
+      "articles": [
+        {
+          "title": "The jobs apocalypse is postponed. An AI jobs boom is here",
+          "subtitle": "Initial effects of the technology on employment look positive",
+          "title_zh": "失业末日延期：AI驱动的就业热潮来临",
+          "subtitle_zh": "Initial effects of the technology on employment look positive"
+        },
+        {
+          "title": "Inflation is back around the world—as is the fight against it",
+          "subtitle": "Central banks are raising interest rates again",
+          "title_zh": "全球通胀卷土重来，抗通胀之战再度打响",
+          "subtitle_zh": "Central banks are raising interest rates again"
+        },
+        {
+          "title": "China’s $54bn capital boost for banks falls far short",
+          "subtitle": "Old problems bedevil balance-sheets and hold back lending",
+          "title_zh": "中国向银行注资540亿美元远未能解决问题",
+          "subtitle_zh": "Old problems bedevil balance-sheets and hold back lending"
+        },
+        {
+          "title": "What is causing the global bond sell-off?",
+          "subtitle": "India hints at the answer",
+          "summary": "全球债券收益率飙升引发了两种解释争议：悲观者归咎于政客无节制借债（如特朗普引发的巨额财政赤字与对美联储的打压），乐观者（如美财长贝森特）则认为是AI革命掀起的私营部门基建投资潮推高了资金成本[1, 2]。印度债券市场成为了检验这两类理论的试金石[2]。印度二季度GDP同比强劲增长7.8%，私营部门投资激增12%，数据中心与核电站等新项目暴增27%，但其10年期国债（Gsec）收益率仅上升0.37个百分点，与美债利差创历史新低[2, 3]。这归功于印度央行坚持4%的通胀目标（十年均值仅4.6%）及财政赤字控制在2%以下[4]。此外，印度资本管制与庞大的国内被动投资者（占97%）隔离了国际“债券自卫队”的冲击[5, 6]。印度经验表明，控制债市的关键在于健全财政纪律和维护央行独立性，而非直接干预市场[7]。",
+          "title_zh": "是什么引发了全球债券抛售潮？",
+          "subtitle_zh": "India hints at the answer"
+        },
+        {
+          "title": "Can Germany’s economic recovery outrun the AfD?",
+          "subtitle": "It is showing signs of life—but fragile ones",
+          "summary": "极右翼德国选择党（AfD）在萨克森-安哈尔特州狂揽44%选票给总理梅尔茨带来政治重创，但讽刺的是，德国经济正展现出难得的复苏迹象[8, 9]。二季度德国GDP环比增长0.3%、同比增长1%，主要智库纷纷将全年增长预期上调至1.3%-1.4%[9]。2025年外国直接投资暴增50%至860亿欧元，2026年上半年出口增长3.9%，更多出口转向美国[10]。同时创业热潮兴起，上半年新成立超3000家初创企业（同比增长88%，三分之一聚焦AI），风险投资增长44%[11, 12]。然而，这一复苏依然脆弱且高度依赖政府债务与出口，传统汽车（大众汽车计划裁员5万人）与化工行业持续萎缩，公共部门占GDP比重攀升至50%[13]。西门子等企业巨头呼吁梅尔茨加快养老金与劳动力市场改革，但政治极化使得这些必要的经济改革举步维艰[14]。",
+          "title_zh": "德国的经济复苏能否跑赢德国选择党？",
+          "subtitle_zh": "It is showing signs of life—but fragile ones"
+        },
+        {
+          "title": "The economic folly of free buses",
+          "subtitle": "There are better ways to fight climate change, immobility and inequality",
+          "summary": "免费公共交通成为多国左翼和民粹政治家吸引选民的热门政策（如纽约市长候选人曼达尼承诺公交免费，塔林与卢森堡已推行），但在经济学上这却是一项低效政策[15]。研究表明公共交通的需求价格弹性极低：塔林实施免费交通后乘客量仅增加1%，德国推出的9欧元月票增加的主要是周末郊游等非刚性需求[16]。在减少汽车使用与碳排放方面，免费交通效果微乎其微（德国月票仅减少1%-5%的汽车流量），且减碳成本高达每吨6140欧元，远高于欧盟碳交易市场85欧元/吨的价格[17]。此外，免费政策将财政补贴无差别惠及高收入群体，反而挤占了改善线路频次与覆盖范围的资金[18, 19]。相比之下，拥堵费（如斯德哥尔摩）与低排放区（如伦敦使儿童肺功能受损率从14%降至9%）才是更高效的治理手段[18]。",
+          "title_zh": "免费公交在经济学上的荒谬之处",
+          "subtitle_zh": "There are better ways to fight climate change, immobility and inequality"
+        }
+      ]
+    },
+    {
+      "section": "Science & technology",
+      "articles": [
+        {
+          "title": "How to cool buildings on the cheap",
+          "subtitle": "New paints promise to get rid of heat without using energy",
+          "summary": "随着全球变暖，空间制冷消耗了全球10%的电力，且传统空调使用的制冷剂具有高温室效应[20]。新型辐射冷却涂层（Radiative Cooling Coatings）为无能耗降温提供了突破性方案[20, 21]。伦敦大学学院（UCL）团队研发出一种结合气凝胶与聚合物的新型白漆，能反射93%的阳光（普通白漆为84%），突破了辐射热量大于吸收热量的关键门槛，在马德里测试中使表面温度降低多达8°C[22-24]。其原理在于利用气凝胶颗粒散射可见光，并通过9微米波长（大气透明窗口）将热量直接辐射至外太空[24, 25]。香港i2Cool公司已推广85.0万平方米此类涂层，减少了1.4万吨碳排放[26]。此外，新加坡南洋理工团队研发出仅需1/30成本的水泥基蒸发涂层，通过吸收雨水与湿气蒸发吸热，比标准辐射涂层再降温5°C并省电40%[27, 28]。",
+          "title_zh": "如何低成本为建筑物降温",
+          "subtitle_zh": "New paints promise to get rid of heat without using energy"
+        },
+        {
+          "title": "A transplanted pig kidney buys time for a human one to become available",
+          "subtitle": "That strengthens the case for such cross-species organ swaps",
+          "summary": "英国有超7000人在等待肾脏移植，去年有328人在等待中死亡，传统血液透析是唯一的维持手段[29]。在一项突破性医疗尝试中，美国患者蒂姆·安德鲁斯（Tim Andrews）成功接受了一颗基因编辑猪肾脏作为过渡性器官（stop-gap），并在支撑271天后成功换上了匹配的异体人类肾脏[29, 30]。生物技术公司eGenesis通过基因编辑消除了猪细胞的免疫排斥反应与内源性逆转录病毒，并引入了人类基因提升兼容性[29]。由麻省总医院团队实施的这项移植创下了异种肾脏存活时间的新纪录，并在271天内完全发挥了正常肾脏的功能，直到因感染被切除[29]。这一案例首次证明异种器官移植可以作为安全可靠的“桥梁”，为终末期器官衰竭患者争取等待人类器官的宝贵时间[29, 30]。",
+          "title_zh": "猪肾移植为等待人体器官争取时间",
+          "subtitle_zh": "That strengthens the case for such cross-species organ swaps"
+        },
+        {
+          "title": "OpenAI's apparent maths breakthrough raises profound questions",
+          "subtitle": "It has stirred controversy about how the discipline should work",
+          "summary": "OpenAI于9月8日宣布，其新一代AI模型训练出的1万个智能体自主协作，历时88小时、消耗650万美元算力并发送270万条消息后，成功破译了克雷数学研究所设立的七大千禧年难题之一——纳维-斯托克斯方程（Navier-Stokes）的存在性与光滑性问题，发现了流体速度无限增长的奇点[31-33]。然而，这一突破引发了巨大争议：纽约大学的巴克马斯特（Tristan Buckmaster）与Anthropic研究员阿尔珀吉在其发布前数小时刚公开了类似的阶段性成果，巴克马斯特指责OpenAI的模型可能隐蔽吸收了其研究数据[34, 35]。虽然OpenAI表示放弃领取100万美元奖金，但该事件对学术界的知识产权归属、AI对科学研究的启发价值以及人类数学家在AI时代的角色提出了深刻拷问[35, 36]。",
+          "title_zh": "OpenAI宣称的数学突破引发深刻追问",
+          "subtitle_zh": "It has stirred controversy about how the discipline should work"
+        },
+        {
+          "title": "Satellites get a new type of armour",
+          "subtitle": "Composite tiles, fabrics and foams may bring effective shielding from orbital debris",
+          "summary": "运行在近地轨道的碎片垃圾数量自2017年以来翻倍，且以7公里/秒的高速飞行，导致五分之一的小卫星在发射一年内失灵[37]。为了应对日益严重的轨道垃圾威胁，新型防装甲技术正在快速演进[37, 38]。传统Whipple缓冲罩正在被更轻、更强的复合材料取代：例如将用于防弹衣的凯夫拉（Kevlar）与Nextel陶瓷编织物结合[38]。意大利帕多瓦大学团队利用3D打印技术，将铝、凯夫拉与碳纤维增强树脂打印成带有内部微型空腔的多层结构，空腔能逐级击碎入侵弹丸[38]。此外，通过将熔融铝注入多孔塑料烧结结构制成的铝泡沫（Aluminium foam），仅需6毫米厚度即可提供两倍重量传统装甲的防护力[38]。搭配Odin Space的冲击传感器，这些新型复合装甲将大幅提升卫星的轨道生存能力[38]。",
+          "title_zh": "卫星获得新型防护装甲",
+          "subtitle_zh": "Composite tiles, fabrics and foams may bring effective shielding from orbital debris"
+        },
+        {
+          "title": "Should you avoid blue light before bed?",
+          "subtitle": "Blueness may be less important than brightness",
+          "summary": "睡前使用手机等屏幕设备（41%的成年人每晚睡前一小时使用屏幕）常被指责因蓝光抑制褪黑素而破坏睡眠，催生了大量防蓝光眼镜与滤光软件，但科学界对此持怀疑态度[39, 40]。虽然眼睛中的视网膜神经节细胞（含有黑视素）确实对480纳米左右的蓝光最为敏感并会抑制褪黑素分泌，但实验室研究难以推导至现实生活[40, 41]。2015年的一项研究显示连续阅读电子书4小时确实使褪黑素减少50%，但受试者仅延迟10分钟入睡；而2016年将阅读时间降至2小时的试验则显示组间无任何睡眠差异[42]。2023年Cochrane对17项试验的系统综述表明，防蓝光眼镜对改善睡眠无明确效果[40]。牛津大学神经科学家拉塞尔·福斯特（Russell Foster）指出，整体光线的“总亮度”才是影响昼夜节律的关键，无需过度纠结蓝光波长[40]。",
+          "title_zh": "睡前应该避开蓝光吗？",
+          "subtitle_zh": "Blueness may be less important than brightness"
+        }
+      ]
+    },
+    {
+      "section": "Culture",
+      "articles": [
+        {
+          "title": "The new age of the orator",
+          "subtitle": "As reading declines, ideas are spreading not by text but by spoken word",
+          "summary": "随着公众逐渐放弃图书与报纸，转而拥抱短视频与播客，全球正迎来“演说家的新时代”。查理·柯克（Charlie Kirk）被刺杀一周年际，其创立的“美国转折点”组织继续在校园掀起演讲辩论热潮。这标志着长达500年的文字传播主导趋势开始逆转：美国超半数成年人过去一年未读过一本书，青少年阅读能力显著下降。文化历史学家指出，书面语促进逻辑推理与抽象思维，而口头传播则依赖具体形象与重复渲染（“回环结构”）。这一转变解释了特朗普等诉诸直观符号与口号的政治家的崛起。然而，阅读的衰退令人担忧，因为伟大的演说家煽动激情，而伟大的作家方能启迪思想，缺乏深度的口头传播可能危害公共理性的根基。",
+          "title_zh": "演说家的新时代",
+          "subtitle_zh": "As reading declines, ideas are spreading not by text but by spoken word"
+        },
+        {
+          "title": "Chiikawa, star of a Japanese blockbuster, appeals in anxious times",
+          "subtitle": "A tiny, weeping, hamster-like creature has conquered East Asia",
+          "summary": "日本动画电影《吉伊卡哇：人鱼岛的秘密》上映仅一个月票房即突破100亿日元（约6.3亿美元），其周边商品与短片风靡东亚，被中国社交媒体用户称为缓解焦虑的“数字布洛芬”。这只白色像仓鼠般的小可爱（Chiikawa意为“又小又可爱的东西”）风靡的核心在于“暗黑治愈”的强烈反差：角色们生活在残酷的零工经济中（需考证打工拔草），面临同伴变异的肉体恐怖及无面阴影代表的都市孤独。在充满不确定性与压力的时代，吉伊卡哇脆弱、爱哭却与伙伴相互扶持的设定，向大众传达了“焦虑也没关系”的心理抚慰，展现了现代人在高压社会中寻求情感寄托的深层需求。",
+          "title_zh": "日本大片主角吉伊卡哇在焦虑时代引发共鸣",
+          "subtitle_zh": "A tiny, weeping, hamster-like creature has conquered East Asia"
+        },
+        {
+          "title": "Urban life rests on invisible, extraordinary technology",
+          "subtitle": "A new book explores the invaluable inventions you rarely think about",
+          "summary": "在新书《塑造我们世界的31项发明》中，专栏作家约翰·埃利奇（Jonn Elledge）带领读者重新审视支撑现代城市运转却常被忽视的隐形技术。从维多利亚时代消除“夜香工”的地下排水系统、1863年伦敦诞生的首条地下铁道，到1857年纽约商场速度仅20厘米/秒的电梯，这些创新构成了现代都市的基石。书中揭示了许多趣味细节：如19世纪单辆马车日产三分之一吨马粪，以及Prescot街于1708年率先实行门牌帮邮递员摆脱模糊地址。作者强调，像门牌号与双层玻璃（从猪膀胱窗户演变而来）这样深嵌入日常的技术，正因其巨大成功而变得“隐形”，提醒人们珍惜现代都市生活背后的文明奇迹。",
+          "title_zh": "都市生活依托于隐形而非凡的技术",
+          "subtitle_zh": "A new book explores the invaluable inventions you rarely think about"
+        },
+        {
+          "title": "The forgotten contraption that gave birth to mass media",
+          "subtitle": "How the steam- and gas-powered Linotype sparked a cultural revolution",
+          "summary": "杰夫·贾维斯（Jeff Jarvis）在新书《热排字》中追溯了铸字排版机（Linotype）的辉煌历史。150年前，尽管电报、蒸气印刷机与造纸术已极大加速了新闻传播，但手工排版依然极其缓慢（排满一页需两小时）。1886年赫尔曼·默根特勒发明的蒸汽/燃气动力Linotype机器实现了自动铸字排版，将排版效率提升数倍，直接催生了20世纪大众媒体的革命。这不仅使报纸版面从4页暴增至48页，更促使新闻业从19世纪党派纷争转向追求客观性与大众广告商业模式。虽然该技术在1986年被数字革命淘汰，但当时人们对机械排版削弱文采的担忧，与当今时代面对人工智能技术冲击时的社会焦虑如出一辙。",
+          "title_zh": "孕育大众媒体的被遗忘装置",
+          "subtitle_zh": "How the steam- and gas-powered Linotype sparked a cultural revolution"
+        },
+        {
+          "title": "Say goodbye to summer. Not just this year’s",
+          "subtitle": "The season is imperilled by climate change. It was nice while it lasted",
+          "summary": "随着全球气候变暖，西方文化中经典的“夏日”概念正在面临消亡。预测显示到2100年北半球夏季将长达六个月，这种延长并未带来无忧无虑的悠闲，反而将夏天演变为高温酷暑的煎熬。酷热正在重塑人类生活方式：高温逼迫学校调整学期历，地中海沿岸因酷热失宠，旅游潮转向斯堪的纳维亚等避暑胜地；干旱与火灾破坏了篝火晚会与海滩露营等传统活动，户外社交与浪漫约会不得不转移至室内空调房。与此同时，远程办公技术已在模糊工作与度假的边界。曾经象征短暂、热烈与改变命运的夏日正逐渐退化为躲避酷热的室内禁锢，成为气候危机下又一个令人唏嘘的文化牺牲品。",
+          "title_zh": "告别夏天，不仅是今年的夏天",
+          "subtitle_zh": "The season is imperilled by climate change. It was nice while it lasted"
+        },
+        {
+          "title": "How much does nepotism really matter in Hollywood?",
+          "subtitle": "Over a quarter of young film actors in America have a parent in entertainment",
+          "summary": "“名二代”（Nepo Babies）现象正引发好莱坞的空前争议，当前上映的电影中至少有十部由明星子女参演，Google相关搜索量暴增50倍。这一现象源于制片厂在注意力竞争中利用明星家族自带的话题度进行营销，以及影视传媒集团高层家族化招聘导致的原创力匮乏。尽管评论界讽刺这一现象造成好莱坞“近亲繁殖”与机会不公，但行业高层认为从小耳濡目染的文化熏陶与圈内资源确实能让名二代更容易获得试镜机会。然而，正如詹妮弗·安妮斯顿与格温妮丝·帕特洛等历史案例所示，家族背景仅是一块敲门砖，在竞争残酷的演艺圈中，若缺乏真正的演技与观众缘，名二代同样无法获得持久的成功。",
+          "title_zh": "裙带关系在好莱坞到底有多重要？",
+          "subtitle_zh": "Over a quarter of young film actors in America have a parent in entertainment"
+        }
+      ]
+    },
+    {
+      "section": "Economic & financial indicators",
+      "articles": [
+        {
+          "title": "Economic data, commodities and markets",
+          "subtitle": "",
+          "summary": "最新经济与金融指标显示全球经济展现出复杂的分化格局。美国二季度GDP同比增长2.1%，8月失业率维持在4.1%的低位，7月CPI为3.4%；中国二季度GDP增长4.3%，8月CPI仅为0.8%，失业率5.2%。德国经济微弱复苏，二季度GDP增长1.0%，而沙特因石油减产二季度GDP暴跌4.7%。金融市场方面，随着中东局势持续紧张，布伦特原油价格月度大涨10.1%突破每桶97.9美元，黄金价格升至每盎司4406美元的历史高位。全球债券收益率普遍上行，美国10年期国债收益率攀升至4.8%，基准股指如标普500较年初上涨11.6%，日经225指数大涨29.4%，反映出地缘政治冲突推高通胀预期与资本市场剧烈波动的双重压力。",
+          "title_zh": "经济数据、大宗商品与市场",
+          "subtitle_zh": ""
+        }
+      ]
+    },
+    {
+      "section": "Obituary",
+      "articles": [
+        {
+          "title": "Wendell Berry urged Americans to think little, local and deep",
+          "subtitle": "The agrarian writer, poet and activist died on August 31st, aged 92",
+          "summary": "著名农裔作家、诗人与社会活动家温德尔·贝里（Wendell Berry）于8月31日逝世，享年92岁。贝里28岁时毅然放弃纽约的大学教职，重返肯塔基州老家继承12英亩土地，以传统耕作方式践行其农耕主义理想。在数十年的写作与抗议中，他猛烈批评将资本主义与共产主义凌驾于土地之上的“全球经济”，指出工业化农业对森林、水系与小农社区造成了灾难性破坏。面对环境危机，贝里主张放弃“大处着想”的贪婪逻辑，倡导“小处着想”，提倡依靠双手劳动、与邻里合作并扎根地方生态。他拒绝使用电脑以减少对煤电的依赖，用一生阐释了人与自然和谐共生的深刻哲理，为混乱的现代社会留下了宝贵的精神遗产。",
+          "title_zh": "温德尔·贝里呼吁美国人小处着想、立足本土与深入思考",
+          "subtitle_zh": "The agrarian writer, poet and activist died on August 31st, aged 92"
+        }
+      ]
+    }
+  ]
+}

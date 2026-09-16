@@ -610,3 +610,31 @@ RuntimeError: No summaries could be merged
 
 [2026-09-15 22:51:23] 更新 docs/ 并推送...
 [2026-09-15 22:51:23]   app.js updated: 25 Economist, 16 New Yorker issues
+[2026-09-15 22:51:26]   Pushed to GitHub.
+[2026-09-15 22:51:26]   push: 成功
+[2026-09-15 22:51:26] 清空 econy notebook（keep=0）...
+[2026-09-15 22:51:29]   cleaned up old notebook: The Economist 2026-09-05
+[2026-09-15 22:51:29]   notebook cleanup: deleted 1, kept up to 0 per magazine
+[2026-09-15 22:51:29] === 完成：成功 ['2026-09-05']，失败 ['2026-09-12'] ===
+[2026-09-16 08:28:45] === 手动补跑 v2（小批次）开始 ===
+[2026-09-16 08:28:45] [repair 2026-09-05] 40/79 articles missing summaries
+[2026-09-16 08:28:45] [repair 2026-09-05] creating notebook + uploading TheEconomist.2026.09.05.pdf
+[2026-09-16 08:29:28] [repair 2026-09-05] notebook 0d93d049-2473-43f0-9918-29843eb91f0b ready
+[2026-09-16 08:32:33] [repair 2026-09-05] chunk 1/5: 8 (total 8)
+[2026-09-16 08:33:55] [repair 2026-09-05] chunk 2/5: 8 (total 16)
+[2026-09-16 08:35:55] [repair 2026-09-05] chunk 3/5: 8 (total 24)
+[2026-09-16 08:39:02] [repair 2026-09-05] chunk 4 attempt 1 empty, retrying
+[2026-09-16 08:40:39] [repair 2026-09-05] chunk 4/5: 8 (total 32)
+[2026-09-16 08:41:54] [repair 2026-09-05] chunk 5/5: 8 (total 40)
+[2026-09-16 08:41:59] [repair 2026-09-05] retrying untranslated titles
+[2026-09-16 08:41:59]    title translation attempt 1: 19 remaining
+[2026-09-16 08:42:51]    Translated 79/79 titles
+[2026-09-16 08:42:51] [repair 2026-09-05] done: 79/79 have summaries
+[2026-09-16 08:42:51] ✅ 2026-09-05 完成
+[2026-09-16 08:42:51] [full 2026-09-12] running pipeline
+[2026-09-16 19:16:04] [full 2026-09-12] translating titles
+[2026-09-16 19:16:04]    title translation attempt 1: 72 remaining
+[2026-09-16 19:23:12]    Translated 72/72 titles
+[2026-09-16 19:23:12] ✅ 2026-09-12 完成
+[2026-09-16 19:23:12] 更新 docs/ 并推送...
+[2026-09-16 19:23:12]   app.js updated: 26 Economist, 16 New Yorker issues
