@@ -669,3 +669,6 @@ RuntimeError: No summaries could be merged
 [2026-09-19 07:20:42]    Translated 76/76 titles
 [2026-09-19 07:20:42] Updating docs/ and pushing to GitHub...
 [2026-09-19 07:20:42]   app.js updated: 27 Economist, 16 New Yorker issues
+[2026-09-19 07:20:45]   Pushed to GitHub.
+[2026-09-19 07:20:46] === Done ===
+

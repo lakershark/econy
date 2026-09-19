@@ -317,7 +317,10 @@ def git_push(new_dates):
     cancel the in-flight deployment and the follow-up one tends to 504
     (seen 2026-07-06)."""
     os.chdir(ROOT)
-    run('git add docs/ data/ scripts/update.log')
+    # web/ too: update_app_js() rewrites the web/app.js template as well as
+    # docs/app.js, and leaving it unstaged left the template stale in the repo
+    # every week — the exact setup that reverted the site on 2026-07-11.
+    run('git add docs/ data/ web/ scripts/update.log')
     msg = f'Auto-update: add {", ".join(new_dates)}'
     out, err, code = run(f'git commit -m "{msg}"')
     if code != 0:
