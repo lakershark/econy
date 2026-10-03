@@ -683,3 +683,17 @@ RuntimeError: No summaries could be merged
 [2026-09-26 07:18:54]    Translated 76/76 titles
 [2026-09-26 07:18:54] Updating docs/ and pushing to GitHub...
 [2026-09-26 07:18:54]   app.js updated: 28 Economist, 16 New Yorker issues
+[2026-09-26 07:18:57]   Pushed to GitHub.
+[2026-09-26 07:18:58] === Done ===
+
+[2026-10-03 07:00:01] === Econy weekly update started ===
+[2026-10-03 07:00:01] economist: 28 existing issues
+[2026-10-03 07:00:01] economist: new issue found — 2026-10-03
+[2026-10-03 07:00:01] Processing The Economist 2026-10-03
+[2026-10-03 07:00:02]   Downloading TheEconomist.2026.10.03.epub...
+[2026-10-03 07:00:02]   Downloaded: 5866KB
+[2026-10-03 07:25:16]   Translating titles...
+[2026-10-03 07:25:16]    title translation attempt 1: 74 remaining
+[2026-10-03 07:27:21]    Translated 74/74 titles
+[2026-10-03 07:27:21] Updating docs/ and pushing to GitHub...
+[2026-10-03 07:27:21]   app.js updated: 29 Economist, 16 New Yorker issues
