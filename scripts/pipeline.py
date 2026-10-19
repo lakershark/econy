@@ -27,6 +27,11 @@ SUMMARY_CHUNK = 8
 # Count them double so those chunks come out half as long.
 HEAVY_SECTIONS = {'Leaders', 'Briefing', 'By Invitation'}
 
+# Articles still without a summary after the main pass get re-asked this many
+# times, in chunks of this budget (smaller than the main pass on purpose).
+BACKFILL_ROUNDS = 2
+BACKFILL_CHUNK = 4
+
 
 def chunk_by_weight(articles, budget=SUMMARY_CHUNK):
     chunks, cur, load = [], [], 0
@@ -273,6 +278,33 @@ def process_issue(pdf_path, magazine, date):
         # week's run retries it instead of publishing titles without summaries.
         notebooklm(f'delete -n {nb_id} -y')
         raise RuntimeError('No summaries could be merged')
+
+    # Backfill: a chunk whose retries all fail drops its articles silently
+    # (2026-10-17 published 5 of 74 without summaries and reported success).
+    # Re-ask just the missing ones in smaller chunks, after a pause so a bad
+    # NotebookLM window has a chance to pass.
+    for rnd in range(1, BACKFILL_ROUNDS + 1):
+        missing = [(s['section'], a) for s in issue['toc'] for a in s['articles']
+                   if not a.get('summary')]
+        if not missing:
+            break
+        print(f'   backfill round {rnd}/{BACKFILL_ROUNDS}: {len(missing)} articles missing summaries')
+        time.sleep(60)
+        for chunk in chunk_by_weight(missing, budget=BACKFILL_CHUNK):
+            got = fetch_summaries(build_summary_prompt(chunk, magazine), nb_id)
+            lookup = {merge_key(k): v for k, v in got.items()}
+            for _, article in chunk:
+                key = merge_key(article['title'])
+                summary = lookup.get(key)
+                if summary is None:
+                    close = difflib.get_close_matches(key, list(lookup), n=1, cutoff=0.8)
+                    if close:
+                        summary = lookup[close[0]]
+                if summary is not None:
+                    article['summary'] = summary
+                    matched += 1
+            time.sleep(5)
+        print(f'   after backfill round {rnd}: merged {matched}/{total_articles}')
 
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(issue, f, ensure_ascii=False, indent=2)

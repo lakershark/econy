@@ -220,6 +220,10 @@ def translate_titles(nb_id, issue, max_attempts=3):
 
 # ── Full pipeline for one new issue ──────────────────────────────────────────
 
+# Issues published with some articles still lacking summaries (filled in by
+# process_new_issue, reported in main's notification).
+INCOMPLETE = []
+
 def process_new_issue(mag_key, folder_name, date):
     cfg = MAGAZINES[mag_key]
     log(f'Processing {cfg["label"]} {date}')
@@ -244,6 +248,17 @@ def process_new_issue(mag_key, folder_name, date):
     # Translate titles using the notebook created by pipeline
     log(f'  Translating titles...')
     translate_titles(issue['notebook_id'], issue)
+
+    # pipeline.py already re-asks missing summaries; whatever is still missing
+    # goes into the log (the dashboard status block reads this line) and the
+    # notification, so a partial issue no longer reports plain success.
+    missing = [a['title'] for s in issue['toc'] for a in s['articles'] if not a.get('summary')]
+    if missing:
+        total = sum(len(s['articles']) for s in issue['toc'])
+        log(f'  WARNING: {len(missing)}/{total} articles missing summaries: {"; ".join(missing)}')
+        INCOMPLETE.append(f'{date} 缺 {len(missing)} 篇摘要')
+    else:
+        log(f'  All articles have summaries.')
 
     # Save updated issue
     out_path = cfg['data'] / f'{date}.json'
@@ -430,6 +445,9 @@ def main():
         notify('Econy 已处理、未发布 ⚠️',
                f'{", ".join(new_dates)} 已生成并提交本地，但 push 失败——网站还是旧的（见 update.log）',
                sound='Basso')
+    elif new_dates and INCOMPLETE:
+        notify('Econy 已更新、部分缺摘要 ⚠️',
+               f'{"；".join(INCOMPLETE)}（自动补问后仍缺，见 update.log）', sound='Basso')
     elif new_dates:
         notify('Econy 更新成功 ✅', f'已添加 {", ".join(new_dates)}')
     else:
