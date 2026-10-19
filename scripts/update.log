@@ -727,3 +727,8 @@ RuntimeError: No summaries could be merged
 [2026-10-17 10:09:23]    Translated 74/74 titles
 [2026-10-17 10:09:23] Updating docs/ and pushing to GitHub...
 [2026-10-17 10:09:23]   app.js updated: 31 Economist, 16 New Yorker issues
+[2026-10-17 10:09:26]   Pushed to GitHub.
+[2026-10-17 10:09:30]   cleaned up old notebook: The Economist 2026-09-12
+[2026-10-17 10:09:30]   notebook cleanup: deleted 1, kept up to 5 per magazine
+[2026-10-17 10:09:30] === Done ===
+
