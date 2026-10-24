@@ -732,3 +732,17 @@ RuntimeError: No summaries could be merged
 [2026-10-17 10:09:30]   notebook cleanup: deleted 1, kept up to 5 per magazine
 [2026-10-17 10:09:30] === Done ===
 
+[2026-10-24 07:16:09] === Econy weekly update started ===
+[2026-10-24 07:16:09] economist: 31 existing issues
+[2026-10-24 07:16:09] economist: new issue found — 2026-10-24
+[2026-10-24 07:16:09] Processing The Economist 2026-10-24
+[2026-10-24 07:16:09]   Downloading TheEconomist.2026.10.24.pdf...
+[2026-10-24 07:16:10]   Downloaded: 9598KB
+[2026-10-24 11:18:59]   Translating titles...
+[2026-10-24 11:18:59]    title translation attempt 1: 75 remaining
+[2026-10-24 11:19:47]    title translation attempt 2: 75 remaining
+[2026-10-24 11:20:35]    title translation attempt 3: 75 remaining
+[2026-10-24 11:21:22]    Translated 0/75 titles
+[2026-10-24 11:21:22]   WARNING: 18/75 articles missing summaries: Ignore the doomsayers. American democracy is in good shape; A former ally asks why Donald Trump abandoned his own legacy; Emirati-Saudi rivalry is spurring bloodshed on a horrific scale; Indonesia’s experiment with populism is wavering; Tackling stray dogs in Bhutan; America’s new era of private science; Japan’s mission to Mars’s moons takes off; The second may soon be redefined; Is the internet still safe?; Can joggers outrun injury?; Are film critics as snooty and out of touch as people think?; The latest must-have movie memorabilia? Popcorn buckets; How Ella Langley two-stepped to the top of the charts; Leadership lessons from Napoleon; How personal rivalries and clashes are shaping the AI race; Are there too many art fairs?; Economic data, commodities and markets; Jeffrey Archer’s career was worthy of his most improbable plots
+[2026-10-24 11:21:22] Updating docs/ and pushing to GitHub...
+[2026-10-24 11:21:22]   app.js updated: 32 Economist, 16 New Yorker issues
