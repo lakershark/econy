@@ -106,6 +106,62 @@ def get_answer(raw_output):
             return answer
     return ''
 
+def build_summary_prompt(articles_slice, mag):
+    if mag == 'economist':
+        header = '请为以下《经济学人》文章写详细中文摘要。Leaders和Briefing栏目每篇600-800字，其他栏目250-400字。涵盖核心论点、关键数据、背景分析和结论。输出JSON：{"summaries": {"英文标题": "中文摘要"}}\n\n'
+    else:
+        header = '请为以下《纽约客》文章写详细中文摘要，每篇300-500字，涵盖主题、叙事风格、核心观点和结论。输出JSON：{"summaries": {"英文标题": "中文摘要"}}\n\n'
+    lines = []
+    for section, art in articles_slice:
+        lines.append(f'[{section}] {art["title"]}')
+    return header + '\n'.join(lines)
+
+def fetch_summaries(prompt, nb_id):
+    # Same retry rule as the TOC: one flaky/empty answer must not sink
+    # the whole issue (2026-07-11 failed with 0 summaries on both batches).
+    for attempt in range(1, 3):
+        out = notebooklm_ask(prompt, nb_id, timeout=600)
+        answer = get_answer(out)
+        data = extract_json_block(answer)
+        if data and data.get('summaries'):
+            return data['summaries']
+        print(f'   summaries parse failed (attempt {attempt}/2), answer head: {answer[:200]!r}')
+        time.sleep(30)
+    return {}
+
+def merge_key(s):
+    # NotebookLM does not reliably echo titles verbatim — 2026-07-11 it
+    # prefixed every key with the "[Section] " from the prompt, giving 0/76
+    # exact matches — so match on a normalized form (fuzzy fallback at callers).
+    s = normalize(s).strip()
+    s = re.sub(r'^\[[^\]]*\]\s*', '', s)
+    return s.casefold()
+
+
+def fill_missing_summaries(issue, nb_id, magazine, budget=BACKFILL_CHUNK):
+    """One pass over articles without a summary, in small chunks. Returns
+    how many got filled. Used by the backfill rounds below and by the
+    acceptance gate's repair step (acceptance.py)."""
+    missing = [(s['section'], a) for s in issue['toc'] for a in s['articles']
+               if not a.get('summary')]
+    filled = 0
+    for chunk in chunk_by_weight(missing, budget=budget):
+        got = fetch_summaries(build_summary_prompt(chunk, magazine), nb_id)
+        lookup = {merge_key(k): v for k, v in got.items()}
+        for _, article in chunk:
+            key = merge_key(article['title'])
+            summary = lookup.get(key)
+            if summary is None:
+                close = difflib.get_close_matches(key, list(lookup), n=1, cutoff=0.8)
+                if close:
+                    summary = lookup[close[0]]
+            if summary is not None:
+                article['summary'] = summary
+                filled += 1
+        time.sleep(5)
+    return filled
+
+
 def process_issue(pdf_path, magazine, date):
     mag_dir = ROOT / 'data' / ('economist' if magazine == 'economist' else 'new_yorker')
     out_path = mag_dir / f'{date}.json'
@@ -216,29 +272,6 @@ def process_issue(pdf_path, magazine, date):
     # 6. Get per-article summaries
     articles_all = [(s['section'], a) for s in issue['toc'] for a in s['articles']]
 
-    def build_summary_prompt(articles_slice, mag):
-        if mag == 'economist':
-            header = '请为以下《经济学人》文章写详细中文摘要。Leaders和Briefing栏目每篇600-800字，其他栏目250-400字。涵盖核心论点、关键数据、背景分析和结论。输出JSON：{"summaries": {"英文标题": "中文摘要"}}\n\n'
-        else:
-            header = '请为以下《纽约客》文章写详细中文摘要，每篇300-500字，涵盖主题、叙事风格、核心观点和结论。输出JSON：{"summaries": {"英文标题": "中文摘要"}}\n\n'
-        lines = []
-        for section, art in articles_slice:
-            lines.append(f'[{section}] {art["title"]}')
-        return header + '\n'.join(lines)
-
-    def fetch_summaries(prompt, nb_id):
-        # Same retry rule as the TOC: one flaky/empty answer must not sink
-        # the whole issue (2026-07-11 failed with 0 summaries on both batches).
-        for attempt in range(1, 3):
-            out = notebooklm_ask(prompt, nb_id, timeout=600)
-            answer = get_answer(out)
-            data = extract_json_block(answer)
-            if data and data.get('summaries'):
-                return data['summaries']
-            print(f'   summaries parse failed (attempt {attempt}/2), answer head: {answer[:200]!r}')
-            time.sleep(30)
-        return {}
-
     # Half an issue (~40 articles x 250-800 zh chars) is far more than one
     # NotebookLM answer delivers before the request times out: 2026-09-05 lost
     # batch 2 entirely and 2026-09-12 lost both. Ask in small chunks instead —
@@ -257,11 +290,6 @@ def process_issue(pdf_path, magazine, date):
     # 2026-07-11 it prefixed every key with the "[Section] " from the prompt,
     # giving 0/76 exact matches — so match on a normalized form with a fuzzy
     # fallback instead.
-    def merge_key(s):
-        s = normalize(s).strip()
-        s = re.sub(r'^\[[^\]]*\]\s*', '', s)
-        return s.casefold()
-
     lookup = {merge_key(k): v for k, v in all_summaries.items()}
     matched = 0
     for section in issue['toc']:
@@ -295,20 +323,7 @@ def process_issue(pdf_path, magazine, date):
             break
         print(f'   backfill round {rnd}/{BACKFILL_ROUNDS}: {len(missing)} articles missing summaries')
         time.sleep(60)
-        for chunk in chunk_by_weight(missing, budget=BACKFILL_CHUNK):
-            got = fetch_summaries(build_summary_prompt(chunk, magazine), nb_id)
-            lookup = {merge_key(k): v for k, v in got.items()}
-            for _, article in chunk:
-                key = merge_key(article['title'])
-                summary = lookup.get(key)
-                if summary is None:
-                    close = difflib.get_close_matches(key, list(lookup), n=1, cutoff=0.8)
-                    if close:
-                        summary = lookup[close[0]]
-                if summary is not None:
-                    article['summary'] = summary
-                    matched += 1
-            time.sleep(5)
+        matched += fill_missing_summaries(issue, nb_id, magazine)
         print(f'   after backfill round {rnd}: merged {matched}/{total_articles}')
 
     with open(out_path, 'w', encoding='utf-8') as f:

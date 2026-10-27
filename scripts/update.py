@@ -11,6 +11,9 @@ Schedule: every Saturday at noon (see cron setup below)
 import os, sys, json, re, subprocess, urllib.request, time, difflib
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+import acceptance
+
 ROOT = Path(__file__).parent.parent
 PDFS = ROOT / 'pdfs'
 DOCS = ROOT / 'docs'
@@ -207,6 +210,8 @@ def translate_titles(nb_id, issue, max_attempts=3):
                 close = difflib.get_close_matches(key, list(translations), n=1, cutoff=0.8)
                 if close:
                     zh = translations[close[0]]
+            if zh:
+                zh = acceptance.SECTION_PREFIX.sub('', zh)
             if zh and zh != a['title']:
                 a['title_zh'] = zh
 
@@ -225,9 +230,10 @@ def translate_titles(nb_id, issue, max_attempts=3):
 
 # ── Full pipeline for one new issue ──────────────────────────────────────────
 
-# Issues published with some articles still lacking summaries (filled in by
-# process_new_issue, reported in main's notification).
-INCOMPLETE = []
+# Acceptance-gate failures per issue, {date: [problem, ...]}. Filled by
+# process_new_issue (data gate) and main (local/live gate after push); any
+# entry means the run is reported as failed, never as success.
+REJECTED = {}
 
 def process_new_issue(mag_key, folder_name, date):
     cfg = MAGAZINES[mag_key]
@@ -254,24 +260,29 @@ def process_new_issue(mag_key, folder_name, date):
     log(f'  Translating titles...')
     translate_titles(issue['notebook_id'], issue)
 
-    # pipeline.py already re-asks missing summaries; whatever is still missing
-    # goes into the log (the dashboard status block reads this line) and the
-    # notification, so a partial issue no longer reports plain success.
+    # Data gate (acceptance.py): a full issue, every article with a summary
+    # and a Chinese title. If not, wait out the bad NotebookLM window and
+    # re-ask just what is missing once more before giving up.
+    problems = acceptance.check_data(issue, mag_key)
+    if problems:
+        log(f'  data gate failed: {"；".join(problems)} — repairing after 120s')
+        time.sleep(120)
+        acceptance.repair(issue, mag_key, translate_titles, log=log)
+        problems = acceptance.check_data(issue, mag_key)
+
+    # Kept in this exact form: the dashboard status block parses these lines.
+    total = sum(len(s['articles']) for s in issue['toc'])
     missing = [a['title'] for s in issue['toc'] for a in s['articles'] if not a.get('summary')]
     if missing:
-        total = sum(len(s['articles']) for s in issue['toc'])
         log(f'  WARNING: {len(missing)}/{total} articles missing summaries: {"; ".join(missing)}')
-        INCOMPLETE.append(f'{date} 缺 {len(missing)} 篇摘要')
-    else:
-        log(f'  All articles have summaries.')
-    # 2026-10-24 published 0/75 Chinese titles and the notification never
-    # mentioned it — count untranslated titles as incomplete too.
     untranslated = [a['title'] for s in issue['toc'] for a in s['articles']
-                    if not a.get('title_zh') or a['title_zh'] == a['title']]
+                    if not acceptance.CJK.search(a.get('title_zh') or '')]
     if untranslated:
-        total = sum(len(s['articles']) for s in issue['toc'])
         log(f'  WARNING: {len(untranslated)}/{total} titles not translated')
-        INCOMPLETE.append(f'{date} 缺 {len(untranslated)} 个中文标题')
+    if problems:
+        REJECTED.setdefault(date, []).extend(problems)
+    else:
+        log(f'  data gate passed: {total} articles, all with summaries and Chinese titles.')
 
     # Save updated issue
     out_path = cfg['data'] / f'{date}.json'
@@ -443,8 +454,24 @@ def main():
         update_app_js(None)
         pushed = git_push(new_dates)
         cleanup_notebooks()
+        # Local + live gate: only a site that actually serves the complete
+        # issue counts. Skipped when the push failed — that has its own notice.
+        for date in new_dates:
+            mag_key = 'economist'
+            problems = acceptance.check_local(mag_key, date)
+            if pushed:
+                problems += acceptance.check_live(mag_key, date)
+            if problems:
+                REJECTED.setdefault(date, []).extend(problems)
     else:
         log('No new issues. Nothing to push.')
+
+    # One line per issue; the dashboard status block reads these.
+    for date in new_dates:
+        if REJECTED.get(date):
+            log(f'ACCEPTANCE FAIL {date}: {"；".join(REJECTED[date])}')
+        else:
+            log(f'ACCEPTANCE PASS {date}')
 
     # Notify the outcome so Tao doesn't have to check manually each week
     if failures and new_dates:
@@ -458,9 +485,10 @@ def main():
         notify('Econy 已处理、未发布 ⚠️',
                f'{", ".join(new_dates)} 已生成并提交本地，但 push 失败——网站还是旧的（见 update.log）',
                sound='Basso')
-    elif new_dates and INCOMPLETE:
-        notify('Econy 已更新、部分缺摘要 ⚠️',
-               f'{"；".join(INCOMPLETE)}（自动补问后仍缺，见 update.log）', sound='Basso')
+    elif new_dates and REJECTED:
+        notify('Econy 验收未通过 ❌',
+               '；'.join(f'{d}：{"、".join(p)}' for d, p in REJECTED.items())
+               + '（已自动补问一轮，见 update.log）', sound='Basso')
     elif new_dates:
         notify('Econy 更新成功 ✅', f'已添加 {", ".join(new_dates)}')
     else:
