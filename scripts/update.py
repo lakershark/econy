@@ -77,10 +77,15 @@ def notebooklm(args, timeout=120):
     return out
 
 def notebooklm_ask(prompt, nb_id, timeout=180):
+    # --new: the CLI otherwise continues one conversation per notebook, so a
+    # whole run (TOC + ~12 summary chunks + backfill + titles) piled into one
+    # ever-growing chat until NotebookLM returned only empty answers
+    # (2026-10-17 ran 3h, 2026-10-24 4h: 18/75 summaries, 0/75 titles).
+    # Every prompt is self-contained, so each ask starts fresh.
     # argv, not shell: prompts contain JSON templates and article titles whose
     # quotes/$ the shell would mangle (root cause of past TOC/translation loss).
     try:
-        r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json'],
+        r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json', '--new'],
                            capture_output=True, text=True, timeout=timeout)
     except subprocess.TimeoutExpired:
         # Same fix as pipeline.py (2026-09-15): a timeout must look like an
@@ -259,6 +264,14 @@ def process_new_issue(mag_key, folder_name, date):
         INCOMPLETE.append(f'{date} 缺 {len(missing)} 篇摘要')
     else:
         log(f'  All articles have summaries.')
+    # 2026-10-24 published 0/75 Chinese titles and the notification never
+    # mentioned it — count untranslated titles as incomplete too.
+    untranslated = [a['title'] for s in issue['toc'] for a in s['articles']
+                    if not a.get('title_zh') or a['title_zh'] == a['title']]
+    if untranslated:
+        total = sum(len(s['articles']) for s in issue['toc'])
+        log(f'  WARNING: {len(untranslated)}/{total} titles not translated')
+        INCOMPLETE.append(f'{date} 缺 {len(untranslated)} 个中文标题')
 
     # Save updated issue
     out_path = cfg['data'] / f'{date}.json'

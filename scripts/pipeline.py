@@ -56,11 +56,16 @@ def notebooklm(args, timeout=120):
     return r.stdout.strip()
 
 def notebooklm_ask(prompt, nb_id, timeout=180):
+    # --new: the CLI otherwise continues one conversation per notebook, so a
+    # whole run (TOC + ~12 summary chunks + backfill + titles) piled into one
+    # ever-growing chat until NotebookLM returned only empty answers
+    # (2026-10-17 ran 3h, 2026-10-24 4h: 18/75 summaries, 0/75 titles).
+    # Every prompt is self-contained, so each ask starts fresh.
     # argv, not shell: prompts contain JSON templates whose quotes the shell
     # would strip (and titles with $ would get expanded) — that was the cause
     # of the recurring "0 sections, 0 articles" TOC failures.
     try:
-        r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json'],
+        r = subprocess.run(['notebooklm', 'ask', prompt, '--notebook', nb_id, '--json', '--new'],
                            capture_output=True, text=True, timeout=timeout)
     except subprocess.TimeoutExpired:
         # 2026-09-15: a timeout raised straight through the caller's 3-attempt
