@@ -12,7 +12,7 @@ import os, sys, json, re, subprocess, urllib.request, time, difflib
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-import acceptance
+import acceptance, alert
 
 ROOT = Path(__file__).parent.parent
 PDFS = ROOT / 'pdfs'
@@ -57,14 +57,8 @@ def log(msg):
         f.write(line + '\n')
 
 def notify(title, message, sound='default'):
-    """Post a macOS Notification Center banner (works from the LaunchAgent's GUI session)."""
-    try:
-        script = (f'display notification {json.dumps(message)} '
-                  f'with title {json.dumps(title)} sound name {json.dumps(sound)}')
-        subprocess.run(['/usr/bin/osascript', '-e', script],
-                       capture_output=True, timeout=15)
-    except Exception as e:
-        log(f'  notify failed (non-critical): {e}')
+    """iMac banner + iMessage to Tao's phone (see alert.py)."""
+    alert.send(title, message, sound, log=log)
 
 def api_get(url):
     req = urllib.request.Request(url, headers={'User-Agent': 'econy-updater'})

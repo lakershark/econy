@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.econy.preflight</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Library/Frameworks/Python.framework/Versions/3.10/bin/python3</string>
+    <string>/Users/Nimmersatt/Documents/claude_projects/econy/scripts/preflight.py</string>
+  </array>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>SSL_CERT_FILE</key>
+    <string>/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/certifi/cacert.pem</string>
+    <key>PATH</key>
+    <string>/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+
+  <!-- Run Fridays at 20:00 (preflight before the Saturday run); if asleep at that time, fires once on next wake-up -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key>
+    <integer>5</integer>
+    <key>Hour</key>
+    <integer>20</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+
+  <!-- Redirect to ~/Library/Logs (NOT TCC-protected); ~/Documents redirect made
+       launchd fail to spawn with EX_CONFIG 78 before the script could even start. -->
+  <key>StandardOutPath</key>
+  <string>/Users/Nimmersatt/Library/Logs/econy-preflight.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/Nimmersatt/Library/Logs/econy-preflight.log</string>
+
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>
