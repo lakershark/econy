@@ -37,11 +37,11 @@ function sectionLabel(name) {
 // Add new issues here as they are processed
 const ISSUES = {
   economist: [
+    { date: '2026-10-31', label: '2026-10-31', file: 'data/economist/2026-10-31.json' },
     { date: '2026-10-24', label: '2026-10-24', file: 'data/economist/2026-10-24.json' },
     { date: '2026-10-17', label: '2026-10-17', file: 'data/economist/2026-10-17.json' },
     { date: '2026-10-10', label: '2026-10-10', file: 'data/economist/2026-10-10.json' },
     { date: '2026-10-03', label: '2026-10-03', file: 'data/economist/2026-10-03.json' },
-    { date: '2026-09-26', label: '2026-09-26', file: 'data/economist/2026-09-26.json' },
   ],
   new_yorker: [
     { date: '2026-06-01', label: '2026-06-01', file: 'data/new_yorker/2026-06-01.json' },

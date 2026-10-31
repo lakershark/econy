@@ -753,3 +753,25 @@ RuntimeError: No summaries could be merged
 
 [2026-10-27 16:58:02]    title translation attempt 1: 75 remaining
 [2026-10-27 17:01:59]    Translated 75/75 titles
+[2026-10-31 08:02:03] === Econy weekly update started ===
+[2026-10-31 08:02:03] economist: 32 existing issues
+[2026-10-31 08:02:03] economist: new issue found — 2026-10-31
+[2026-10-31 08:02:03] Processing The Economist 2026-10-31
+[2026-10-31 08:02:03]   Downloading TheEconomist.2026.10.31.epub...
+[2026-10-31 08:02:04]   Downloaded: 5809KB
+[2026-10-31 08:51:59]   ERROR processing economist 2026-10-31: TOC extraction failed after 3 attempts
+[2026-10-31 08:51:59] No new issues. Nothing to push.
+[2026-10-31 08:52:00] === Done ===
+
+[2026-10-31 16:59:38] === Econy weekly update started ===
+[2026-10-31 16:59:38] economist: 32 existing issues
+[2026-10-31 16:59:39] economist: new issue found — 2026-10-31
+[2026-10-31 16:59:39] Processing The Economist 2026-10-31
+[2026-10-31 17:25:56]   Translating titles...
+[2026-10-31 17:25:56]    title translation attempt 1: 76 remaining
+[2026-10-31 17:33:53]    notebooklm ask error (rc=1): UNCONFIRMED_WRITE: Error: this write could not be confirmed (chat.ask received no streamed chat bytes for 180s. This points to a server slow-to-first-byte or between-chunk chat-stream stall, which is common on shared notebooks, not a batchexecute byte-count mis…)
+[2026-10-31 17:34:17]    title translation attempt 2: 10 remaining
+[2026-10-31 17:34:45]    Translated 76/76 titles
+[2026-10-31 17:34:45]   data gate passed: 76 articles, all with summaries and Chinese titles.
+[2026-10-31 17:34:45] Updating docs/ and pushing to GitHub...
+[2026-10-31 17:34:45]   app.js updated: 33 Economist, 16 New Yorker issues
