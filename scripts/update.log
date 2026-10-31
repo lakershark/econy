@@ -775,3 +775,9 @@ RuntimeError: No summaries could be merged
 [2026-10-31 17:34:45]   data gate passed: 76 articles, all with summaries and Chinese titles.
 [2026-10-31 17:34:45] Updating docs/ and pushing to GitHub...
 [2026-10-31 17:34:45]   app.js updated: 33 Economist, 16 New Yorker issues
+[2026-10-31 17:34:47]   Pushed to GitHub.
+[2026-10-31 17:34:51]   cleaned up old notebook: The Economist 2026-09-26
+[2026-10-31 17:34:51]   notebook cleanup: deleted 1, kept up to 5 per magazine
+[2026-10-31 17:35:22] ACCEPTANCE PASS 2026-10-31
+[2026-10-31 17:35:22] === Done ===
+

@@ -99,6 +99,17 @@ def notebooklm_ask(prompt, nb_id, timeout=180):
         # Same as pipeline.py: keep stderr visible when ask returns nothing
         # (2026-07-18 all-empty answers left no trace of the real error).
         log(f'   notebooklm ask empty (rc={r.returncode}), stderr: {r.stderr.strip()[:500]!r}')
+    else:
+        # 2026-10-31: the CLI answered with an error JSON ("RPC response
+        # exceeded 52428800 bytes" — 0.7.3's 50MB cap on the streamed chat
+        # reply, fixed by upgrading to 0.8.6). stdout was non-empty, so the
+        # branch above stayed silent and the log only showed answer head ''.
+        try:
+            j = json.loads(r.stdout)
+            if isinstance(j, dict) and j.get('error'):
+                log(f'   notebooklm ask error (rc={r.returncode}): {j.get("code")}: {str(j.get("message"))[:300]}')
+        except ValueError:
+            pass
     return r.stdout.strip()
 
 def normalize(s):
