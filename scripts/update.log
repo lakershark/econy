@@ -818,3 +818,29 @@ RuntimeError: No summaries could be merged
 [2026-11-09 15:41:52]   data gate passed: 76 articles, all with summaries and Chinese titles.
 [2026-11-09 15:41:52] Updating docs/ and pushing to GitHub...
 [2026-11-09 15:41:52]   app.js updated: 34 Economist, 16 New Yorker issues
+[2026-11-09 15:41:54]   Pushed to GitHub.
+[2026-11-09 15:42:00]   cleaned up old notebook: The Economist 2026-10-03
+[2026-11-09 15:42:00]   notebook cleanup: deleted 1, kept up to 5 per magazine
+[2026-11-09 15:50:16] ACCEPTANCE PASS 2026-11-07
+[2026-11-09 15:50:16] === Done ===
+
+[2026-11-14 07:54:55] === Econy weekly update started ===
+[2026-11-14 07:54:55] economist: 34 existing issues
+[2026-11-14 07:54:55] economist: new issue found — 2026-11-14
+[2026-11-14 07:54:55] Processing The Economist 2026-11-14
+[2026-11-14 07:54:56]   Downloading TheEconomist.2026.11.14.pdf...
+[2026-11-14 07:54:56]   Downloaded: 7708KB
+[2026-11-14 13:00:39]   ERROR processing economist 2026-11-14: TOC extraction failed after 3 attempts
+[2026-11-14 13:00:39] No new issues. Nothing to push.
+[2026-11-14 13:00:40] === Done ===
+
+[2026-11-15 19:42:58] === Econy weekly update started ===
+[2026-11-15 19:42:58] economist: 34 existing issues
+[2026-11-15 19:42:59] economist: new issue found — 2026-11-14
+[2026-11-15 19:42:59] Processing The Economist 2026-11-14
+[2026-11-15 19:59:32]   Translating titles...
+[2026-11-15 19:59:32]    title translation attempt 1: 76 remaining
+[2026-11-15 20:05:06]    Translated 76/76 titles
+[2026-11-15 20:05:06]   data gate passed: 76 articles, all with summaries and Chinese titles.
+[2026-11-15 20:05:06] Updating docs/ and pushing to GitHub...
+[2026-11-15 20:05:06]   app.js updated: 35 Economist, 16 New Yorker issues
