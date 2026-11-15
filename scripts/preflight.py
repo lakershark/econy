@@ -20,7 +20,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-import alert
+import alert, awake
 
 PKG = 'notebooklm-py'
 
@@ -103,6 +103,7 @@ def smoke_test():
             nlm('delete', '-n', nb_id, '-y', timeout=60)
 
 def main():
+    awake.stay_awake()
     upgrade = '--no-upgrade' not in sys.argv
     notes, problems = [], []
 

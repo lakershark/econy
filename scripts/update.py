@@ -12,7 +12,7 @@ import os, sys, json, re, subprocess, urllib.request, time, difflib
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-import acceptance, alert
+import acceptance, alert, awake
 
 ROOT = Path(__file__).parent.parent
 PDFS = ROOT / 'pdfs'
@@ -420,6 +420,9 @@ def cleanup_notebooks(keep=KEEP_ISSUES):
 
 def main():
     log('=== Econy weekly update started ===')
+    watch = awake.SleepWatch()
+    if not awake.stay_awake():
+        log('WARNING: caffeinate failed to start — the Mac may sleep mid-run')
     PDFS.mkdir(exist_ok=True)
     new_dates = []
     failures = []
@@ -499,6 +502,9 @@ def main():
     else:
         notify('Econy 已检查 ✓', '本周没有新刊，无需更新')
 
+    slept = watch.slept_minutes()
+    if slept > 2:
+        log(f'WARNING: Mac slept {slept:.0f} min during this run')
     log('=== Done ===\n')
 
 if __name__ == '__main__':
