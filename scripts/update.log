@@ -844,3 +844,21 @@ RuntimeError: No summaries could be merged
 [2026-11-15 20:05:06]   data gate passed: 76 articles, all with summaries and Chinese titles.
 [2026-11-15 20:05:06] Updating docs/ and pushing to GitHub...
 [2026-11-15 20:05:06]   app.js updated: 35 Economist, 16 New Yorker issues
+[2026-11-15 20:05:08]   Pushed to GitHub.
+[2026-11-15 20:05:12]   cleaned up old notebook: The Economist 2026-10-10
+[2026-11-15 20:05:12]   notebook cleanup: deleted 1, kept up to 5 per magazine
+[2026-11-15 20:06:12] ACCEPTANCE PASS 2026-11-14
+[2026-11-15 20:06:13] === Done ===
+
+[2026-11-21 07:01:59] === Econy weekly update started ===
+[2026-11-21 07:01:59] economist: 35 existing issues
+[2026-11-21 07:01:59] economist: new issue found — 2026-11-21
+[2026-11-21 07:01:59] Processing The Economist 2026-11-21
+[2026-11-21 07:02:00]   Downloading TheEconomist.2026.11.21.pdf...
+[2026-11-21 07:02:00]   Downloaded: 8629KB
+[2026-11-21 07:23:12]   Translating titles...
+[2026-11-21 07:23:12]    title translation attempt 1: 80 remaining
+[2026-11-21 07:27:10]    Translated 80/80 titles
+[2026-11-21 07:27:10]   data gate passed: 80 articles, all with summaries and Chinese titles.
+[2026-11-21 07:27:10] Updating docs/ and pushing to GitHub...
+[2026-11-21 07:27:10]   app.js updated: 36 Economist, 16 New Yorker issues
